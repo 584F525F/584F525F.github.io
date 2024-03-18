@@ -2,44 +2,53 @@ site_name: XOR_
 site_description: 'XOR_'
 site_url: https://584f525f.github.io/
 
-# copyright: © 2016 PATT
-# logo: 'images/site_logo.png'
-# favicon: 'images/favicon.png'
-
 theme:
   name: material
   icon:
     repo: fontawesome/brands/github
-  palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    admonition:
+      <type>: material/test-tube
 
   features:
-    - content.code.copy
-    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
     - navigation.top
-    # - toc.integrate
-    # - navigation.path
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.path
+    - toc.integrate
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/lighthouse-on
+        name: Switch to dark mode
+      primary: darkpurple
+      accent: orange
+    - scheme: slate
+      toggle:
+        icon: material/lighthouse
+        name: Switch to light mode
+      primary: darkpurple
+      accent: orange
 
 extra_css:
     - custom.css
-    
+
 markdown_extensions:
   - tables
   - attr_list
   - admonition
   - def_list
+  - abbr
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.snippets
@@ -54,7 +63,6 @@ markdown_extensions:
 
 repo_url: https://github.com/584F525F/584F525F.github.io
 edit_uri: edit/master/
+
 plugins:
   - search
-  - git-revision-date-localized
-  - social
