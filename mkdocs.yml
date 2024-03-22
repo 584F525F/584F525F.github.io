@@ -9,6 +9,9 @@ theme:
     admonition:
       <type>: material/test-tube
 
+permissions:
+  contents: write
+
   palette:
     - scheme: default
       toggle:
