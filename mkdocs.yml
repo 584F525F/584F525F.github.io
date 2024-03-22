@@ -57,19 +57,6 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.tasklist:
       custom_checkbox: true
-<<<<<<< HEAD
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-=======
->>>>>>> d019876c9d645acf7263e3cea00aee79d420e52a
 
 repo_url: https://github.com/584F525F/584F525F.github.io
 edit_uri: edit/master/
-
-plugins:
-<<<<<<< HEAD
-  - search
-=======
-  - search
->>>>>>> d019876c9d645acf7263e3cea00aee79d420e52a
