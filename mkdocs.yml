@@ -1,0 +1,65 @@
+site_name: XOR_
+site_description: 'XOR_'
+site_url: https://584f525f.github.io/
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+    admonition:
+      <type>: material/test-tube
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.path
+    - toc.integrate
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/lighthouse-on
+        name: Switch to dark mode
+      primary: darkpurple
+      accent: orange
+    - scheme: slate
+      toggle:
+        icon: material/lighthouse
+        name: Switch to light mode
+      primary: darkpurple
+      accent: orange
+
+extra_css:
+    - custom.css
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - admonition
+  - def_list
+  - abbr
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+repo_url: https://github.com/584F525F/584F525F.github.io
+edit_uri: edit/master/
+
+plugins:
+  - search
