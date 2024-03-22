@@ -23,12 +23,12 @@ theme:
       primary: darkpurple
       accent: orange
 
- features:
-    - content.code.copy
-    - navigation.tracking
-    - navigation.top
-    # - toc.integrate
-    # - navigation.path
+  features:
+      - content.code.copy
+      - navigation.tracking
+      - navigation.top
+      # - toc.integrate
+      # - navigation.path
 
 extra_css:
     - custom.css
