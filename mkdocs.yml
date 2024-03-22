@@ -9,23 +9,6 @@ theme:
     admonition:
       <type>: material/test-tube
 
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - navigation.tracking
-    - navigation.indexes
-    - navigation.path
-    - toc.integrate
-    - toc.follow
-    - search.suggest
-    - search.highlight
-    - search.share
-    - search.suggest
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
-
   palette:
     - scheme: default
       toggle:
@@ -40,6 +23,13 @@ theme:
       primary: darkpurple
       accent: orange
 
+ features:
+    - content.code.copy
+    - navigation.tracking
+    - navigation.top
+    # - toc.integrate
+    # - navigation.path
+
 extra_css:
     - custom.css
 
@@ -48,7 +38,6 @@ markdown_extensions:
   - attr_list
   - admonition
   - def_list
-  - abbr
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.snippets
@@ -60,3 +49,8 @@ markdown_extensions:
 
 repo_url: https://github.com/584F525F/584F525F.github.io
 edit_uri: edit/master/
+
+plugins:
+  - search
+  - git-revision-date-localized
+  - social
