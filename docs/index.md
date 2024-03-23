@@ -8,3 +8,4 @@ I plan to update this whenever I am able to, keep in mind that one source isn't 
 
 #### 3/22/2024
 I still need to move my notes to github
+TODAY!
