@@ -8,6 +8,9 @@
 * [Something](#something)
   * [Subentry 1 [collapsed section]](#sub1)
   * [Subentry 2](#sub2)
+* [Task Lists] (#TaskLists)
+* [Alerts](#Alerts)
+
 
 ## Tools
 
@@ -17,7 +20,7 @@
 
 ## Something
 
-Summary
+Summary `code code code` something stuff
 
 ```py hl_lines="1" title="py"
 do stuff
@@ -37,6 +40,30 @@ summary
 ```
 
 </details>
+
+
+### Task Lists
+
+- [x] #739
+- [ ] https://github.com/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+### Alerts
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 
 
 ## References
