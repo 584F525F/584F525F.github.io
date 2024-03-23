@@ -1,6 +1,6 @@
-### telnet
+### Telnet
 
-```shell title="telnet"
+```bash
 telnet ip_address
 ls
 PASV
@@ -13,7 +13,9 @@ Exit
 
 ### FTP - File Transfer Protocol
 
-```shell title="FTP"
+#### commands
+
+```bash
 ftp ip_address
 #enter username
 #enter password
@@ -70,7 +72,9 @@ exit
 quit
 ```
 
-```bash title:"ftp switches"
+#### switches
+
+```bash
 -4	Use only IPv4 to contact any host.
 -6	Use IPv6 only.
 -e	Disables command editing and history support, if it was compiled into the ftp executable. Otherwise, it does nothing.
@@ -84,7 +88,9 @@ quit
 
 ### SCP - Secure Copy Protocol
 
-```shell title="commands"
+#### commands
+
+```shell
 scp <options> <source_path> <destination_path>
 scp o s_path d_path
 
@@ -113,7 +119,9 @@ scp -r </path/to/directory> <username>@<ip_address>:</path/to/directory>
 scp -r l_dir_path u@ip:r_dir_path
 ```
 
-```shell title:"switches"
+#### switches
+
+```shell
 -r      # transfer directory 
 -v      # see the transfer details
 -C      # copy files with compression
@@ -123,10 +131,9 @@ scp -r l_dir_path u@ip:r_dir_path
 -q      # hidden the output
 ```
 
-
 ### ftpd
 
-```shell hl_lines="" title=""
+```shell
 /etc/init.d/pure-ftpd
 ```
 
