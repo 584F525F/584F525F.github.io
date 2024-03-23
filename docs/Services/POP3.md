@@ -1,6 +1,6 @@
 ## POP3 
 
-```shell title:POP3 fold:folded
+```shell
 telnet 10.10.45.250 110
 #Trying 10.10.45.250...
 #Connected to MACHINE_IP.

@@ -1,1 +1,0 @@
-List of services and general commands
