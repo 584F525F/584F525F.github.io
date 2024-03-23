@@ -33,7 +33,7 @@
 #### [services.py:](https://github.com/SecureAuthCorp/impacket/blob/impacket_0_10_0/examples/services.py) 
 - This script can be used to manipulate Windows services through the ### 
 
-#### [MS-SCMR] MSRPC Interface.
+#### [MS-SCMR MSRPC Interface:] (https://github.com/jsecurity101/MSRPC-to-ATTACK/blob/main/documents/MS-SCMR.md)
 It supports start, stop, delete, status, config, list, create and change.
 
 #### [smbpasswd.py](https://github.com/SecureAuthCorp/impacket/blob/impacket_0_10_0/examples/smbpasswd.py)
