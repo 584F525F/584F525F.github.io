@@ -1,9 +1,9 @@
 ## File Transfer
 
-#### telnet
-summary
+### telnet
+
 ```shell hl_lines="" title=""
-telnet <ip_address>
+telnet ip_address
 ls
 PASV
 TYPE A
@@ -13,10 +13,10 @@ put Upload.txt
 Exit
 ```
 
-#### FTP - File Transfer Protocol
-summary
-```shell hl_lines="" title=""
-ftp <ip_address>
+### FTP - File Transfer Protocol
+
+```shell title=""
+ftp ip_address
 #enter username
 #enter password
 
@@ -38,18 +38,33 @@ mkdir new_dir
 #removing directory
 rmdir new_dir
 
-#change mode
-ascii
+#change transfer mode
+ascii #suitable for transferring text data such as HTML files.
+binary #
 
 #download and upload a file
 get Download.txt
 put Upload.txt
 
-#download upload multipel files
+#download upload multiple files
 mget *.txt
 mget file?.txt file?.zip
 mput file.jpg file.jpg
 mput *.zip
+
+#delete file | multiple files
+delete file.zip
+mdelete *.zip
+
+#rename a file
+rename name.txt new_name.txt
+
+# append remote file data
+append new_data.sh old_data.sh
+
+#change file permissions
+chmod 777 file.sh
+chmod +x file.sh
 
 #to exit
 bye
@@ -57,7 +72,7 @@ exit
 quit
 ```
 
-```shell title:"ftp switches"
+```bash title:"ftp switches"
 -4	Use only IPv4 to contact any host.
 -6	Use IPv6 only.
 -e	Disables command editing and history support, if it was compiled into the ftp executable. Otherwise, it does nothing.
@@ -69,8 +84,8 @@ quit
 -d	Enables debugging.
 ```
 
-#### SCP - Secure Copy Protocol
-summary
+### SCP - Secure Copy Protocol
+
 ```shell hl_lines="" title="commands"
 scp <options> <source_path> <destination_path>
 scp o s_path d_path
@@ -111,8 +126,8 @@ scp -r l_dir_path u@ip:r_dir_path
 ```
 
 
-#### stpd
-summary
+### ftpd
+
 ```shell hl_lines="" title=""
 /etc/init.d/pure-ftpd
 ```
