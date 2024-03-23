@@ -1,16 +1,19 @@
 
 > [!NOTE] Resources
-> https://github.com/kaonashi-passwords/Kaonashi
-> https://github.com/tarraschk/richelieu
->https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
->https://packetstormsecurity.com/Crackers/wordlists/page4/
->http://www.gwicks.net/dictionaries.htm
->>##### SCADA Default Passwords
->http://www.critifence.com/default-password-database/
->https://weakpass.com/
->https://github.com/berzerk0/Probable-Wordlists
->>##### Looks very cool wordlists
->https://github.com/FlameOfIgnis/Pwdb-Public
+
+[Kaonashi](https://github.com/kaonashi-passwords/Kaonashi)
+[richelieu](https://github.com/tarraschk/richelieu)
+[rockyou](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt)
+[packetstormsecurity](https://packetstormsecurity.com/Crackers/wordlists/page4/)
+[gwicks dictionaries](http://www.gwicks.net/dictionaries.htm)
+
+SCADA Default Passwords
+[critifence](http://www.critifence.com/default-password-database/)
+[weakpass](https://weakpass.com/)
+[berzerk0](https://github.com/berzerk0/Probable-Wordlists)
+
+Looks very cool wordlists
+[FlameOfIgnis](https://github.com/FlameOfIgnis/Pwdb-Public)
 
 
 ```shell title:"Wordlists"
