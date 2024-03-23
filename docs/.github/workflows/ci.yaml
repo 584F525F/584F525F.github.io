@@ -1,12 +1,9 @@
-name: ci
+name: ci 
 on:
   push:
     branches:
       - master
       - main
-permissions:
-  contents: write
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -15,16 +12,24 @@ jobs:
         with:
           submodules: recursive
 
-      - uses: actions/setup-python@v2
-          with:
-            python-version: 3.x
+      # Checks-out submodules
+      - uses: actions/checkout@v2
+      - name: Checkout submodules
+        shell: bash
+        run: |
+          git config --global user.email "no-reply@github.com"
+          git config --global user.name "584F525F"
+          git config --global pull.rebase false
 
-      - uses: actions/cache@v2
-          with:
-            key: ${{github.ref}}
-            path: .cache
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
       - run: pip install mkdocs-material
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install mkdocs-git-committers-plugin
       - run: pip install mkdocs-material[imaging]
       - run: mkdocs gh-deploy --force
+
+permissions:
+  contents: write
+
