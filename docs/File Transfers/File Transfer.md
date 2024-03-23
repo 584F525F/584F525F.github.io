@@ -1,8 +1,6 @@
-## File Transfer
-
 ### telnet
 
-```shell hl_lines="" title=""
+```shell title="telnet"
 telnet ip_address
 ls
 PASV
@@ -15,7 +13,7 @@ Exit
 
 ### FTP - File Transfer Protocol
 
-```shell title=""
+```shell title="FTP"
 ftp ip_address
 #enter username
 #enter password
@@ -86,7 +84,7 @@ quit
 
 ### SCP - Secure Copy Protocol
 
-```shell hl_lines="" title="commands"
+```shell title="commands"
 scp <options> <source_path> <destination_path>
 scp o s_path d_path
 
