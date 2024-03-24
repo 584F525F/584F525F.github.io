@@ -28,7 +28,7 @@ gpg --decrypt somecredentials.pgp # Enter the password found above.
 ##### zip2john - Decrypt ZIP files
 ```shell
 zip2john somezipname.zip > zipname.hash
-john zipname.hash 
+john zipname.hash
 7z e somezipname.zip
 # Enter password (will not be echoed): PASSWORD_HERE
 ```
