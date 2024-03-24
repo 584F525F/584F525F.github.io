@@ -1,7 +1,6 @@
 
 [Offensive Security Cheatsheet](https://cheatsheet.haax.fr/passcracking-hashfiles/john_cheatsheet/)
 
-
 ##### Basic Usage
 ```shell
 john hashfile.txt
