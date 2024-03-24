@@ -18,7 +18,7 @@ john --wordlist=passwords.txt zip_hashes.txt
 
 ##### ZIP Using fcrackzip
 ```shell
-fcrackzip -u -D -p rockyou.txt recup.zip
+fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt some_zip_file.zip
 ```
 
 ## Cracking shadow files 
@@ -28,6 +28,13 @@ fcrackzip -u -D -p rockyou.txt recup.zip
 unshadow passwd shadow > shadowjohn.txt
 john --wordlist=/home/user/Desktop/Certifs/OSCP/Tools/Wordlist/Bruteforce/rockyou.txt --rules shadowjohn.txt
 john --show shadowjohn.txt
+```
+
+```shell
+#If you have found the passwd and shadow files under linux you can combine them on a file using **unshadow** command and then crack them using **John**
+unshadow passwd.txt shadow.txt
+unshadow passwd.txt shadow.txt > unshadow.txt
+john --rules --wordlist=/usr/share/wordlists/rockyou.txt unshadow.txt
 ```
 
 ##### Hashcat SHA512 $6$ shadow file  
