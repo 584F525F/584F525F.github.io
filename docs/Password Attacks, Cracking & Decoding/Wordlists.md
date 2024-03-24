@@ -1,13 +1,13 @@
 #### Wordlists references
-[Kaonashi](https://github.com/kaonashi-passwords/Kaonashi)
-[richelieu](https://github.com/tarraschk/richelieu)
-[rockyou](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt)
-[packetstormsecurity](https://packetstormsecurity.com/Crackers/wordlists/page4/)
-[gwicks dictionaries](http://www.gwicks.net/dictionaries.htm)
-[FlameOfIgnis](https://github.com/FlameOfIgnis/Pwdb-Public)
-[critifence](http://www.critifence.com/default-password-database/)
-[weakpass](https://weakpass.com/)
-[berzerk0](https://github.com/berzerk0/Probable-Wordlists)
+- [Kaonashi](https://github.com/kaonashi-passwords/Kaonashi)
+- [richelieu](https://github.com/tarraschk/richelieu)
+- [rockyou](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.-txt)
+- [packetstormsecurity](https://packetstormsecurity.com/Crackers/wordlists/page4/)
+- [gwicks dictionaries](http://www.gwicks.net/dictionaries.htm)
+- [FlameOfIgnis](https://github.com/FlameOfIgnis/Pwdb-Public)
+- [critifence](http://www.critifence.com/default-password-database/)
+- [weakpass](https://weakpass.com/)
+- [berzerk0](https://github.com/berzerk0/Probable-Wordlists)
 
 
 #### seclist
