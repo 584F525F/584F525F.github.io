@@ -1,7 +1,7 @@
 # evil-winrm
 
 ```shell
-#install - Ruby
+#install - You must have Ruby installed to use gem
 gem install evil-winrm
 
 #example
