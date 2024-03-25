@@ -7,7 +7,13 @@ theme:
   icon:
     repo: fontawesome/brands/github
     logo: fontawesome/brands/github
-  favicon: fontawesome/brands/github
+    admonition:
+      <type>: material/test-tube
+  favicon: assets/images/github.png
+
+extra:
+  tags:
+    <tag>: material/test-tube
 
   palette:
     - scheme: default
@@ -52,5 +58,6 @@ edit_uri: edit/master/
 
 plugins:
   - search
+  - tags
   - git-revision-date-localized
   - social
