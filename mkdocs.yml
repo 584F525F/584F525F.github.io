@@ -8,7 +8,7 @@ theme:
     repo: fontawesome/brands/github
     logo: fontawesome/brands/github
     admonition:
-      note: material/test-tube
+      note: octicons/tag-16
       abstract: octicons/checklist-16
       info: octicons/info-16
       tip: octicons/squirrel-16
@@ -44,8 +44,9 @@ extra:
       - content.code.copy
       - navigation.tracking
       - navigation.top
-      # - toc.integrate
-      # - navigation.path
+      - content.code.select
+      - navigation.path
+      - content.tabs.link
 
 extra_css:
     - custom.css
@@ -63,6 +64,10 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tabbed:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 
 repo_url: https://github.com/584F525F/584F525F.github.io
 edit_uri: edit/master/

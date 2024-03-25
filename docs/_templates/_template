@@ -2,23 +2,9 @@
 
 > Subject description - reference
 
-## Summary
+---
 
-- [Tools](#tools)
-* [Something](#something)
-  * [Subentry 1 [collapsed section]](#sub1)
-  * [Subentry 2](#sub2)
-* [Task Lists] (#TaskLists)
-* [Alerts](#Alerts)
-
-
-## Tools
-
-- [Tool 1](https://example.com)
-- [Tool 2](https://example.com)
-
-
-## Something
+## code
 
 Summary `code code code` something stuff
 
@@ -27,7 +13,32 @@ do stuff
 print something
 ```
 
-### Subentry 1 [collapsed section]
+---
+
+### Task Lists
+
+- [x] #739
+- [ ] https://github.com/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+---
+
+## blocks
+
+### non Collapsible blocks
+!!! example
+	BODY HERE
+
+### Collapsible blocks
+??? note "title"
+
+    BODY HERE
+	
+### expanded block by default
+???+ note
+	BODY HERE
+
+### collapsed section
 
 <details>
 
@@ -41,30 +52,43 @@ summary
 
 </details>
 
+---
 
-### Task Lists
+## grouping tabs & code blocks
 
-- [x] #739
-- [ ] https://github.com/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+### code
+=== "C"
 
-### Alerts
+    ``` c
+	{
+		code here
+    }
+    ```
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+=== "C++"
 
-> [!TIP]
-> Helpful advice for doing things better or more easily.
+    ``` c++
+	{
+		code here
+    }
+    ```
 
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+### grouping tabs in a block
 
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+!!! example "title"
+=== "Unordered list"
 
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+    * e
+    * f
 
+=== "Ordered list"
+
+    1. a
+    2. b
+
+---
 
 ## References
 - [Blog title - Author, Date](https://example.com)
+
+---
