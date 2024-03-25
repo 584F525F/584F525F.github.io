@@ -22,3 +22,7 @@ curl https://website.com/favicon.ico | md5sum
 #Manually discovering HTTP headers
 curl http://website.com/ -v
 ```
+
+
+Google dorking
+

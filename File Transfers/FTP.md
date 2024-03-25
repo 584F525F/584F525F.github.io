@@ -4,6 +4,7 @@
 
 ```bash
 ftp ip_address
+#anonymous username & no password
 #enter username
 #enter password
 
