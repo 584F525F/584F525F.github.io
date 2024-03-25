@@ -4,9 +4,7 @@ site_url: https://github.com/584F525F/584F525F.github.io/
 
 theme:
   name: material
-  favicon: fontawesome/brands/github
-    admonition:
-      <type>: material/test-tube
+  favicon: assets/images/github.png
 
   palette:
     - scheme: default
