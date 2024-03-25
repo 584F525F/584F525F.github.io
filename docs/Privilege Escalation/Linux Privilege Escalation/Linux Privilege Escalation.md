@@ -1,28 +1,36 @@
 ## common checks
-??? example
+??? example ""
+    ### Kernal check
+
     ```bash
     #Kernal version
     uname -a
     cat /proc/version
     cat /etc/issue
+    ```
 
+    ### CPU
+
+    ```shell
     #Checking CPU Cores vs the resources an exploit might need to avoid running an exploit that exceeds CPU on system
     #Check ARCHETICTURE
     lscpu
+    ```
 
+    ### Running Services
+
+    ```shell
     #show running services - they are in order of execution, top is oldest and bottom is latest
     ps aux
 
     #pull all services running by root
     #you canchange root to any username
     ps aux | grep root
+    ```
 
-    #in a command line the single quotes take precedence
-    ping 8.8.8.8 | 'ls'   >  will print ls
+    ### writable Paths | SUID | CAP
 
-    #checking $PATH env variable
-    print $PATH
-
+    ```shell
     #find writable paths
     find / -writable 2>/dev/null | grep home
 
@@ -35,6 +43,11 @@
 
     [GTFOBins](https://gtfobins.github.io/)
 
+    ```
+
+    ### Privileges
+
+    ```shell
     #see the user privileges
     id
 
@@ -51,6 +64,19 @@
     #The group file
     cat /etc/group
 
+    #escalate to another user or root user
+    sudo su -
+    ```
+
+    ### misc
+
+    ```shell
+    #in a command line the single quotes take precedence
+    ping 8.8.8.8 | 'ls'   >  will print ls
+
+    #checking $PATH env variable
+    print $PATH
+
     #check command history
     cat ~/.bash_history | grep -i passw
 
@@ -58,14 +84,10 @@
     ls -la
     cat .bash_history 
 
-    #escalate to another user or root user
-    sudo su -
-
-
-
     ```
 
     ### looking up password
+
     ```shell
     #grep anything that contains the word password and color it red
     grep --color=auto -rnw '/' -ie "PASSWORD=" --color=always 2> /dev/null
@@ -78,21 +100,21 @@
     ```
 
 
+## Crontab Cronjobs | process explore
 
+??? example ""
 
+### strace 
 
+    ```shell
+    strace /usr/local/bin/suid-env
+    ```
 
-##### dig more into Crontab Cronjobs
+    ### strings - see what the comand is doing
 
-strace 
-```shell
-strace /usr/local/bin/suid-env
-```
-
-strings - see what the comand is doing
-```shell
-strings /usr/local/bin/suid-env
-```
+    ```shell
+    strings /usr/local/bin/suid-env
+    ```
 
 
 
