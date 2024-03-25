@@ -104,7 +104,7 @@
 
 ??? example "~"
 
-### strace 
+    ### strace 
 
     ```shell
     strace /usr/local/bin/suid-env
