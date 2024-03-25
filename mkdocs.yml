@@ -5,7 +5,7 @@ site_url: https://github.com/584F525F/584F525F.github.io/
 theme:
   name: material
   icon:
-    repo: fontawesome/brands/github
+    repo: fontawesome/brands/github-alt
     logo: fontawesome/brands/github
     admonition:
       note: octicons/tag-16
@@ -66,10 +66,6 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.tabbed:
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
 
 repo_url: https://github.com/584F525F/584F525F.github.io
 edit_uri: edit/master/
@@ -79,3 +75,4 @@ plugins:
   - tags
   - git-revision-date-localized
   - social
+  #- optimize #https://squidfunk.github.io/mkdocs-material/plugins/optimize
