@@ -21,3 +21,12 @@ expanded block by default
 ???+ note
 asdasdasdaasdd
 asdasdasdasd
+
+
+<details><summary>Click to show</summary>
+
+The collapsed section's content goes here
+
+</details>
+
+
