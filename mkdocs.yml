@@ -47,6 +47,8 @@ extra:
       - content.code.select
       - navigation.path
       - content.tabs.link
+      - navigation.tabs
+      #- navigation.tabs.sticky #on scroll down it remains visible on top
 
 extra_css:
     - custom.css
