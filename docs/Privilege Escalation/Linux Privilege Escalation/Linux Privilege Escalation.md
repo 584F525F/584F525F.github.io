@@ -116,8 +116,10 @@
     strings /usr/local/bin/suid-env
     ```
 
-
-
+## automated tools
+??? example "~"
+    [LinEnum](https://github.com/rebootuser/LinEnum)
+    
 
 
 
