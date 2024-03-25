@@ -1,5 +1,5 @@
 ## common checks
-??? example ""
+??? example "~"
     ### Kernal check
 
     ```bash
@@ -102,7 +102,7 @@
 
 ## Crontab Cronjobs | process explore
 
-??? example ""
+??? example "~"
 
 ### strace 
 
