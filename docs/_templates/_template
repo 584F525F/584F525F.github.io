@@ -60,7 +60,7 @@ summary
 === "C"
 
     ``` c
-	{
+	  {
 		code here
     }
     ```

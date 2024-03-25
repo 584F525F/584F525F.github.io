@@ -1,6 +1,8 @@
 ## Linux Privilege Escalation
 
-#### Some common checks
+#### common checks
+
+??? example "common checks"
 ```bash
 #Kernal version
 uname -a
@@ -72,7 +74,6 @@ locate pwd | more
 
 find / -name authorized_keys 2> /dev/null
 find / -name id_rsa 2> /dev/null
-
 
 ```
 
