@@ -1,4 +1,3 @@
-# recon
 
 [DNSdumpster](https://dnsdumpster.com/)
 [Shodan.io](https://www.shodan.io/)
