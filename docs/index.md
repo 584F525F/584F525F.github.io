@@ -6,8 +6,8 @@ I plan to update this whenever I am able to, keep in mind that one source isn't 
 
 non Collapsible blocks
 !!! note
-asdsadsadsadasdsadsadasdsad
-asdsadsadasdsad
+    asdsadsadsadasdsadsadasdsad
+    asdsadsadasdsad
 
 Collapsible blocks
 
@@ -19,8 +19,8 @@ Collapsible blocks
 	
 expanded block by default
 ???+ note
-asdasdasdaasdd
-asdasdasdasd
+    asdasdasdaasdd
+    asdasdasdasd
 
 
 <details><summary>Click to show</summary>
