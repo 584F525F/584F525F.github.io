@@ -1,6 +1,6 @@
 ## common checks
 
-??? example ">>>"
+??? example "💾"
 
     ### Kernal check
 
@@ -104,7 +104,7 @@
 
 ## Crontab Cronjobs | process explore
 
-??? example ">>>"
+??? example "🛸"
 
     ### strace 
 
@@ -119,7 +119,7 @@
     ```
 
 ## automated tools
-??? example ">>> 🔧"
+??? example "👾"
     [LinEnum](https://github.com/rebootuser/LinEnum)
 
 
