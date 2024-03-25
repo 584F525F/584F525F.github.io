@@ -10,6 +10,9 @@
     .md-sidebar{
         width: auto;
     } 
+    .md-content{
+        width: 70%;
+    }
 }
 
 /* Fix padding Chrome browsers */

@@ -72,7 +72,7 @@ edit_uri: edit/master/
 
 plugins:
   - search
-  - tags
+  #- tags
   - git-revision-date-localized
   - social
   #- optimize #https://squidfunk.github.io/mkdocs-material/plugins/optimize

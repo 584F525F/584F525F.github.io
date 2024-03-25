@@ -1,5 +1,7 @@
 ## common checks
-??? example "~"
+
+??? example "expand..."
+
     ### Kernal check
 
     ```bash
@@ -102,7 +104,7 @@
 
 ## Crontab Cronjobs | process explore
 
-??? example "~"
+??? example "expand..."
 
     ### strace 
 
@@ -119,7 +121,7 @@
 ## automated tools
 ??? example "~"
     [LinEnum](https://github.com/rebootuser/LinEnum)
-    
+
 
 
 
