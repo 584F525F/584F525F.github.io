@@ -20,7 +20,7 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
-  favicon: assets/images/github.png
+  favicon: fontawesome/brands/github-alt
 
 extra:
   tags:
