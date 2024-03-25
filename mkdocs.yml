@@ -22,10 +22,6 @@ theme:
       quote: octicons/quote-16
   favicon: fontawesome/brands/github-alt
 
-extra:
-  tags:
-    <tag>: material/test-tube
-
   palette:
     - scheme: default
       toggle:
