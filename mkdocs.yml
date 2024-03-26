@@ -62,7 +62,6 @@ theme:
     - search.share
     - toc.follow
     # - toc.integrate # this disabled the right-side table of content but shows it under the right-side table of content
-    # - navigation.tabs
     # - navigation.tabs.sticky #on scroll down it remains visible on top
 markdown_extensions:
   - tables
@@ -106,7 +105,7 @@ plugins:
       touchNavigation: true
 
 nav:
-  - Home: https://learn.01111000011011110111001001011111.com/
+  - Home: index.md
   - Cyber Offensive:
     - 'Start Here':
       - 'Start Here': index.md
