@@ -9,28 +9,26 @@
     .md-grid{
         max-width: 100%;
     }
-
     .md-sidebar{
         width: auto;
     } 
     .md-content{
         min-width: 70%;
     }
-}
-
-.md-footer-meta__inner md-grid{
-    align-content: center;
-    align-self: center;
+    .md-sidebar__scrollwrap{
+        width: min-content;
+    }
 }
 
 .md-footer{
     background-color: transparent;
+    align-content: center;
 }
 
 /* Fix padding Chrome browsers */
 @supports selector(::-webkit-scrollbar) {
     .md-sidebar__scrollwrap {
-        scrollbar-gutter: auto
+        scrollbar-gutter: auto;
     }
 
     [dir=ltr] .md-sidebar__inner {
@@ -38,6 +36,6 @@
     }
 
     [dir=rtl] .md-sidebar__inner {
-        padding-left: calc(100% - 11.5rem)
+        padding-left: calc(100% - 11.5rem);
     }
 }

@@ -29,6 +29,7 @@
 [Images Reference](https://squidfunk.github.io/mkdocs-material/reference/images/)
 
 ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=center }
+![Image title](../assets/images/comingsoon.gif){ align=center }
 ![coming soon](images/comingsoon.gif){ align=center }
 
 #OR
