@@ -25,6 +25,19 @@
 💾
 
 ---
+## Images
+[Images Reference](https://squidfunk.github.io/mkdocs-material/reference/images/)
+
+![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left }
+
+#OR
+
+<figure markdown="span">
+  ![Image title](https://dummyimage.com/600x400/){ width="300" }
+  <figcaption>Image caption</figcaption>
+</figure>
+
+---
 
 ## code
 
