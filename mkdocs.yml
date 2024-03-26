@@ -191,9 +191,9 @@ nav:
           - 'dirsearch': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
 
   - Networking:
-    - 'coming_soon.md'
+    - 'Coming Soon': Networking/coming_soon.md
   - Home Lab:
-    - 'coming_soon.md'
+    - 'Coming Soon': Home_Lab/coming_soon.md
   - Misc knowledge:
-    - 'coming_soon.md'
+    - 'Coming Soon': Misc_Knowledge/coming_soon.md
   - About: About.md
