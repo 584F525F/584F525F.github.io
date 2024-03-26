@@ -1,5 +1,5 @@
-site_name: XOR_
-site_description: 'XOR_'
+site_name: XOR_ Knowledge Base
+site_description: 'XOR_ Knowledge Base'
 site_url: https://learn.01111000011011110111001001011111.com/
 # https://github.com/584F525F/584F525F.github.io/
 
@@ -24,8 +24,11 @@ theme:
   favicon: assets/images/git.png
   # favicon: fontawesome/brands/github-alt
 
-extra:
-  generator: false # removes mkdocs reference at the bottom of the page
+  copyright: Copyright © 2023 01111000011011110111001001011111.com
+  extra:
+    generator: false # removes mkdocs reference at the bottom of the page
+  extra_css:
+      - custom.css
 
   palette:
     - scheme: default
@@ -44,29 +47,24 @@ extra:
       accent: orange
 
   features:
-      - content.code.copy
-      - content.code.select
-      - content.tabs.link
-      - content.tabs.link
-      - navigation.tracking
-      - navigation.top
-      - navigation.tabs
-      - navigation.footer
-      - navigation.indexes
-      - navigation.sections
-      - navigation.path
-      - search.highlight
-      - search.suggest
-      - search.share
-      - toc.follow
-      - toc.integrate # this disabled the right-side table of content but shows it under the right-side table of content
-      # - navigation.tabs
-      # - navigation.tabs.sticky #on scroll down it remains visible on top
-
-copyright: Copyright © 2023 01111000011011110111001001011111.com
-extra_css:
-    - custom.css
-
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tabs.link
+    - navigation.tracking
+    - navigation.top
+    - navigation.tabs
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.path
+    - search.highlight
+    - search.suggest
+    - search.share
+    - toc.follow
+    - toc.integrate # this disabled the right-side table of content but shows it under the right-side table of content
+    # - navigation.tabs
+    # - navigation.tabs.sticky #on scroll down it remains visible on top
 markdown_extensions:
   - tables
   - attr_list
