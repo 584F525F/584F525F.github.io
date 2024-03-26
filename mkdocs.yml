@@ -45,12 +45,19 @@ extra:
 
   features:
       - content.code.copy
-      - navigation.tracking
-      - navigation.top
-      - navigation.indexes 
-      - navigation.path
       - content.code.select
       - content.tabs.link
+      - content.tabs.link
+      - navigation.tracking
+      - navigation.top
+      - navigation.tabs
+      - navigation.footer
+      - navigation.indexes
+      - navigation.sections
+      - navigation.path
+      - search.highlight
+      - search.suggest
+      - search.share
       - toc.follow
       - toc.integrate # this disabled the right-side table of content but shows it under the right-side table of content
       # - navigation.tabs
