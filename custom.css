@@ -1,5 +1,5 @@
 .md-header{
-    background-color: #1f7884;
+    background-color: #f3f58f;
 }
 
 @media screen and (min-width: 790px) {
@@ -16,6 +16,11 @@
     .md-content{
         min-width: 70%;
     }
+}
+
+.md-footer-meta__inner md-grid{
+    align-content: center;
+    align-self: center;
 }
 
 /* Fix padding Chrome browsers */
