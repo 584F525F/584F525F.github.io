@@ -1,1 +1,0 @@
-![coming soon](images/comingsoon.gif){ align=center }
