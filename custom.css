@@ -15,20 +15,12 @@
     .md-content{
         min-width: 70%;
     }
-    .md-sidebar__scrollwrap{
-        width: min-content;
-    }
-}
-
-.md-footer{
-    background-color: transparent;
-    align-content: center;
 }
 
 /* Fix padding Chrome browsers */
 @supports selector(::-webkit-scrollbar) {
     .md-sidebar__scrollwrap {
-        scrollbar-gutter: auto;
+        scrollbar-gutter: auto
     }
 
     [dir=ltr] .md-sidebar__inner {
@@ -36,6 +28,6 @@
     }
 
     [dir=rtl] .md-sidebar__inner {
-        padding-left: calc(100% - 11.5rem);
+        padding-left: calc(100% - 11.5rem)
     }
 }
