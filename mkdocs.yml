@@ -108,7 +108,7 @@ plugins:
       touchNavigation: true
 
 nav:
-  - Home: index.md
+  - Home: home.html
   - Cyber Offensive:
     - 'Start Here':
       - 'Start Here': index.md
