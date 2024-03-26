@@ -62,7 +62,7 @@ theme:
     - search.suggest
     - search.share
     - toc.follow
-    - toc.integrate # this disabled the right-side table of content but shows it under the right-side table of content
+    # - toc.integrate # this disabled the right-side table of content but shows it under the right-side table of content
     # - navigation.tabs
     # - navigation.tabs.sticky #on scroll down it remains visible on top
 markdown_extensions:
