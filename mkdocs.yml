@@ -79,7 +79,8 @@ markdown_extensions:
 repo_url: https://github.com/584F525F/584F525F.github.io
 edit_uri: edit/master/
 
-copyright: Copyright © 2023 01111000011011110111001001011111.com
+copyright: Copyright © 2023
+
 extra:
   generator: false
 
