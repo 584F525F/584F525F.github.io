@@ -84,8 +84,8 @@ plugins:
   - git-revision-date-localized
   - social
   # - optimize #https://squidfunk.github.io/mkdocs-material/plugins/optimize
-  - typeset: #icons on left-side table of content
-      enabled: true
+  # - typeset: #icons on left-side table of content
+  #     enabled: true
   - glightbox: #https://squidfunk.github.io/mkdocs-material/reference/images/
       effect: zoom
       width: 100%
