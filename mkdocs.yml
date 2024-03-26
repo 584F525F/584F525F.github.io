@@ -23,6 +23,9 @@ theme:
   favicon: assets/images/git.png
   # favicon: fontawesome/brands/github-alt
 
+extra:
+  generator: false # removes mkdocs reference at the bottom of the page
+
   palette:
     - scheme: default
       toggle:
@@ -52,6 +55,7 @@ theme:
       # - navigation.tabs
       # - navigation.tabs.sticky #on scroll down it remains visible on top
 
+copyright: Copyright © 2023 01111000011011110111001001011111.com
 extra_css:
     - custom.css
 
@@ -78,4 +82,5 @@ plugins:
   - git-revision-date-localized
   - social
   # - optimize #https://squidfunk.github.io/mkdocs-material/plugins/optimize
-  - typeset #icons on left-side table of content
+  - typeset: #icons on left-side table of content
+      enabled: true
