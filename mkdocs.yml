@@ -7,7 +7,7 @@ theme:
   name: material
   icon:
     repo: fontawesome/brands/github-alt
-    logo: fontawesome/brands/github
+    logo: fontawesome/brands/github-alt
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -22,11 +22,10 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
   favicon: assets/images/git.png
-  # favicon: fontawesome/brands/github-alt
 
   copyright: Copyright © 2023 01111000011011110111001001011111.com
   extra:
-    generator: false # removes mkdocs reference at the bottom of the page
+    generator: false
   extra_css:
       - custom.css
 
@@ -91,7 +90,8 @@ plugins:
   # - optimize #https://squidfunk.github.io/mkdocs-material/plugins/optimize
   # - typeset: #icons on left-side table of content
   #     enabled: true
-  - glightbox: #https://squidfunk.github.io/mkdocs-material/reference/images/
+  #https://squidfunk.github.io/mkdocs-material/reference/images/
+  - glightbox:
       effect: zoom
       width: 100%
       height: auto
@@ -191,5 +191,5 @@ nav:
   - Home Lab:
     - 'Coming Soon': Home_Lab/coming_soon.md
   - Misc knowledge:
-    - 'Coming Soon': Misc_Knowledge/coming_soon.md
+    - 'Coming Soon': Misc_knowledge/coming_soon.md
   - About: About.md
