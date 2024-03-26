@@ -1,1 +1,1 @@
-![Image title](assets/images/comingsoon.gif){ align=center }
+![coming soon](images/comingsoon.gif){ align=center }
