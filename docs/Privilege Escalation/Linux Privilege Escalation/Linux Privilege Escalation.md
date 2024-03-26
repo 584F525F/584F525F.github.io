@@ -1,8 +1,8 @@
-## common checks
+### common checks
 
 ??? example "💾"
 
-    ### Kernal check
+    #### Kernal check
 
     ```bash
     #Kernal version
@@ -11,7 +11,7 @@
     cat /etc/issue
     ```
 
-    ### CPU
+    #### CPU
 
     ```shell
     #Checking CPU Cores vs the resources an exploit might need to avoid running an exploit that exceeds CPU on system
@@ -19,7 +19,7 @@
     lscpu
     ```
 
-    ### Running Services
+    #### Running Services
 
     ```shell
     #show running services - they are in order of execution, top is oldest and bottom is latest
@@ -30,7 +30,7 @@
     ps aux | grep root
     ```
 
-    ### writable Paths | SUID | CAP
+    #### writable Paths | SUID | CAP
 
     ```shell
     #find writable paths
@@ -47,7 +47,7 @@
 
     ```
 
-    ### Privileges
+    #### Privileges
 
     ```shell
     #see the user privileges
@@ -70,7 +70,7 @@
     sudo su -
     ```
 
-    ### misc
+    #### misc
 
     ```shell
     #in a command line the single quotes take precedence
@@ -88,7 +88,7 @@
 
     ```
 
-    ### looking up password
+    #### looking up password
 
     ```shell
     #grep anything that contains the word password and color it red
@@ -102,23 +102,23 @@
     ```
 
 
-## Crontab Cronjobs | process explore
+### Crontab Cronjobs | process explore
 
 ??? example "🛸"
 
-    ### strace 
+    #### strace 
 
     ```shell
     strace /usr/local/bin/suid-env
     ```
 
-    ### strings - see what the comand is doing
+    #### strings - see what the comand is doing
 
     ```shell
     strings /usr/local/bin/suid-env
     ```
 
-## automated tools
+### automated tools
 ??? example "👾"
     [LinEnum](https://github.com/rebootuser/LinEnum)
 

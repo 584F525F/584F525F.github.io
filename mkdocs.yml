@@ -20,7 +20,8 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
-  favicon: fontawesome/brands/github-alt
+  favicon: assets/images/git.png
+  # favicon: fontawesome/brands/github-alt
 
   palette:
     - scheme: default
@@ -32,6 +33,8 @@ theme:
     - scheme: slate
       toggle:
         icon: material/lighthouse
+        # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-colors-docsstylesheetsextracss
+        # https://github.com/squidfunk/mkdocs-material/tree/master/material/templates/.icons
         name: Switch to light mode
       primary: darkpurple
       accent: orange
@@ -40,11 +43,14 @@ theme:
       - content.code.copy
       - navigation.tracking
       - navigation.top
-      - content.code.select
+      - navigation.indexes 
       - navigation.path
+      - content.code.select
       - content.tabs.link
-      - navigation.tabs
-      #- navigation.tabs.sticky #on scroll down it remains visible on top
+      - toc.follow
+      - toc.integrate # this disabled the right-side table of content but shows it under the right-side table of content
+      # - navigation.tabs
+      # - navigation.tabs.sticky #on scroll down it remains visible on top
 
 extra_css:
     - custom.css
@@ -68,7 +74,8 @@ edit_uri: edit/master/
 
 plugins:
   - search
-  #- tags
+  # - tags
   - git-revision-date-localized
   - social
-  #- optimize #https://squidfunk.github.io/mkdocs-material/plugins/optimize
+  # - optimize #https://squidfunk.github.io/mkdocs-material/plugins/optimize
+  - typeset #icons on left-side table of content
