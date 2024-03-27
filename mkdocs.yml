@@ -6,7 +6,7 @@ site_url: https://learn.01111000011011110111001001011111.com/
 theme:
   name: material
   icon:
-    repo: fontawesome/brands/github-alt
+    # repo: fontawesome/brands/github-alt
     logo: fontawesome/brands/github-alt
     admonition:
       note: octicons/tag-16
@@ -76,10 +76,10 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
-repo_url: https://github.com/584F525F
+# repo_url: https://github.com/584F525F
 edit_uri: edit/master/
 
-copyright: Copyright © 2024
+copyright: Copyright © 2024 01111000011011110111001001011111.com
 
 extra:
   generator: false
