@@ -49,7 +49,7 @@ theme:
     - content.tabs.link
     - navigation.tracking
     - navigation.top
-    # - navigation.tabs
+    - navigation.tabs
     - navigation.footer
     - navigation.indexes
     - navigation.sections
@@ -58,7 +58,7 @@ theme:
     - search.suggest
     - search.share
     - toc.follow
-    # - toc.integrate # this disabled the right-side table of content but shows it under the right-side table of content
+    - toc.integrate # this disabled the right-side table of content but shows it under the right-side table of content
     # - navigation.tabs.sticky #on scroll down it remains visible on top
 
 markdown_extensions:
@@ -86,7 +86,7 @@ extra:
 
 plugins:
   - search
-  # - tags
+  - tags
   - git-revision-date-localized
   - social
   # - optimize #https://squidfunk.github.io/mkdocs-material/plugins/optimize
