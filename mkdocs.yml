@@ -49,7 +49,7 @@ theme:
     - content.tabs.link
     - navigation.tracking
     - navigation.top
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.footer
     - navigation.indexes
     - navigation.sections
