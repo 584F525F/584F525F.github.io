@@ -160,6 +160,7 @@ nav:
         - 'winrm': Cyber_Offensive/Remote_connection_&_execution/winrm.md
         - 'wmiexec.py': Cyber_Offensive/Remote_connection_&_execution/wmiexec.py.md
       - 'Reverse Shell': Cyber_Offensive/Reverse_shell/r.md
+    - '':
       - 'Services':
         - 'FTP': Cyber_Offensive/Services/FTP.md
         - 'IMAP': Cyber_Offensive/Services/IMAP.md
@@ -169,6 +170,7 @@ nav:
         - 'SAMBA_-_SMB': Cyber_Offensive/Services/Samba_SMB/SAMBA_-_SMB.md
         - 'SMB_Client': Cyber_Offensive/Services/Samba_SMB/SMB_Client.md
         - 'Tools': Cyber_Offensive/Services/Samba_SMB/Tools.md
+    - '':
       - 'Web':
         - 'RFI-LFI_File_Inclusion': Cyber_Offensive/Web/RFI-LFI_File_Inclusion.md
         - 'SQL_Injection': Cyber_Offensive/Web/SQL_Injection.md
