@@ -25,6 +25,7 @@ theme:
 
   extra_css:
       - custom.css
+      - assets/stylesheets/custom.css
 
   palette:
     - scheme: slate
