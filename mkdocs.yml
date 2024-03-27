@@ -76,10 +76,10 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
-repo_url: https://github.com/584F525F/584F525F.github.io
+repo_url: https://github.com/584F525F
 edit_uri: edit/master/
 
-copyright: Copyright © 2023
+copyright: Copyright © 2024
 
 extra:
   generator: false
@@ -110,84 +110,91 @@ plugins:
 nav:
   - Home: home.html
   - Cyber Offensive:
-    - 'Start Here':
-      - 'Start Here': index.md
+    - 'Start Here': index.md
     - 'File Transfers':
-      - 'FTP': Cyber_Offensive/File_Transfers/FTP.md
-      - 'ftpd': Cyber_Offensive/File_Transfers/ftpd.md
-      - 'scp': Cyber_Offensive/File_Transfers/scp.md
-      - 'SMB': Cyber_Offensive/File_Transfers/SMB.md
-      - 'Telnet': Cyber_Offensive/File_Transfers/Telnet.md
-      - 'windows_certutil': Cyber_Offensive/File_Transfers/windows_certutil.md
-      - 'windows_cscript': Cyber_Offensive/File_Transfers/windows_cscript.md
-      - 'Windows_mshta_wmic_regsvr32': Cyber_Offensive/File_Transfers/Windows_mshta_wmic_regsvr32.md
-    - 'Initial Enumeration': Cyber_Offensive/Initial_Enumeration/Initial_Enumeration.md
+      - 'File Transfers':
+        - 'FTP': Cyber_Offensive/File_Transfers/FTP.md
+        - 'ftpd': Cyber_Offensive/File_Transfers/ftpd.md
+        - 'scp': Cyber_Offensive/File_Transfers/scp.md
+        - 'SMB': Cyber_Offensive/File_Transfers/SMB.md
+        - 'Telnet': Cyber_Offensive/File_Transfers/Telnet.md
+        - 'windows_certutil': Cyber_Offensive/File_Transfers/windows_certutil.md
+        - 'windows_cscript': Cyber_Offensive/File_Transfers/windows_cscript.md
+        - 'Windows_mshta_wmic_regsvr32': Cyber_Offensive/File_Transfers/Windows_mshta_wmic_regsvr32.md
+    - 'Initial Enumeration':
+      - 'Initial Enumeration': Cyber_Offensive/Initial_Enumeration/Initial_Enumeration.md
     - 'Password Attacks, Cracking':
-      - 'Argon2_cracker': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Argon2_cracker.md
-      - 'Cracking_Files': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Cracking_Files.md
-      - 'Decoding': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Decoding.md
-      - 'Hashcat': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Hashcat.md
-      - 'Hydra': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Hydra.md
-      - 'Medusa': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Medusa.md
-      - 'Ncrack': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Ncrack.md
-      - 'Passing_the_hash': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Passing_the_hash.md
-      - 'Wordlists': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Wordlists.md
-      - 'Basic_Usage': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Basic_Usage.md
-      - 'Cracking_modes': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Cracking_modes.md
-      - 'Misc_&_Tricks': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Misc_&_Tricks.md
-      - 'Rules': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Rules.md
-      - 'Wordlists_&_Incremental': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Wordlists_&_Incremental.md
+      - 'Password Attacks, Cracking':
+        - 'Argon2_cracker': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Argon2_cracker.md
+        - 'Cracking_Files': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Cracking_Files.md
+        - 'Decoding': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Decoding.md
+        - 'Hashcat': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Hashcat.md
+        - 'Hydra': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Hydra.md
+        - 'Medusa': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Medusa.md
+        - 'Ncrack': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Ncrack.md
+        - 'Passing_the_hash': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Passing_the_hash.md
+        - 'Wordlists': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Wordlists.md
+        - 'Basic_Usage': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Basic_Usage.md
+        - 'Cracking_modes': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Cracking_modes.md
+        - 'Misc_&_Tricks': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Misc_&_Tricks.md
+        - 'Rules': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Rules.md
+        - 'Wordlists_&_Incremental': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Wordlists_&_Incremental.md
     - 'Privilege Escalation':
-      - 'Linux_Privilege_Escalation': Cyber_Offensive/Privilege_Escalation/Linux_Privilege_Escalation/Linux_Privilege_Escalation.md
-      - 'Windows_Privilege_Escalation': Cyber_Offensive/Privilege_Escalation/Windows_Privilege_Escalation/Windows_Privilege_Escalation.md
+      - 'Privilege Escalation':
+        - 'Linux_Privilege_Escalation': Cyber_Offensive/Privilege_Escalation/Linux_Privilege_Escalation/Linux_Privilege_Escalation.md
+        - 'Windows_Privilege_Escalation': Cyber_Offensive/Privilege_Escalation/Windows_Privilege_Escalation/Windows_Privilege_Escalation.md
     - 'Reconnaissance':
-      - 'DNSdumpster': Cyber_Offensive/Recon/DNSdumpster.md
-      - 'recon': Cyber_Offensive/Recon/recon.md
-      - 'shodan.io': Cyber_Offensive/Recon/shodan.io.md
+      - 'Reconnaissance':
+        - 'DNSdumpster': Cyber_Offensive/Recon/DNSdumpster.md
+        - 'recon': Cyber_Offensive/Recon/recon.md
+        - 'shodan.io': Cyber_Offensive/Recon/shodan.io.md
     - 'Remote connection & execution':
-      - 'atexec.py': Cyber_Offensive/Remote_connection_&_execution/atexec.py.md
-      - 'dcomexec.py': Cyber_Offensive/Remote_connection_&_execution/dcomexec.py.md
-      - 'evil-winrm': Cyber_Offensive/Remote_connection_&_execution/evil-winrm.md
-      - 'psexec.py': Cyber_Offensive/Remote_connection_&_execution/psexec.py.md
-      - 'Remote_connection_&_execution': Cyber_Offensive/Remote_connection_&_execution/Remote_connection_&_execution.md
-      - 'Reverse_Shell': Cyber_Offensive/Remote_connection_&_execution/Reverse_Shell.md
-      - 'smbexec.py': Cyber_Offensive/Remote_connection_&_execution/smbexec.py.md
-      - 'winrm': Cyber_Offensive/Remote_connection_&_execution/winrm.md
-      - 'wmiexec.py': Cyber_Offensive/Remote_connection_&_execution/wmiexec.py.md
-    - 'Reverse Shell': Cyber_Offensive/Reverse_shell/r.md
+      - 'Remote connection & execution':
+        - 'atexec.py': Cyber_Offensive/Remote_connection_&_execution/atexec.py.md
+        - 'dcomexec.py': Cyber_Offensive/Remote_connection_&_execution/dcomexec.py.md
+        - 'evil-winrm': Cyber_Offensive/Remote_connection_&_execution/evil-winrm.md
+        - 'psexec.py': Cyber_Offensive/Remote_connection_&_execution/psexec.py.md
+        - 'Remote_connection_&_execution': Cyber_Offensive/Remote_connection_&_execution/Remote_connection_&_execution.md
+        - 'Reverse_Shell': Cyber_Offensive/Remote_connection_&_execution/Reverse_Shell.md
+        - 'smbexec.py': Cyber_Offensive/Remote_connection_&_execution/smbexec.py.md
+        - 'winrm': Cyber_Offensive/Remote_connection_&_execution/winrm.md
+        - 'wmiexec.py': Cyber_Offensive/Remote_connection_&_execution/wmiexec.py.md
+      - 'Reverse Shell': Cyber_Offensive/Reverse_shell/r.md
     - 'Services':
-      - 'FTP': Cyber_Offensive/Services/FTP.md
-      - 'IMAP': Cyber_Offensive/Services/IMAP.md
-      - 'MSSQL': Cyber_Offensive/Services/MSSQL.md
-      - 'POP3': Cyber_Offensive/Services/POP3.md
-      - 'SMTP': Cyber_Offensive/Services/SMTP.md
-      - 'SAMBA_-_SMB': Cyber_Offensive/Services/Samba_SMB/SAMBA_-_SMB.md
-      - 'SMB_Client': Cyber_Offensive/Services/Samba_SMB/SMB_Client.md
-      - 'Tools': Cyber_Offensive/Services/Samba_SMB/Tools.md
+      - 'Services':
+        - 'FTP': Cyber_Offensive/Services/FTP.md
+        - 'IMAP': Cyber_Offensive/Services/IMAP.md
+        - 'MSSQL': Cyber_Offensive/Services/MSSQL.md
+        - 'POP3': Cyber_Offensive/Services/POP3.md
+        - 'SMTP': Cyber_Offensive/Services/SMTP.md
+        - 'SAMBA_-_SMB': Cyber_Offensive/Services/Samba_SMB/SAMBA_-_SMB.md
+        - 'SMB_Client': Cyber_Offensive/Services/Samba_SMB/SMB_Client.md
+        - 'Tools': Cyber_Offensive/Services/Samba_SMB/Tools.md
     - 'Web':
-      - 'RFI-LFI_File_Inclusion': Cyber_Offensive/Web/RFI-LFI_File_Inclusion.md
-      - 'SQL_Injection': Cyber_Offensive/Web/SQL_Injection.md
-      - 'SSRF': Cyber_Offensive/Web/SSRF.md
-      - 'XSS': Cyber_Offensive/Web/XSS_(Cross-Site_Scripting).md
-      - 'Command_Injection':
-        - 'IDOR': Cyber_Offensive/Web/Command_Injection/IDOR.md
-      - 'Enumeration & Content Discovery':
-        - 'Content Discovery Tools':
-          - 'Authentication_Bypass_-_User enumeration': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Authentication_Bypass_-_User enumeration/Authentication_Bypass_-_User enumeration.md
-          - 'Cansina': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Cansina.md
-          - 'Chameleon': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Chameleon.md
-          - 'froxbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/froxbuster.md
-          - 'fuff': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/fuff.md
-          - 'General_Content_Discovery': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/General_Content_Discovery.md
-          - 'gobuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/gobuster.md
-          - 'Katana': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Katana.md
-          - 'Kiterunner': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Kiterunner.md
-          - 'Wfuzz': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Wfuzz.md
-        - 'File and Directory Enumeration':
-          - 'Dictionaries': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/Dictionaries.md
-          - 'dirb': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirb.md
-          - 'dirbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirbuster.md
-          - 'dirsearch': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
+      - 'Web':
+        - 'RFI-LFI_File_Inclusion': Cyber_Offensive/Web/RFI-LFI_File_Inclusion.md
+        - 'SQL_Injection': Cyber_Offensive/Web/SQL_Injection.md
+        - 'SSRF': Cyber_Offensive/Web/SSRF.md
+        - 'XSS': Cyber_Offensive/Web/XSS_(Cross-Site_Scripting).md
+        - 'Command_Injection':
+          - 'IDOR': Cyber_Offensive/Web/Command_Injection/IDOR.md
+        - 'Enumeration & Content Discovery':
+          - 'Content Discovery Tools':
+            - 'Authentication_Bypass_-_User enumeration': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Authentication_Bypass_-_User enumeration/Authentication_Bypass_-_User enumeration.md
+            - 'Cansina': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Cansina.md
+            - 'Chameleon': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Chameleon.md
+            - 'froxbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/froxbuster.md
+            - 'fuff': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/fuff.md
+            - 'General_Content_Discovery': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/General_Content_Discovery.md
+            - 'gobuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/gobuster.md
+            - 'Katana': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Katana.md
+            - 'Kiterunner': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Kiterunner.md
+            - 'Wfuzz': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Wfuzz.md
+          - 'File and Directory Enumeration':
+            - 'Dictionaries': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/Dictionaries.md
+            - 'dirb': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirb.md
+            - 'dirbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirbuster.md
+            - 'dirsearch': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
   - Networking:
     - 'Coming Soon': Networking/coming_soon.md
   - Home Lab:
