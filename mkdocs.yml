@@ -27,7 +27,7 @@ theme:
       - custom.css
 
   palette:
-    - scheme: default
+    - scheme: slate
       toggle:
         icon: material/lighthouse-on
         name: Switch to dark mode
