@@ -1,4 +1,3 @@
-icon:/assets/icons/4021458_shield_protect_lock_security.png
 ### FTP - File Transfer Protocol
 
 #### commands
