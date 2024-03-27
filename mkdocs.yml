@@ -111,7 +111,7 @@ nav:
   - Home: home.html
   - Cyber Offensive:
     - 'Start Here': index.md
-    - 'File Transfers':
+    - '':
       - 'File Transfers':
         - 'FTP': Cyber_Offensive/File_Transfers/FTP.md
         - 'ftpd': Cyber_Offensive/File_Transfers/ftpd.md
@@ -121,9 +121,9 @@ nav:
         - 'windows_certutil': Cyber_Offensive/File_Transfers/windows_certutil.md
         - 'windows_cscript': Cyber_Offensive/File_Transfers/windows_cscript.md
         - 'Windows_mshta_wmic_regsvr32': Cyber_Offensive/File_Transfers/Windows_mshta_wmic_regsvr32.md
-    - 'Initial Enumeration':
+    - '':
       - 'Initial Enumeration': Cyber_Offensive/Initial_Enumeration/Initial_Enumeration.md
-    - 'Password Attacks, Cracking':
+    - '':
       - 'Password Attacks, Cracking':
         - 'Argon2_cracker': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Argon2_cracker.md
         - 'Cracking_Files': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Cracking_Files.md
@@ -139,16 +139,16 @@ nav:
         - 'Misc_&_Tricks': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Misc_&_Tricks.md
         - 'Rules': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Rules.md
         - 'Wordlists_&_Incremental': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Wordlists_&_Incremental.md
-    - 'Privilege Escalation':
+    - '':
       - 'Privilege Escalation':
         - 'Linux_Privilege_Escalation': Cyber_Offensive/Privilege_Escalation/Linux_Privilege_Escalation/Linux_Privilege_Escalation.md
         - 'Windows_Privilege_Escalation': Cyber_Offensive/Privilege_Escalation/Windows_Privilege_Escalation/Windows_Privilege_Escalation.md
-    - 'Reconnaissance':
+    - '':
       - 'Reconnaissance':
         - 'DNSdumpster': Cyber_Offensive/Recon/DNSdumpster.md
         - 'recon': Cyber_Offensive/Recon/recon.md
         - 'shodan.io': Cyber_Offensive/Recon/shodan.io.md
-    - 'Remote connection & execution':
+    - '':
       - 'Remote connection & execution':
         - 'atexec.py': Cyber_Offensive/Remote_connection_&_execution/atexec.py.md
         - 'dcomexec.py': Cyber_Offensive/Remote_connection_&_execution/dcomexec.py.md
@@ -160,7 +160,6 @@ nav:
         - 'winrm': Cyber_Offensive/Remote_connection_&_execution/winrm.md
         - 'wmiexec.py': Cyber_Offensive/Remote_connection_&_execution/wmiexec.py.md
       - 'Reverse Shell': Cyber_Offensive/Reverse_shell/r.md
-    - 'Services':
       - 'Services':
         - 'FTP': Cyber_Offensive/Services/FTP.md
         - 'IMAP': Cyber_Offensive/Services/IMAP.md
@@ -170,7 +169,6 @@ nav:
         - 'SAMBA_-_SMB': Cyber_Offensive/Services/Samba_SMB/SAMBA_-_SMB.md
         - 'SMB_Client': Cyber_Offensive/Services/Samba_SMB/SMB_Client.md
         - 'Tools': Cyber_Offensive/Services/Samba_SMB/Tools.md
-    - 'Web':
       - 'Web':
         - 'RFI-LFI_File_Inclusion': Cyber_Offensive/Web/RFI-LFI_File_Inclusion.md
         - 'SQL_Injection': Cyber_Offensive/Web/SQL_Injection.md
