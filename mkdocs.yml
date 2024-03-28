@@ -25,10 +25,10 @@ theme:
   favicon: assets/images/git.png
 
 # https://squidfunk.github.io/mkdocs-material/customization/#additional-css
-  extra_css:
-      - stylesheets/extra_edits.css
-  extra_javascript:
-    - javascripts/extra_js.js
+  # extra_css:
+  #     - stylesheets/extra_edits.css
+  # extra_javascript:
+  #   - javascripts/extra_js.js
 
   palette:
     - scheme: slate
