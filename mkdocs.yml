@@ -25,9 +25,23 @@ theme:
   favicon: assets/images/git.png
 
 # https://squidfunk.github.io/mkdocs-material/customization/#additional-css
-  # extra_css:
-  #     - stylesheets/custom.css
-  
+# extra_css:
+#     - stylesheets/custom.css
+# https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-colors-docsstylesheetsextracss
+# https://github.com/squidfunk/mkdocs-material/tree/master/material/templates/.icons
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/lighthouse-on
+        name: Switch to dark mode
+      primary: black
+      accent: orange
+    - scheme: default
+      toggle:
+        icon: material/lighthouse
+        name: Switch to light mode
+      primary: black
+      accent: orange
 
   features:
     - content.code.copy
