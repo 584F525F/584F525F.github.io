@@ -88,9 +88,9 @@ extra:
 
 plugins:
   - search
-  - tags
+  # - tags
   - git-revision-date-localized
-  - social
+  # - social
   # - optimize #https://squidfunk.github.io/mkdocs-material/plugins/optimize
   # - typeset: #icons on left-side table of content
   #     enabled: true
