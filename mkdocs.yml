@@ -28,21 +28,6 @@ theme:
   # extra_css:
   #     - stylesheets/custom.css
   
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/lighthouse-on
-        name: Switch to dark mode
-      primary: darkpurple
-      accent: orange
-    - scheme: default
-      toggle:
-        icon: material/lighthouse
-        # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-colors-docsstylesheetsextracss
-        # https://github.com/squidfunk/mkdocs-material/tree/master/material/templates/.icons
-        name: Switch to light mode
-      primary: darkpurple
-      accent: orange
 
   features:
     - content.code.copy
