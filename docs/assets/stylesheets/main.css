@@ -1,10 +1,12 @@
 
     .md-header{
         background-color:transparent;
+        background-image: url("assets/images/layers/moneymaker.jpg");
     }
     
     .md-tabs{
         background-color:transparent;
+        background-image: url("assets/images/layers/moneymaker.jpg");
     }
     
     .md-main{
@@ -17,8 +19,5 @@
     }
     
     body {
-        background: red;
-        /* or, using CSS variables */
-        --md-default-bg-color: red;
         background-image: url("assets/images/layers/moneymaker.jpg");
       }
