@@ -5,7 +5,7 @@ site_url: https://learn.01111000011011110111001001011111.com/
 
 theme:
   name: material
-  custom_dir: overrides
+  # custom_dir: overrides
   icon:
     # repo: fontawesome/brands/github-alt
     logo: fontawesome/brands/github-alt
@@ -25,8 +25,8 @@ theme:
   favicon: assets/images/git.png
 
 # https://squidfunk.github.io/mkdocs-material/customization/#additional-css
-  extra_css:
-      - stylesheets/extra_edits.css
+  # extra_css:
+  #     - stylesheets/extra_edits.css
   # extra_javascript:
   #   - javascripts/extra_js.js
 
