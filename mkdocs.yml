@@ -49,14 +49,18 @@ theme:
     # Palette toggle for light mode
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/lighthouse-on
         name: Switch to dark mode
+        primary: black
+        accent: orange
 
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
-        icon: material/brightness-4
+        icon: material/lighthouse
         name: Switch to light mode
+        primary: black
+        accent: orange
 
   features:
     - content.code.copy
