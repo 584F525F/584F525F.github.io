@@ -34,7 +34,7 @@ theme:
       toggle:
         icon: material/lighthouse-on
         name: Switch to dark mode
-      primary: black
+      primary: slate
       accent: orange
     - scheme: default
       toggle:
