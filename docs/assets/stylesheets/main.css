@@ -1,0 +1,24 @@
+
+    .md-header{
+        background-color:transparent;
+    }
+    
+    .md-tabs{
+        background-color:transparent;
+    }
+    
+    .md-main{
+        background-image: url("assets/images/layers/moneymaker.jpg");
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+        filter: blur(25px);
+        -webkit-filter: blur(8px);
+    }
+    
+    body {
+        background: red;
+        /* or, using CSS variables */
+        --md-default-bg-color: red;
+        background-image: url("assets/images/layers/moneymaker.jpg");
+      }
