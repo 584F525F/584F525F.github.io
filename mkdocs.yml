@@ -27,7 +27,7 @@ theme:
 # https://squidfunk.github.io/mkdocs-material/customization/#additional-css
   # extra_css:
   #     - stylesheets/custom.css
-
+  
   palette:
     - scheme: slate
       toggle:
