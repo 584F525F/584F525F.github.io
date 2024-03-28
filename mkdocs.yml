@@ -1,5 +1,5 @@
-site_name: XOR_ Knowledge Base
-site_description: 'XOR_ Knowledge Base'
+site_name: XOR_  _Knowledge Base
+# site_description: 'XOR_ Knowledge Base'
 site_url: https://learn.01111000011011110111001001011111.com/
 # https://github.com/584F525F/584F525F.github.io/
 
@@ -8,7 +8,7 @@ theme:
   # custom_dir: overrides
   icon:
     # repo: fontawesome/brands/github-alt
-    logo: fontawesome/brands/github-alt
+    # logo: fontawesome/brands/github-alt
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
