@@ -1,12 +1,10 @@
-
+:root{
     .md-header{
         background-color:transparent;
-        background-image: url("assets/images/layers/moneymaker.jpg");
     }
     
     .md-tabs{
         background-color:transparent;
-        background-image: url("assets/images/layers/moneymaker.jpg");
     }
     
     .md-main{
@@ -18,6 +16,40 @@
         -webkit-filter: blur(8px);
     }
     
-    body {
-        background-image: url("assets/images/layers/moneymaker.jpg");
-      }
+    /* <section class=mdx-parallax__group data-md-color-scheme=slate>
+                    <picture class=mdx-parallax__layer style="--md-parallax-depth: 8;--md-image-position: 70%">
+                        <source type=image/jpg srcset="assets/images/layers/moneymaker.jpg">
+                        <img srcset="assets/images/layers/moneymaker.jpg" src=assets/images/layers/moneymaker.jpg --alt class=mdx-parallax__image>
+                     </picture>
+    </section> */
+    
+    @media screen and (min-width: 790px) {
+        .md-container{
+            min-width: 100%;
+        }
+        .md-grid{
+            max-width: 100%;
+        }
+        .md-sidebar{
+            width: auto;
+        }
+        .md-content{
+            min-width: 70%;
+        }
+    }
+    
+    /* Fix padding Chrome browsers */
+    @supports selector(::-webkit-scrollbar) {
+        .md-sidebar__scrollwrap {
+            scrollbar-gutter: auto
+        }
+    
+        [dir=ltr] .md-sidebar__inner {
+            padding-right: 0;
+        }
+    
+        [dir=rtl] .md-sidebar__inner {
+            padding-left: calc(100% - 11.5rem)
+        }
+    }
+}
