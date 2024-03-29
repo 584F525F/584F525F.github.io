@@ -104,4 +104,6 @@
     align-self: center;
 } */
 
-
+[data-md-color-accent=orange] {
+    --md-accent-fg-color: #81ff72;
+}
