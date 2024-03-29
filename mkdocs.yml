@@ -89,6 +89,8 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/584F525F/
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:contact@01111000011011110111001001011111.com
 
 extra_css:
   - stylesheets/extra.css
