@@ -132,9 +132,6 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     color: #ff6565;
 }
 
-
-
-
 /* https://github.com/squidfunk/mkdocs-material/discussions/2951 */
 /* Just follow the guide on adding additional CSS and start with the following: */
 
@@ -142,3 +139,4 @@ body {
   /* background: red; */
   background-image:url("assets/images/layers/moneymaker.jpg");
 }
+
