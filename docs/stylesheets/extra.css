@@ -1,5 +1,6 @@
 /* https://github.com/mkdocs-material/examples/blob/master/examples/page-status/docs/stylesheets/extra.css */
 
+
 [data-md-color-primary=black] .md-header {
     background-color: hsl(225deg 15% 9% / 0%);
 }
@@ -16,8 +17,13 @@
 }
 
 .md-ellipsis {
-    color:black;
-    /* color: hsl(0deg 100% 67.5%); */
+    /* color:black; */
+    color: hsl(0deg 100% 67.5%);
+}
+
+.md-ellipsis__link[for]:focus, .md-ellipsis__link[for]:hover, .md-ellipsis__link[href]:focus, .md-ellipsis__link[href]:hover {
+    color: #a2f7a9;
+    cursor: pointer;
 }
 
 .md-nav__link[for]:focus, .md-nav__link[for]:hover, .md-nav__link[href]:focus, .md-nav__link[href]:hover {
