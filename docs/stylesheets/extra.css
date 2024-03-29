@@ -22,11 +22,11 @@
 }
 
 /* XOR_ color */
-.md-ellipsis {
-    /* color:black; */
+/* .md-ellipsis {
     color: hsl(0deg 100% 67.5%);
-} */
+} */ */
 
+/* 
 .md-ellipsis__link[for]:focus, .md-ellipsis__link[for]:hover, .md-ellipsis__link[href]:focus, .md-ellipsis__link[href]:hover {
     color: #a2f7a9;
     cursor: pointer;
@@ -48,7 +48,7 @@
 
 .md-footer-meta {
     background-color: hsl(225deg 15% 8% / 0%);
-}
+} */
 
 /* background-image: url("assets/images/layers/moneymaker.jpg"); */
 
