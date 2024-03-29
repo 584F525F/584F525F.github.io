@@ -79,11 +79,11 @@
 
 /* navigation - selected item color - dark mode*/
 [data-md-color-scheme=slate][data-md-color-primary=black], [data-md-color-scheme=slate][data-md-color-primary=blue-grey], [data-md-color-scheme=slate][data-md-color-primary=grey], [data-md-color-scheme=slate][data-md-color-primary=white] {
-    --md-typeset-a-color: #ffa0cf;
+    --md-typeset-a-color: #ff6565;
 }
 /* navigation - selected item color - light mode*/
 [data-md-color-primary=black] {
-    --md-typeset-a-color: #ff3f9f;
+    --md-typeset-a-color: #ff6565;
 }
 
 /* nav bar */
@@ -112,7 +112,8 @@ html .md-footer-meta.md-typeset a {
 
 /* Made with - color */
 .md-copyright {
-    color: #ffa0cf;
+    color: #ff6565;
+    /* #afa0ff purplish blue*/
 }
 
 /* navigation - hover action color */
@@ -128,5 +129,5 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 /* footer navigation font color */
 .md-footer {
     background-color: var(--md-footer-bg-color);
-    color: #ffa0cf;
+    color: #ff6565;
 }
