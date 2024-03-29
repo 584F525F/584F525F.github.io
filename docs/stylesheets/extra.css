@@ -1,16 +1,18 @@
 /* https://github.com/mkdocs-material/examples/blob/master/examples/page-status/docs/stylesheets/extra.css */
 
-.md-header{
-    [data-md-color-primary=black] .md-header {
-        background-color: hsl(225deg 15% 9% / 0%);
-    }
+[data-md-color-primary=black] .md-header {
+    background-color: hsl(225deg 15% 9% / 0%);
 }
 
 .md-tabs{
     color: hsl(0deg 100% 67.5%);
-    [data-md-color-primary=black] .md-header {
+    /* [data-md-color-primary=black] .md-header {
         background-color: hsla(var(--md-hue), 15%, 9%, 1);
-    }
+    } */
+}
+
+[data-md-color-primary=black] .md-header {
+    background-color: hsla(var(--md-hue), 15%, 9%, 1);
 }
 
 .md-ellipsis {
