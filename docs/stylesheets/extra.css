@@ -179,6 +179,8 @@ footer text color
     --md-default-bg-color: #fff;
     --md-footer-bg-color: #00000000;
     --md-footer-bg-color--dark: #00000000;
+    --md-footer-fg-color: #000;
+    --md-footer-fg-color--light: #000000;
     background-image:url("assets/images/layers/moneymaker.jpg");
     background-position: center;
     background-size: auto;
