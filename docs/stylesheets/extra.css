@@ -1,14 +1,14 @@
 /* https://github.com/mkdocs-material/examples/blob/master/examples/page-status/docs/stylesheets/extra.css */
 
 /* search header div background */
-[data-md-color-primary=black] .md-header {
-    background-color: hsl(225deg 15% 9% / 0%);
+.md-header {
+    background-color: hsl(228, 16%, 12%);
     /* background-color: hsla(var(--md-hue), 15%, 9%, 1); */
 }
 
 /* navigation top bar background */
-[data-md-color-primary=black] .md-tabs {
-    background-color: hsl(225deg 15% 9% / 0%);
+.md-tabs {
+    background-color: hsla(0, 0%, 100%, 0);
 }
 
 /* navigation top bar color */
@@ -48,3 +48,8 @@
 /* background-image: url("assets/images/layers/moneymaker.jpg"); */
 
 
+:root {
+    --md-primary-fg-color:        #EE0F0F;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
+  }
