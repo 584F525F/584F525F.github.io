@@ -24,7 +24,7 @@
 /* XOR_ color */
 /* .md-ellipsis {
     color: hsl(0deg 100% 67.5%);
-} */ */
+} */ 
 
 /* 
 .md-ellipsis__link[for]:focus, .md-ellipsis__link[for]:hover, .md-ellipsis__link[href]:focus, .md-ellipsis__link[href]:hover {
@@ -59,8 +59,8 @@
     --md-primary-fg-color--dark:  hwb(340 21% 15%);
   } */
 
-.md-main__inner{
-    background-image: url("assets/images/layers/moneymaker.jpg");
+.md-main{
+    background-image:url("assets/images/layers/moneymaker.jpg");
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -164,3 +164,40 @@ footer text color
 */
 
 
+
+
+
+
+
+
+/* coloring light theme profile */
+:root, [data-md-color-scheme=default] {
+    --md-hue: 225deg;
+    --md-default-fg-color: rgba(0, 0, 0, 0.871);
+    --md-default-fg-color--light: #0038ffc9;
+    --md-default-fg-color--lighter: #0038ffc9;
+    --md-default-bg-color: #fff;
+    background-image:url("assets/images/layers/moneymaker.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+
+/* coloring light theme profile */
+:root, [data-md-color-scheme=slate] {
+    --md-hue: 225deg;
+    --md-default-fg-color: hsl(212.54deg 100% 93.91%);
+    --md-default-fg-color--light: #86b7ff;
+    --md-default-fg-color--lighter: #86b7ff;
+    --md-default-bg-color: hsla(var(--md-hue), 15%, 14%, 1);
+    background-image:url("assets/images/layers/moneymaker.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+
+[data-md-color-scheme=slate][data-md-color-primary=black], [data-md-color-scheme=slate][data-md-color-primary=blue-grey], [data-md-color-scheme=slate][data-md-color-primary=grey], [data-md-color-scheme=slate][data-md-color-primary=white] {
+    --md-typeset-a-color: #81ff72;
+}
