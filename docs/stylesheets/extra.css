@@ -124,3 +124,9 @@ html .md-footer-meta.md-typeset a {
 html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover {
     color: #ff6565;
 }
+
+/* footer navigation font color */
+.md-footer {
+    background-color: var(--md-footer-bg-color);
+    color: #ffa0cf;
+}
