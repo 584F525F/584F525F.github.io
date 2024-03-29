@@ -93,7 +93,7 @@
 
 /* nav - font color */
 .md-tabs {
-    color: #3d81ff;
+    color: #86b7ff;
     font-weight: bold;
 }
 
@@ -118,7 +118,7 @@ html .md-footer-meta.md-typeset a {
 
 /* navigation - hover action color */
 [data-md-color-accent=orange] {
-    --md-accent-fg-color: #3d81ff;
+    --md-accent-fg-color: #86b7ff;
 }
 
 /* footer hover action color */
