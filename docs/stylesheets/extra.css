@@ -185,10 +185,9 @@ footer text color
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-
 }
 
-/* coloring light theme profile */
+/* coloring dark theme profile */
 :root, [data-md-color-scheme=slate] {
     --md-hue: 225deg;
     --md-default-fg-color: hsl(212.54deg 100% 93.91%);
@@ -201,7 +200,6 @@ footer text color
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-
 }
 
 [data-md-color-scheme=slate][data-md-color-primary=black], [data-md-color-scheme=slate][data-md-color-primary=blue-grey], [data-md-color-scheme=slate][data-md-color-primary=grey], [data-md-color-scheme=slate][data-md-color-primary=white] {
