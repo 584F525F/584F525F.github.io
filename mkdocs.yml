@@ -2,13 +2,16 @@ site_name: XOR_
 # site_description: 'XOR_ Knowledge Base'
 site_url: https://learn.01111000011011110111001001011111.com/
 # https://github.com/584F525F/584F525F.github.io/
+# https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-colors-docsstylesheetsextracss
+# https://github.com/squidfunk/mkdocs-material/tree/master/material/templates/.icons
+# https://github.com/squidfunk/mkdocs-material/blob/master/material/templates/.icons/
 
 theme:
   name: material
   # custom_dir: overrides
   icon: 
     # repo: fontawesome/brands/github-alt
-    logo: fontawesome/mandalorian #material/triangle-wave
+    logo: fontawesome/brands/mandalorian #material/triangle-wave
     # logo: fontawesome/brands/github-alt
     admonition:
       note: octicons/tag-16
@@ -24,26 +27,6 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
   favicon: assets/images/git.png
-
-# https://squidfunk.github.io/mkdocs-material/customization/#additional-css
-  # extra_css:
-  #     - stylesheets/custom.css
-  
-  # palette:
-  #   - scheme: slate
-  #     toggle:
-  #       icon: material/lighthouse-on
-  #       name: Switch to dark mode
-  #     primary: darkpurple
-  #     accent: orange
-  #   - scheme: slate
-  #     toggle:
-  #       icon: material/lighthouse
-  #       # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-colors-docsstylesheetsextracss
-  #       # https://github.com/squidfunk/mkdocs-material/tree/master/material/templates/.icons
-  #       name: Switch to light mode
-  #     primary: darkpurple
-  #     accent: orange
 
   palette: 
 
