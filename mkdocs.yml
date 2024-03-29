@@ -85,7 +85,7 @@ edit_uri: edit/master/
 copyright: Copyright © 2024 01111000011011110111001001011111.com
 
 extra:
-  generator: false
+  generator: true
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/584F525F/
