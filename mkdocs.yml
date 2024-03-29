@@ -88,6 +88,9 @@ copyright: Copyright © 2024 01111000011011110111001001011111.com
 extra:
   generator: false
 
+extra_css:
+  - stylesheets/extra.css
+
 plugins:
   - search
   # - tags
