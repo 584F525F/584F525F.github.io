@@ -177,6 +177,8 @@ footer text color
     --md-default-fg-color--light: #0038ffc9;
     --md-default-fg-color--lighter: #0038ffc9;
     --md-default-bg-color: #fff;
+    --md-footer-bg-color: #00000000;
+    --md-footer-bg-color--dark: #00000000;
     background-image:url("assets/images/layers/moneymaker.jpg");
     background-position: center;
     background-size: auto;
@@ -191,6 +193,8 @@ footer text color
     --md-default-fg-color--light: #86b7ff;
     --md-default-fg-color--lighter: #86b7ff;
     --md-default-bg-color: hsla(var(--md-hue), 15%, 14%, 1);
+    --md-footer-bg-color: hsl(225deg 15% 10% / 0%);
+    --md-footer-bg-color--dark: hsl(225deg 15% 8% / 0%);
     background-image:url("assets/images/layers/moneymaker.jpg");
     background-position: center;
     background-size: auto;
@@ -200,4 +204,8 @@ footer text color
 
 [data-md-color-scheme=slate][data-md-color-primary=black], [data-md-color-scheme=slate][data-md-color-primary=blue-grey], [data-md-color-scheme=slate][data-md-color-primary=grey], [data-md-color-scheme=slate][data-md-color-primary=white] {
     --md-typeset-a-color: #81ff72;
+}
+
+[data-md-color-primary=black] {
+    --md-typeset-a-color: #ff3f9f;
 }
