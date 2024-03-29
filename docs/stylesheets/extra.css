@@ -68,8 +68,8 @@
     --md-default-fg-color--light: #86b7ff;
     --md-default-fg-color--lighter: #86b7ff;
     --md-default-bg-color: hsla(var(--md-hue), 15%, 14%, 1);
-    --md-footer-bg-color: hsl(225deg 15% 10% / 0%);
-    --md-footer-bg-color--dark: hsl(225deg 15% 8% / 0%);
+    --md-footer-bg-color: hsla(223, 14%, 10%, 0);
+    --md-footer-bg-color--dark: hsla(220, 15%, 8%, 0);
     --md-footer-fg-color: #ffffff;
     --md-footer-fg-color--light: #ffffff;
     background-image:url("assets/images/layers/moneymaker.jpg");
