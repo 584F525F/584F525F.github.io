@@ -1,43 +1,7 @@
 /* https://github.com/mkdocs-material/examples/blob/master/examples/page-status/docs/stylesheets/extra.css */
 /* https://squidfunk.github.io/mkdocs-material/customization/#adding-assets */
 
-/* search header div background */
-.md-header {
-    background-color: hsl(228, 16%, 12%);
-    /* background-color: hsla(var(--md-hue), 15%, 9%, 1); */
-}
 
-/* navigation top bar background */
-.md-tabs {
-    background-color: hsla(0, 0%, 100%, 0);
-}
-
-/* navigation top bar color */
-/* .md-tabs{
-    color: hsl(0deg 100% 67.5%);
-}
-
-.md-nav__title {
-    color: hsl(225deg 15% 90%)(--md-default-fg-color--light);
-}
-
-/* XOR_ color */
-/* .md-ellipsis {
-    color: hsl(0deg 100% 67.5%);
-} */ 
-
-/* 
-
-.md-main{
-    /* background-image:url("assets/images/layers/moneymaker.jpg"); */
-    background-image:"https://584f525f.github.io/assets/images/layers/moneymaker.jpg";
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
-    /* filter: blur(25px); */
-    /* -webkit-filter: blur(8px); */
-  }
-  
 /* :root{ */
   /* .md-main{
     background-image: url("assets/images/layers/moneymaker.jpg");
@@ -78,15 +42,6 @@
         }
     } */
 /* } */
-
-
-*/
-
-
-
-
-
-
 
 
 /* coloring light theme profile */
