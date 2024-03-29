@@ -27,40 +27,10 @@
 } */ 
 
 /* 
-.md-ellipsis__link[for]:focus, .md-ellipsis__link[for]:hover, .md-ellipsis__link[href]:focus, .md-ellipsis__link[href]:hover {
-    color: #a2f7a9;
-    cursor: pointer;
-}
-
-.md-nav__link[for]:focus, .md-nav__link[for]:hover, .md-nav__link[href]:focus, .md-nav__link[href]:hover {
-    color: #a2f7a9;
-    cursor: pointer;
-}
-
-.md-sidebar__scrollwrap:focus-within, .md-sidebar__scrollwrap:hover {
-    scrollbar-color: #a2f7a9 #0000;
-}
-
-.md-footer {
-    background-color: hsl(225deg 15% 10% / 0%);
-    color: var(--md-footer-fg-color);
-}
-
-.md-footer-meta {
-    background-color: hsl(225deg 15% 8% / 0%);
-} */
-
-/* background-image: url("assets/images/layers/moneymaker.jpg"); */
-
-
-/* :root {
-    --md-primary-fg-color:        #eedf0f;
-    --md-primary-fg-color--light: #a1ffa1;
-    --md-primary-fg-color--dark:  hwb(340 21% 15%);
-  } */
 
 .md-main{
-    background-image:url("assets/images/layers/moneymaker.jpg");
+    /* background-image:url("assets/images/layers/moneymaker.jpg"); */
+    background-image:"https://584f525f.github.io/assets/images/layers/moneymaker.jpg";
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -110,57 +80,6 @@
 /* } */
 
 
-
-/* ### LIGHT MODE
-root The date color for publish
---md-default-fg-color--light
-
-Scroll bar
-[data-md-color-scheme=slate] {
---md-default-fg-color--lighter
-}
-
-Subject color
---md-default-fg-color--light
-
-root subject title and table of content header color
---md-default-fg-color--light:#4287ff
-
-
-
-toggle theme mode - icon logo color - search icon
-[data-md-color-primary=black] {
---md-primary-bg-color:hsl(143.31deg 100% 69.13%);     this is bright green
-}
-
-copyright color
-.md-copyright {
-    color: var(--md-footer-fg-color--lighter)
-}
-
-
- */
-
-
-/* 
-DARK MODE
-
-footer text color
-.md-copyright__highlight {
-    color: #ffffff;
-}
-
-
-[data-md-color-scheme=slate] {
-
---md-default-fg-color: hsla(var(--md-hue), 15%, 90%, 0.82);             body color and expand arrow color
---md-default-fg-color--light: #fff;                                     subject and date color
---md-default-fg-color--lighter: #9eff9d;    scroll bar color
-
-
-}
-
-
 */
 
 
@@ -196,6 +115,8 @@ footer text color
     --md-default-bg-color: hsla(var(--md-hue), 15%, 14%, 1);
     --md-footer-bg-color: hsl(225deg 15% 10% / 0%);
     --md-footer-bg-color--dark: hsl(225deg 15% 8% / 0%);
+    --md-footer-fg-color: #ffffff;
+    --md-footer-fg-color--light: #ffffff;
     background-image:url("assets/images/layers/moneymaker.jpg");
     background-position: center;
     background-size: auto;
@@ -208,4 +129,15 @@ footer text color
 
 [data-md-color-primary=black] {
     --md-typeset-a-color: #ff3f9f;
+}
+
+/* nav bar */
+[data-md-color-primary=black] .md-tabs {
+    background-color: hsl(225deg 15% 9% / 0%);
+}
+
+/* nav font color */
+.md-tabs {
+    color: hsl(219, 100%, 62%);
+    font-weight: bolder;
 }
