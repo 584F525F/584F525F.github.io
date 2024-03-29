@@ -1,4 +1,5 @@
 /* https://github.com/mkdocs-material/examples/blob/master/examples/page-status/docs/stylesheets/extra.css */
+/* https://squidfunk.github.io/mkdocs-material/customization/#adding-assets */
 
 /* search header div background */
 .md-header {
@@ -53,18 +54,18 @@
 
 
 :root {
-    --md-primary-fg-color:        #EE0F0F;
-    --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #90030C;
+    --md-primary-fg-color:        #eedf0f;
+    --md-primary-fg-color--light: #a1ffa1;
+    --md-primary-fg-color--dark:  hwb(340 21% 15%);
   }
 
-  .md-main{
+.md-main__inner{
     background-image: url("assets/images/layers/moneymaker.jpg");
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-    filter: blur(25px);
-    -webkit-filter: blur(8px);
+    /* filter: blur(25px); */
+    /* -webkit-filter: blur(8px); */
   }
   
 /* :root{ */
