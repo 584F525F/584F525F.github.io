@@ -6,9 +6,9 @@ site_url: https://learn.01111000011011110111001001011111.com/
 theme:
   name: material
   # custom_dir: overrides
-  icon:
+  icon: 
     # repo: fontawesome/brands/github-alt
-    logo: material/triangle-wave
+    logo: fontawesome/mandalorian #material/triangle-wave
     # logo: fontawesome/brands/github-alt
     admonition:
       note: octicons/tag-16
