@@ -91,10 +91,10 @@
     background-color: hsl(225deg 15% 9% / 0%);
 }
 
-/* nav font color */
+/* nav - font color */
 .md-tabs {
-    color: hsl(219, 100%, 62%);
-    font-weight: bolder;
+    color: #3d81ff;
+    font-weight: bold;
 }
 
 /* align copyright center */

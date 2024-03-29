@@ -25,7 +25,8 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
-  favicon: assets/images/git.png
+  favicon: fontawesome/brands/mandalorian
+  # favicon: assets/images/git.png
 
   palette: 
 
