@@ -58,7 +58,6 @@
     --md-primary-fg-color--dark:  #90030C;
   }
 
-:root{
   .md-main{
     background-image: url("assets/images/layers/moneymaker.jpg");
     background-position: center;
@@ -67,8 +66,18 @@
     filter: blur(25px);
     -webkit-filter: blur(8px);
   }
+  
+/* :root{ */
+  /* .md-main{
+    background-image: url("assets/images/layers/moneymaker.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    filter: blur(25px);
+    -webkit-filter: blur(8px);
+  } */
 
-    @media screen and (min-width: 790px) {
+    /* @media screen and (min-width: 790px) {
         .md-container{
             min-width: 100%;
         }
@@ -81,10 +90,10 @@
         .md-content{
             min-width: 70%;
         }
-    }
+    } */
 
     /* Fix padding Chrome browsers */
-    @supports selector(::-webkit-scrollbar) {
+    /* @supports selector(::-webkit-scrollbar) {
         .md-sidebar__scrollwrap {
             scrollbar-gutter: auto
         }
@@ -96,5 +105,5 @@
         [dir=rtl] .md-sidebar__inner {
             padding-left: calc(100% - 11.5rem)
         }
-    }
-}
+    } */
+/* } */
