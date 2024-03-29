@@ -1,21 +1,22 @@
 /* https://github.com/mkdocs-material/examples/blob/master/examples/page-status/docs/stylesheets/extra.css */
 
-
+/* search header div background */
 [data-md-color-primary=black] .md-header {
+    background-color: hsl(225deg 15% 9% / 0%);
+    /* background-color: hsla(var(--md-hue), 15%, 9%, 1); */
+}
+
+/* navigation top bar background */
+[data-md-color-primary=black] .md-tabs {
     background-color: hsl(225deg 15% 9% / 0%);
 }
 
+/* navigation top bar color */
 .md-tabs{
     color: hsl(0deg 100% 67.5%);
-    /* [data-md-color-primary=black] .md-header {
-        background-color: hsla(var(--md-hue), 15%, 9%, 1);
-    } */
 }
 
-[data-md-color-primary=black] .md-header {
-    background-color: hsla(var(--md-hue), 15%, 9%, 1);
-}
-
+/* XOR_ color */
 .md-ellipsis {
     /* color:black; */
     color: hsl(0deg 100% 67.5%);
