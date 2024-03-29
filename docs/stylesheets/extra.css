@@ -16,6 +16,10 @@
     color: hsl(0deg 100% 67.5%);
 }
 
+.md-nav__title {
+    color: hsl(225deg 15% 90%)(--md-default-fg-color--light);
+}
+
 /* XOR_ color */
 .md-ellipsis {
     /* color:black; */
@@ -53,3 +57,44 @@
     --md-primary-fg-color--light: #ECB7B7;
     --md-primary-fg-color--dark:  #90030C;
   }
+
+:root{
+  .md-main{
+    background-image: url("assets/images/layers/moneymaker.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    filter: blur(25px);
+    -webkit-filter: blur(8px);
+  }
+
+    @media screen and (min-width: 790px) {
+        .md-container{
+            min-width: 100%;
+        }
+        .md-grid{
+            max-width: 100%;
+        }
+        .md-sidebar{
+            width: auto;
+        } 
+        .md-content{
+            min-width: 70%;
+        }
+    }
+
+    /* Fix padding Chrome browsers */
+    @supports selector(::-webkit-scrollbar) {
+        .md-sidebar__scrollwrap {
+            scrollbar-gutter: auto
+        }
+
+        [dir=ltr] .md-sidebar__inner {
+            padding-right: 0;
+        }
+
+        [dir=rtl] .md-sidebar__inner {
+            padding-left: calc(100% - 11.5rem)
+        }
+    }
+}
