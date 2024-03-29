@@ -77,10 +77,11 @@
     background-repeat: no-repeat;
 }
 
+/* navigation - selected item color - dark mode*/
 [data-md-color-scheme=slate][data-md-color-primary=black], [data-md-color-scheme=slate][data-md-color-primary=blue-grey], [data-md-color-scheme=slate][data-md-color-primary=grey], [data-md-color-scheme=slate][data-md-color-primary=white] {
     --md-typeset-a-color: #ffa0cf;
 }
-
+/* navigation - selected item color - light mode*/
 [data-md-color-primary=black] {
     --md-typeset-a-color: #ff3f9f;
 }
@@ -103,6 +104,23 @@
     align-self: center;
 } */
 
+/* footer icon color */
+html .md-footer-meta.md-typeset a {
+    color: #3d81ff;
+    /* #773df */
+}
+
+/* Made with - color */
+.md-copyright {
+    color: #ffa0cf;
+}
+
+/* navigation - hover action color */
 [data-md-color-accent=orange] {
     --md-accent-fg-color: #3d81ff;
+}
+
+/* footer hover action color */
+html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover {
+    color: #ff6565;
 }
