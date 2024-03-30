@@ -10,7 +10,7 @@ theme:
   # custom_dir: overrides
   icon: 
     # repo: fontawesome/brands/github-alt
-    logo: assets/icons/mandalorian.svg
+    logo: assets/icons/mandalorian.png
     #material/triangle-wave  fontawesome/brands/mandalorian
     # logo: fontawesome/brands/github-alt
     admonition:

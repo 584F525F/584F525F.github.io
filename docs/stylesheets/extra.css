@@ -140,3 +140,7 @@ body {
   background-image:url("assets/images/layers/moneymaker.jpg");
 }
 
+/* search header - transparent background */
+[data-md-color-primary=black] .md-header {
+    background-color: hsl(225deg 15% 9% / 0%);
+}
