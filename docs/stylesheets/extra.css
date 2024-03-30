@@ -47,8 +47,8 @@
 :root, [data-md-color-scheme=default] {
     --md-hue: 225deg;
     --md-default-fg-color: rgb(255, 255, 255);
-    --md-default-fg-color--light: #c8fff0e6; /* SUbject color #86b7ff;  */
-    --md-default-fg-color--lighter: #c8fff0e6;
+    --md-default-fg-color--light: ##def9ff; /* SUbject color #86b7ff;  */
+    --md-default-fg-color--lighter: ##def9ff;
     --md-default-bg-color: #ffffff00;
     --md-footer-bg-color: #00000000;
     --md-footer-bg-color--dark: #00000000;
@@ -147,6 +147,8 @@ body {
     color: #ffffff;
 }
 
-
-
+/* hide the page name in scroll bar space */
+.md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
+    color: #ffa5a500;
+}
 
