@@ -7,13 +7,9 @@
     background-image: url("https://584f525f.github.io/assets/images/layers/moneymaker_blurred.jpg");
     background-position: center;
     background-size:cover;
-    z-index: -1;
-    object-fit: contain;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    /* filter: blur(25px);
-    -webkit-filter: blur(8px); */
   }
 
     @media screen and (min-width: 790px) {
