@@ -4,7 +4,8 @@
 
 :root{
 .md-main{
-    background-image: url("assets/images/layers/moneymaker.jpg");
+    /* background-image: url("assets/images/layers/moneymaker.jpg"); */
+    background-image: url("https://584f525f.github.io/assets/images/layers/moneymaker.jpg");
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -14,10 +15,10 @@
 
     @media screen and (min-width: 790px) {
         .md-container{
-            min-width: 100%;
+            min-width: 85%;
         }
         .md-grid{
-            max-width: 100%;
+            max-width: 85%;
         }
         .md-sidebar{
             width: auto;
