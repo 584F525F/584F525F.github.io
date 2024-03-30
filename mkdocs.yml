@@ -10,7 +10,7 @@ theme:
   # custom_dir: overrides
   icon: 
     # repo: fontawesome/brands/github-alt
-    logo: assets/icons/mandalorian.png
+    # logo: assets/icons/mandalorian.png
     #material/triangle-wave  fontawesome/brands/mandalorian
     # logo: fontawesome/brands/github-alt
     admonition:
@@ -26,7 +26,7 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
-  favicon: assets/icons/mandalorian.svg
+  favicon: assets/icons/mandalorian.png
   # favicon: assets/images/git.png
 
   palette: 
