@@ -4,10 +4,11 @@
 
 :root{
 .md-container{
-    background-image: url("https://584f525f.github.io/assets/images/layers/moneymaker_blurred.jpg");
+    background-image: url("https://584f525f.github.io/assets/images/layers/moneymaker_blurred-Original.jpg");
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
+    position: fixed;
     height: 100%;
     width: 100%;
   }
@@ -23,7 +24,7 @@
             width: auto;
         } 
         .md-content{
-            min-width: 70%;
+            min-width: 60%;
         }
     }
 
@@ -54,10 +55,6 @@
     --md-footer-bg-color--dark: #00000000;
     --md-footer-fg-color: #ffffff;
     --md-footer-fg-color--light: #ffffff;
-    background-image:url("assets/images/layers/moneymaker.jpg");
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
 }
 
 /* coloring dark theme profile */
@@ -71,10 +68,6 @@
     --md-footer-bg-color--dark: hsla(220, 15%, 8%, 0);
     --md-footer-fg-color: #ff6565;
     --md-footer-fg-color--light: #ff6565;
-    background-image:url("assets/images/layers/moneymaker.jpg");
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
 }
 
 /* navigation - selected item color - dark mode*/
@@ -128,10 +121,10 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 /* https://github.com/squidfunk/mkdocs-material/discussions/2951 */
 /* Just follow the guide on adding additional CSS and start with the following: */
 
-body {
+/* body { */
   /* background: red; */
-  background-image:url("assets/images/layers/moneymaker.jpg");
-}
+  /* background-image:url("assets/images/layers/moneymaker.jpg"); */
+/* } */
 
 /* search header - transparent background */
 [data-md-color-primary=black] .md-header {
@@ -152,3 +145,8 @@ body {
     color: #ffa5a500;
 }
 
+/* side bar width and hight */
+element.style {
+    height: 334px;
+    width: fit-content;
+}
