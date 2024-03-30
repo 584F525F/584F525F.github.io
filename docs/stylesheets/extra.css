@@ -46,14 +46,14 @@
 /* coloring light theme profile */
 :root, [data-md-color-scheme=default] {
     --md-hue: 225deg;
-    --md-default-fg-color: rgba(255, 255, 255, 0.871);
-    --md-default-fg-color--light: #b8c7ffe6;
-    --md-default-fg-color--lighter: #b8c7ffe6;
+    --md-default-fg-color: rgb(255, 255, 255);
+    --md-default-fg-color--light: #c8fff0e6; /* SUbject color #86b7ff;  */
+    --md-default-fg-color--lighter: #c8fff0e6;
     --md-default-bg-color: #ffffff00;
     --md-footer-bg-color: #00000000;
     --md-footer-bg-color--dark: #00000000;
     --md-footer-fg-color: #000;
-    --md-footer-fg-color--light: #000000;
+    --md-footer-fg-color--light: #ffffff;
     background-image:url("assets/images/layers/moneymaker.jpg");
     background-position: center;
     background-size: auto;
@@ -64,7 +64,7 @@
 :root, [data-md-color-scheme=slate] {
     --md-hue: 225deg;
     --md-default-fg-color: hsl(212.54deg 100% 93.91%);
-    --md-default-fg-color--light: #86b7ff;
+    --md-default-fg-color--light: #86b7ff; 
     --md-default-fg-color--lighter: #86b7ff;
     --md-default-bg-color: #ffffff00;
     --md-footer-bg-color: hsla(223, 14%, 10%, 0);
@@ -93,8 +93,8 @@
 
 /* nav - font color */
 .md-tabs {
-    color: #86b7ff;
-    font-weight: bold;
+    color: #ffffff;
+    /* font-weight: bold; */
 }
 
 /* footer icon color */
@@ -120,10 +120,10 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 }
 
 /* footer navigation font color */
-.md-footer {
+/* .md-footer {
     background-color: var(--md-footer-bg-color);
     color: #ff6565;
-}
+} */
 
 /* https://github.com/squidfunk/mkdocs-material/discussions/2951 */
 /* Just follow the guide on adding additional CSS and start with the following: */
@@ -140,7 +140,7 @@ body {
 
 /* XOR_ */
 .md-header__topic:first-child {
-    font-weight: 100;
+    font-weight: 700;
 }
 
 .md-copyright__highlight {
