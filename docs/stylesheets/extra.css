@@ -141,7 +141,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 
 /* TOC active article color */
 .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
-    color: #ff656500;
+    color: #b0fff5;
 }
 
 /* side bar width and hight */
