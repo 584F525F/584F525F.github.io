@@ -46,7 +46,7 @@
 /* coloring light theme profile */
 :root, [data-md-color-scheme=default] {
     --md-hue: 225deg;
-    --md-default-fg-color: rgba(0, 0, 0, 0.871);
+    --md-default-fg-color: rgba(255, 255, 255, 0.871);
     --md-default-fg-color--light: #0038ffc9;
     --md-default-fg-color--lighter: #0038ffc9;
     --md-default-bg-color: #fff;
