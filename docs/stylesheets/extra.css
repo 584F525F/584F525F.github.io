@@ -8,7 +8,7 @@
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
-    position: fixed;
+    /* position: fixed; */
     height: 100%;
     width: 100%;
   }
@@ -141,12 +141,17 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 }
 
 /* hide the page name in scroll bar space */
-.md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
+/* .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
     color: #ffa5a500;
-}
+} */
 
 /* side bar width and hight */
 element.style {
     height: 334px;
     width: fit-content;
+}
+
+.md-nav__link[for]:focus, .md-nav__link[for]:hover, .md-nav__link[href]:focus, .md-nav__link[href]:hover {
+    color: #86b7ff00;
+    cursor: pointer;
 }
