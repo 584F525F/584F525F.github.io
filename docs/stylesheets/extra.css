@@ -3,8 +3,7 @@
 /* https://fontawesome.com/icons/mandalorian?f=brands&s=solid */
 
 :root{
-.md-main{
-    /* background-image: url("assets/images/layers/moneymaker.jpg"); */
+.md-container{
     background-image: url("https://584f525f.github.io/assets/images/layers/moneymaker.jpg");
     background-position: center;
     background-size: auto;
