@@ -8,7 +8,6 @@
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
-    /* position: fixed; */
     height: 100%;
     width: 100%;
   }
@@ -140,7 +139,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     color: #ffffff;
 }
 
-/* hide the page name in scroll bar space */
+/* TOC active article color */
 .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
     color: #ff656500;
 }
@@ -157,3 +156,9 @@ element.style {
     /* GREEN #b0fff5 50ffd0 YELLOW #ffefb0 #ffeb3b*/
     cursor: pointer;
 }
+
+
+/* scrollbar color regardless of theme */
+/* .md-sidebar__scrollwrap:focus-within, .md-sidebar__scrollwrap:hover {
+    scrollbar-color: var(--md-accent-fg-color) #0000;
+} */
