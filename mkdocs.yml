@@ -12,7 +12,6 @@ theme:
     # repo: fontawesome/brands/github-alt
     logo: fontawesome/brands/mandalorian
     #material/triangle-wave  fontawesome/brands/mandalorian
-    # logo: fontawesome/brands/github-alt
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -27,7 +26,6 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
   favicon: assets/icons/mandalorian.png
-  # favicon: assets/images/git.png
 
   palette: 
 
