@@ -48,9 +48,9 @@
 :root, [data-md-color-scheme=default] {
     --md-hue: 225deg;
     --md-default-fg-color: rgb(255, 255, 255);
-    --md-default-fg-color--light: ##def9ff; /* subject color and post date #86b7ff */
-    --md-default-fg-color--lighter: ##def9ff; /* scroll bar*/
-    --md-default-bg-color: #ffffff00;
+    --md-default-fg-color--light: #def9ff; /* subject color and post date #86b7ff */
+    --md-default-fg-color--lighter: #def9ff; /* scroll bar*/
+    --md-default-bg-color: #def9ff;
     --md-footer-bg-color: #00000000;
     --md-footer-bg-color--dark: #00000000;
     --md-footer-fg-color: #ffffff;
@@ -63,7 +63,7 @@
     --md-default-fg-color: hsl(212.54deg 100% 93.91%);
     --md-default-fg-color--light: #b0fff5; /* subject color and post date #86b7ff */
     --md-default-fg-color--lighter: #b0fff5; /* scroll bar*/
-    --md-default-bg-color: #ffffff00;
+    --md-default-bg-color: #b0fff5;
     --md-footer-bg-color: hsla(223, 14%, 10%, 0);
     --md-footer-bg-color--dark: hsla(220, 15%, 8%, 0);
     --md-footer-fg-color: #ff6565;
