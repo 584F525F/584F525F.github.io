@@ -163,3 +163,7 @@ element.style {
 /* .md-sidebar__scrollwrap:focus-within, .md-sidebar__scrollwrap:hover {
     scrollbar-color: var(--md-accent-fg-color) #0000;
 } */
+
+.highlight .c, .highlight .c1, .highlight .ch, .highlight .cm, .highlight .cs, .highlight .sd {
+    color: #ffa027;
+}
