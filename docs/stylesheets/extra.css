@@ -12,7 +12,7 @@
     width: 100%;
   }
 
-    @media screen and (min-width: 790px) {
+    /* @media screen and (min-width: 790px) {
         .md-container{
             min-width: 65%;
         }
@@ -25,7 +25,7 @@
         .md-content{
             min-width: 65%;
         }
-    }
+    } */
 
     /* Fix padding Chrome browsers */
     @supports selector(::-webkit-scrollbar) {
