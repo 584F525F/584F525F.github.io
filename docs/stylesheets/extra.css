@@ -14,16 +14,16 @@
 
     @media screen and (min-width: 790px) {
         .md-container{
-            min-width: 75%;
+            min-width: 65%;
         }
         .md-grid{
-            max-width: 75%;
+            max-width: 100%;
         }
         .md-sidebar{
             width: auto;
         } 
         .md-content{
-            min-width: 60%;
+            min-width: 65%;
         }
     }
 
