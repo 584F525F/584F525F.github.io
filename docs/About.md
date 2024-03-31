@@ -19,6 +19,7 @@ I have worked on the following:
 - Troubleshooting OSI [L1, L2, L3] with on-site staff or dispatched Techs. 
 - Process RMA, place Inventory Requests, write SOW for Tech dispatches, and work with OEMs.
 - Firmware upgrades and patching.
+- Setting up VLANs, DHCP Servers, DNS, DDNS.
 
 I have a major interest in Cyber Security and Security research, this is a decade-long interest, I have been trying to make the time to gain more skills and knowledge in this space and have been doing that for the past couple of years.
 
