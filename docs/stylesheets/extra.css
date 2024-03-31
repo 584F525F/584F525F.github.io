@@ -47,8 +47,8 @@
 :root, [data-md-color-scheme=default] {
     --md-hue: 225deg;
     --md-default-fg-color: rgb(255, 255, 255);
-    --md-default-fg-color--light: #def9ff; /* subject color and post date #86b7ff */
-    --md-default-fg-color--lighter: #def9ff; /* scroll bar*/
+    --md-default-fg-color--light: #ffffff; /* subject color and post date #86b7ff */
+    --md-default-fg-color--lighter: #ffffff; /* scroll bar*/
     --md-default-bg-color: #340b0b; /* top TOC section made hidden */
     --md-footer-bg-color: #00000000;
     --md-footer-bg-color--dark: #00000000;
@@ -68,6 +68,7 @@
     --md-footer-fg-color: #ff6565;
     --md-footer-fg-color--light: #ff6565;
 }
+
 
 /* navigation - selected item color - dark mode*/
 [data-md-color-scheme=slate][data-md-color-primary=black], [data-md-color-scheme=slate][data-md-color-primary=blue-grey], [data-md-color-scheme=slate][data-md-color-primary=grey], [data-md-color-scheme=slate][data-md-color-primary=white] {
@@ -141,7 +142,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 
 /* TOC active article color */
 .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
-    color: #ff6565;
+    color: #ffffff;
 }
 
 /* side bar width and hight */

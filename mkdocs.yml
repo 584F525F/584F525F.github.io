@@ -198,7 +198,7 @@ nav:
             - 'dirbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirbuster.md
             - 'dirsearch': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
   - Knowledge Base:
-    - 'Summary': index.md
+    - 'Summary': knowledge_base.md
     - '': 
       - 'Network':
         - 'Email' :
