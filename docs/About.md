@@ -11,7 +11,13 @@ I manage the following:
 I have worked on the following:
 - Radius Authentication issue.
 - [RF] Radio Frequency issues with WiFi 2.4GHz and 5GHz bands, resolved very complex issues with relation to interference, signal coverge and other client issues.
-- 
+- VPN [Virtual Private Network] tunnels to our managed equipment.
+- [Landing Pages | Captive Portals] > basically the page that pops up when you connect to WiFi at a hotel, airport, cafe, resort, etc.
+- Python scripting, automating tasks. Not in the job description but when you have to work with an insane number of devices, it just make more sense.
+- Troubleshooting OSI [L1, L2, L3] with on site staff or dispatched Techs.
+- Process RMA, place Inventory Requests, write SOW for Tech dispatches, work with OEMs.
+
+I have a major intrest in Cyber Security and Security research, this is a decade long intrest, I have been trying to make the time to gain more skills and knowledge in this space and have been doing that for the past couple of years.
 
 I have always created Internal documentations and articles to help others better understand processes, I was never tasked or asked to do any of that but I always felt like I can help others so they don't have to go through the same strugles I had to when I started.
 
