@@ -205,10 +205,19 @@ nav:
             - 'dirbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirbuster.md
             - 'dirsearch': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
   - Knowledge Base:
-    - 'Coming Soon': Knowledge_Base/coming_soon.md
-    - 'Coming Soon': Knowledge_Base/Network
-    - 'Coming Soon': Knowledge_Base/OS/Windows
-    - 'Coming Soon': Knowledge_Base/OS/Linux/Debian
-    # - 'Coming Soon': Knowledge_Base/
-    # - 'Coming Soon': Knowledge_Base/
+    - 'Coming Soon': coming_soon.md
+    - '':
+      - 'Network': Knowledge_Base/Network
+      - 'OS':
+        - 'Windows':
+          - 'Coming Soon': coming_soon.md
+        - 'Linux':
+          - 'Debian': Knowledge_Base/OS/Linux/Debian
+      - 'Programming':
+      # - 'OS':
+      # - 'OS':
+      # - 'OS':
+      # - 'OS':
+      # - 'OS':
+      # - 'OS':
   - About: About.md
