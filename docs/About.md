@@ -1,13 +1,15 @@
 XOR_ [_ as in blinking terminal cursor]
 
-Graduated as a Software Engineer, worked as a Support Engineer for 5 years Installing Call Center solutions, configuring Windows Servers, Installing, configuring and Administering SQL Server Databases, QA [White & Blackbox testing], wrote Windows Application and Services to increase my efficiency. I also worked closely with Dev team and assisted in a lot of debug sessions, digging through logs and Wireshark captures for year after year to locate bugs and resolve them.
+<p>Graduated as a Software Engineer, worked as a Support Engineer for 5 years Installing Call Center solutions, configuring Windows Servers, Installing, configuring and Administering SQL Server Databases, QA [White & Blackbox testing], wrote Windows Application and Services to increase my efficiency. I also worked closely with Dev team and assisted in a lot of debug sessions, digging through logs and Wireshark captures for year after year to locate bugs and resolve them.</p>
 
 Currently i'm a Network Engineer and have been in that role for over 4 years now. I manage Mid Market WiFi support for a Fortune 500 company, you can imagine the never ending workload and underpay.
+
 I manage the following: 
 - Firewalls [Meraki MX, Junper SRX, Zyyxel USG]. 
 - [WLC] Wireless LAN Controllers [Ruckus SmartZone, Ruckus ZoneDirector, Ruckus Unleashed, Aruba Central, Aruba Mobility, Aruba and Ruckus local Clusters]. 
 - [APs] Access Points [Aruba, Meraki, Ruckus]. 
-- Client Gateways [Nomadix]. 
+- Client Gateways [Nomadix].
+
 I have worked on the following: 
 - Radius Authentication issue. 
 - [RF] Radio Frequency issues with WiFi 2.4GHz and 5GHz bands, resolved very complex issues with relation to interference, signal converge and other client issues. 
