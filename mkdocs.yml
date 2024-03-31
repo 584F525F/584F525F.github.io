@@ -210,8 +210,8 @@ nav:
           - 'SPF Sender Policy Framework' : Knowledge_Base/Network/SPF_Sender_Policy_Framework.md
         - 'Packet Capture' : 
           - 'Wireshark' : 
-            - 'Wireshark' : Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark.md
-            - 'Wireshark' : Knowledge_Base/Network/Packet_Capture/Wireshark/Profiles.md
+            - 'Filters' : Knowledge_Base/Network/Packet_Capture/Wireshark/Filters.md
+            - 'Profiles' : Knowledge_Base/Network/Packet_Capture/Wireshark/Profiles.md
           - 'TCP dump' : Knowledge_Base/Network/Packet_Capture/TCP_Dump.md
         - 'ARP' : Knowledge_Base/Network/ARP.md
         - 'DNS' : Knowledge_Base/Network/DNS.md
