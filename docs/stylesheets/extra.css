@@ -49,7 +49,7 @@
     --md-default-fg-color: rgb(255, 255, 255);
     --md-default-fg-color--light: #def9ff; /* subject color and post date #86b7ff */
     --md-default-fg-color--lighter: #def9ff; /* scroll bar*/
-    --md-default-bg-color: #def9ff00; /* top TOC section made hidden */
+    --md-default-bg-color: #340b0b; /* top TOC section made hidden */
     --md-footer-bg-color: #00000000;
     --md-footer-bg-color--dark: #00000000;
     --md-footer-fg-color: #ffffff;
@@ -60,9 +60,9 @@
 :root, [data-md-color-scheme=slate] {
     --md-hue: 225deg;
     --md-default-fg-color: hsl(212.54deg 100% 93.91%);
-    --md-default-fg-color--light: #b0fff5; /* subject color and post date #86b7ff */
-    --md-default-fg-color--lighter: #b0fff5; /* scroll bar*/
-    --md-default-bg-color: #def9ff00; /* top TOC section made hidden */
+    --md-default-fg-color--light: #ff6565; /* subject color and post date #86b7ff */
+    --md-default-fg-color--lighter: #ff6565; /* scroll bar*/
+    --md-default-bg-color: #340b0b; /* top TOC section made hidden */
     --md-footer-bg-color: hsla(223, 14%, 10%, 0);
     --md-footer-bg-color--dark: hsla(220, 15%, 8%, 0);
     --md-footer-fg-color: #ff6565;
@@ -141,7 +141,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 
 /* TOC active article color */
 .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
-    color: #b0fff5;
+    color: #ff6565;
 }
 
 /* side bar width and hight */
@@ -152,8 +152,8 @@ element.style {
 
 /* table of content - hover over text font color */
 .md-nav__link[for]:focus, .md-nav__link[for]:hover, .md-nav__link[href]:focus, .md-nav__link[href]:hover {
-    color: #b0fff5;
-    /* GREEN #b0fff5 50ffd0 YELLOW #ffefb0 #ffeb3b*/
+    color: #ff6565;
+    /* GREEN #ff6565 50ffd0 YELLOW #ffefb0 #ffeb3b*/
     cursor: pointer;
 }
 
