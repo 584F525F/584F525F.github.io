@@ -206,18 +206,39 @@ nav:
             - 'dirsearch': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
   - Knowledge Base:
     - 'Coming Soon': coming_soon.md
-    - '':
-      - 'Network': Knowledge_Base/Network
+    - '': 
+      - 'Network':
+        - 'Email' : 
+          - 'POP3' : 
+          - 'SMTP' : 
+        - 'Packet Capture' : 
+          - 'Wireshark' : 
+          - 'TCP dump' : 
+        - 'ARP' : 
+        - 'DNS' : 
+        - 'Radius' : 
+        - 'SNMP' : 
+        - 'Subnetting' : 
+        - 'VPN' : 
       - 'OS':
         - 'Windows':
           - 'Coming Soon': coming_soon.md
         - 'Linux':
-          - 'Debian': Knowledge_Base/OS/Linux/Debian
+          - 'Debian':
       - 'Programming':
-      # - 'OS':
-      # - 'OS':
-      # - 'OS':
-      # - 'OS':
-      # - 'OS':
-      # - 'OS':
+        - 'Ansible' : 
+        - 'C | C++' : 
+        - 'C#' : 
+        - 'Github | Git' : 
+        - 'Python' : 
+        - 'Yaml' :
+        - 'Linux Bash' : 
+        - 'Windows Powershell' :
+
+      # - '':
+      # - '':
+      # - '':
+      # - '':
+      # - '':
+      # - '':
   - About: About.md
