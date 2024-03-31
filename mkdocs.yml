@@ -221,17 +221,17 @@ nav:
         - 'VPN' : Knowledge_Base/Network/VPN.md
       - 'OS':
         - 'Windows':
-          - 'Coming Soon': coming_soon.md
+          - 'W': Knowledge_Base/Windows/w.md
         - 'Linux':
           - 'Debian':
-            - 'Coming Soon': coming_soon.md
+            - 'S': Knowledge_Base/OS/Linux/Debian/s.md
       - 'Programming':
-        - 'Ansible' : coming_soon.md
-        - 'C | C++' : coming_soon.md
-        - 'C#' : coming_soon.md
-        - 'Github | Git' : coming_soon.md
-        - 'Python' : coming_soon.md
-        - 'Yaml' : coming_soon.md
-        - 'Linux Bash' : coming_soon.md
-        - 'Windows Powershell' : coming_soon.md
+        - 'Ansible' : Knowledge_Base/Programming/Ansible.md
+        - 'C | C++' : Knowledge_Base/Programming/C_C++.md
+        - 'C#' : Knowledge_Base/Programming/C#.md
+        - 'Github | Git' : Knowledge_Base/Programming/Github_Git.md
+        - 'Python' : Knowledge_Base/Programming/Python.md
+        - 'Yaml' : Knowledge_Base/Programming/Yaml.md
+        - 'Linux Bash' : Knowledge_Base/Programming/Linux_Bash.md
+        - 'Windows Powershell' : Knowledge_Base/Programming/Windows_Powershell.md
   - About: About.md
