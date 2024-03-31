@@ -208,10 +208,6 @@ nav:
             - 'dirb': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirb.md
             - 'dirbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirbuster.md
             - 'dirsearch': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
-  - Networking:
-    - 'Coming Soon': Networking/coming_soon.md
-  - Home Lab:
-    - 'Coming Soon': Home_Lab/coming_soon.md
-  - Misc knowledge:
-    - 'Coming Soon': Misc_knowledge/coming_soon.md
+  - Knowledge Base:
+    - 'Coming Soon': Knowledge_Base/coming_soon.md
   - About: About.md
