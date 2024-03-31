@@ -119,7 +119,7 @@ plugins:
 nav:
   - Home: home.html
   - Cyber Offensive:
-    - 'Start Here': index.md
+    - 'Summary': index.md
     - '':
       - 'File Transfers':
         - 'FTP': Cyber_Offensive/File_Transfers/FTP.md
@@ -198,7 +198,7 @@ nav:
             - 'dirbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirbuster.md
             - 'dirsearch': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
   - Knowledge Base:
-    - 'Coming Soon': coming_soon.md
+    - 'Summary': index.md
     - '': 
       - 'Network':
         - 'Email' :
