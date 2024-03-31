@@ -97,8 +97,6 @@ extra_css:
 
 plugins:
   - search
-  - blog:
-      blog_dir: .
   # - tags
   - git-revision-date-localized
   # - social
