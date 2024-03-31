@@ -119,7 +119,7 @@ plugins:
 nav:
   - Home: home.html
   - Cyber Offensive:
-    - 'Summary': index.md
+    - 'Summary': Cyber_Offensive.md
     - '':
       - 'File Transfers':
         - 'FTP': Cyber_Offensive/File_Transfers/FTP.md
