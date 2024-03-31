@@ -205,9 +205,9 @@ nav:
           - 'POP3' : Knowledge_Base/Network/Email/POP3.md
           - 'SMTP' : Knowledge_Base/Network/Email/SMTP.md
           - 'IGMP' : Knowledge_Base/Network/IGMP.md
-          - 'DKIM DomainKeys Identified Mail' : Knowledge_Base/Network/DKIM_DomainKeys_Identified_Mail.md
-          - 'DMRAC Domain-based Message Authentication Reporting and Conformance' : Knowledge_Base/Network/DMRAC_Domain-based_Message_Authentication_Reporting_and_Conformance.md
-          - 'SPF Sender Policy Framework' : Knowledge_Base/Network/SPF_Sender_Policy_Framework.md
+          - 'DKIM DomainKeys Identified Mail' : Knowledge_Base/Network/Email/DKIM_DomainKeys_Identified_Mail.md
+          - 'DMRAC Domain-based Message Authentication Reporting and Conformance' : Knowledge_Base/Network/Email/DMRAC_Domain-based_Message_Authentication_Reporting_and_Conformance.md
+          - 'SPF Sender Policy Framework' : Knowledge_Base/Network/Email/SPF_Sender_Policy_Framework.md
         - 'Packet Capture' : 
           - 'Wireshark': 
             - 'Filters' : Knowledge_Base/Network/Packet_Capture/Wireshark/Filters.md
