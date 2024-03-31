@@ -221,7 +221,7 @@ nav:
         - 'VPN' : Knowledge_Base/Network/VPN.md
       - 'OS':
         - 'Windows':
-          - 'W': Knowledge_Base/Windows/w.md
+          - 'W': Knowledge_Base/OS/Windows/w.md
         - 'Linux':
           - 'Debian':
             - 'S': Knowledge_Base/OS/Linux/Debian/s.md
