@@ -225,13 +225,13 @@ nav:
         - 'Linux':
           - 'Debian':
             - 'S': Knowledge_Base/OS/Linux/Debian/s.md
-      - 'Programming':
-        - 'Ansible' : Knowledge_Base/Programming/Ansible.md
-        - 'C | C++' : Knowledge_Base/Programming/C_C++.md
-        - 'C#' : Knowledge_Base/Programming/C#.md
-        - 'Github | Git' : Knowledge_Base/Programming/Github_Git.md
-        - 'Python' : Knowledge_Base/Programming/Python.md
-        - 'Yaml' : Knowledge_Base/Programming/Yaml.md
-        - 'Linux Bash' : Knowledge_Base/Programming/Linux_Bash.md
-        - 'Windows Powershell' : Knowledge_Base/Programming/Windows_Powershell.md
+      - 'Coding':
+        - 'Ansible' : Knowledge_Base/Coding/Ansible.md
+        - 'C | C++' : Knowledge_Base/Coding/C_C++.md
+        - 'C#' : Knowledge_Base/Coding/C#.md
+        - 'Github | Git' : Knowledge_Base/Coding/Github_Git.md
+        - 'Python' : Knowledge_Base/Coding/Python.md
+        - 'YAML' : Knowledge_Base/Coding/YAML.md
+        - 'Linux Bash' : Knowledge_Base/Coding/Linux_Bash.md
+        - 'Windows Powershell' : Knowledge_Base/Coding/Windows_Powershell.md
   - About: About.md
