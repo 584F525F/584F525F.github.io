@@ -1,4 +1,4 @@
-!!! "Using APT - Advanced Package Tool"
+??? "Using APT - Advanced Package Tool"
     #### Upgrade OS run
 	```
     do-release-upgrade
@@ -75,11 +75,11 @@
     sudo apt edit-sources
     ```
     
-!!! "Adding Apt Repository In Ubuntu"
+??? "Adding Apt Repository In Ubuntu"
     Resources [How-to-add-apt-repository-in-ubuntu](https://linuxize.com/post/how-to-add-apt-repository-in-ubuntu/)
 
         
-!!! "Adding Kali Repository to Ubuntu"
+??? "Adding Kali Repository to Ubuntu"
 
 	#### Step-1: Install Git
 	```
@@ -149,7 +149,7 @@
     - Option 4 install the Kali menu
     ```
 
-!!! "Using DPKG - LOW LEVEL - Dependency Issues (BE AWARE)"
+??? "Using DPKG - LOW LEVEL - Dependency Issues (BE AWARE)"
 
     #List all installable packages in a directory
     ```
@@ -195,7 +195,7 @@
     ```
 
 
-!!! "Finding package links for dpkg and using wget to download"
+??? "Finding package links for dpkg and using wget to download"
     
     Newer releases [https://packages.ubuntu.com/](https://packages.ubuntu.com/)
     Older releases [http://old-releases.ubuntu.com/releases/](http://old-releases.ubuntu.com/releases/)
