@@ -224,7 +224,7 @@ nav:
           - 'W': Knowledge_Base/OS/Windows/w.md
         - 'Linux':
           - 'Debian':
-            - 'Package Management' : Knowledge_Base/OS/Linux/Debian/Package Management/Debian_.deb_Package_Management.md
+            - 'Package Management' : Knowledge_Base/OS/Linux/Debian/Package_Management/Debian_deb_Package_Management.md
 
       - 'Coding':
         - 'Ansible' : Knowledge_Base/Coding/Ansible.md
