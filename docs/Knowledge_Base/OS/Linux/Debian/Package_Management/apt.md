@@ -54,7 +54,7 @@
 
     #### Check unmet dependencies
     ```
-    aptcache unmet
+    apt-cache unmet
     ```
 
     #### Check Install repos
