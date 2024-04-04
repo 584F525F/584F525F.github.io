@@ -1,4 +1,3 @@
-   
 !!! Using APT - Advanced Package Tool
     #### Upgrade OS run
 	```
@@ -81,7 +80,7 @@
 
         
 !!! Adding Kali Repository to Ubuntu
-        
+
 	#### Step-1: Install Git
 	```
     sudo apt install git
@@ -101,7 +100,7 @@
 	ls -l
 	sudo cp katoolin/katoolin.py /usr/bin/katoolin
     ```
-	#Make the script executable
+	Make the script executable
 	```
     sudo chmod +x /usr/bin/katoolin
 	```
@@ -118,36 +117,40 @@
 	- Choose 1 "add Kali Linux repositories"
 	- Choose 1 again "Add Kali Linux repositories"
 	
-	#If you get the error gpg: keyserver receive failed: No name
+	If you get the error gpg: keyserver receive failed: No name
 	```
     wget -q -O - archive.kali.org/archive-key.asc | sudo  apt-key add
 	sudo apt update
     ```
 	
-	#Update repos
+	Update repos
 	katoolin
+    ```
 	- Option 1 "Add Kali Linux repositories"
 	- Option 2 "Update"
 	- When done, type gohome to return the katoolin main interface window.
-	
+	```
 	
 	#### Step-6: View Categories to install Kali Linux Apps on Ubuntu
 	katoolin
-	- Option 2 "View Categories"
-	
+	```
+    - Option 2 "View Categories"
+	```
 	
 	#### Step-7: Install the Classic Menu indicator
 	katoolin
-	- Option 3 to Classic Menu indicator
-	
+	```
+    - Option 3 to Classic Menu indicator
+	```
 	
 	#### Step-8: Install Kali Menu
 	katoolin
-	- Option 4 install the Kali menu
-
+	```
+    - Option 4 install the Kali menu
+    ```
 
 !!! Using DPKG - LOW LEVEL - Dependency Issues [BE AWARE]
-    
+
     #List all installable packages in a directory
     ```
     cd <DIR>
