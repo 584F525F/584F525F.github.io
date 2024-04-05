@@ -1,0 +1,16 @@
+**Resources**
+[lxqt-on-linux](https://www.addictivetips.com/ubuntu-linux-tips/lxqt-on-linux/)
+
+**LXQt on Linux**
+
+```bash
+#This package contains LXQt and various programs, apps, and a login session so you can use the esktop.
+sudo apt install lubuntu-desktop
+
+#To start the installation of LXQt on Debian
+sudo apt install lxqt
+
+#choose lightdm
+```
+
+![alt text](image.png)
