@@ -69,7 +69,6 @@ print something
 
 ### Collapsible blocks
 ??? note "title"
-
     BODY HERE
 	
 ### expanded block by default
