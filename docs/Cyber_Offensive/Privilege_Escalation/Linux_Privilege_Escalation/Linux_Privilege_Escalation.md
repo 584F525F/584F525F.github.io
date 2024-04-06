@@ -1,7 +1,5 @@
-### common checks
-
-??? example "💾"
-
+??? example "common checks"
+    ### common checks
     #### Kernal check
 
     ```bash
@@ -102,10 +100,8 @@
     ```
 
 
-### Crontab Cronjobs | process explore
-
-??? example "🛸"
-
+??? example "Crontab Cronjobs | process explore"
+    ### Crontab Cronjobs | process explore
     #### strace 
 
     ```shell
@@ -118,10 +114,7 @@
     strings /usr/local/bin/suid-env
     ```
 
-### automated tools
-??? example "👾"
+??? example "automated tools 👾"
+    ### automated tools
     [LinEnum](https://github.com/rebootuser/LinEnum)
-
-
-
 

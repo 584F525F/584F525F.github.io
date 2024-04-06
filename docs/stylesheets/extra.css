@@ -71,6 +71,7 @@
     --md-header-icon-fg-color: rgb(0, 0, 0);
     --md-icon-search-theme-switcher-fg-color: rgb(0, 0, 0);
     --md-header-bg-color:rgb(255, 255, 255);
+    --md-footer-next-prev-fg-color: #3d81ff;
     --md-default-bg-image: url(https://584f525f.github.io/assets/images/layers/no-img.jpg);
 }
 
@@ -93,7 +94,8 @@
     --md-header-icon-fg-color: rgb(255, 255, 255);
     --md-icon-search-theme-switcher-fg-color: rgb(255, 255, 255);
     --md-header-bg-color:rgb(0, 0, 0);
-    --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur.jpg");
+    --md-footer-next-prev-fg-color: #ff6565;
+    --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
 }
 
 /* navigation - selected item color - dark mode*/
@@ -239,4 +241,11 @@ element.style {
     height: 1.2rem;
     width: 1.2rem;
     color: var(--md-icon-search-theme-switcher-fg-color);
+}
+
+.md-footer__direction {
+    font-size: 0.73rem;
+    font-family: cursive;
+    opacity: 0.85;
+    color: var(--md-footer-next-prev-fg-color);
 }
