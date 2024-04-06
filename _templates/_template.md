@@ -30,8 +30,8 @@
 [Images Reference](https://squidfunk.github.io/mkdocs-material/reference/images/)
 
 ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=center }
-![Image title](../assets/images/comingsoon.gif){ align=center }
-![coming soon](images/comingsoon.gif){ align=center }
+
+![Image title](../docs/assets/images/comingsoon.gif){ align=center }
 
 #OR
 
@@ -39,7 +39,11 @@
   ![Image title](https://dummyimage.com/600x400/){ width="300" }
   <figcaption>Image caption</figcaption>
 </figure>
+---
 
+## links in new tab
+
+[my-link]{:target="_blank"} within a sentence and  [my-link]: http://google.com for referencing. (Note that there are two leading spaces).
 ---
 
 ## code
@@ -74,6 +78,44 @@ print something
 ### expanded block by default
 ???+ note
 	BODY HERE
+
+??? note "note"
+    note
+
+??? abstract "abstract"
+    abstract
+
+??? info "info"
+    info
+
+??? tip "tip"
+    tip
+
+??? success "success"
+    success
+
+??? question "question"
+    question
+
+??? warning "warning"
+    warning
+
+??? failure "failure"
+    failure
+
+??? danger "danger"
+    danger
+
+??? bug "bug"
+    bug
+
+??? example "example"
+    example
+
+??? quote "quote"
+    quote
+
+
 
 ### collapsed section
 
