@@ -73,7 +73,7 @@
     --md-navbar-bg-color: #3500ff;
     --md-TOC-color: #3500ff;
     --md-int-link-fg-color:#ff6565;
-    --md-int-link-hover-fg-color: #fdffa5;
+    --md-int-link-hover-fg-color: #9fdb03;
     --md-default-bg-image: url(https://584f525f.github.io/assets/images/layers/no-img.jpg);
 }
 
@@ -102,7 +102,7 @@
     --md-navbar-bg-color: #3500ff;
     --md-TOC-color: #d2ff5e;
     --md-int-link-fg-color:#ff6565;
-    --md-int-link-hover-fg-color: #9fdb03;
+    --md-int-link-hover-fg-color: #fdffa5;
     --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
 }
 
@@ -114,7 +114,7 @@
 
 /* footer icon color */
 html .md-footer-meta.md-typeset a {
-    color: --md-footer-icon-color;
+    color: var(--md-footer-icon-color);
     /* #773df */
 }
 
@@ -244,3 +244,5 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-accent-bg-color: #000000de;
     --md-accent-bg-color--light: #0000008a;
 }
+
+
