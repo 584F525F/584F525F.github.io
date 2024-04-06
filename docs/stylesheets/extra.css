@@ -245,4 +245,10 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-accent-bg-color--light: #0000008a;
 }
 
+/* table of content - hover over text font color */
+.md-nav__link[for]:focus, .md-nav__link[for]:hover, .md-nav__link[href]:focus, .md-nav__link[href]:hover {
+    color: #8dff60;
+    /* GREEN #ff6565 50ffd0 YELLOW #ffefb0 #ffeb3b*/
+    cursor: pointer;
+}
 
