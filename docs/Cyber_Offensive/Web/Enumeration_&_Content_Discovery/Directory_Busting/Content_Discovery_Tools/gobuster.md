@@ -1,4 +1,4 @@
-# [gobuster](https://github.com/OJ/gobuster)
+[gobuster](https://github.com/OJ/gobuster)
 
 **Used to brute-force:**
 - URIs (directories and files) in web sites.

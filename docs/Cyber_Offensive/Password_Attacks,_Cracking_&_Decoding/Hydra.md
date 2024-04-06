@@ -1,4 +1,3 @@
-## Hydra
 
 #### Hydra GUI
 [xhydra](https://www.kali.org/tools/hydra/#hydra-gtk)

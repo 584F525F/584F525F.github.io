@@ -1,2 +1,2 @@
-# [Dictionaries](https://github.com/bl4de/dictionaries)
+[Dictionaries](https://github.com/bl4de/dictionaries)
 

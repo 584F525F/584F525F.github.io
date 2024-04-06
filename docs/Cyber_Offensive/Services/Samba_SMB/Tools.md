@@ -1,4 +1,3 @@
-## SMB/MSRPC Tools
 
 #### [smbclient.py](https://github.com/SecureAuthCorp/impacket/blob/impacket_0_10_0/examples/smbclient.py) 
 - A generic SMB client that will let you list shares and files, rename, upload and download files and create and delete directories, all using either username and password or username and hashes combination. It’s an excellent example to see how to use impacket.smb in action.

@@ -1,4 +1,4 @@
-### SCP - Secure Copy Protocol
+SCP - Secure Copy Protocol
 
 #### commands
 

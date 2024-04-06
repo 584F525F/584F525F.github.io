@@ -1,4 +1,3 @@
-# winrm 
 
 ```powershell
 #To Enable PSRemoting

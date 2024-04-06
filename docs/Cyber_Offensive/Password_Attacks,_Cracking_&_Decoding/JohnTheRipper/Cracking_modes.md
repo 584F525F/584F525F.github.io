@@ -1,11 +1,10 @@
 
-##### Wordlist Mode | Dictionnary attack
+##### Wordlist Mode | Dictionary attack
 ```shell
 ./john --wordlist=password.lst hashfile
 ```
 
-
-##### Dictionnary attack using default or specific rules
+##### Dictionary attack using default or specific rules
 ```shell
 ./john --wordlist=password.lst --rules=rulename hashFile
 ./john --wordlist=password.lst --rules mypasswd
@@ -38,7 +37,7 @@
 ./john --mask=?1?1?1?1?1?1 --1=[A-Z] hashFile --min-len=8
 ```
 
-##### Dictionnary attack using masks
+##### Dictionary attack using masks
 ```shell
 ./john --wordlist=password.lst -mask='?l?l?w?l' hashFile
 ```

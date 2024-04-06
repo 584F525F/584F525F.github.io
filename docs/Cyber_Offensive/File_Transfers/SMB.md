@@ -1,4 +1,4 @@
-### SMB
+
 ```bash
 # Set up a SMB server using smbserver.py from impacket
 smbserver.py SHARE_NAME path/to/share

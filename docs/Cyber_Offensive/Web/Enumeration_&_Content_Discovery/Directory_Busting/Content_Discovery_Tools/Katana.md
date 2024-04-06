@@ -1,4 +1,4 @@
-# [Katana](https://github.com/projectdiscovery/katana)
+[Katana](https://github.com/projectdiscovery/katana)
 
 A next-generation crawling and spidering framework
 

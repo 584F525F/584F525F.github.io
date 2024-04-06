@@ -1,4 +1,3 @@
-# SQL Injection
 
 ## Tools
 - [SQLMap](https://github.com/sqlmapproject/sqlmap) – Automatic SQL Injection And Database Takeover Tool

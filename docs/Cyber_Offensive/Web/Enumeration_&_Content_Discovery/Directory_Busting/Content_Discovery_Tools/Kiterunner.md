@@ -1,4 +1,4 @@
-# [Kiterunner](https://github.com/assetnote/kiterunner/tree/main)
+[Kiterunner](https://github.com/assetnote/kiterunner/tree/main)
 
 # Installation
 

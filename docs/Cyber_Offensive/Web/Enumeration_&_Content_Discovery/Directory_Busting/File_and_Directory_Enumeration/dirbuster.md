@@ -1,4 +1,3 @@
-# dirbuster
 
 ```shell
 #Install

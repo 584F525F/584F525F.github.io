@@ -1,4 +1,4 @@
-## Chameleon - Context-Aware Content Discovery
+Chameleon - Context-Aware Content Discovery
 
 [Chameleon](https://github.com/iustin24/chameleon)
 

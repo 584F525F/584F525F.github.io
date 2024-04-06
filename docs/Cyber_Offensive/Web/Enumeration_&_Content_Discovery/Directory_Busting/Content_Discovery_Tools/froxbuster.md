@@ -1,4 +1,3 @@
-## froxbuster
 
 [froxbuster](https://github.com/epi052/feroxbuster)
 [official documentation](https://epi052.github.io/feroxbuster-docs/docs/)

@@ -1,4 +1,3 @@
-### certutil - windows powershell
 
 ```powershell
 # Multiple ways to download and execute files:

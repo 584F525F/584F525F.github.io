@@ -1,4 +1,3 @@
-## Passing the hash
 
 ```shell
 #Authenticate by passing the hash as a password instead of cracking it.

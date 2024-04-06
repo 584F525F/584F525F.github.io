@@ -1,4 +1,3 @@
-### Telnet
 
 ```bash
 telnet ip_address

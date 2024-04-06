@@ -1,4 +1,3 @@
-## SMB Client
 
 #### get list of shares on target
 ```shell

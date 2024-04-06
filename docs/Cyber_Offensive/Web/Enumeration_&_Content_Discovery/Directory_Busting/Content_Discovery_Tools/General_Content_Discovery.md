@@ -1,5 +1,4 @@
 
-
 #### We can use the favicon link of a website to find the framework used
 ```shell
 curl https://website.com/favicon.ico | md5sum

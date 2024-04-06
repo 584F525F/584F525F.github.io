@@ -1,5 +1,3 @@
-## Samba enumeration
-
 
 #### runs all options apart from dictionary based share name guessing
 ```shell

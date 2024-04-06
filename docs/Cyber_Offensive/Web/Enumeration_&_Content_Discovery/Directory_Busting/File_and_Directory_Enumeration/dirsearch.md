@@ -1,5 +1,4 @@
-# [dirsearch](https://github.com/maurosoria/dirsearch)
-
+[dirsearch](https://github.com/maurosoria/dirsearch)
 
 #### install download
 ```shell

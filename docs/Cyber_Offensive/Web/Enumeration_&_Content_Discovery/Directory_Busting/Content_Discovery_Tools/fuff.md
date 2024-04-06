@@ -1,4 +1,4 @@
-# [fuff](https://github.com/ffuf/ffuf)
+[fuff](https://github.com/ffuf/ffuf)
 
 ## Installation & Configuration
 

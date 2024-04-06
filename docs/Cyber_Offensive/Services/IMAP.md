@@ -1,4 +1,3 @@
-## IMAP
 
 ```shell
 telnet 10.10.45.250 110

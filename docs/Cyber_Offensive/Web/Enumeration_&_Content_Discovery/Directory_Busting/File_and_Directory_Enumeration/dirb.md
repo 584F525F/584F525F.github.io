@@ -1,4 +1,4 @@
-# [dirb](https://salsa.debian.org/pkg-security-team/dirb)
+[dirb](https://salsa.debian.org/pkg-security-team/dirb)
 
 no wordlists needed to specify, tool chooses for you
 

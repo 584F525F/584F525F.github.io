@@ -1,4 +1,3 @@
-# Windows Privilege Escalation
 
 ## Resources
 - [hacktricks](https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation#system-info)

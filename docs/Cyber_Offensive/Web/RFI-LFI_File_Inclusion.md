@@ -1,5 +1,3 @@
-
-
 [FDsploit](https://github.com/chrispetrou/FDsploit)
 
 FDsploit can be used to discover and exploit Local/Remote File Inclusion and directory traversal vulnerabilities automatically. In case an LFI vulnerability is found, --lfishell option can be used to exploit it. For now, 3 different types of LFI shells are supported:

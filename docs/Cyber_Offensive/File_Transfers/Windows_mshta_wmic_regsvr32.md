@@ -1,5 +1,4 @@
 
-### Windows mshta wmic regsvr32
 
 ```powershell
 # Method 1

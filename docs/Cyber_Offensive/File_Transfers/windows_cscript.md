@@ -1,4 +1,3 @@
-### cscript - windows powershell
 
 ```powershell
 # Execute file from a WebDav server:
