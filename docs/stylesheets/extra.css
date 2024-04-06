@@ -1,7 +1,3 @@
-/* https://github.com/mkdocs-material/examples/blob/master/examples/page-status/docs/stylesheets/extra.css */
-/* https://squidfunk.github.io/mkdocs-material/customization/#adding-assets */
-/* https://fontawesome.com/icons/mandalorian?f=brands&s=solid */
-
 :root{
 .md-container{
     background-image: var(--md-default-bg-image);
@@ -201,4 +197,15 @@ element.style {
     font-family: cursive;
     opacity: 0.85;
     color: var(--md-footer-next-prev-fg-color);
+}
+
+.md-social__link svg {
+    fill: currentcolor;
+    max-height: .8rem;
+    vertical-align: -25%;
+    color: var(--md-footer-icon-color);
+}
+
+html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover {
+    color: var(--md-footer-made-with-fg-color);
 }
