@@ -60,7 +60,7 @@
     --md-footer-fg-color: #ff6565; /* footer next and arrow color */
     --md-footer-fg-color--light: #ffffff; /*    */
     --md-footer-copyright-fg-color: #000000 ;
-    --md-default-mdgrid-fg-color: #000000 ;
+    --md-default-mdgrid-fg-color: #ffffff ;
     --md-codeblock-high-bg-color: #3500ff ;
     --md-subject-fg-color: #3500ff ;
     --md-ellipsis-fg-color:rgb(0, 0, 0);
@@ -71,6 +71,9 @@
     --md-footer-icon-color: #3500ff;
     --md-footer-made-with-fg-color: #ff0000;
     --md-navbar-bg-color: #3500ff;
+    --md-TOC-color: #3500ff;
+    --md-int-link-fg-color:#ff6565;
+    --md-int-link-hover-fg-color: #fdffa5;
     --md-default-bg-image: url(https://584f525f.github.io/assets/images/layers/no-img.jpg);
 }
 
@@ -97,6 +100,9 @@
     --md-footer-icon-color: #00ff8c;
     --md-footer-made-with-fg-color: #ffffff;
     --md-navbar-bg-color: #3500ff;
+    --md-TOC-color: #fdffa5;
+    --md-int-link-fg-color:#ff6565;
+    --md-int-link-hover-fg-color: #fdffa5;
     --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
 }
 
@@ -215,4 +221,26 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 /* nav bar bg color */
 [data-md-color-primary=black] .md-tabs {
     background-color: var(--md-navbar-bg-color);
+}
+
+/* TOC right side title color */
+.md-nav__title {
+    color: var(--md-TOC-color);
+    display: block;
+    font-weight: 700;
+    overflow: hidden;
+    padding: 0 .6rem;
+    text-overflow: ellipsis;
+}
+
+.md-typeset a {
+    color: var(--md-int-link-fg-color);
+    word-break: break-word;
+}
+
+[data-md-color-accent=orange] {
+    --md-accent-fg-color: var(--md-int-link-hover-fg-color);
+    --md-accent-fg-color--transparent: #ff91001a;
+    --md-accent-bg-color: #000000de;
+    --md-accent-bg-color--light: #0000008a;
 }
