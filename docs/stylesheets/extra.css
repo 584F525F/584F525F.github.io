@@ -102,20 +102,6 @@
     --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
 }
 
-/* navigation - selected item color - dark mode*/
-[data-md-color-scheme=slate][data-md-color-primary=black], [data-md-color-scheme=slate][data-md-color-primary=blue-grey], [data-md-color-scheme=slate][data-md-color-primary=grey], [data-md-color-scheme=slate][data-md-color-primary=white] {
-    --md-typeset-a-color: #ff6565;
-}
-/* navigation - selected item color - light mode*/
-[data-md-color-primary=black] {
-    --md-typeset-a-color: #ff6565;
-}
-
-/* nav bar */
-[data-md-color-primary=black] .md-tabs {
-    background-color: hsl(225deg 15% 9% / 0%);
-}
-
 /* nav - font color */
 .md-tabs {
     color: var(--md-default-mdgrid-fg-color);
@@ -127,30 +113,6 @@ html .md-footer-meta.md-typeset a {
     color: --md-footer-icon-color;
     /* #773df */
 }
-
-/* navigation - hover action color */
-[data-md-color-accent=orange] {
-    --md-accent-fg-color: #86b7ff;
-}
-
-/* footer hover action color */
-html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover {
-    color: #ff6565;
-}
-
-/* footer navigation font color */
-/* .md-footer {
-    background-color: var(--md-footer-bg-color);
-    color: #ff6565;
-} */
-
-/* https://github.com/squidfunk/mkdocs-material/discussions/2951 */
-/* Just follow the guide on adding additional CSS and start with the following: */
-
-/* body { */
-  /* background: red; */
-  /* background-image:url("assets/images/layers/moneymaker.jpg"); */
-/* } */
 
 /* search header - background */
 [data-md-color-primary=black] .md-header {
@@ -172,29 +134,10 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     /* #afa0ff purplish blue*/
 }
 
-/* TOC active article color */
-.md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
-    color: #ff6565;
-}
-
 /* side bar width and hight */
 element.style {
     height: 334px;
     width: fit-content;
-}
-
-/* table of content - hover over text font color */
-.md-nav__link[for]:focus, .md-nav__link[for]:hover, .md-nav__link[href]:focus, .md-nav__link[href]:hover {
-    color: #ff6565;
-    /* GREEN #ff6565 50ffd0 YELLOW #ffefb0 #ffeb3b*/
-    cursor: pointer;
-}
-
-/* scrollbar default color */
-.md-search__scrollwrap {
-    max-height: 0;
-    scrollbar-color: var(--md-default-fg-color--lighter) #d2ff5e;
-    scrollbar-width: thin;
 }
 
 .highlight .c, .highlight .c1, .highlight .ch, .highlight .cm, .highlight .cs, .highlight .sd {
@@ -206,6 +149,12 @@ element.style {
     color: #f5b2b200;
 } */
 
+/* scrollbar default color */
+.md-search__scrollwrap {
+    max-height: 0;
+    scrollbar-color: var(--md-default-fg-color--lighter) #d2ff5e;
+    scrollbar-width: thin;
+}
 
 /* left side scrollbar */
 .md-sidebar__scrollwrap {
