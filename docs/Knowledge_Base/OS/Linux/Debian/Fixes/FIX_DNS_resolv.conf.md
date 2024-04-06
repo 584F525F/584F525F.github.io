@@ -1,5 +1,6 @@
-#### method 1 - Recommended
-??? ""
+
+??? "METHOD 1 - Recommended"
+    #### method 1 - Recommended
     run auto-clean
     ```bash
     sudo apt-get auto-clean
@@ -65,8 +66,9 @@
     sudo service network-manager restart
     ```
 
-#### method 2
-??? ""
+
+??? "METHOD 2"
+    #### method 2
     Add the resolved domains manually to /etc/hosts with this short script:
     ```bash
     resolveAptHosts()
@@ -90,8 +92,8 @@
     resolveAptHosts && sudo apt-get update
     ```
 
-#### method 3
-??? ""
+??? "METHOD 3"
+    #### method 3
     Check DNS
     ```bash
     nmcli con show "Wired connection 1" | grep ipv4.dns

@@ -1,4 +1,5 @@
 ??? "Timeshift installation"
+    ### Timeshift installation
     ```bash
     sudo apt install timeshift
     sudo timeshift --create --comments "A new backup" --tags D
@@ -11,9 +12,9 @@
     ```
 
 ??? "Using Timeshift"
-
-    How to use Timeshift from the command line?
-    At first, make sure that the timeshift is installed in your system. If not, then install it using:
+    ### Using Timeshift
+    
+    #### Installing TImeshift
     ```bash
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys AB19BAC9
     sudo add-apt-repository -y ppa:teejee2008/ppa
@@ -21,7 +22,7 @@
     sudo apt install timeshift
     ```
 
-    Creating a Restore point
+    #### Creating a Restore point
     Now, launch your terminal and type the following command
     ```bash
     sudo timeshift --create --comments "first backup"
@@ -29,11 +30,13 @@
     ```
 
     (Creating a restore point/snapshot may take several minutes, depends on the size of the files & your hardware resources)
-    You can write anything as a comment, it doesn't matter that much:
+
+    #### Writing a comment
     ```bash
     -- comments "A new backup"
     ```
     
+    #### tags
     There are several tags, that specify what kind of backup it is. As an example
     -tags D stands for Daily Backup
     -tags W stands for Weekly Backup
@@ -41,7 +44,8 @@
     -tags O stands for On-demand Backup (default option)
 
     You can put any tag as your wish, after the comments
-    Restoring a snapshot
+    
+    #### Restoring a snapshot
     ```bash
     sudo timeshift --restore
     ```

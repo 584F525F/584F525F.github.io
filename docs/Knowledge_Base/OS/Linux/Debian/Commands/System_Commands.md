@@ -1,4 +1,5 @@
-#### System OS timed reboot
+??? "System OS timed reboot"
+    #### System OS timed reboot
     ```bash
     #IN 10 Minutes
     sudo shutdown -r +10
@@ -10,9 +11,8 @@
     shutdown -c
     ```
 
-#### enabling SSH
-??? ""
-
+??? "enabling SSH"
+    #### enabling SSH
     ##### installing SSH
     ```bash
     sudo apt install openssh-server -y

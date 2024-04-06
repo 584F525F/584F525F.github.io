@@ -1,6 +1,6 @@
 ??? "curl"
 
-    ##### Version
+    ##### curl Version
     ```bash
     curl -V          
     curl --version

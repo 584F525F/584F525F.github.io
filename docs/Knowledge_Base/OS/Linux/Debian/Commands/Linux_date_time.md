@@ -1,17 +1,19 @@
-### Change your timezone you can use
-    ??? ""
+    ??? "Change your timezone you can use"
+    ### Change your timezone you can use
     ```bash
     sudo dpkg-reconfigure tzdata
     ```
 
-### Update the time and date from the internet
-    ??? ""
-    ```
+    ??? "Update the time and date from the internet"
+    ### Update the time and date from the internet
+    ```bash
     timedatectl set-ntp true
     ```
 
-### Alternative NTP
-??? ""
+
+??? "Alternative NTP"
+    ### Alternative NTP
+    
     #### Install
     If `ntpd` is not installed use one of the following command to install `ntpd`
     ```bash
@@ -44,30 +46,31 @@
     ntpdate pool.ntp.org
     ```
 
-### Manually setting the date
-??? ""
+??? "Manually setting the date"
+    ### Manually setting the date
+
     For setting the time and date manually use the following syntax
     ```bash
     date --set="STRING"
     ```
 
     For example, to set the date to `2 Oct 2006 18:00:00`, type the following command as root user
-    ```shell
+    ```bash
     date -s "2 OCT 2006 18:00:00"
     ```
 
     OR
-    ```shell
+    ```bash
     date --set="2 OCT 2006 18:00:00"
     ```
 
     You can also simplify format using following syntax
-    ```shell
+    ```bash
     date +%Y%m%d -s "20081128"
     ```
 
     To set time use the following syntax
-    ```shell
+    ```bash
     date +%T -s "10:13:13"
     ```
 
@@ -78,7 +81,7 @@
     - `13`: Second (ss)
 
     You can use `%p` for the locale's equivalent of AM/PM
-    ```shell
+    ```bash
     date +%T%p -s "6:10:30AM"
     date +%T%p -s "12:10:30PM"
     ```
