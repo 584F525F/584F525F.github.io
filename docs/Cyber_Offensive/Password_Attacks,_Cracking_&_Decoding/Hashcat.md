@@ -1,7 +1,5 @@
-
-[hashcat\_user\_manual](https://doc.callmematthi.eu/static/webArticles/hashcat_user_manual.pdf)
-[hashcat hash list](https://hashcat.net/wiki/doku.php?id=example_hashes)
-[Offensive Security Cheatsheet](https://cheatsheet.haax.fr/passcracking-hashfiles/hashcat_cheatsheet/)
+Resources ([hashcat\_user\_manual](https://doc.callmematthi.eu/static/webArticles/hashcat_user_manual.pdf) | [hashcat hash list](https://hashcat.net/wiki/doku.php?id=example_hashes) |  [Offensive Security Cheatsheet](https://cheatsheet.haax.fr/passcracking-hashfiles/hashcat_cheatsheet/)
+)
 
 ## switches
 ```shell

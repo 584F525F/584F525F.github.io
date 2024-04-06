@@ -80,11 +80,11 @@ markdown_extensions:
 # repo_url: https://github.com/584F525F
 edit_uri: edit/master/
 
-# copyright: Copyright © 2024 01111000011011110111001001011111.com
+copyright: Copyright © 2024 01111000011011110111001001011111.com
 
-copyright: >
-  Copyright © 2024 01111000011011110111001001011111.com –
-  <a href="#__consent">Change cookie settings</a>
+# copyright: >
+#   Copyright © 2024 01111000011011110111001001011111.com –
+#   <a href="#__consent">Change cookie settings</a>
 
 extra:
   generator: true
@@ -93,11 +93,11 @@ extra:
       link: https://github.com/584F525F/
     - icon: fontawesome/solid/paper-plane
       link: mailto:contact@01111000011011110111001001011111.com
-  consent:
-    actions:
-      - accept
-      - reject
-      - manage
+  # consent:
+  #   actions:
+  #     - accept
+  #     - reject
+  #     - manage
 
 extra_css:
   - stylesheets/extra.css
@@ -105,7 +105,7 @@ extra_css:
 plugins:
   - search
   - open-in-new-tab
-  - privacy
+  # - privacy
   # - tags
   - git-revision-date-localized
   # - social
