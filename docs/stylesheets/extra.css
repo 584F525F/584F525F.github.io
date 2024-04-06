@@ -70,6 +70,7 @@
     --md-footer-next-prev-fg-color: #3d81ff;
     --md-footer-icon-color: #3500ff;
     --md-footer-made-with-fg-color: #ff0000;
+    --md-navbar-bg-color: #3500ff;
     --md-default-bg-image: url(https://584f525f.github.io/assets/images/layers/no-img.jpg);
 }
 
@@ -95,6 +96,7 @@
     --md-footer-next-prev-fg-color: #ff6565;
     --md-footer-icon-color: #00ff8c;
     --md-footer-made-with-fg-color: #ffffff;
+    --md-navbar-bg-color: #3500ff;
     --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
 }
 
@@ -208,4 +210,9 @@ element.style {
 
 html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover {
     color: var(--md-footer-made-with-fg-color);
+}
+
+/* nav bar bg color */
+[data-md-color-primary=black] .md-tabs {
+    background-color: var(--md-navbar-bg-color);
 }
