@@ -65,13 +65,15 @@
     --md-footer-fg-color--light: #ffffff; /*    */
     --md-footer-copyright-fg-color: #000000 ;
     --md-default-mdgrid-fg-color: #000000 ;
-    --md-codeblock-high-bg-color: #1e00ff ;
-    --md-subject-fg-color: #ff5500 ;
+    --md-codeblock-high-bg-color: #3500ff ;
+    --md-subject-fg-color: #3500ff ;
     --md-ellipsis-fg-color:rgb(0, 0, 0);
     --md-header-icon-fg-color: rgb(0, 0, 0);
     --md-icon-search-theme-switcher-fg-color: rgb(0, 0, 0);
     --md-header-bg-color:rgb(255, 255, 255);
     --md-footer-next-prev-fg-color: #3d81ff;
+    --md-footer-icon-color: #3500ff;
+    --md-footer-made-with-fg-color: #ff0000;
     --md-default-bg-image: url(https://584f525f.github.io/assets/images/layers/no-img.jpg);
 }
 
@@ -95,6 +97,8 @@
     --md-icon-search-theme-switcher-fg-color: rgb(255, 255, 255);
     --md-header-bg-color:rgb(0, 0, 0);
     --md-footer-next-prev-fg-color: #ff6565;
+    --md-footer-icon-color: #00ff8c;
+    --md-footer-made-with-fg-color: #ffffff;
     --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
 }
 
@@ -120,14 +124,8 @@
 
 /* footer icon color */
 html .md-footer-meta.md-typeset a {
-    color: #3d81ff;
+    color: --md-footer-icon-color;
     /* #773df */
-}
-
-/* Made with - color */
-.md-copyright {
-    color: #ff6565;
-    /* #afa0ff purplish blue*/
 }
 
 /* navigation - hover action color */
@@ -166,6 +164,12 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 
 .md-copyright__highlight {
     color: var(--md-footer-copyright-fg-color);
+}
+
+/* Made with - color */
+.md-copyright {
+    color: var(--md-footer-made-with-fg-color);
+    /* #afa0ff purplish blue*/
 }
 
 /* TOC active article color */
