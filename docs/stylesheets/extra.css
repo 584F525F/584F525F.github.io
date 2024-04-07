@@ -269,9 +269,9 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 }
 
 /* article subject HOVER OVER color */
-[data-md-color-accent=orange] {
+/* [data-md-color-accent=orange] {
     --md-accent-fg-color: #00ff8c;
-}
+} */
 
 /* ADDED AFTER */
 /* navigation - selected item color - dark mode*/
