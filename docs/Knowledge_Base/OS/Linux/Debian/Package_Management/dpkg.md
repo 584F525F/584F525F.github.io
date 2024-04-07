@@ -1,52 +1,71 @@
-??? info "Using DPKG - LOW LEVEL - Dependency Issues (BE AWARE)"
+**Using DPKG - LOW LEVEL - Dependency Issues (BE AWARE)**
 
-??? info "List all installable packages in a directory"
-    ### List all installable packages in a directory
+
+??? info " ### List all installable packages in a directory"
+    #### List all installable packages in a directory
     ```
     cd <DIR>
     sudo dpkg -l
     ```
 
-    #To search for name you can use wild card for parts of name
+
+
+
+
+
+??? info "List all installable packages in a directory"
+    #### List all installable packages in a directory
+    ```
+    cd <DIR>
+    sudo dpkg -l
+    ```
+
+??? info "To search for name you can use wild card for parts of name"
+    #### To search for name you can use wild card for parts of name
     ```
     sudo dpkg -l <Install_Package_Name>*
     sudo dpkg -l *<Install_Package_Name>*
     ```
 
-    #To install a local package file
+??? info "To install a local package file"
+    #### To install a local package file
     ```
     <Path> dpkg -i ./* #THIS INSTALLS ALL PACKAGES IN THAT LOCATION
     <Path> dpkg -i <Install_Package_Name> #THIS INSTALLS 1 PACKAGE
     ```
 
-    #Check package info
+??? info "Check package info"
+    #### Check package info
     ```
     sudo dpkg --info <Package_Name>
     ```
 
-    #List file in an install package
-    ```
+??? info "List file in an install package"
+    #### List file in an install package
+    ```bash
     sudo dpkg --listfiles <Package_Name>
     ```
 
-    #Get package name for a dirctory
-    ```
+??? info "Get package name for a dirctory"
+    #### Get package name for a dirctory
+    ```bash
     dpkg --search <Path>    #Example  dpkg --search /opt/Adobe/Reader9/
     ```
     
-    #Uninstall package and remove all its files
-    ```
+??? info "Uninstall package and remove all its files"
+    #### Uninstall package and remove all its files
+    ```bash
     sudo dpkg --purge <Package_Name>
     ```
     
-    #Reconfiguring an installed package
-    ```
+??? info "Reconfiguring an installed package"
+    #### Reconfiguring an installed package
+    ```bash
     sudo dpkg-reconfigure <Package_Name>
     ```
 
-
-??? "Finding package links for dpkg and using wget to download"
-    
+??? info "Finding package links for dpkg and using wget to download"
+    ### Finding package links for dpkg and using wget to download
     Newer releases [https://packages.ubuntu.com/](https://packages.ubuntu.com/)
     Older releases [http://old-releases.ubuntu.com/releases/](http://old-releases.ubuntu.com/releases/)
 
