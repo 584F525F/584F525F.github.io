@@ -1,37 +1,15 @@
 **Using DPKG - LOW LEVEL - Dependency Issues (BE AWARE)**
 
 
-??? info ### "List all installable packages in a directory"
-    ```bash
-    cd <DIR>
-    sudo dpkg -l
-    ```
-
-
-??? info " ### List all installable packages in a directory"
-    ```bash
-    cd <DIR>
-    sudo dpkg -l
-    ```
-
-!!! info " ### List all installable packages in a directory"
-    ```bash
-    cd <DIR>
-    sudo dpkg -l
-    ```
-
-
-
-
-
-??? info "List all installable packages in a directory"
+!!! info
     #### List all installable packages in a directory
     ```bash
     cd <DIR>
     sudo dpkg -l
     ```
 
-??? info "To search for name you can use wild card for parts of name"
+
+!!! info
     #### To search for name you can use wild card for parts of name
     ```bash
     sudo dpkg -l <Install_Package_Name>*
