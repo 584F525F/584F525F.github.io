@@ -57,7 +57,7 @@
     --md-default-bg-color: #ffffff; /* top TOC section made hidden also blocks color*/
     --md-footer-bg-color: #ffffff3; /* footer next and arrow background color */
     --md-footer-bg-color--dark: #ffffff3; /* footer copyright section background color */
-    --md-footer-fg-color: #ff6565; /* footer next and arrow color */
+    --md-footer-fg-color: #00ff8c; /* footer next and arrow color */
     --md-footer-fg-color--light: #ffffff; /*    */
     --md-footer-copyright-fg-color: #000000 ;
     --md-default-mdgrid-fg-color: #ffffff ;
@@ -73,7 +73,7 @@
     --md-navbar-bg-color: #3500ff;
     --md-TOC-color: #3500ff;
     --md-int-link-fg-color:#ff6565;
-    --md-int-link-hover-fg-color: #9fdb03;
+    --md-int-link-hover-fg-color: #00ff8c;
     --md-default-bg-image: url(https://584f525f.github.io/assets/images/layers/no-img.jpg);
 }
 
@@ -86,7 +86,7 @@
     --md-default-bg-color: #000000; /* top TOC section made hidden also blocks color*/
     --md-footer-bg-color: hsla(223, 14%, 10%, 0); /* footer next and arrow background color */
     --md-footer-bg-color--dark: hsla(220, 15%, 8%, 0); /* footer copyright section background color */
-    --md-footer-fg-color: #ff6565; /* footer next and arrow color */
+    --md-footer-fg-color: #00ff8c; /* footer next and arrow color */
     --md-footer-fg-color--light: #ff6565;
     --md-footer-copyright-fg-color: #ffffff ;
     --md-default-mdgrid-fg-color: #ffffff ;
@@ -96,7 +96,7 @@
     --md-header-icon-fg-color: rgb(255, 255, 255);
     --md-icon-search-theme-switcher-fg-color: rgb(255, 255, 255);
     --md-header-bg-color:rgb(0, 0, 0);
-    --md-footer-next-prev-fg-color: #ff6565;
+    --md-footer-next-prev-fg-color: #00ff8c;
     --md-footer-icon-color: #00ff8c;
     --md-footer-made-with-fg-color: #ffffff;
     --md-navbar-bg-color: #3500ff;
