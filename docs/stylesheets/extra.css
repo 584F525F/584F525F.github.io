@@ -91,7 +91,7 @@
     --md-footer-copyright-fg-color: #ffffff ;
     --md-default-mdgrid-fg-color: #ffffff ;
     --md-codeblock-high-bg-color: #ff9763 ;
-    --md-subject-fg-color: #d2ff5e ;
+    --md-subject-fg-color: #00ff8c ;
     --md-ellipsis-fg-color:rgb(255, 255, 255);
     --md-header-icon-fg-color: rgb(255, 255, 255);
     --md-icon-search-theme-switcher-fg-color: rgb(255, 255, 255);
@@ -100,9 +100,9 @@
     --md-footer-icon-color: #00ff8c;
     --md-footer-made-with-fg-color: #ffffff;
     --md-navbar-bg-color: #3500ff;
-    --md-TOC-color: #d2ff5e;
+    --md-TOC-color: #00ff8c;
     --md-int-link-fg-color:#ff6565;
-    --md-int-link-hover-fg-color: #d2ff5e;
+    --md-int-link-hover-fg-color: #00ff8c;
     --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
 }
 
@@ -156,7 +156,7 @@ element.style {
 /* scrollbar default color */
 .md-search__scrollwrap {
     max-height: 0;
-    scrollbar-color: var(--md-default-fg-color--lighter) #d2ff5e;
+    scrollbar-color: var(--md-default-fg-color--lighter) #00ff8c;
     scrollbar-width: thin;
 }
 
@@ -167,7 +167,7 @@ element.style {
     backface-visibility: hidden;
     margin: 0 .2rem;
     overflow-y: auto;
-    scrollbar-color: var(--md-default-fg-color--lighter) #d2ff5e;
+    scrollbar-color: var(--md-default-fg-color--lighter) #00ff8c;
     scrollbar-width: thin;
 }
 
