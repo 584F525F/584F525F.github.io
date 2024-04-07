@@ -75,6 +75,7 @@
     --md-TOC-color: #3500ff;
     --md-int-link-fg-color:#ff6565;
     --md-int-link-hover-fg-color: #3500ff;
+    --md-MkDocs-footer-icon-color: #3500ff;
     --md-default-bg-image: url(https://584f525f.github.io/assets/images/layers/no-img.jpg);
 }
 
@@ -105,6 +106,7 @@
     --md-TOC-color: #00ff8c;
     --md-int-link-fg-color:#ff6565;
     --md-int-link-hover-fg-color: #3500ff;
+    --md-MkDocs-footer-icon-color: #00ff8c;
     --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
 }
 
@@ -114,9 +116,9 @@
     /* font-weight: bold; */
 }
 
-/* footer icon color */
+/* Material for MkDocs color */
 html .md-footer-meta.md-typeset a {
-    color: var(--md-footer-icon-color);
+    color: var(--md-MkDocs-footer-icon-color);
     /* #773df */
 }
 
@@ -159,7 +161,7 @@ element.style {
 .md-search__scrollwrap {
     max-height: 0;
     /* scrollbar-color: var(--md-default-fg-color--lighter) #00ff8c; */
-    scrollbar-color: var(--md-default-fg-color--lighter) var(--md-default-fg-color--lighter-1);
+    scrollbar-color: var(--md-default-fg-color--lighter) #ff656500;
     scrollbar-width: thin;
 }
 
@@ -170,7 +172,8 @@ element.style {
     backface-visibility: hidden;
     margin: 0 .2rem;
     overflow-y: auto;
-    scrollbar-color: var(--md-default-fg-color--lighter) var(--md-default-fg-color--lighter-1);
+    /* scrollbar-color: var(--md-default-fg-color--lighter) #ff656500; */
+    scrollbar-color: #717171 #ff656500;
     scrollbar-width: thin;
 }
 
@@ -205,8 +208,8 @@ element.style {
 
 .md-footer__direction {
     font-size: 0.73rem;
-    font-family: cursive;
-    opacity: 0.85;
+    font-family: inherit;
+    opacity: 1;
     color: var(--md-footer-next-prev-fg-color);
 }
 
