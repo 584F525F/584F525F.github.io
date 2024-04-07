@@ -76,6 +76,7 @@
     --md-int-link-fg-color:#ff6565;
     --md-int-link-hover-fg-color: #3500ff;
     --md-MkDocs-footer-icon-color: #3500ff;
+    --md-cyberoff-bg-color: #ffffff;
     --md-default-bg-image: url(https://584f525f.github.io/assets/images/layers/no-img.jpg);
 }
 
@@ -107,6 +108,7 @@
     --md-int-link-fg-color:#ff6565;
     --md-int-link-hover-fg-color: #3500ff;
     --md-MkDocs-footer-icon-color: #00ff8c;
+    --md-cyberoff-bg-color: #000000;
     --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
 }
 
@@ -282,3 +284,8 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 [data-md-color-primary=black] {
     --md-typeset-a-color: #ff6565;
 }
+
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link:not(.md-nav__container) {
+    pointer-events: none;
+    background-color: var(--md-cyberoff-bg-color);
+  }
