@@ -1,13 +1,24 @@
 **Using DPKG - LOW LEVEL - Dependency Issues (BE AWARE)**
 
 
-??? info " ### List all installable packages in a directory"
-    #### List all installable packages in a directory
-    ```
+??? info ### "List all installable packages in a directory"
+    ```bash
     cd <DIR>
     sudo dpkg -l
     ```
 
+
+??? info " ### List all installable packages in a directory"
+    ```bash
+    cd <DIR>
+    sudo dpkg -l
+    ```
+
+!!! info " ### List all installable packages in a directory"
+    ```bash
+    cd <DIR>
+    sudo dpkg -l
+    ```
 
 
 
@@ -15,28 +26,28 @@
 
 ??? info "List all installable packages in a directory"
     #### List all installable packages in a directory
-    ```
+    ```bash
     cd <DIR>
     sudo dpkg -l
     ```
 
 ??? info "To search for name you can use wild card for parts of name"
     #### To search for name you can use wild card for parts of name
-    ```
+    ```bash
     sudo dpkg -l <Install_Package_Name>*
     sudo dpkg -l *<Install_Package_Name>*
     ```
 
 ??? info "To install a local package file"
     #### To install a local package file
-    ```
+    ```bash
     <Path> dpkg -i ./* #THIS INSTALLS ALL PACKAGES IN THAT LOCATION
     <Path> dpkg -i <Install_Package_Name> #THIS INSTALLS 1 PACKAGE
     ```
 
 ??? info "Check package info"
     #### Check package info
-    ```
+    ```bash
     sudo dpkg --info <Package_Name>
     ```
 
