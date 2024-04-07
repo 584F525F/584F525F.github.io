@@ -93,6 +93,12 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-cyberoff-bg-color: #ffffff;
     --md-TOC-selected-text-bg-color: #00ff8c;
     --md-footer-icon-bg-color: #00ff8c;
+    --md-h1-fg-color:#ff0000;
+    --md-h2-fg-color:#959100;
+    --md-h3-fg-color:#00c56c;
+    --md-h4-fg-color:#4898ff;
+    --md-h5-fg-color:#9f00ff;
+    --md-h6-fg-color:#ff38a5;
     --md-default-bg-image: url(https://584f525f.github.io/assets/images/layers/no-img.jpg);
 }
 
@@ -127,6 +133,12 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-cyberoff-bg-color: #000000;
     --md-TOC-selected-text-bg-color: #3500ff;
     --md-footer-icon-bg-color: #3500ff;
+    --md-h1-fg-color:#ffb3b3;
+    --md-h2-fg-color:#fffc92;
+    --md-h3-fg-color:#3affa6;
+    --md-h4-fg-color:#9ed2ff;
+    --md-h5-fg-color:#e5b9ff;
+    --md-h6-fg-color:#ff9cae;
     --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
 }
 
@@ -315,3 +327,12 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     transition: color 125ms, background-color 125ms, transform 125ms cubic-bezier(.4,0,.2,1), opacity 125ms;
     z-index: 2;
 }
+
+
+.md-typeset h4 {
+    font-weight: 700;
+    letter-spacing: -.01em;
+    margin: 1em 0;
+    color: var(--md-h4-fg-color);
+}
+

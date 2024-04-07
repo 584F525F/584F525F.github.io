@@ -54,7 +54,7 @@
     ```
 
 !!! info  ""
-    ### Finding package links for dpkg and using wget to download
+    #### Finding package links for dpkg and using wget to download
     Newer releases [https://packages.ubuntu.com/](https://packages.ubuntu.com/)
     Older releases [http://old-releases.ubuntu.com/releases/](http://old-releases.ubuntu.com/releases/)
 
