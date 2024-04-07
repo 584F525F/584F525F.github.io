@@ -10,13 +10,16 @@
 
   /* footer hover action color */
 html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover {
-    color: #ff6565;
+    color: #f5ff65;
+    border-radius: 8%;
+    background-color: var(--md-footer-icon-bg-color);
   }
 
 /* article subject color */
 .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
-    color: #addf64;
-    background-color: #ff0000;
+    color: #becc00;
+    border-radius: 2%;
+    background-color: var(--md-TOC-selected-text-bg-color);
   }
 
     /* @media screen and (min-width: 790px) {
@@ -88,6 +91,8 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-int-link-hover-fg-color: #3500ff;
     --md-MkDocs-footer-icon-color: #3500ff;
     --md-cyberoff-bg-color: #ffffff;
+    --md-TOC-selected-text-bg-color: #3500ff;
+    --md-footer-icon-bg-color: ;
     --md-default-bg-image: url(https://584f525f.github.io/assets/images/layers/no-img.jpg);
 }
 
@@ -120,6 +125,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-int-link-hover-fg-color: #3500ff;
     --md-MkDocs-footer-icon-color: #00ff8c;
     --md-cyberoff-bg-color: #000000;
+    --md-TOC-selected-text-bg-color: #00ff8c;
     --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
 }
 
