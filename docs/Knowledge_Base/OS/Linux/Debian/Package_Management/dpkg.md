@@ -1,6 +1,7 @@
-??? "Using DPKG - LOW LEVEL - Dependency Issues (BE AWARE)"
+??? info "Using DPKG - LOW LEVEL - Dependency Issues (BE AWARE)"
 
-    #List all installable packages in a directory
+??? info "List all installable packages in a directory"
+    ### List all installable packages in a directory
     ```
     cd <DIR>
     sudo dpkg -l
