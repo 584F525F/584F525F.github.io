@@ -84,3 +84,26 @@
     ```
     lsb_release -a
     ```
+
+
+<details class="optional-class">
+<summary>Text</summary>
+<p>Content</p>
+fdgdfg
+dfg
+fdg
+
+fgd
+fgd
+</details>
+
+
+
+/// details | Some summary
+    open: True
+
+Some content
+///
+
+
+

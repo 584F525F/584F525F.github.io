@@ -68,6 +68,7 @@ markdown_extensions:
   - admonition
   - def_list
   - pymdownx.details
+  - pymdownx.blocks.details
   - pymdownx.superfences
   - pymdownx.snippets
   - pymdownx.inlinehilite
