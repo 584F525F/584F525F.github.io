@@ -258,6 +258,21 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     cursor: pointer;
 }
 
+/* footer hover action color */
+html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover {
+    color: #ff6565;
+}
+
+/* article subject color */
+.md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
+    color: #ff6565;
+}
+
+/* article subject HOVER OVER color */
+[data-md-color-accent=orange] {
+    --md-accent-fg-color: #00ff8c;
+}
+
 /* ADDED AFTER */
 /* navigation - selected item color - dark mode*/
 [data-md-color-scheme=slate][data-md-color-primary=black], [data-md-color-scheme=slate][data-md-color-primary=blue-grey], [data-md-color-scheme=slate][data-md-color-primary=grey], [data-md-color-scheme=slate][data-md-color-primary=white] {
@@ -266,20 +281,4 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 /* navigation - selected item color - light mode*/
 [data-md-color-primary=black] {
     --md-typeset-a-color: #ff6565;
-}
-
-
-/* navigation - hover action color */
-[data-md-color-accent=orange] {
-    --md-accent-fg-color: #86b7ff;
-}
-
-/* footer hover action color */
-html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover {
-    color: #ff6565;
-}
-
-/* TOC active article color */
-.md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
-    color: #ff6565;
 }
