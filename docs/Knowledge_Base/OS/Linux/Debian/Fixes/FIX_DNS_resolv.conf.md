@@ -1,6 +1,6 @@
 
-??? "METHOD 1 - Recommended"
-    #### method 1 - Recommended
+!!! success ""
+    #### METHOD 1 - Recommended
     run auto-clean
     ```bash
     sudo apt-get auto-clean
@@ -67,7 +67,7 @@
     ```
 
 
-??? "METHOD 2"
+!!! warning ""
     #### method 2
     Add the resolved domains manually to /etc/hosts with this short script:
     ```bash
@@ -92,7 +92,7 @@
     resolveAptHosts && sudo apt-get update
     ```
 
-??? "METHOD 3"
+!!! warning ""
     #### method 3
     Check DNS
     ```bash
