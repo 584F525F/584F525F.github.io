@@ -1,4 +1,5 @@
-??? "Using APT - Advanced Package Tool"
+!!! info ""
+    ### Using APT - Advanced Package Tool
     #### Upgrade OS run
 	```
     do-release-upgrade
@@ -75,12 +76,13 @@
     sudo apt edit-sources
     ```
     
-??? "Adding Apt Repository In Ubuntu"
+!!! example ""
+    ### Adding Apt Repository In Ubuntu
     Resources [How-to-add-apt-repository-in-ubuntu](https://linuxize.com/post/how-to-add-apt-repository-in-ubuntu/)
 
         
-??? "Adding Kali Repository to Ubuntu"
-
+!!! example ""
+    ### Adding Kali Repository to Ubuntu
 	#### Step-1: Install Git
 	```
     sudo apt install git
