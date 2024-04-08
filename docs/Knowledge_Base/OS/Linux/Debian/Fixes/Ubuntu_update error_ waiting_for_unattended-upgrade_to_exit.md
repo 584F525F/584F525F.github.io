@@ -1,26 +1,30 @@
-#### Stop the automatic updater:
-```bash
-sudo dpkg-reconfigure -plow unattended-upgrades
-```
+!!! info ""
+    #### Stop the automatic updater
 
-#### At the first prompt, choose not to download and install updates.Make a 
-```bash
-reboot.
-```
+    choose not to download and install updates
 
-#### Make sure any packages in an unclean state are installed correctly:
-```bash
-sudo dpkg --configure -a
-```
+    ```bash
+    sudo dpkg-reconfigure -plow unattended-upgrades
 
-#### Get your system up-to-date:
-```bash
-sudo apt update && sudo apt -f install && sudo apt full-upgrade
-```
+    reboot.
+    ```
 
-#### Turn the automatic updater back on, now that the blockage is cleared:
-```bash
-sudo dpkg-reconfigure -plow unattended-upgrades
-```
+    #### Make sure any packages in an unclean state are installed correctly:
 
-Select the package unattended-upgrades again.
+    ```bash
+    sudo dpkg --configure -a
+    ```
+
+    #### Get your system up-to-date:
+
+    ```bash
+    sudo apt update && sudo apt -f install && sudo apt full-upgrade
+    ```
+
+    #### Turn the automatic updater back on, now that the blockage is cleared:
+
+    ```bash
+    sudo dpkg-reconfigure -plow unattended-upgrades
+    ```
+
+    Select the package unattended-upgrades again.
