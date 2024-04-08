@@ -1,4 +1,5 @@
-Are you seeing error "_**ERR_SSL_VERSION_OR_CIPHER_MISMATCH**_" when trying to load a GUI for a piece of equipment? If so then follow the steps below and make the changes needed to the browser you're using.
+Are you seeing error "_**ERR_SSL_VERSION_OR_CIPHER_MISMATCH**_" when trying to load a GUI?
+If so then follow the steps below and make the changes needed to the browser you're using
 
 ![alt text](<Pasted image 20231125004337.png>)
 
@@ -7,14 +8,14 @@ Are you seeing error "_**ERR_SSL_VERSION_OR_CIPHER_MISMATCH**_" when trying to l
     ## Microsoft Internet Explorer
 
     1. 1. Open Internet Explorer
-        2. From the menu bar, click **Tools** >  **Internet Options** > **Advanced tab**
-        3. Scroll down to Security category, manually **check** the option boxes for:
+        1. From the menu bar, click **Tools** >  **Internet Options** > **Advanced tab**
+        2. Scroll down to Security category, manually **check** the option boxes for:
             - **Use TLS 1.0**
             - **Use TLS 1.1**
             - **Use TLS 1.2**  
                 ![alt text](<Pasted image 20231125004427.png>)
-        4. Click **OK**
-        5. Close your browser and **restart Internet Explorer**
+        3. Click **OK**
+        4. Close your browser and **restart Internet Explorer**
 
 !!! info ""
     ## Google Chrome
