@@ -1,4 +1,4 @@
-Are you seeing error "_**ERR_SSL_VERSION_OR_CIPHER_MISMATCH**_" when trying to load a GUI for a piece of equipment? If so then follow the steps below and make the changes need to the browser you're using.
+Are you seeing error "_**ERR_SSL_VERSION_OR_CIPHER_MISMATCH**_" when trying to load a GUI for a piece of equipment? If so then follow the steps below and make the changes needed to the browser you're using.
 
 ![alt text](<Pasted image 20231125004337.png>)
 
