@@ -104,3 +104,10 @@
 	View > Scale Display > check the "Auto resize VM with window"
 	Now you should be able to see it working as expected
 
+!!! info ""
+
+    ### Installing windows 11 steps on virt manager
+
+    https://sysguides.com/install-a-windows-11-virtual-machine-on-kvm
+
+    
