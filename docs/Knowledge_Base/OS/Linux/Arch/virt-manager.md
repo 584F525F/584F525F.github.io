@@ -92,8 +92,6 @@
 
 !!! info ""
 
-Windows 11 virt-manager
-
 	### screen auto resize fix
 	
 	install Windows spice agent [spice-space](https://www.spice-space.org/download.html)
