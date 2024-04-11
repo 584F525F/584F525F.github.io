@@ -248,7 +248,7 @@ You can use the command IP route or IP link to see the current network configura
     nmcli con down ssid/uuid
     ```
 
-    #To connect to another saved connection, simply pass the up option in the nmcli command. Make sure that you specify the SSID or UUID of the new network that you want to connect to.
+    To connect to another saved connection, simply pass the up option in the nmcli command. Make sure that you specify the SSID or UUID of the new network that you want to connect to.
     ```bash
     nmcli con up ssid/uuid
 

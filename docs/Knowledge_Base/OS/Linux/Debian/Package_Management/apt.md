@@ -72,7 +72,8 @@
     #### Packages installed with apt-get are located in /var/cache/apt/archives
     
     #### To check Repo sources
-    ```
+    
+    ```bash
     sudo apt edit-sources
     ```
     
