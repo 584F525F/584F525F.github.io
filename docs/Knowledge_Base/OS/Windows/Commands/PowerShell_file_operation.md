@@ -110,33 +110,62 @@
     New-Item -Path 'D:\temp\Test Folder' -ItemType Directory
     ```
 
-    #### 
+    #### Copying a folder
+
+    === "copying a single folder"
+
+        copy a single folder D:\Temp\Test Folder as D:\Temp\Test Folder1
+
+        ```powershell
+        Copy-Item 'D:\temp\Test Folder' 'D:\temp\Test Folder1'
+        ```
+
+    === "copying multiple folders"
+        
+        copy a folder recursively D:\Temp\Test Folder to D:\Temp\Test Folder1
+
+        ```powershell
+        Copy-Item 'D:\temp\Test Folder' -Destination 'D:\temp\Test Folder1'
+        ```
+
+    #### Renaming a folder
+
+    renaming a folder D:\Temp\Test to D:\Temp\Test1
 
     ```powershell
-
+    Rename-Item "D:\temp\Test Test1"
     ```
 
-    #### 
+    #### moving a folder
+
+    move a folder D:\Temp\Test to D:\Temp\Test1
 
     ```powershell
-
+    Move-Item D:\temp\Test D:\temp\Test1
     ```
 
-    #### 
+    #### Deleting a folder
+
+    === "delete a single file"
+
+        delete a folder D:\Temp\Test Folder1
+
+        ```powershell
+        Remove-Item 'D:\temp\Test Folder1'
+        ```
+
+    === "delete multiple files"
+        
+        deleting folders recursively in a directory D:\Temp\Test Folder1
+
+        ```powershell
+        Remove-Item 'D:\temp\Test Folder' -Recurse
+        ```
+
+    #### Check folder existence
+
+    Check if path exists 'D:\temp\test'
 
     ```powershell
-
+    Test-Path D:\temp\test
     ```
-
-    #### 
-
-    ```powershell
-
-    ```
-
-    #### 
-
-    ```powershell
-
-    ```
-
