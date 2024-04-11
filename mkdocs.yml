@@ -131,185 +131,182 @@ plugins:
 nav:
   - Home: home.html
   - Cyber Offensive:
-      - Summary: Cyber_Offensive.md
-      - "":
-          - File Transfers:
-              - FTP: Cyber_Offensive/File_Transfers/FTP.md
-              - ftpd: Cyber_Offensive/File_Transfers/ftpd.md
-              - scp: Cyber_Offensive/File_Transfers/scp.md
-              - SMB: Cyber_Offensive/File_Transfers/SMB.md
-              - Telnet: Cyber_Offensive/File_Transfers/Telnet.md
-              - windows_certutil: Cyber_Offensive/File_Transfers/windows_certutil.md
-              - windows_cscript: Cyber_Offensive/File_Transfers/windows_cscript.md
-              - Windows_mshta_wmic_regsvr32: Cyber_Offensive/File_Transfers/Windows_mshta_wmic_regsvr32.md
-          - Initial Enumeration: Cyber_Offensive/Initial_Enumeration/Initial_Enumeration.md
-          - "Password Attacks, Cracking":
-              - Argon2_cracker: Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Argon2_cracker.md
-              - Cracking_Files: Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Cracking_Files.md
-              - Decoding: Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Decoding.md
-              - Hashcat: Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Hashcat.md
-              - Hydra: Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Hydra.md
-              - Medusa: Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Medusa.md
-              - Ncrack: Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Ncrack.md
-              - Passing_the_hash: Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Passing_the_hash.md
-              - Wordlists: Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Wordlists.md
-              - Basic_Usage: Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Basic_Usage.md
-              - Cracking_modes: Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Cracking_modes.md
-              - Misc_&_Tricks: Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Misc_&_Tricks.md
-              - Rules: Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Rules.md
-              - Wordlists_&_Incremental: Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Wordlists_&_Incremental.md
-          - Privilege Escalation:
-              - Linux_Privilege_Escalation: Cyber_Offensive/Privilege_Escalation/Linux_Privilege_Escalation/Linux_Privilege_Escalation.md
-              - Windows_Privilege_Escalation: Cyber_Offensive/Privilege_Escalation/Windows_Privilege_Escalation/Windows_Privilege_Escalation.md
-          - Reconnaissance:
-              - DNSdumpster: Cyber_Offensive/Recon/DNSdumpster.md
-              - recon: Cyber_Offensive/Recon/recon.md
-              - shodan.io: Cyber_Offensive/Recon/shodan.io.md
-          - Remote connection & execution:
-              - atexec.py: Cyber_Offensive/Remote_connection_&_execution/atexec.py.md
-              - dcomexec.py: Cyber_Offensive/Remote_connection_&_execution/dcomexec.py.md
-              - evil-winrm: Cyber_Offensive/Remote_connection_&_execution/evil-winrm.md
-              - psexec.py: Cyber_Offensive/Remote_connection_&_execution/psexec.py.md
-              - Remote_connection_&_execution: Cyber_Offensive/Remote_connection_&_execution/Remote_connection_&_execution.md
-              - Reverse_Shell: Cyber_Offensive/Remote_connection_&_execution/Reverse_Shell.md
-              - smbexec.py: Cyber_Offensive/Remote_connection_&_execution/smbexec.py.md
-              - winrm: Cyber_Offensive/Remote_connection_&_execution/winrm.md
-              - wmiexec.py: Cyber_Offensive/Remote_connection_&_execution/wmiexec.py.md
-          - Reverse Shell: Cyber_Offensive/Reverse_shell/r.md
-          - Services:
-              - FTP: Cyber_Offensive/Services/FTP.md
-              - IMAP: Cyber_Offensive/Services/IMAP.md
-              - MSSQL: Cyber_Offensive/Services/MSSQL.md
-              - POP3: Cyber_Offensive/Services/POP3.md
-              - SMTP: Cyber_Offensive/Services/SMTP.md
-              - SAMBA_-_SMB: Cyber_Offensive/Services/Samba_SMB/SAMBA_-_SMB.md
-              - SMB_Client: Cyber_Offensive/Services/Samba_SMB/SMB_Client.md
-              - Tools: Cyber_Offensive/Services/Samba_SMB/Tools.md
-          - Web:
-              - RFI-LFI_File_Inclusion: Cyber_Offensive/Web/RFI-LFI_File_Inclusion.md
-              - SQL_Injection: Cyber_Offensive/Web/SQL_Injection.md
-              - SSRF: Cyber_Offensive/Web/SSRF.md
-              - XSS: Cyber_Offensive/Web/XSS_(Cross-Site_Scripting).md
-              - Command_Injection:
-                  - IDOR: Cyber_Offensive/Web/Command_Injection/IDOR.md
-              - Enumeration & Content Discovery:
-                  - Content Discovery Tools:
-                      - Authentication_Bypass_-_User enumeration: Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Authentication_Bypass_-_User
-                          enumeration/Authentication_Bypass_-_User
-                          enumeration.md
-                      - Cansina: Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Cansina.md
-                      - Chameleon: Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Chameleon.md
-                      - froxbuster: Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/froxbuster.md
-                      - fuff: Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/fuff.md
-                      - General_Content_Discovery: Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/General_Content_Discovery.md
-                      - gobuster: Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/gobuster.md
-                      - Katana: Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Katana.md
-                      - Kiterunner: Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Kiterunner.md
-                      - Wfuzz: Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Wfuzz.md
-                  - File and Directory Enumeration:
-                      - Dictionaries: Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/Dictionaries.md
-                      - dirb: Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirb.md
-                      - dirbuster: Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirbuster.md
-                      - dirsearch: Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
+    - 'Summary': Cyber_Offensive.md
+    - '':
+      - 'File Transfers':
+        - 'FTP': Cyber_Offensive/File_Transfers/FTP.md
+        - 'ftpd': Cyber_Offensive/File_Transfers/ftpd.md
+        - 'scp': Cyber_Offensive/File_Transfers/scp.md
+        - 'SMB': Cyber_Offensive/File_Transfers/SMB.md
+        - 'Telnet': Cyber_Offensive/File_Transfers/Telnet.md
+        - 'windows_certutil': Cyber_Offensive/File_Transfers/windows_certutil.md
+        - 'windows_cscript': Cyber_Offensive/File_Transfers/windows_cscript.md
+        - 'Windows_mshta_wmic_regsvr32': Cyber_Offensive/File_Transfers/Windows_mshta_wmic_regsvr32.md
+      - 'Initial Enumeration': Cyber_Offensive/Initial_Enumeration/Initial_Enumeration.md
+      - 'Password Attacks, Cracking':
+        - 'Argon2_cracker': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Argon2_cracker.md
+        - 'Cracking_Files': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Cracking_Files.md
+        - 'Decoding': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Decoding.md
+        - 'Hashcat': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Hashcat.md
+        - 'Hydra': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Hydra.md
+        - 'Medusa': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Medusa.md
+        - 'Ncrack': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Ncrack.md
+        - 'Passing_the_hash': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Passing_the_hash.md
+        - 'Wordlists': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Wordlists.md
+        - 'Basic_Usage': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Basic_Usage.md
+        - 'Cracking_modes': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Cracking_modes.md
+        - 'Misc_&_Tricks': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Misc_&_Tricks.md
+        - 'Rules': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Rules.md
+        - 'Wordlists_&_Incremental': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Wordlists_&_Incremental.md
+      - 'Privilege Escalation':
+        - 'Linux_Privilege_Escalation': Cyber_Offensive/Privilege_Escalation/Linux_Privilege_Escalation/Linux_Privilege_Escalation.md
+        - 'Windows_Privilege_Escalation': Cyber_Offensive/Privilege_Escalation/Windows_Privilege_Escalation/Windows_Privilege_Escalation.md
+      - 'Reconnaissance':
+        - 'DNSdumpster': Cyber_Offensive/Recon/DNSdumpster.md
+        - 'recon': Cyber_Offensive/Recon/recon.md
+        - 'shodan.io': Cyber_Offensive/Recon/shodan.io.md
+      - 'Remote connection & execution':
+        - 'atexec.py': Cyber_Offensive/Remote_connection_&_execution/atexec.py.md
+        - 'dcomexec.py': Cyber_Offensive/Remote_connection_&_execution/dcomexec.py.md
+        - 'evil-winrm': Cyber_Offensive/Remote_connection_&_execution/evil-winrm.md
+        - 'psexec.py': Cyber_Offensive/Remote_connection_&_execution/psexec.py.md
+        - 'Remote_connection_&_execution': Cyber_Offensive/Remote_connection_&_execution/Remote_connection_&_execution.md
+        - 'Reverse_Shell': Cyber_Offensive/Remote_connection_&_execution/Reverse_Shell.md
+        - 'smbexec.py': Cyber_Offensive/Remote_connection_&_execution/smbexec.py.md
+        - 'winrm': Cyber_Offensive/Remote_connection_&_execution/winrm.md
+        - 'wmiexec.py': Cyber_Offensive/Remote_connection_&_execution/wmiexec.py.md
+      - 'Reverse Shell': Cyber_Offensive/Reverse_shell/r.md
+      - 'Services':
+        - 'FTP': Cyber_Offensive/Services/FTP.md
+        - 'IMAP': Cyber_Offensive/Services/IMAP.md
+        - 'MSSQL': Cyber_Offensive/Services/MSSQL.md
+        - 'POP3': Cyber_Offensive/Services/POP3.md
+        - 'SMTP': Cyber_Offensive/Services/SMTP.md
+        - 'SAMBA_-_SMB': Cyber_Offensive/Services/Samba_SMB/SAMBA_-_SMB.md
+        - 'SMB_Client': Cyber_Offensive/Services/Samba_SMB/SMB_Client.md
+        - 'Tools': Cyber_Offensive/Services/Samba_SMB/Tools.md
+      - 'Web':
+        - 'RFI-LFI_File_Inclusion': Cyber_Offensive/Web/RFI-LFI_File_Inclusion.md
+        - 'SQL_Injection': Cyber_Offensive/Web/SQL_Injection.md
+        - 'SSRF': Cyber_Offensive/Web/SSRF.md
+        - 'XSS': Cyber_Offensive/Web/XSS_(Cross-Site_Scripting).md
+        - 'Command_Injection':
+          - 'IDOR': Cyber_Offensive/Web/Command_Injection/IDOR.md
+        - 'Enumeration & Content Discovery':
+          - 'Content Discovery Tools':
+            - 'Authentication_Bypass_-_User enumeration': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Authentication_Bypass_-_User enumeration/Authentication_Bypass_-_User enumeration.md
+            - 'Cansina': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Cansina.md
+            - 'Chameleon': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Chameleon.md
+            - 'froxbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/froxbuster.md
+            - 'fuff': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/fuff.md
+            - 'General_Content_Discovery': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/General_Content_Discovery.md
+            - 'gobuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/gobuster.md
+            - 'Katana': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Katana.md
+            - 'Kiterunner': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Kiterunner.md
+            - 'Wfuzz': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Wfuzz.md
+          - 'File and Directory Enumeration':
+            - 'Dictionaries': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/Dictionaries.md
+            - 'dirb': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirb.md
+            - 'dirbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirbuster.md
+            - 'dirsearch': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
   - Knowledge Base:
-      - Summary: knowledge_base.md
-      - "":
-          - Network:
-              - Email:
-                  - POP3: Knowledge_Base/Network/Email/POP3.md
-                  - SMTP: Knowledge_Base/Network/Email/SMTP.md
-                  - IGMP: Knowledge_Base/Network/IGMP.md
-                  - DKIM DomainKeys Identified Mail: Knowledge_Base/Network/Email/DKIM_DomainKeys_Identified_Mail.md
-                  - DMRAC Domain-based Message Authentication Reporting and Conformance:
-                      Knowledge_Base/Network/Email/DMRAC_Domain-based_Message_Authentication_Reporting_and_Conformance.md
-                  - SPF Sender Policy Framework: Knowledge_Base/Network/Email/SPF_Sender_Policy_Framework.md
-              - Packet Capture:
-                  - Wireshark:
-                      - Filters: Knowledge_Base/Network/Packet_Capture/Wireshark/Filters.md
-                      - Profiles: Knowledge_Base/Network/Packet_Capture/Wireshark/Profiles.md
-                  - TCP dump: Knowledge_Base/Network/Packet_Capture/TCP_Dump.md
-              - ARP: Knowledge_Base/Network/ARP.md
-              - DNS: Knowledge_Base/Network/DNS.md
-              - Radius: Knowledge_Base/Network/Radius.md
-              - SNMP: Knowledge_Base/Network/SNMP.md
-              - Subnetting: Knowledge_Base/Network/Subnetting.md
-              - VPN: Knowledge_Base/Network/VPN.md
-          - OS:
-              - Windows:
-                  - Applications: Knowledge_Base/OS/Windows/applications.md
-                  - Commands:
-                      - PowerShell file & folder operation: Knowledge_Base/OS/Windows/Commands/PowerShell_file_operation.md
-                      - Removing Edge Browser: Knowledge_Base/OS/Windows/Commands/Removing_Edge_Browser.md
-                      - Routes: Knowledge_Base/OS/Windows/Commands/routes.md
-                      - Windows Start-up: Knowledge_Base/OS/Windows/Commands/Windows_Start-up.md
-                      - WSL Windows Subsystem Linux: Knowledge_Base/OS/Windows/Commands/WSL_Windows_Subsystem_Linux.md
-                  - Troubleshooting:
-                      - ERR SSL VERSION OR CIPHER MISMATCH: Knowledge_Base/OS/Windows/Troubleshooting/ERR_SSL_VERSION_OR_CIPHER_MISMATCH.md
-              - Linux:
-                  - Debian:
-                      - Package Management:
-                          - apt: Knowledge_Base/OS/Linux/Debian/Package_Management/apt.md
-                          - dpkg: Knowledge_Base/OS/Linux/Debian/Package_Management/dpkg.md
-                          - other: Knowledge_Base/OS/Linux/Debian/Package_Management/other.md
-                      - Backup & Restore:
-                          - Timeshift system snapshots: Knowledge_Base/OS/Linux/Debian/Backup_&_Restore/Timeshift_system_snapshots.md
-                          - Undo deleted files: Knowledge_Base/OS/Linux/Debian/Backup_&_Restore/Undo_Deleted_Files.md
-                      - Commands:
-                          - Autostart apps scripts on startup: Knowledge_Base/OS/Linux/Debian/Commands/Autostart_apps_scripts_on_startup.md
-                          - curl: Knowledge_Base/OS/Linux/Debian/Commands/curl.md
-                          - DNS Lookup nslookup: Knowledge_Base/OS/Linux/Debian/Commands/DNS_Lookup.md
-                          - environment keys: Knowledge_Base/OS/Linux/Debian/Commands/environment_keys.md
-                          - Find Search & Locate: Knowledge_Base/OS/Linux/Debian/Commands/Find_Search_Locate.md
-                          - Clearing Storage: Knowledge_Base/OS/Linux/Debian/Commands/Linux_Clearing_Storage.md
-                          - date time: Knowledge_Base/OS/Linux/Debian/Commands/Linux_date_time.md
-                          - Networking VLAN & Route: Knowledge_Base/OS/Linux/Debian/Commands/Networking_VLAN_and_Route.md
-                          - SSL Cert end date check: Knowledge_Base/OS/Linux/Debian/Commands/SSL_Cert_end_date_check.md
-                          - System Commands: Knowledge_Base/OS/Linux/Debian/Commands/System_Commands.md
-                          - wget: Knowledge_Base/OS/Linux/Debian/Commands/wget.md
-                      - Desktop Environment: Knowledge_Base/OS/Linux/Debian/Desktop_Environment/dekstop_environment.md
-                      - Linux Directories:
-                          - Hierarchy: Knowledge_Base/OS/Linux/Debian/Linux_Directories/Hierarchy.md
-                          - Tree Directory Browsing: Knowledge_Base/OS/Linux/Debian/Linux_Directories/Tree-Directory_Browsing.md
-                      - Fixes:
-                          - FIX speedtest-cli apt update error: Knowledge_Base/OS/Linux/Debian/Fixes/FIX-speedtest-cli_apt_update_error.md
-                          - FIX DNS resolv.conf: Knowledge_Base/OS/Linux/Debian/Fixes/FIX_DNS_resolv.conf.md
-                          - FIX sources repos list DNS: Knowledge_Base/OS/Linux/Debian/Fixes/FIX_sources_repos_list_DNS_Linux.md
-                          - Ubuntu update error waiting for unattended-upgrade to exit: Knowledge_Base/OS/Linux/Debian/Fixes/Ubuntu_update_error_waiting_for_unattended-upgrade_to_exit.md
-                      - Misc:
-                          - Crontab cronjob: Knowledge_Base/OS/Linux/Debian/Misc/Crontab_cronjob.md
-                          - File Permissions: Knowledge_Base/OS/Linux/Debian/Misc/File_Permissions.md
-                          - Linux Kernal: Knowledge_Base/OS/Linux/Debian/Misc/Linux_Kernal.md
-                          - OS Upgrade: Knowledge_Base/OS/Linux/Debian/Misc/OS_Upgrade.md
-                          - Users & Groups: Knowledge_Base/OS/Linux/Debian/Misc/Users_and_Groups.md
-                          - Symbolic Links: Knowledge_Base/OS/Linux/Debian/Misc/X_Symbolic_Links.md
-                      - Securing Linux:
-                          - Disable Root account: Knowledge_Base/OS/Linux/Debian/Securing_Linux/Disable_Root_account.md
-                          - SSH 2FA: Knowledge_Base/OS/Linux/Debian/Securing_Linux/SSH_2FA.md
-                          - Viewing and_monitoring_log_files: Knowledge_Base/OS/Linux/Debian/Securing_Linux/Viewing_and_monitoring_log_files.md
-                          - Services & applications: null
-                          - vnc install: Knowledge_Base/OS/Linux/Debian/Services_and_applications/vnc_install.md
-                      - Kali:
-                          - Issues fixes: Knowledge_Base/OS/Linux/Debian/Kali/Issues_fixes.md
-                          - kali setup: Knowledge_Base/OS/Linux/Debian/Kali/kali_setup.md
-                          - kali setup: Knowledge_Base/OS/Linux/Debian/Kali/Proxychains.md
-                          - SSH Server: Knowledge_Base/OS/Linux/Debian/Kali/SSH_Server.md
-                          - VNC over SSH: Knowledge_Base/OS/Linux/Debian/Kali/VNC_over_SSH.md
-                          - Wireless Adapter: Knowledge_Base/OS/Linux/Debian/Kali/Wireless_Adapter.md
-                  - Arch:
-                      - virt manager: Knowledge_Base/OS/Linux/Arch/virt-manager.md
-          - Home Lab:
-              - Docker: Knowledge_Base/Home_Lab/Docker.md
-              - Kasm Workspaces: Knowledge_Base/Home_Lab/Kasm_Workspaces.md
-              - pfSense: Knowledge_Base/Home_Lab/pfSense.md
-              - Portainer Docker: Knowledge_Base/Home_Lab/Portainer_Docker.md
-              - Wazuh SEIM: Knowledge_Base/Home_Lab/Wazuh_SEIM.md
-          - Coding:
-              - Ansible: Knowledge_Base/Coding/Ansible.md
-              - C | C++: Knowledge_Base/Coding/C_C++.md
-              - C#: Knowledge_Base/Coding/C#.md
-              - Github | Git: Knowledge_Base/Coding/Github_Git.md
-              - Python: Knowledge_Base/Coding/Python.md
-              - YAML: Knowledge_Base/Coding/YAML.md
-              - Linux Bash: Knowledge_Base/Coding/Linux_Bash.md
-              - Windows Powershell: Knowledge_Base/Coding/Windows_Powershell.md
+    - 'Summary': knowledge_base.md
+    - '': 
+      - 'Network':
+        - 'Email' :
+          - 'POP3' : Knowledge_Base/Network/Email/POP3.md
+          - 'SMTP' : Knowledge_Base/Network/Email/SMTP.md
+          - 'IGMP' : Knowledge_Base/Network/IGMP.md
+          - 'DKIM DomainKeys Identified Mail' : Knowledge_Base/Network/Email/DKIM_DomainKeys_Identified_Mail.md
+          - 'DMRAC Domain-based Message Authentication Reporting and Conformance' : Knowledge_Base/Network/Email/DMRAC_Domain-based_Message_Authentication_Reporting_and_Conformance.md
+          - 'SPF Sender Policy Framework' : Knowledge_Base/Network/Email/SPF_Sender_Policy_Framework.md
+        - 'Packet Capture' : 
+          - 'Wireshark': 
+            - 'Filters' : Knowledge_Base/Network/Packet_Capture/Wireshark/Filters.md
+            - 'Profiles' : Knowledge_Base/Network/Packet_Capture/Wireshark/Profiles.md
+          - 'TCP dump' : Knowledge_Base/Network/Packet_Capture/TCP_Dump.md
+        - 'ARP' : Knowledge_Base/Network/ARP.md
+        - 'DNS' : Knowledge_Base/Network/DNS.md
+        - 'Radius' : Knowledge_Base/Network/Radius.md
+        - 'SNMP' : Knowledge_Base/Network/SNMP.md
+        - 'Subnetting' : Knowledge_Base/Network/Subnetting.md
+        - 'VPN' : Knowledge_Base/Network/VPN.md
+      - 'OS':
+        - 'Windows':
+          - 'Applications' : Knowledge_Base/OS/Windows/applications.md
+          - 'Commands':
+            - 'PowerShell file & folder operation' : Knowledge_Base/OS/Windows/Commands/PowerShell_file_operation.md
+            - 'Removing Edge Browser' : Knowledge_Base/OS/Windows/Commands/Removing_Edge_Browser.md
+            - 'Routes' : Knowledge_Base/OS/Windows/Commands/routes.md
+            - 'Windows Start-up' : Knowledge_Base/OS/Windows/Commands/Windows_Start-up.md
+            - 'WSL Windows Subsystem Linux' : Knowledge_Base/OS/Windows/Commands/WSL_Windows_Subsystem_Linux.md
+          - 'Troubleshooting' :
+            - 'ERR SSL VERSION OR CIPHER MISMATCH' : Knowledge_Base/OS/Windows/Troubleshooting/ERR_SSL_VERSION_OR_CIPHER_MISMATCH.md
+        - 'Linux':
+          - 'Debian':
+            - 'Package Management' : 
+              - 'apt' : Knowledge_Base/OS/Linux/Debian/Package_Management/apt.md
+              - 'dpkg' : Knowledge_Base/OS/Linux/Debian/Package_Management/dpkg.md
+              - 'other' : Knowledge_Base/OS/Linux/Debian/Package_Management/other.md
+            - 'Backup & Restore' : 
+              - 'Timeshift system snapshots' : Knowledge_Base/OS/Linux/Debian/Backup_&_Restore/Timeshift_system_snapshots.md
+              - 'Undo deleted files' : Knowledge_Base/OS/Linux/Debian/Backup_&_Restore/Undo_Deleted_Files.md
+            - 'Commands' : 
+              - 'Autostart apps scripts on startup' : Knowledge_Base/OS/Linux/Debian/Commands/Autostart_apps_scripts_on_startup.md
+              - 'curl' : Knowledge_Base/OS/Linux/Debian/Commands/curl.md
+              - 'DNS Lookup nslookup' : Knowledge_Base/OS/Linux/Debian/Commands/DNS_Lookup.md
+              - 'environment keys' : Knowledge_Base/OS/Linux/Debian/Commands/environment_keys.md
+              - 'Find Search & Locate' : Knowledge_Base/OS/Linux/Debian/Commands/Find_Search_Locate.md
+              - 'Clearing Storage' : Knowledge_Base/OS/Linux/Debian/Commands/Linux_Clearing_Storage.md
+              - 'date time' : Knowledge_Base/OS/Linux/Debian/Commands/Linux_date_time.md
+              - 'Networking VLAN & Route' : Knowledge_Base/OS/Linux/Debian/Commands/Networking_VLAN_and_Route.md
+              - 'SSL Cert end date check' : Knowledge_Base/OS/Linux/Debian/Commands/SSL_Cert_end_date_check.md
+              - 'System Commands' : Knowledge_Base/OS/Linux/Debian/Commands/System_Commands.md
+              - 'wget' : Knowledge_Base/OS/Linux/Debian/Commands/wget.md
+            - 'Desktop Environment' : Knowledge_Base/OS/Linux/Debian/Desktop_Environment/dekstop_environment.md
+            - 'Linux Directories' : 
+              - 'Hierarchy' : Knowledge_Base/OS/Linux/Debian/Linux_Directories/Hierarchy.md
+              - 'Tree Directory Browsing' : Knowledge_Base/OS/Linux/Debian/Linux_Directories/Tree-Directory_Browsing.md
+            - 'Fixes' : 
+              - 'FIX speedtest-cli apt update error' : Knowledge_Base/OS/Linux/Debian/Fixes/FIX-speedtest-cli_apt_update_error.md
+              - 'FIX DNS resolv.conf' : Knowledge_Base/OS/Linux/Debian/Fixes/FIX_DNS_resolv.conf.md
+              - 'FIX sources repos list DNS' : Knowledge_Base/OS/Linux/Debian/Fixes/FIX_sources_repos_list_DNS_Linux.md
+              - 'Ubuntu update error waiting for unattended-upgrade to exit' : Knowledge_Base/OS/Linux/Debian/Fixes/Ubuntu_update_error_waiting_for_unattended-upgrade_to_exit.md
+            - 'Misc' : 
+              - 'Crontab cronjob' : Knowledge_Base/OS/Linux/Debian/Misc/Crontab_cronjob.md
+              - 'File Permissions' : Knowledge_Base/OS/Linux/Debian/Misc/File_Permissions.md
+              - 'Linux Kernal' : Knowledge_Base/OS/Linux/Debian/Misc/Linux_Kernal.md
+              - 'OS Upgrade' : Knowledge_Base/OS/Linux/Debian/Misc/OS_Upgrade.md
+              - 'Users & Groups' : Knowledge_Base/OS/Linux/Debian/Misc/Users_and_Groups.md
+              - 'Symbolic Links' : Knowledge_Base/OS/Linux/Debian/Misc/X_Symbolic_Links.md
+            - 'Securing Linux' : 
+              - 'Disable Root account' : Knowledge_Base/OS/Linux/Debian/Securing_Linux/Disable_Root_account.md
+              - 'SSH 2FA' : Knowledge_Base/OS/Linux/Debian/Securing_Linux/SSH_2FA.md
+              - 'Viewing and_monitoring_log_files' : Knowledge_Base/OS/Linux/Debian/Securing_Linux/Viewing_and_monitoring_log_files.md
+              - 'Services & applications' : 
+              - 'vnc install' : Knowledge_Base/OS/Linux/Debian/Services_and_applications/vnc_install.md
+            - 'Kali' : 
+              - 'Issues fixes' : Knowledge_Base/OS/Linux/Debian/Kali/Issues_fixes.md
+              - 'kali setup' : Knowledge_Base/OS/Linux/Debian/Kali/kali_setup.md
+              - 'kali setup' : Knowledge_Base/OS/Linux/Debian/Kali/Proxychains.md
+              - 'SSH Server' : Knowledge_Base/OS/Linux/Debian/Kali/SSH_Server.md
+              - 'VNC over SSH' : Knowledge_Base/OS/Linux/Debian/Kali/VNC_over_SSH.md
+              - 'Wireless Adapter' : Knowledge_Base/OS/Linux/Debian/Kali/Wireless_Adapter.md
+          - 'Arch' : 
+            - 'virt manager' : Knowledge_Base/OS/Linux/Arch/virt-manager.md
+      - 'Home Lab' : 
+        - 'Docker' : Knowledge_Base/Home_Lab/Docker.md
+        - 'Kasm Workspaces' : Knowledge_Base/Home_Lab/Kasm_Workspaces.md
+        - 'pfSense' : Knowledge_Base/Home_Lab/pfSense.md
+        - 'Portainer Docker' : Knowledge_Base/Home_Lab/Portainer_Docker.md
+        - 'Wazuh SEIM' : Knowledge_Base/Home_Lab/Wazuh_SEIM.md
+      - 'Coding':
+        - 'Ansible' : Knowledge_Base/Coding/Ansible.md
+        - 'C | C++' : Knowledge_Base/Coding/C_C++.md
+        - 'C#' : Knowledge_Base/Coding/C#.md
+        - 'Github | Git' : Knowledge_Base/Coding/Github_Git.md
+        - 'Python' : Knowledge_Base/Coding/Python.md
+        - 'YAML' : Knowledge_Base/Coding/YAML.md
+        - 'Linux Bash' : Knowledge_Base/Coding/Linux_Bash.md
+        - 'Windows Powershell' : Knowledge_Base/Coding/Windows_Powershell.md
   - About: About.md
