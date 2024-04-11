@@ -140,27 +140,27 @@ nav:
         - 'SMB': Cyber_Offensive/File_Transfers/SMB.md
         - 'Telnet': Cyber_Offensive/File_Transfers/Telnet.md
         - 'windows_certutil': Cyber_Offensive/File_Transfers/windows_certutil.md
-        - 'windows_cscript': Cyber_Offensive/File_Transfers/windows_cscript.md
-        - 'Windows_mshta_wmic_regsvr32': Cyber_Offensive/File_Transfers/Windows_mshta_wmic_regsvr32.md
+        - 'windows cscript': Cyber_Offensive/File_Transfers/windows_cscript.md
+        - 'Windows mshta wmic regsvr32': Cyber_Offensive/File_Transfers/Windows_mshta_wmic_regsvr32.md
       - 'Initial Enumeration': Cyber_Offensive/Initial_Enumeration/Initial_Enumeration.md
       - 'Password Attacks, Cracking':
-        - 'Argon2_cracker': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Argon2_cracker.md
-        - 'Cracking_Files': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Cracking_Files.md
+        - 'Argon2 cracker': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Argon2_cracker.md
+        - 'Cracking Files': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Cracking_Files.md
         - 'Decoding': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Decoding.md
         - 'Hashcat': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Hashcat.md
         - 'Hydra': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Hydra.md
         - 'Medusa': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Medusa.md
         - 'Ncrack': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Ncrack.md
-        - 'Passing_the_hash': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Passing_the_hash.md
+        - 'Passing the hash': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Passing_the_hash.md
         - 'Wordlists': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Wordlists.md
-        - 'Basic_Usage': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Basic_Usage.md
-        - 'Cracking_modes': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Cracking_modes.md
-        - 'Misc_&_Tricks': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Misc_&_Tricks.md
+        - 'Basic Usage': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Basic_Usage.md
+        - 'Cracking modes': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Cracking_modes.md
+        - 'Misc & Tricks': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Misc_&_Tricks.md
         - 'Rules': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Rules.md
-        - 'Wordlists_&_Incremental': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Wordlists_&_Incremental.md
+        - 'Wordlists & Incremental': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Wordlists_&_Incremental.md
       - 'Privilege Escalation':
-        - 'Linux_Privilege_Escalation': Cyber_Offensive/Privilege_Escalation/Linux_Privilege_Escalation/Linux_Privilege_Escalation.md
-        - 'Windows_Privilege_Escalation': Cyber_Offensive/Privilege_Escalation/Windows_Privilege_Escalation/Windows_Privilege_Escalation.md
+        - 'Linux Privilege Escalation': Cyber_Offensive/Privilege_Escalation/Linux_Privilege_Escalation/Linux_Privilege_Escalation.md
+        - 'Windows Privilege Escalation': Cyber_Offensive/Privilege_Escalation/Windows_Privilege_Escalation/Windows_Privilege_Escalation.md
       - 'Reconnaissance':
         - 'DNSdumpster': Cyber_Offensive/Recon/DNSdumpster.md
         - 'recon': Cyber_Offensive/Recon/recon.md
@@ -170,8 +170,8 @@ nav:
         - 'dcomexec.py': Cyber_Offensive/Remote_connection_&_execution/dcomexec.py.md
         - 'evil-winrm': Cyber_Offensive/Remote_connection_&_execution/evil-winrm.md
         - 'psexec.py': Cyber_Offensive/Remote_connection_&_execution/psexec.py.md
-        - 'Remote_connection_&_execution': Cyber_Offensive/Remote_connection_&_execution/Remote_connection_&_execution.md
-        - 'Reverse_Shell': Cyber_Offensive/Remote_connection_&_execution/Reverse_Shell.md
+        - 'Remote connection & execution': Cyber_Offensive/Remote_connection_&_execution/Remote_connection_&_execution.md
+        - 'Reverse Shell': Cyber_Offensive/Remote_connection_&_execution/Reverse_Shell.md
         - 'smbexec.py': Cyber_Offensive/Remote_connection_&_execution/smbexec.py.md
         - 'winrm': Cyber_Offensive/Remote_connection_&_execution/winrm.md
         - 'wmiexec.py': Cyber_Offensive/Remote_connection_&_execution/wmiexec.py.md
@@ -182,8 +182,8 @@ nav:
         - 'MSSQL': Cyber_Offensive/Services/MSSQL.md
         - 'POP3': Cyber_Offensive/Services/POP3.md
         - 'SMTP': Cyber_Offensive/Services/SMTP.md
-        - 'SAMBA_-_SMB': Cyber_Offensive/Services/Samba_SMB/SAMBA_-_SMB.md
-        - 'SMB_Client': Cyber_Offensive/Services/Samba_SMB/SMB_Client.md
+        - 'SAMBA _ SMB': Cyber_Offensive/Services/Samba_SMB/SAMBA_-_SMB.md
+        - 'SMB Client': Cyber_Offensive/Services/Samba_SMB/SMB_Client.md
         - 'Tools': Cyber_Offensive/Services/Samba_SMB/Tools.md
       - 'Web':
         - 'RFI-LFI_File_Inclusion': Cyber_Offensive/Web/RFI-LFI_File_Inclusion.md
@@ -231,9 +231,16 @@ nav:
         - 'SNMP' : Knowledge_Base/Network/SNMP.md
         - 'Subnetting' : Knowledge_Base/Network/Subnetting.md
         - 'VPN' : Knowledge_Base/Network/VPN.md
-      - 'OS':
         - 'Windows':
-          - 'W': Knowledge_Base/OS/Windows/w.md
+          - 'Applications' : Knowledge_Base/OS/Windows/applications.md
+          - 'Commands':
+            - 'PowerShell file & folder operation' : Knowledge_Base/OS/Windows/Commands/PowerShell_file_operation.md
+            - 'Removing Edge Browser' : Knowledge_Base/OS/Windows/Commands/Removing_Edge_Browser.md
+            - 'Routes' : Knowledge_Base/OS/Windows/Commands/routes.md
+            - 'Windows Start-up' : Knowledge_Base/OS/Windows/Commands/Windows_Start-up.md
+            - 'WSL Windows Subsystem Linux' : Knowledge_Base/OS/Windows/Commands/WSL_Windows_Subsystem_Linux.md
+          - 'Troubleshooting' :
+            - 'ERR SSL VERSION OR CIPHER MISMATCH' : Knowledge_Base/OS/Windows/Troubleshooting/ERR_SSL_VERSION_OR_CIPHER_MISMATCH.md
         - 'Linux':
           - 'Debian':
             - 'Package Management' : 
