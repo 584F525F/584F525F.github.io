@@ -234,14 +234,14 @@ nav:
       - 'OS':
         - 'Windows':
           - 'Applications' : Knowledge_Base/OS/Windows/applications.md
-        - 'Commands':
-          - 'PowerShell file & folder operation' : Knowledge_Base/OS/Windows/Commands/PowerShell_file_operation.md
-          - 'Removing Edge Browser' : Knowledge_Base/OS/Windows/Commands/Removing_Edge_Browser.md
-          - 'Routes' : Knowledge_Base/OS/Windows/Commands/routes.md
-          - 'Windows Start-up' : Knowledge_Base/OS/Windows/Commands/Windows_Start-up.md
-          - 'WSL Windows Subsystem Linux' : Knowledge_Base/OS/Windows/Commands/WSL_Windows_Subsystem_Linux.md
-        - 'Troubleshooting' :
-          - 'ERR SSL VERSION OR CIPHER MISMATCH' : Knowledge_Base/OS/Windows/Troubleshooting/ERR_SSL_VERSION_OR_CIPHER_MISMATCH.md
+          - 'Commands':
+            - 'PowerShell file & folder operation' : Knowledge_Base/OS/Windows/Commands/PowerShell_file_operation.md
+            - 'Removing Edge Browser' : Knowledge_Base/OS/Windows/Commands/Removing_Edge_Browser.md
+            - 'Routes' : Knowledge_Base/OS/Windows/Commands/routes.md
+            - 'Windows Start-up' : Knowledge_Base/OS/Windows/Commands/Windows_Start-up.md
+            - 'WSL Windows Subsystem Linux' : Knowledge_Base/OS/Windows/Commands/WSL_Windows_Subsystem_Linux.md
+          - 'Troubleshooting' :
+            - 'ERR SSL VERSION OR CIPHER MISMATCH' : Knowledge_Base/OS/Windows/Troubleshooting/ERR_SSL_VERSION_OR_CIPHER_MISMATCH.md
         - 'Linux':
           - 'Debian':
             - 'Package Management' : 
@@ -295,11 +295,11 @@ nav:
           - 'Arch' : 
             - 'virt manager' : Knowledge_Base/OS/Linux/Arch/virt-manager.md
       - 'Home Lab' : 
-        - '' : Knowledge_Base/Home_Lab/Docker.md
-        - '' : Knowledge_Base/Home_Lab/Kasm_Workspaces.md
-        - '' : Knowledge_Base/Home_Lab/pfSense.md
-        - '' : Knowledge_Base/Home_Lab/Portainer_Docker.md
-        - '' : Knowledge_Base/Home_Lab/Wazuh_SEIM.md
+        - 'Docker' : Knowledge_Base/Home_Lab/Docker.md
+        - 'Kasm Workspaces' : Knowledge_Base/Home_Lab/Kasm_Workspaces.md
+        - 'pfSense' : Knowledge_Base/Home_Lab/pfSense.md
+        - 'Portainer Docker' : Knowledge_Base/Home_Lab/Portainer_Docker.md
+        - 'Wazuh SEIM' : Knowledge_Base/Home_Lab/Wazuh_SEIM.md
       - 'Coding':
         - 'Ansible' : Knowledge_Base/Coding/Ansible.md
         - 'C | C++' : Knowledge_Base/Coding/C_C++.md
