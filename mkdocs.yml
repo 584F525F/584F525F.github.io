@@ -257,4 +257,10 @@ nav:
         - 'YAML' : Knowledge_Base/Coding/YAML.md
         - 'Linux Bash' : Knowledge_Base/Coding/Linux_Bash.md
         - 'Windows Powershell' : Knowledge_Base/Coding/Windows_Powershell.md
+      - 'Home Lab' : 
+        - 'Docker' : Knowledge_Base/Home_Lab/Docker.md
+        - 'Kasm Workspaces' : Knowledge_Base/Home_Lab/Kasm_Workspaces.md
+        - 'pfSense' : Knowledge_Base/Home_Lab/pfSense.md
+        - 'Portainer Docker' : Knowledge_Base/Home_Lab/Portainer_Docker.md
+        - 'Wazuh SEIM' : Knowledge_Base/Home_Lab/Wazuh_SEIM.md
   - About: About.md
