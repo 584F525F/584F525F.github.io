@@ -47,13 +47,15 @@ theme:
     - content.code.copy
     - content.code.select
     - content.tabs.link
-    - content.tabs.link
     - navigation.tracking
     - navigation.path
     - navigation.top
     - navigation.tabs
     - navigation.footer
     - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
     - navigation.sections
     - search.highlight
     - search.suggest
