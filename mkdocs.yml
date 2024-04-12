@@ -24,8 +24,6 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
-  features:
-    - navigation.path
   favicon: assets/icons/mandalorian-white.png
 
   palette:
@@ -51,12 +49,12 @@ theme:
     - content.tabs.link
     - content.tabs.link
     - navigation.tracking
+    - navigation.path
     - navigation.top
     - navigation.tabs
     - navigation.footer
     - navigation.indexes
     - navigation.sections
-    - navigation.path
     - search.highlight
     - search.suggest
     - search.share
