@@ -1,5 +1,6 @@
-??? "init.d"
-    ### init.d
+!!! info ""
+    #### init.d
+
     ```bash
     cd /etc/init.d
     sudo nano script.sh
