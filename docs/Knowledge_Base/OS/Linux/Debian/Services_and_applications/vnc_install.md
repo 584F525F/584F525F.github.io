@@ -15,7 +15,7 @@
 
     You’ll be prompted to enter and verify a password to access your machine remotely
 
-    **example**
+    example
 
     ```bash
     ->$ sudo vncserver

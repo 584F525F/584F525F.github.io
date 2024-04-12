@@ -82,6 +82,8 @@
         Remove-Item 'D:\temp\Test Folder' -Recurse
         ```
 
+!!! info ""
+
     #### Copying file(s)
 
     === "copying a single file"

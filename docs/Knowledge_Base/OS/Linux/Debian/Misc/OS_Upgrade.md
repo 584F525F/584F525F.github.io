@@ -1,12 +1,23 @@
-!!! info "Recommended"
+!!! success ""
     
-    Check release by using one of the following commands:
+    #### Recommended
+
+    ##### Check OS release
     
     ```bash
     lsb_release -a
     cat /etc/lsb-release
     cat /etc/os-release
     ```
+
+    ##### check packages with available upgrades
+
+    ```bash
+    sudo apt update
+    sudo apt list --upgradable
+    ```
+
+    ##### upgrade steps
 
     ```bash
     sudo apt clean
@@ -16,17 +27,12 @@
     sudo apt dist-upgrade
     sudo do-release-upgrade
     ```
-
-    if needed
-
-    ```bash
-    apt list --upgradable
-    ```
-
     
-!!! warning "Upgrade using apt-fast - NOT TESTED"
+!!! warning ""
   
-    #Update your software sources 
+    #### Upgrade using apt-fast - NOT TESTED
+
+    Update your software sources 
 
     ```bash
     do-release-upgrade

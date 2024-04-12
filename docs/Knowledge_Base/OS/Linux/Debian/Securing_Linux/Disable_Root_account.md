@@ -1,6 +1,7 @@
 !!! warning ""
 
     #### 0. Create a user
+
     First steps to securing your linux machine after install
     Create a new user
 
@@ -53,6 +54,7 @@
     ```bash
     sudo nano /etc/nologin.txt
     ```
+    
     Enter your prefered warning message, then save your changes and exit the file
     The the ducks are qucking around, so watch your back Jack!
     

@@ -1,155 +1,182 @@
 !!! info ""
-    ### Using APT - Advanced Package Tool
-    #### Upgrade OS run
-	```
+    
+    #### Using APT - Advanced Package Tool
+    
+    ##### Upgrade OS run
+	
+    ```bash
     do-release-upgrade
     ```
     
-    #### To upgrade existing package
-    ```
+    ##### To upgrade existing package
+    
+    ```bash
     sudo apt-get --only-upgrade install <Package>
     ```
 
-    #### To install & Remove a package
-    ```
+    ##### To install & Remove a package
+    
+    ```bash
     sudo apt-get install <Package>
     sudo apt-get remove <Package>
     ```
 
-    #### To search for package
-    ```
+    ##### To search for package
+    
+    ```bash
     apt search <package>
     ```
 
-    #### See list of upgradable packages
-    ```
+    ##### See list of upgradable packages
+    
+    ```bash
     sudo apt-get update
     sudo apt list --upgradable
     ```
 
-    #### List installed packages
-    ```
+    ##### List installed packages
+    
+    ```bash
     sudo apt list --installed
     ```
     
-    ##### View package details, version, etc.
-    ```
+    ###### View package details, version, etc.
+    
+    ```bash
     apt show <Package>
     ```
 
-    #### Check stats on installed Packages
-    ```
+    ##### Check stats on installed Packages
+    
+    ```bash
     apt-cache stats
     ```
 
-    #### Show installed packages names
-    ```
+    ##### Show installed packages names
+    
+    ```bash
     apt-cache pkgnames
     apt-cache pkgnames <name>*
     ```
 
-    #### Search for package
-    ```
+    ##### Search for package
+    
+    ```bash
     apt-cache search <name>
     ```
 
-    #### Check unmet dependencies
-    ```
+    ##### Check unmet dependencies
+    
+    ```bash
     apt-cache unmet
     ```
 
-    #### Check Install repos
-    ```
+    ##### Check Install repos
+    
+    ```bash
     less /etc/apt/sources.list
     ```
 
-    #### apt manual pages
-    ```
+    ##### apt manual pages
+    
+    ```bash
     man apt
     man apt-get
     ```
 
-    #### Packages installed with apt-get are located in /var/cache/apt/archives
+    ##### Packages installed with apt-get are located in /var/cache/apt/archives
     
-    #### To check Repo sources
+    ##### To check Repo sources
     
     ```bash
     sudo apt edit-sources
     ```
     
 !!! example ""
-    ### Adding Apt Repository In Ubuntu
+    
+    #### Adding Apt Repository In Ubuntu
     Resources [How-to-add-apt-repository-in-ubuntu](https://linuxize.com/post/how-to-add-apt-repository-in-ubuntu/)
 
         
 !!! example ""
-    ### Adding Kali Repository to Ubuntu
-	#### Step-1: Install Git
-	```
+    
+    #### Adding Kali Repository to Ubuntu
+	
+    ##### Step-1: Install Git
+	
+    ```bash
     sudo apt install git
 	git --version
 	```
 	
-	#### Step-2: Install Python 2.7
-	```
+	##### Step-2: Install Python 2.7
+	
+    ```bash
     sudo apt install python2    <OR>     sudo apt install python-minimal
 	python2 --version
 	```
 	
-	#### Step-3: Install Katoolin
-	```
+	##### Step-3: Install Katoolin
+	
+    ```bash
     cd ~
 	sudo git clone <https://github.com/LionSec/katoolin.git>
 	ls -l
 	sudo cp katoolin/katoolin.py /usr/bin/katoolin
     ```
-	Make the script executable
-	```
+	
+    Make the script executable
+	
+    ```bash
     sudo chmod +x /usr/bin/katoolin
 	```
 	
-	#### Step-4: Launch Katoolin
-	```
+	##### Step-4: Launch Katoolin
+	
+    ```bash
     sudo katoolin
-    <OR>
-	sudo python2 /usr/bin/katoolin
+    ```
+
+    OR
+	
+    ```bash
+    sudo python2 /usr/bin/katoolin
     ```	
 	
-	#### Step-5: Add Kali Repositories & Update
+	##### Step-5: Add Kali Repositories & Update
 	katoolin
 	- Choose 1 "add Kali Linux repositories"
 	- Choose 1 again "Add Kali Linux repositories"
 	
 	If you get the error gpg: keyserver receive failed: No name
-	```
+	
+    ```bash
     wget -q -O - archive.kali.org/archive-key.asc | sudo  apt-key add
 	sudo apt update
     ```
 	
-	Update repos
-	katoolin
-    ```
+	katoolin - Update repos
+
+    ```bash
 	- Option 1 "Add Kali Linux repositories"
 	- Option 2 "Update"
 	- When done, type gohome to return the katoolin main interface window.
 	```
 	
-	#### Step-6: View Categories to install Kali Linux Apps on Ubuntu
-	katoolin
-	```
+	##### Step-6: katoolin - View Categories to install Kali Linux Apps on Ubuntu
+
+	```bash
     - Option 2 "View Categories"
 	```
 	
-	#### Step-7: Install the Classic Menu indicator
-	katoolin
-	```
+	##### Step-7: katoolin - Install the Classic Menu indicator
+
+	```bash
     - Option 3 to Classic Menu indicator
 	```
 	
-	#### Step-8: Install Kali Menu
-	katoolin
-	```
+	##### Step-8: katoolin - Install Kali Menu
+
+	```bash
     - Option 4 install the Kali menu
     ```
-
-
