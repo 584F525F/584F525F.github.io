@@ -84,6 +84,23 @@
 
 !!! info ""
 
+    ### code
+    === "C"
+
+        ``` c
+        {
+            code here
+        }
+        ```
+
+    === "C++"
+
+        ``` c++
+        {
+            code here
+        }
+        ```
+
 #### Copying file(s)
 === "copying a single file"
     delete file 'D:\temp\Test Folder\test.txt'
@@ -101,7 +118,9 @@
 
     ### Folders
 
-    #### create a folder in D:\Temp\ with name "Test Folder"
+    #### create a folder
+    
+    create a folder in D:\Temp\ with name "Test Folder"
 
     ```powershell
     New-Item -Path 'D:\temp\Test Folder' -ItemType Directory
