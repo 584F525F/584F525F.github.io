@@ -248,6 +248,15 @@ nav:
               - 'apt' : Knowledge_Base/OS/Linux/Debian/Package_Management/apt.md
               - 'dpkg' : Knowledge_Base/OS/Linux/Debian/Package_Management/dpkg.md
               - 'other' : Knowledge_Base/OS/Linux/Debian/Package_Management/other.md
+            - 'Kali' : 
+              - 'Issues fixes' : Knowledge_Base/OS/Linux/Debian/Kali/Issues_fixes.md
+              - 'kali setup' : Knowledge_Base/OS/Linux/Debian/Kali/kali_setup.md
+              - 'kali setup' : Knowledge_Base/OS/Linux/Debian/Kali/Proxychains.md
+              - 'SSH Server' : Knowledge_Base/OS/Linux/Debian/Kali/SSH_Server.md
+              - 'VNC over SSH' : Knowledge_Base/OS/Linux/Debian/Kali/VNC_over_SSH.md
+              - 'Wireless Adapter' : Knowledge_Base/OS/Linux/Debian/Kali/Wireless_Adapter.md
+          - 'Arch' : 
+            - 'virt manager' : Knowledge_Base/OS/Linux/Arch/virt-manager.md
       - 'Coding':
         - 'Ansible' : Knowledge_Base/Coding/Ansible.md
         - 'C | C++' : Knowledge_Base/Coding/C_C++.md
