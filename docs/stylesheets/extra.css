@@ -19,6 +19,10 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
     color: #becc00;
     border-radius: 2%;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     background-color: var(--md-TOC-selected-text-bg-color);
   }
 

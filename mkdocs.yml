@@ -213,6 +213,9 @@ nav:
     - 'Summary': knowledge_base.md
     - '': 
       - 'Network':
+        - 'ARP' : Knowledge_Base/Network/ARP.md
+        - 'DNS' : Knowledge_Base/Network/DNS.md
+        - 'DHCP' : Knowledge_Base/Network/dhcp.md
         - 'Email' :
           - 'POP3' : Knowledge_Base/Network/Email/POP3.md
           - 'SMTP' : Knowledge_Base/Network/Email/SMTP.md
@@ -225,8 +228,6 @@ nav:
             - 'Filters' : Knowledge_Base/Network/Packet_Capture/Wireshark/Filters.md
             - 'Profiles' : Knowledge_Base/Network/Packet_Capture/Wireshark/Profiles.md
           - 'TCP dump' : Knowledge_Base/Network/Packet_Capture/TCP_Dump.md
-        - 'ARP' : Knowledge_Base/Network/ARP.md
-        - 'DNS' : Knowledge_Base/Network/DNS.md
         - 'Radius' : Knowledge_Base/Network/Radius.md
         - 'SNMP' : Knowledge_Base/Network/SNMP.md
         - 'Subnetting' : Knowledge_Base/Network/Subnetting.md
