@@ -234,14 +234,7 @@ nav:
       - 'OS':
         - 'Windows':
           - 'Applications' : Knowledge_Base/OS/Windows/applications.md
-          - 'Commands':
-            - 'PowerShell file & folder operation' : Knowledge_Base/OS/Windows/Commands/PowerShell_file_operation.md
-            - 'Removing Edge Browser' : Knowledge_Base/OS/Windows/Commands/Removing_Edge_Browser.md
-            - 'Routes' : Knowledge_Base/OS/Windows/Commands/routes.md
-            - 'Windows Start-up' : Knowledge_Base/OS/Windows/Commands/Windows_Start-up.md
-            - 'WSL Windows Subsystem Linux' : Knowledge_Base/OS/Windows/Commands/WSL_Windows_Subsystem_Linux.md
-          - 'Troubleshooting' :
-            - 'ERR SSL VERSION OR CIPHER MISMATCH' : Knowledge_Base/OS/Windows/Troubleshooting/ERR_SSL_VERSION_OR_CIPHER_MISMATCH.md
+
         - 'Linux':
           - 'Debian':
             - 'Package Management' : 
