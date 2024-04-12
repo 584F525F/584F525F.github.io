@@ -250,8 +250,8 @@ nav:
               - 'dpkg' : Knowledge_Base/OS/Linux/Debian/Package_Management/dpkg.md
               - 'other' : Knowledge_Base/OS/Linux/Debian/Package_Management/other.md
             - 'Backup & Restore' : 
-              - 'Timeshift system snapshots' : Knowledge_Base/OS/Linux/Debian/Backup_&_Restore/Timeshift_system_snapshots.md
-              - 'Undo deleted files' : Knowledge_Base/OS/Linux/Debian/Backup_&_Restore/Undo_Deleted_Files.md
+              - 'Timeshift system snapshots' : Knowledge_Base/OS/Linux/Debian/Backup_and_Restore/Timeshift_system_snapshots.md
+              - 'Undo deleted files' : Knowledge_Base/OS/Linux/Debian/Backup_and_Restore/Undo_Deleted_Files.md
             - 'Commands' : 
               - 'Autostart apps scripts on startup' : Knowledge_Base/OS/Linux/Debian/Commands/Autostart_apps_scripts_on_startup.md
               - 'curl' : Knowledge_Base/OS/Linux/Debian/Commands/curl.md
