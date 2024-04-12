@@ -1,4 +1,5 @@
 !!! failure "Broken links"
+
     #### Locating the broken/trouble link when running apt update
 
     ```bash
@@ -7,8 +8,8 @@
     sudo grep -ir "BROKEN_LINK" .
     ```
 
-
 !!! failure "/usr/lib/apt/methods/https could not be found"
+
     #### E: The method driver /usr/lib/apt/methods/https could not be found. N: Is the package apt-transport-https installed?
 
     ```bash
@@ -21,6 +22,7 @@
     ```
 
 !!! failure ""
+
     #### E: The method driver /usr/lib/apt/methods/https could not be found.” error? Sounds like you may have added some https sources. Since there are no https sources in your sources.list, it would be something in /etc/apt/sources.list.d/.
 
     ```bash
@@ -28,6 +30,7 @@
     ```
 
 !!! failure ""
+
     #### GPG error: [https://packagecloud.io/ookla/speedtest-cli/ubuntu](https://packagecloud.io/ookla/speedtest-cli/ubuntu) xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 8E61C2AB9A6D1557
 
     ```bash
@@ -36,6 +39,7 @@
     ```
 
 !!! failure ""
+
     #### Update errors
 
     ```bash
@@ -49,6 +53,7 @@
     ```
 
 !!! failure ""
+
     #### Failed to fetch https:// E: The repository 'https N: Updating from such a repository can't be done securely, and is therefore disabled by default. N: See apt-secure(8) manpage for repository creation and user configuration details.
 
     Locate the file in following path and remove the .list file
@@ -64,6 +69,7 @@
     ```
 
 !!! failure ""
+
     #### List update errors
 
     ```bash

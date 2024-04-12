@@ -148,7 +148,7 @@
     sudo nmcli dev wifi connect network-ssid password "network-password"
     ```
 
-    #### using different connections
+    ##### using different connections
 
     If you're connected to one network, but want to use a different connection, you can disconnect by switching the connection to down. You'll need to specify the SSID, or if you have multiple connections with the same SSID, use the UUID.
 

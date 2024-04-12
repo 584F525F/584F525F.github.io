@@ -1,18 +1,22 @@
-**Resources**
-[lxqt-on-linux](https://www.addictivetips.com/ubuntu-linux-tips/lxqt-on-linux/)
+!!! info ""
 
-**LXQt on Linux**
+    #### Resources
+    - [lxqt-on-linux](https://www.addictivetips.com/ubuntu-linux-tips/lxqt-on-linux/)
 
-This package contains LXQt and various programs, apps, and a login session so you can use the desktop.
-```bash
-sudo apt install lubuntu-desktop
-```
+    #### LXQt on Linux
 
-To start the installation of LXQt on Debian
-```bash
-sudo apt install lxqt
-```
+    This package contains LXQt and various programs, apps, and a login session so you can use the desktop.
 
-choose lightdm
+    ```bash
+    sudo apt install lubuntu-desktop
+    ```
 
-![alt text](image.png)
+    To start the installation of LXQt on Debian
+
+    ```bash
+    sudo apt install lxqt
+    ```
+
+    choose lightdm
+
+    ![alt text](image.png)

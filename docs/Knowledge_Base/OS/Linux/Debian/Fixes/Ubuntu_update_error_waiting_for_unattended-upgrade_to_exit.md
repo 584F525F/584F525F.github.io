@@ -1,4 +1,5 @@
 !!! info ""
+
     #### Stop the automatic updater
 
     choose not to download and install updates

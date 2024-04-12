@@ -1,5 +1,7 @@
 !!! info ""
 
+    #### installing rtl88xxau
+
     ```bash
     lsusb -v
     dmesg | grep usbcore
@@ -8,7 +10,9 @@
     sudo reboot
     ```
 
-    Enabling monitor mode, assuming the adapter is named wlan0
+    #### enabling monitor mode
+    
+    assuming the adapter is named wlan0
 
     ```bash
     ifconfig wlan0 down
@@ -16,6 +20,8 @@
     iwconfig wlan0 mode monitor
     ifconfig wlan0 up
     ```
+
+    example output
 
     ```bash
     Chipset: Realtek RTL8812AU.
