@@ -84,23 +84,18 @@
 
 !!! info ""
 
-    #### Copying file(s)
-
-    === "copying a single file"
-
-        delete file 'D:\temp\Test Folder\test.txt'
-
-        ```powershell
-        Copy-Item 'D:\temp\Test Folder\Test File.txt' 'D:\temp\Test Folder1\Test File1.txt'
-        ```
-
-    === "copying multiple files"
-        
-        Copy files from 1 directory to another
-
-        ```powershell
-        Copy-Item -Filter *.txt -Path 'D:\temp\Test Folder' -Recurse -Destination 'D:\temp\Test Folder1'
-        ```
+#### Copying file(s)
+=== "copying a single file"
+    delete file 'D:\temp\Test Folder\test.txt'
+    ```powershell
+    Copy-Item 'D:\temp\Test Folder\Test File.txt' 'D:\temp\Test Folder1\Test File1.txt'
+    ```
+=== "copying multiple files"
+    
+    Copy files from 1 directory to another
+    ```powershell
+    Copy-Item -Filter *.txt -Path 'D:\temp\Test Folder' -Recurse -Destination 'D:\temp\Test Folder1'
+    ```
 
 !!! info ""
 
