@@ -1,52 +1,53 @@
+!!! info ""
 
-```shell
-telnet 10.10.45.250 110
+    ```shell
+    telnet 10.10.45.250 110
 
-#Trying 10.10.45.250...
-#Connected to MACHINE_IP.
-#Escape character is '^]'.
-#+OK MACHINE_IP Mail Server POP3 Wed, 15 Sep 2021 11:05:34 +0300 
-```
+    #Trying 10.10.45.250...
+    #Connected to MACHINE_IP.
+    #Escape character is '^]'.
+    #+OK MACHINE_IP Mail Server POP3 Wed, 15 Sep 2021 11:05:34 +0300 
+    ```
 
-```shell
-USER frank
-#+OK frank
-```
+    ```shell
+    USER frank
+    #+OK frank
+    ```
 
-```shell
-PASS D2xc9CgD
-#+OK 1 messages (179) octets
-```
+    ```shell
+    PASS D2xc9CgD
+    #+OK 1 messages (179) octets
+    ```
 
-```shell
-STAT
-#+OK 1 179
-```
+    ```shell
+    STAT
+    #+OK 1 179
+    ```
 
-```shell
-LIST
+    ```shell
+    LIST
 
-#+OK 1 messages (179) octets
-#1 179
-```
+    #+OK 1 messages (179) octets
+    #1 179
+    ```
 
-```shell
-.
-RETR 1
+    ```shell
+    .
+    RETR 1
 
-#+OK
-```
+    #+OK
+    ```
 
-```shell
-From: Mail Server 
-To: Frank 
-subject: Sending email with Telnet
-Hello Frank,
-I am just writing to say hi!
-.
-QUIT
+    ```shell
+    From: Mail Server 
+    To: Frank 
+    subject: Sending email with Telnet
+    Hello Frank,
+    I am just writing to say hi!
+    .
+    QUIT
 
 
-#+OK MACHINE_IP closing connection
-#Connection closed by foreign host.
-```
+    #+OK MACHINE_IP closing connection
+    #Connection closed by foreign host.
+    ```

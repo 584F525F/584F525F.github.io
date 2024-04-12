@@ -1,61 +1,64 @@
+!!! info ""
 
-[froxbuster](https://github.com/epi052/feroxbuster)
-[official documentation](https://epi052.github.io/feroxbuster-docs/docs/)
+    [froxbuster](https://github.com/epi052/feroxbuster)
+    [official documentation](https://epi052.github.io/feroxbuster-docs/docs/)
 
 
-##### install
+!!! info ""
 
-```shell
-sudo apt update && sudo apt install -y feroxbuster
-```
+    ##### install
 
-##### update
+    ```shell
+    sudo apt update && sudo apt install -y feroxbuster
+    ```
 
-```shell
-./feroxbuster --update
-```
+    ##### update
 
-##### Multiple Values
+    ```shell
+    ./feroxbuster --update
+    ```
 
-Options that take multiple values are very flexible. Consider the following ways of specifying extensions:
-The command adds .pdf, .js, .html, .php, .txt, .json, and .docx to each url
-All of the methods (multiple flags, space separated, comma separated, etc...) are valid and interchangeable. The same goes for urls, headers, status codes, queries, and size filters.
+    ##### Multiple Values
 
-```bash
-./feroxbuster -u http://127.1 -x pdf -x js,html -x php txt json,docx
-```
+    Options that take multiple values are very flexible. Consider the following ways of specifying extensions:
+    The command adds .pdf, .js, .html, .php, .txt, .json, and .docx to each url
+    All of the methods (multiple flags, space separated, comma separated, etc...) are valid and interchangeable. The same goes for urls, headers, status codes, queries, and size filters.
 
-##### Include Headers
+    ```bash
+    ./feroxbuster -u http://127.1 -x pdf -x js,html -x php txt json,docx
+    ```
 
-```bash
-./feroxbuster -u http://127.1 -H Accept:application/json "Authorization: Bearer {token}"
-```
+    ##### Include Headers
 
-##### IPv6, non-recursive scan with INFO-level logging enabled
+    ```bash
+    ./feroxbuster -u http://127.1 -H Accept:application/json "Authorization: Bearer {token}"
+    ```
 
-```bash
-./feroxbuster -u http://[::1] --no-recursion -vv
-```
+    ##### IPv6, non-recursive scan with INFO-level logging enabled
 
-##### Read urls from STDIN; pipe only resulting urls out to another tool
+    ```bash
+    ./feroxbuster -u http://[::1] --no-recursion -vv
+    ```
 
-```bash
-cat targets | ./feroxbuster --stdin --silent -s 200 301 302 --redirects -x js | fff -s 200 -o js-files
-```
+    ##### Read urls from STDIN; pipe only resulting urls out to another tool
 
-##### Proxy traffic through Burp
+    ```bash
+    cat targets | ./feroxbuster --stdin --silent -s 200 301 302 --redirects -x js | fff -s 200 -o js-files
+    ```
 
-```bash
-./feroxbuster -u http://127.1 --insecure --proxy http://127.0.0.1:8080
-```
+    ##### Proxy traffic through Burp
 
-##### Proxy traffic through a SOCKS proxy (including DNS lookups)
+    ```bash
+    ./feroxbuster -u http://127.1 --insecure --proxy http://127.0.0.1:8080
+    ```
 
-```bash
-./feroxbuster -u http://127.1 --proxy socks5h://127.0.0.1:9050
-```
+    ##### Proxy traffic through a SOCKS proxy (including DNS lookups)
 
-##### Pass auth token via query parameter
-```bash
-./feroxbuster -u http://127.1 --query token=0123456789ABCDEF
-```
+    ```bash
+    ./feroxbuster -u http://127.1 --proxy socks5h://127.0.0.1:9050
+    ```
+
+    ##### Pass auth token via query parameter
+    ```bash
+    ./feroxbuster -u http://127.1 --query token=0123456789ABCDEF
+    ```

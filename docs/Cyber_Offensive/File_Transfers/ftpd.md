@@ -1,4 +1,5 @@
+!!! info ""
 
-```shell
-/etc/init.d/pure-ftpd
-```
+    ```shell
+    /etc/init.d/pure-ftpd
+    ```

@@ -60,6 +60,7 @@
     ```
 
 !!! info "FTP options"
+
     #### switches
 
     ```bash

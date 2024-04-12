@@ -1,2 +1,4 @@
-[Dictionaries](https://github.com/bl4de/dictionaries)
+!!! info ""
+
+    [Dictionaries](https://github.com/bl4de/dictionaries)
 

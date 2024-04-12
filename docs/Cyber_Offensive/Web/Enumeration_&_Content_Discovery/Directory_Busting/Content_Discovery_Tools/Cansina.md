@@ -1,2 +1,4 @@
-# [Cansina](https://github.com/deibit/cansina)
+!!! info ""
+
+    #### [Cansina](https://github.com/deibit/cansina)
 

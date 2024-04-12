@@ -1,25 +1,27 @@
-# nmap
+!!! info ""
 
-```shell
-sudo nmap -sV -A --min-rate 1500 x.x.x.x
-sudo nmap -p x,x,x --script vuln x.x.x.x
-```
+    #### nmap
 
-# metasploit
-```shell
-systemctl start postgresql
-msfdb init
-msfconsole
-db_status
-workspace -a <project_name>
-workspace
+    ```bash
+    sudo nmap -sV -A --min-rate 1500 x.x.x.x
+    sudo nmap -p x,x,x --script vuln x.x.x.x
+    ```
 
-db_nmap -sV -A -p- x.x.x.x
-hosts
-services
-vulns
+    #### metasploit
 
-```
+    ```bash
+    systemctl start postgresql
+    msfdb init
+    msfconsole
+    db_status
+    workspace -a <project_name>
+    workspace
 
-# Nikto
-[Nikto web server scanner](https://github.com/sullo/nikto)
+    db_nmap -sV -A -p- x.x.x.x
+    hosts
+    services
+    vulns
+    ```
+
+    #### Nikto
+    [Nikto web server scanner](https://github.com/sullo/nikto)
