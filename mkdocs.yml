@@ -231,6 +231,7 @@ nav:
         - 'SNMP' : Knowledge_Base/Network/SNMP.md
         - 'Subnetting' : Knowledge_Base/Network/Subnetting.md
         - 'VPN' : Knowledge_Base/Network/VPN.md
+      - 'OS':
         - 'Windows':
           - 'Applications' : Knowledge_Base/OS/Windows/applications.md
           - 'Commands':
