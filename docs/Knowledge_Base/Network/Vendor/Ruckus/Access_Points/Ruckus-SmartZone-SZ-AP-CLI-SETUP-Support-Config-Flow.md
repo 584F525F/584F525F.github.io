@@ -138,12 +138,12 @@
     ##### SZ Essentials
     - AP sends discovery request
     - Install SSH Cert
-      - Scenario 1
-        If Auto approval is disabled > AP will wait for approval
-                Once approval granted > AP goes into the default Zone within the Default Group and downloads the firmware
+      - **Scenario 1**:
+        - If Auto approval is disabled > AP will wait for approval
+        - Once approval granted > AP goes into the default Zone within the Default Group and downloads the firmware
 
-      - Scenario 2
-        If Auto approve enabled > AP joins Default Zone Default Group and downloads firmware
+      - **Scenario 2**
+        - If Auto approve enabled > AP joins Default Zone Default Group and downloads firmware
 
 
 !!! info ""
@@ -186,6 +186,7 @@
 
 !!! info ""
 
-    #### Event & Alarms > Events
+    #### Event & Alarms
 
+    Event & Alarms > Events
     You can see "sent a discovery request to SmartZone"
