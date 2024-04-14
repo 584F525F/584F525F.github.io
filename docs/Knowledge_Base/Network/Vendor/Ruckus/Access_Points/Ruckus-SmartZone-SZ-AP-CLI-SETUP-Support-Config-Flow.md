@@ -12,7 +12,7 @@
     - APs running solo 104.x or prior
 
 
-    ##### Enabling LWAPP
+    ##### LWAPP
 
     In SmartZone under Cluster Information > Only first time config you can enable the AP Conversion (This enables LWAPP) > if not enabled then, you can re-enable it from GUI, you have to go to CLI. You can enable this option or disable it through CLI when onboarding APs depending on compatabiliy
 
@@ -175,11 +175,11 @@
 
     #### SmartZone used Ports
 
-    UDP
+    **UDP**
 
     - 123 : NTP
         
-    TCP
+    **TCP**
 
     - 21   : FTP for AP upgrade
     - 22   : SSH for AP CLI connectivity
