@@ -52,6 +52,5 @@
 
     #### extra sources
     - [Background Scanning](https://docs.commscope.com/bundle/zd-10.5.1-userguide/page/GUID-B1DD91EA-5E77-4C3E-BE1F-5F8DB242F099.html)
-    - []()
-    - []()
     - [ZD1200 ZoneDirector 10.5.1 User Guide](ZD1200-ZoneDirector-10.5.1-User-Guide-RevB-20220120.pdf)
+    - [ZoneDirector 10.5.1 Release Notes GA Refresh 4](ZoneDirector-10.5.1-Release-Notes-GA-Refresh-4-RevA-20230317.pdf)

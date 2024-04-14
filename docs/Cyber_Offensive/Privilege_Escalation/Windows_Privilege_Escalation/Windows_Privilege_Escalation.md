@@ -19,12 +19,11 @@
     - [mimikatz.py](https://github.com/SecureAuthCorp/impacket/blob/impacket_0_10_0/examples/mimikatz.py)
     Mini shell to control a remote mimikatz RPC server developed by @gentilkiwi.
 
-
     #### WMI
 
-    - [wmiquery.py:](https://github.com/SecureAuthCorp/impacket/blob/impacket_0_10_0/examples/wmiquery.py)
+    - [wmiquery.py](https://github.com/SecureAuthCorp/impacket/blob/impacket_0_10_0/examples/wmiquery.py)
     It allows to issue WQL queries and get description of WMI objects at the target system (e.g. select name from win32_account).
-    - [wmipersist.py:](https://github.com/SecureAuthCorp/impacket/blob/impacket_0_10_0/examples/wmipersist.py)
+    - [wmipersist.py](https://github.com/SecureAuthCorp/impacket/blob/impacket_0_10_0/examples/wmipersist.py)
     This script creates/removes a WMI Event Consumer/Filter and link between both to execute Visual Basic based on the WQL filter or timer specified.
 
 !!! info ""

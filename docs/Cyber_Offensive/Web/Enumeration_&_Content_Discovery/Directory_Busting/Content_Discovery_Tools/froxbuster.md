@@ -1,7 +1,7 @@
-!!! info ""
+!!! example ""
 
-    [froxbuster](https://github.com/epi052/feroxbuster)
-    [official documentation](https://epi052.github.io/feroxbuster-docs/docs/)
+    - [froxbuster](https://github.com/epi052/feroxbuster)
+    - [official documentation](https://epi052.github.io/feroxbuster-docs/docs/)
 
 
 !!! info ""
@@ -20,9 +20,9 @@
 
     ##### Multiple Values
 
-    Options that take multiple values are very flexible. Consider the following ways of specifying extensions:
-    The command adds .pdf, .js, .html, .php, .txt, .json, and .docx to each url
-    All of the methods (multiple flags, space separated, comma separated, etc...) are valid and interchangeable. The same goes for urls, headers, status codes, queries, and size filters.
+    - Options that take multiple values are very flexible.
+    - Consider the following ways of specifying extensions: The command adds .pdf, .js, .html, .php, .txt, .json, and .docx to each url
+    - All of the methods (multiple flags, space separated, comma separated, etc...) are valid and interchangeable. The same goes for urls, headers, status codes, queries, and size filters.
 
     ```bash
     ./feroxbuster -u http://127.1 -x pdf -x js,html -x php txt json,docx
@@ -62,3 +62,4 @@
     ```bash
     ./feroxbuster -u http://127.1 --query token=0123456789ABCDEF
     ```
+    
