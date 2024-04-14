@@ -138,6 +138,7 @@
     ##### SZ Essentials
     - AP sends discovery request
     - Install SSH Cert
+  
       - **Scenario 1**:
         - If Auto approval is disabled > AP will wait for approval
         - Once approval granted > AP goes into the default Zone within the Default Group and downloads the firmware
@@ -175,14 +176,16 @@
     #### SmartZone used Ports
 
     UDP
-    - 123 - NTP
+
+    - 123 : NTP
         
     TCP
-    - 21   - FTP for AP upgrade
-    - 22   - SSH for AP CLI connectivity
-    - 91   - FTP for SmartZone to update 3.x, 100.x, or 110.x AP
-    - 443  - New AP Registration
-    - 8443 - SmartZone Web GUI
+
+    - 21   : FTP for AP upgrade
+    - 22   : SSH for AP CLI connectivity
+    - 91   : FTP for SmartZone to update 3.x, 100.x, or 110.x AP
+    - 443  : New AP Registration
+    - 8443 : SmartZone Web GUI
 
 !!! info ""
 
