@@ -48,9 +48,9 @@
 
     ```bash
     get version
-    ```bash
+    ```
 
-    Use get uptime to display how long the Ruckus Wireless device has been running.
+    #### display how long the Ruckus Wireless device has been running.
 
     ```bash
     get uptime
