@@ -11,7 +11,6 @@
     - APs running ZD 9.x
     - APs running solo 104.x or prior
 
-
     ##### LWAPP
 
     In SmartZone under Cluster Information > Only first time config you can enable the AP Conversion (This enables LWAPP) > if not enabled then, you can re-enable it from GUI, you have to go to CLI. You can enable this option or disable it through CLI when onboarding APs depending on compatabiliy
@@ -111,7 +110,7 @@
 	- Cluster Node address (Control & Data Plane)
 	- SSH certificate
 	- SZ firmware install (with dependencies)
-		
+
     ##### next steps
 
     AP sends discover
@@ -163,7 +162,6 @@
     - AP establishes Control tunnel (If configured, it will also establish - the Data tunnel connection)
     - AP reports health
 	
-
     ##### SZ AP DHCP Discovery
 
     - Discovery through DHCP > SZ address will be sent to all clients if option - 60 is used
