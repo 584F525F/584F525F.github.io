@@ -21,7 +21,7 @@
     save config X.X.X.X backup
 
     fw_upgrade -p ftp -s 10.121.147.129 -n zd1200_10.1.2.0.318.ap_10.1.2.0.318.img 
-    ```shell
+    ```
 
     fw_upgrade options
 
@@ -37,6 +37,8 @@
                     -f	non-verbose mode
                     -h  fw_upgrade help message
     ```
+
+!!! info ""
 
     #### FTP
 
@@ -77,6 +79,8 @@
 
     Please make sure that you enable ftp in case you need to upgrade the firmware anytime. Anonymous FTP can stay disabled for ZD/AP upgrade.
 
+!!! info ""
+
     #### Enable LLDP
 
     ```shell
@@ -87,6 +91,8 @@
     exit
     exit
     ```
+
+!!! info ""
 
     #### Renaming APs
 
