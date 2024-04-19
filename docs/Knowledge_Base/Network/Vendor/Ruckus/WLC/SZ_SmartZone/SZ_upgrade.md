@@ -88,7 +88,7 @@
     - Based on different SmartZone models the procedure might be different. Therefore you will need to navigate to [https://support.ruckuswireless.com/documents] in order to find the correct Guide to follow. In there look for the version you are upgrading to. You will need to download any Documents or Firmware.
     - Type in the search field "SmartZone upgrade" and you then will need to find the Guide that works with the setup you're trying to upgrade. All upgrades have to be compliant with the DCD firmware max version unless there is an exception approved by MOD.
     
-    !!! error ""
+    !!! danger ""
 
         Your upgrade path has to support the upgrade from the current Controller Version and also has to support the SmartZone Model. You also must make sure the new firmware supports all Acess Point models on-site by reading the upgrade Document for the Firmware version you're upgrading to.
 
@@ -97,7 +97,7 @@
     After downloading the document and finding the upgrade path needed, you will need to download the Firmware files from Ruckus and save them locally so they are ready for the upgrade when it's time.
 
     
-!!! error ""
+!!! danger ""
     
     #### IMPORTANT!
 
@@ -119,7 +119,7 @@
 
         ![alt text](image-34.png)
 
-    !!! error ""
+    !!! danger ""
 
         After you established the firmware needed, you will need to search for that firmware version in [Ruckus Firmware Download] 
         
@@ -130,7 +130,7 @@
     ![alt text](image-33.png)
 
  
-!!! error ""
+!!! danger ""
     IT IS YOUR RESPONSIBILITY TO READ THE OFFICIAL UPGRADE GUIDE AND RELEASE NOTES AS THEY MIGHT CONTAIN CRITICAL INFORMATION SPECIFIC TO EACH RELEASE! IF YOU IGNORE THIS STEP YOU MIGHT BREAK THE CONTROLLER AND RENDER THE SITE WITH NO WLAN CONTROLLER! 
 
  
@@ -144,7 +144,7 @@
 
     **Administration** > **Upgrade** > **Upgrade** tab > click **Browse** > choose **file** > Click **Upload**
 
-    !!! error ""
+    !!! danger ""
         
         IMPORTANT!
         
@@ -195,7 +195,7 @@
 
     ![alt text](image-21.png)
     
-    !!! error ""
+    !!! danger ""
         #### IMPORTANT!!!
 
         If this is a cluster, then you need to wait for all Nodes to apply the firmware. Usually, during the upgrade, you will see an Indicator for each Cluster Node with its progress.
