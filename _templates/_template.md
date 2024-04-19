@@ -171,3 +171,8 @@ summary
 - [Blog title - Author, Date](https://example.com)
 
 ---
+
+## Image size
+
+![](image-2.png){: style="height:150px;width:150px"}
+

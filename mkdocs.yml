@@ -1,4 +1,4 @@
-site_name: XOR_
+site_name: BitwiseOperator XOR_
 # site_description: 'XOR_ Knowledge Base'
 site_url: https://learn.01111000011011110111001001011111.com/
 # https://github.com/584F525F/584F525F.github.io/
@@ -85,10 +85,10 @@ markdown_extensions:
 # repo_url: https://github.com/584F525F
 edit_uri: edit/master/
 
-copyright: Copyright © 2024 01111000011011110111001001011111.com
+copyright: Copyright © 2024 bitwiseoperator.net
 
 # copyright: >
-#   Copyright © 2024 01111000011011110111001001011111.com –
+#   Copyright © 2024 bitwiseoperator.net
 #   <a href="#__consent">Change cookie settings</a>
 
 extra:
