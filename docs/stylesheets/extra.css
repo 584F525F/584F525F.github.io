@@ -110,7 +110,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 :root, [data-md-color-scheme=slate] {
     --md-hue: 225deg;
     --md-default-fg-color: hsl(212.54deg 100% 93.91%);
-    --md-default-fg-color--light: #fbe051; /* ff6565 subject color and post date #86b7ff */
+    --md-default-fg-color--light: #fbe051; /* ff6565 fff6b4 subject color and post date #86b7ff */
     --md-default-fg-color--lighter: #fbe051; /* scroll bar*/
     --md-default-fg-color--lighter-1: #fbe051; /* scroll bar*/
     --md-default-bg-color: #000000; /* top TOC section made hidden also blocks color*/
@@ -215,9 +215,26 @@ element.style {
 
 .md-typeset h1 {
     color: var(--md-subject-fg-color);
-    font-size: 2em;
+    font-size: 1.7em;
+    font-weight: 300;
     line-height: 1.3;
     margin: 0 0 1.25em;
+}
+
+.md-typeset h4 {
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    margin: 1em 0;
+    color: var(--md-h4-fg-color);
+}
+
+.md-typeset h5 {
+    color: var(--md-h5-fg-color);
+    font-size: .9em;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    margin: 1.25em 0;
 }
 
 .md-ellipsis {
