@@ -192,5 +192,7 @@ https://stackoverflow.com/questions/69237778/how-to-embed-a-local-pdf-file-in-mk
 https://pypi.org/project/mkdocs-pdf/
 
 
+[click to open PDF in new tab](/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf)
 
+<embed src="/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf" type="application/pdf" style="min-height:25vh;width:100%">
 
