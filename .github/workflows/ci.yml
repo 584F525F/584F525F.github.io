@@ -29,7 +29,7 @@ jobs:
       - run: pip install mkdocs-material[imaging]
       - run: pip install mkdocs-glightbox
       - run: pip install mkdocs-open-in-new-tab
-      - run: mkdocs-pdf
+      - run: pip install mkdocs-pdf
       - run: mkdocs gh-deploy --force
 
 permissions:
