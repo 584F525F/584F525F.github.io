@@ -51,15 +51,8 @@ In this document, I will try to include as much information about Networking bas
 
     <embed src="/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf" type="application/pdf" style="min-height:100vh;width:100%">
 
+!!! info ""
 
-# h111111111111111
-## h222222222222222222
-### h33333333333333333
-#### h4444444444444444
-##### h55555555555555555
-###### h66666666666666666
+    extra resource:
 
-extra resource
-
-https://www.mindomo.com/mindmap/osi-model-bd81b1a4982d462abffa98328058449d
-
+    - (osi model mindmap)[https://www.mindomo.com/mindmap/osi-model-bd81b1a4982d462abffa98328058449d]

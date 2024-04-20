@@ -88,7 +88,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-header-bg-color:rgb(255, 255, 255);
     --md-footer-next-prev-fg-color: #3d81ff;
     --md-footer-icon-color: #3500ff;
-    --md-footer-made-with-fg-color: #ff0000;
+    --md-footer-made-with-fg-color: #000000;
     --md-navbar-bg-color: #3500ff;
     --md-TOC-color: #3500ff;
     --md-int-link-fg-color:#ff6565;
