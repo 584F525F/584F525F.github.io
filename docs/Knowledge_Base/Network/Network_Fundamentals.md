@@ -44,8 +44,10 @@ In this document, I will try to include as much information about Networking bas
 
     ![alt text](/docs/Knowledge_Base/images/Network_Fundamentals-image.png)
 
+    ![alt text](/Knowledge_Base/images/Network_Fundamentals-image.png)
+
+    ![alt text](/images/Network_Fundamentals-image.png)
 
 !!! info ""
 
-    ![javvin-tcpipguide-pdf](../../../../Desktop/javvin-tcpipguide-pdf.pdf){ type=application/pdf }
-
+    ![javvin-tcpipguide-pdf](/docs/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf){ type=application/pdf }
