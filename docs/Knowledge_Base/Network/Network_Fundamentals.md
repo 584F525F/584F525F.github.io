@@ -55,4 +55,4 @@ In this document, I will try to include as much information about Networking bas
 
     extra resource:
 
-    - (osi model mindmap)[https://www.mindomo.com/mindmap/osi-model-bd81b1a4982d462abffa98328058449d]
+    - [osi model mindmap](https://www.mindomo.com/mindmap/osi-model-bd81b1a4982d462abffa98328058449d)
