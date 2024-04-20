@@ -111,6 +111,7 @@ plugins:
   - search
   - open-in-new-tab
   # - mkdocs-pdf
+  - mkpdfs
   # - privacy
   # - tags
   - git-revision-date-localized
