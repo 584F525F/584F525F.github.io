@@ -17,11 +17,19 @@
     - DNSSEC (DNS Security Extensions)
         - (rfc9364) [https://datatracker.ietf.org/doc/html/rfc9364]
 
+
 !!! info ""
 
     #### How DNS Works - high level
     
-    ![dns_DNS](/Knowledge_Base/images/dns_DNS.jpg)
+    ![high level dns](/Knowledge_Base/images/dns_DNS.jpg)
+
+    #### How DNS Works - lower level
+
+    [lower level dns - click to open PDF in new tab](/Knowledge_Base/images/ddo_dns_dubberly.pdf)
+
+    <embed src="/Knowledge_Base/images/ddo_dns_dubberly.pdf" type="application/pdf" style="min-height:100vh;width:100%">
+
 
 !!! info ""
 
