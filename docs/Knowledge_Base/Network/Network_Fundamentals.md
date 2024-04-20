@@ -59,3 +59,7 @@ In this document, I will try to include as much information about Networking bas
 ##### h55555555555555555
 ###### h66666666666666666
 
+extra resource
+
+https://www.mindomo.com/mindmap/osi-model-bd81b1a4982d462abffa98328058449d
+
