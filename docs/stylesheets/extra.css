@@ -104,6 +104,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-h5-fg-color:#9f00ff;
     --md-h6-fg-color:#ff38a5;
     --md-default-bg-image: url(https://584f525f.github.io/assets/images/layers/no-img.jpg);
+    --md-search-result-fg-color: #ff9595;
 }
 
 /* coloring dark theme profile */
@@ -144,6 +145,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-h5-fg-color:#c565ff;
     --md-h6-fg-color:#ff62b8;
     --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
+    --md-search-result-fg-color: #ff9595;
 }
 
 /* nav - font color */
@@ -348,6 +350,11 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     cursor: pointer;
 }
 
+.md-search-result mark {
+    background-color: initial;
+    color: var(--md-search-result-fg-color);
+    text-decoration: underline;
+}
 
 /* article subject HOVER OVER color */
 /* [data-md-color-accent=orange] {
