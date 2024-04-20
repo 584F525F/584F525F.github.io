@@ -8,7 +8,7 @@
     - DNS over HTTPS (doh) Port 853
         - (rfc8484)[https://datatracker.ietf.org/doc/html/rfc8484]
     
-    - DNS over TLS
+    - DNS over TLS (dot)
         - (rfc7858)[https://datatracker.ietf.org/doc/html/rfc7858]
     
     - DNS over TLS and DNS over DTLS
@@ -40,8 +40,17 @@
 
 !!! info ""
 
-    #### Wireshark
+    #### packet capture samples
     
+    (DNS over TLS proxied - no TLS on LAN)[https://www.cloudshark.org/captures/277545f545d8]
+
+    (chrome-doh-example.pcapng)[https://www.cloudshark.org/captures/c561ae9532d4]
+
+    (chrome-doh-example-with-secrets.pcapng)[https://www.cloudshark.org/captures/add993b5e5af]
+
+
+!!! warning ""
+
+    #### Troubleshooting
+
     coming soon
-
-
