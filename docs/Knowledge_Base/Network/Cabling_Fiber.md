@@ -1,8 +1,8 @@
 !!! info ""
 
-    #### Fiber Cable Types
+    ### Fiber Cable Types
 
-    ##### Single mode fiber
+    #### Single mode fiber
     Long Haul [LX] | Long Distances up to 5 KM
     Uses Laser as light source
     Higher cost
@@ -13,7 +13,7 @@
     ![SMode](/Knowledge_Base/images/fiber-sfp-image-8.png)
 
 
-    ##### Multimode fiber
+    #### Multimode fiber
     Short Haul [SX] | Short Distances
     Uses LED as light source
     Lower cost
@@ -25,9 +25,9 @@
 
 !!! info ""
 
-    #### Connector Types
+    ### Connector Types
     
-    ##### ST connectors [Straight Tip]
+    #### ST connectors [Straight Tip]
 
     These connectors are the most common type of commercial fiber optic connector. These connectors utilize an exposed plastic tube housing the optical fiber. This requires a connection to a matching cable on the other side, incorporating a connector that mates to the other.
 
@@ -35,19 +35,19 @@
 
     ![ST](/Knowledge_Base/images/fiber-sfp-image-10.png){: style="height:180px;width:200px"}
 
-    ##### SC-Connector [Subscriber Connect]
+    #### SC-Connector [Subscriber Connect]
 
     SC is short for Subscriber Connect is one of the most frequently used connectors. Used in fiber-optic networking, it has caps to prevent laser light reaching eyes. The connector usually in pairs (transmit and receive), often clipped together. connectors have the ferrule that houses the fiber mostly concealed. Probably the most similar commercial equivalent off to slink, SC connectors does not require a mating cable on the other side. Instead, these Snap-On connectors simply push into their jacks with a click. SC connectors use a push-pull design and can be used for simplex or multiplex applications
 
     ![alt text](/Knowledge_Base/images/fiber-sfp-image-sc.png){: style="height:170px;width:200px"}
 
-    ##### FC connector [Ferrule connector]
+    #### FC connector [Ferrule connector]
 
     It is similar to ST connectors, these fiber optic connector's screws into their mating jacks. Additionally, the tube surrounding the optical fiber is typically shrouded in ceramic or metal, as opposed to being fully exposed. The inner ring of the connector is keyed to ensure positive mating to its corresponding jack. FC connectors are primarily used with single mode fibers and used in telephone, instruments, and high-speed communication links. The style is similar to that of an ST connector, but it uses a threaded connection which makes it better suited for high vibration environments
 
     ![alt text](/Knowledge_Base/images/fiber-sfp-image-12.png){: style="height:180px;width:200px"}
 
-    ##### LC cables [Lucent Connector]
+    #### LC cables [Lucent Connector]
 
     latch and release into their jacks in a manner similar to Ethernet connectors. Smaller in form than SC connectors, their durability is not compromised, nor is cost increased. Instead of snapping or thermo forming the connector to the cable, it is glued. This makes it a popular connector for field use. LC connectors are used in private and public networks, and are gaining in popularity due to their small form factor (SFF) optical transmitter/receiver assembly
 
@@ -58,47 +58,47 @@
 
 !!! info ""
 
-    #### Fiber Patch Cable Types
+    ### Fiber Patch Cable Types
 
-    ##### LC to LC
+    #### LC to LC
 
     ![alt text](/Knowledge_Base/images/fiber-sfp-image-1.png){: style="height:200px;width:200px"}
    
-    ##### LC to SC
+    #### LC to SC
 
     ![alt text](/Knowledge_Base/images/fiber-sfp-image.png){: style="height:180px;width:200px"}
 
-    ##### LC to FC
+    #### LC to FC
 
     ![alt text](/Knowledge_Base/images/fiber-sfp-image-16.png){: style="height:200px;width:200px"}  
 
-    ##### LC to ST
+    #### LC to ST
 
     ![alt text](/Knowledge_Base/images/fiber-sfp-image-17.png){: style="height:200px;width:200px"}
     
-    ##### SC to SC
+    #### SC to SC
 
     ![alt text](/Knowledge_Base/images/fiber-sfp-image-18.png){: style="height:200px;width:200px"}
     
-    ##### SC to ST
+    #### SC to ST
 
     ![alt text](/Knowledge_Base/images/fiber-sfp-image-19.png){: style="height:200px;width:200px"}
     
-    ##### ST to ST
+    #### ST to ST
 
     ![alt text](/Knowledge_Base/images/fiber-sfp-image-20.png){: style="height:200px;width:200px"}
 
 
 !!! info ""
 
-    #### Fiber Patch Modes
+    ### Fiber Patch Modes
 
-    ##### Single mode fiber patch cable
+    #### Single mode fiber patch cable
 
     - Long Distances
     - Mostly use over large areas such as Campuses, TV networks
 
-    ##### Multimode fiber patch cable
+    #### Multimode fiber patch cable
 
     - Short distances
     - Most Used in LAN applications
@@ -114,10 +114,10 @@
  
 !!! info ""
 
-    #### Types of Single Mode Fiber Cable and Specifications
+    ### Types of Single Mode Fiber Cable and Specifications
     
 
-    ##### OS1 Single Mode Tight Buffered Cable
+    #### OS1 Single Mode Tight Buffered Cable
     - Indoor Use: Used in LANs and point-to-point links in cities, buildings, factories, office parks or campuses
     - Distance 2 KM
     - Construction Tight Buffered [manufactured into solid medium]
@@ -128,7 +128,7 @@
     ![alt text](/Knowledge_Base/images/fiber-sfp-image-22.png)
     
 
-    ##### OS2 Single Mode Loose Tube Cable
+    #### OS2 Single Mode Loose Tube Cable
     - Outdoor use: Used in street, underground/burial, etc.…
     - Distance 10 KM
     - Construction Loose Tube [not held in medium but blown or otherwise inserted into carrier]
@@ -137,7 +137,7 @@
 
     ![alt text](/Knowledge_Base/images/fiber-sfp-image-23.png)
     
-    ##### Single Mode Polish Types
+    #### Single Mode Polish Types
     
     ![alt text](/Knowledge_Base/images/fiber-sfp-image-24.png){: style="height:350px;width:400px"}
 
@@ -149,7 +149,7 @@
 
 !!! info ""
 
-    #### Connector Color Codes
+    ### Connector Color Codes
 
     Note: Cable colors are not set in stone and can't fully depend on them.
 
@@ -162,13 +162,13 @@
 
 !!! info "" 
 
-    #### What is meant by Attenuation in Networking?
+    ### What is meant by Attenuation in Networking?
 
     Attenuation is the gradual loss of signal strength over a distance and it’s measured in dB decibels. This loss can be caused by a distortion, interference, noise, distance, physical surrounding (temperature, walls, wire insulation), etc..
 
     
 
-    #### What is a good Attenuation?
+    ### What is a good Attenuation?
 
     A good Attenuation is that one that can hold great signal strength over long istances and the more it can the hold the better.
 
@@ -178,7 +178,7 @@
 
 !!! info ""
 
-    #### What type of media can be affected by Attenuation?
+    ### What type of media can be affected by Attenuation?
     - Copper Cables
     - Fiber Cables
     - Satellite
@@ -187,9 +187,9 @@
 
 !!! info ""
 
-    #### Types of Multimode Fiber Cable and Specifications
+    ### Types of Multimode Fiber Cable and Specifications
 
-    ##### OM1
+    #### OM1
 
     - Jacket Color – Orange
     - Application – Short-haul networks, Local Area Networks (LANs) & private - networks
@@ -197,7 +197,7 @@
     ![OM1](/Knowledge_Base/images/fiber-sfp-image-7.png){: style="height:250px;width:250px"}
 
 
-    ##### OM2
+    #### OM2
 
     - Jacket Color – Orange
     - Application – Short-haul networks, Local Area Networks (LANs) & private - networks
@@ -205,7 +205,7 @@
 
     ![OM2](/Knowledge_Base/images/fiber-sfp-image-7.png){: style="height:250px;width:250px"}
 
-    ##### OM3 – Laser-Optimized Multimode
+    #### OM3 – Laser-Optimized Multimode
 
     - Jacket Color – Aqua
     - Uses fewer modes of light, enabling increased speeds
@@ -215,7 +215,7 @@
     ![OM3](/Knowledge_Base/images/fiber-sfp-image-4.png){: style="height:200px;width:250px"}
 
 
-    ##### OM4 – Laser Optimized Multimode
+    #### OM4 – Laser Optimized Multimode
 
     - Jacket Color – Aqua
     - Able to run 100GB up to 150 meters utilizing an MPO connector
@@ -223,7 +223,7 @@
 
     ![OM4](/Knowledge_Base/images/fiber-sfp-image-6.png){: style="height:300px;width:250px"}
 
-    ##### OM5 – The latest and greatest in Multimode Fiber
+    #### OM5 – The latest and greatest in Multimode Fiber
 
     - Jacket Color – Lime Green
     - Fully compatible and can mate with OM3 and OM4 cabling
@@ -236,6 +236,6 @@
 
 !!! info ""
 
-    #### Fiber Cable History
+    ### Fiber Cable History
 
     ![fiber history](/Knowledge_Base/images/fiber-sfp-image-27.png)
