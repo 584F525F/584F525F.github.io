@@ -248,7 +248,7 @@ element.style {
 }
 
 .md-typeset h4 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: -.01em;
@@ -258,7 +258,7 @@ element.style {
 
 .md-typeset h5 {
     color: var(--md-h5-fg-color);
-    font-size: 1.1em;
+    font-size: 1.0em;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: -.01em;
@@ -267,7 +267,7 @@ element.style {
 
 .md-typeset h6 {
     color: var(--md-h6-fg-color);
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: -.01em;
