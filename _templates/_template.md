@@ -176,8 +176,8 @@ summary
 
 ![](image-2.png){: style="height:150px;width:150px"}
 
-/docs/Knowledge_Base/images/
-/docs/Knowledge_Base/images/
+/Knowledge_Base/images/
+/Knowledge_Base/images/
 
 
 ## To embed a PDF file simple use the following syntax.

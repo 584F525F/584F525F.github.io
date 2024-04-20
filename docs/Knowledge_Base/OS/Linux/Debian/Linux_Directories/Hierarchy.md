@@ -1,6 +1,6 @@
 
 
-![alt text](</docs/Knowledge_Base/images/Linux_Directories_image 2.png>)
+![alt text](</Knowledge_Base/images/Linux_Directories_image 2.png>)
 
 
 |   |   |

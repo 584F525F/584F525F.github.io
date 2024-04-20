@@ -19,4 +19,4 @@
 
     choose lightdm
 
-    ![alt text](/docs/Knowledge_Base/images/dekstop_environment_image.png)
+    ![alt text](/Knowledge_Base/images/dekstop_environment_image.png)

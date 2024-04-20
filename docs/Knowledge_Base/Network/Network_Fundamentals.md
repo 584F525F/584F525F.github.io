@@ -7,12 +7,10 @@ In this document, I will try to include as much information about Networking bas
 
     I will keep the introduction very clear and simple and I will follow with more detailed explanations on each layer focusing on the first 4 layers of the OSI Model.
 
-
 !!! info ""
 
     ##### What is the OSI Model and its Layers?
     OSI stands for Open Systems Interconnections and it is a concept created to simplify and standardize the communication functions of telecommunication or computing system.
-
 
 !!! info ""
 
@@ -29,25 +27,22 @@ In this document, I will try to include as much information about Networking bas
 
     You can see each Layer of each Model and what it equates to on its neighboring Model
 
-    ![alt text](/docs/Knowledge_Base/images/Network_Fundamentals-image-3.png)
+    ![alt text](/Knowledge_Base/images/Network_Fundamentals-image-3.png)
 
     ##### Data Encapsulation / PDUs
 
     The below is a representation of the Data Encapsulation and Protocol Data Unit of the Ethernet Frame
 
-    ![alt text](/docs/Knowledge_Base/images/Network_Fundamentals-image-2.png)
+    ![alt text](/Knowledge_Base/images/Network_Fundamentals-image-2.png)
 
-    ![alt text](/docs/Knowledge_Base/images/Network_Fundamentals-image-1.png)
+    ![alt text](/Knowledge_Base/images/Network_Fundamentals-image-1.png)
 
     ##### OSI - OS Level
     This will give you an idea of which portion of the Network Adapter settings in Windows environment are represented by which Layer on the OSI Model
 
-    ![alt text](/docs/Knowledge_Base/images/Network_Fundamentals-image.png)
-
     ![alt text](/Knowledge_Base/images/Network_Fundamentals-image.png)
 
-    ![alt text](/images/Network_Fundamentals-image.png)
 
 !!! info ""
 
-    ![javvin-tcpipguide-pdf](/docs/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf){ type=application/pdf }
+    ![javvin-tcpipguide-pdf](/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf){ type=application/pdf }
