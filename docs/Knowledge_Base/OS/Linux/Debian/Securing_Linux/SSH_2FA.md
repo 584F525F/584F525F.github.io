@@ -24,13 +24,12 @@
 
   change ChallengeResponseAuthentication rom     no to yes
   so this part of the file looks like this:
-
   Change to yes to enable challenge-response passwords (beware issues with
     #some PAM modules and threads)
     ChallengeResponseAuthentication no #CHANGE THIS TO YES
-
     #Change to no to disable tunnelled clear text passwords
     #PasswordAuthentication yes
+
   #### Configuring authentication
 
   ```bash
@@ -46,7 +45,7 @@
   Increase the original generation time limit: no
   Enable rate-limiting: yes
   ```
-
+  
   You will get secret key that you will then use to add to the Auth App
 
   #### Adding the secret to Google Authenticator  
