@@ -174,11 +174,9 @@ summary
 
 ## Image size & path
 
-![](image-2.png){: style="height:150px;width:150px"}
+![](/Knowledge_Base/images/image-2.png){: style="height:150px;width:150px"}
 
 /Knowledge_Base/images/
-/Knowledge_Base/images/
-
 
 ## To embed a PDF file simple use the following syntax.
 

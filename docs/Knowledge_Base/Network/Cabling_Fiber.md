@@ -52,6 +52,7 @@
     latch and release into their jacks in a manner similar to Ethernet connectors. Smaller in form than SC connectors, their durability is not compromised, nor is cost increased. Instead of snapping or thermo forming the connector to the cable, it is glued. This makes it a popular connector for field use. LC connectors are used in private and public networks, and are gaining in popularity due to their small form factor (SFF) optical transmitter/receiver assembly
 
     Below LC has 2 pairs, LC can also come in single connnector form
+
     ![alt text](/Knowledge_Base/images/fiber-sfp-image-13.png){: style="height:180px;width:200px"}
 
 
@@ -61,11 +62,11 @@
 
     ##### LC to LC
 
-    ![alt text](image-1.png){: style="height:200px;width:200px"}
+    ![alt text](/Knowledge_Base/images/image-1.png){: style="height:200px;width:200px"}
    
     ##### LC to SC
 
-    ![alt text](image.png){: style="height:200px;width:200px"}
+    ![alt text](/Knowledge_Base/images/image.png){: style="height:180px;width:200px"}
 
     ##### LC to FC
 
