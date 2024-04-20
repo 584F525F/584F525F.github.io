@@ -6,6 +6,9 @@
   sudo apt install libpam-google-authenticator
   ```
 
+!!! info ""
+
+
   #### Configuring SSH
 
   To make SSH use the Google Authenticator PAM module, add the following  line to the /etc/pam.d/sshd file
@@ -14,11 +17,17 @@
   auth required pam_google_authenticator.so
   ```
 
+!!! info ""
+
+
   ### restart the sshd daemon
 
   ```bash
   sudo systemctl restart sshd.service
   ```
+
+!!! info ""
+
 
   #### Modify /etc/ssh/sshd_config
 
@@ -29,6 +38,8 @@
     ChallengeResponseAuthentication no #CHANGE THIS TO YES
     #Change to no to disable tunnelled clear text passwords
     #PasswordAuthentication yes
+
+!!! info ""
 
   #### Configuring authentication
 
@@ -47,6 +58,8 @@
   ```
   
   You will get secret key that you will then use to add to the Auth App
+
+!!! info ""
 
   #### Adding the secret to Google Authenticator  
 
