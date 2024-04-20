@@ -51,6 +51,6 @@ In this document, I will try to include as much information about Networking bas
     ![javvin-tcpipguide-pdf](/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf)
 
 
-    <embed src="/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf" type="application/pdf">
+    <embed src="/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf" type="application/pdf" style="min-height:25vh;width:100%">
 
 
