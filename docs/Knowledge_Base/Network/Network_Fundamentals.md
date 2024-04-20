@@ -47,6 +47,5 @@ In this document, I will try to include as much information about Networking bas
 
 !!! info ""
 
-    A good resource
+    ![javvin-tcpipguide-pdf](../../../../Desktop/javvin-tcpipguide-pdf.pdf){ type=application/pdf }
 
-    [javvin-tcpipguide-pdf](../../../../Desktop/javvin-tcpipguide-pdf.pdf)

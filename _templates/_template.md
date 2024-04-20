@@ -178,3 +178,13 @@ summary
 
 /docs/Knowledge_Base/images/
 /docs/Knowledge_Base/images/
+
+
+## To embed a PDF file simple use the following syntax.
+
+(pypi.org mkdocs-pdf)[https://pypi.org/project/mkdocs-pdf/]
+
+![Alt text](<path to pdf>){ type=application/pdf }
+Optionally, you can specify style constraints, e.g.
+
+![Alt text](<path to pdf>){ type=application/pdf style="min-height:25vh;width:100%" }

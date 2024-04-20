@@ -110,6 +110,7 @@ extra_css:
 plugins:
   - search
   - open-in-new-tab
+  - mkdocs-pdf
   # - privacy
   # - tags
   - git-revision-date-localized
