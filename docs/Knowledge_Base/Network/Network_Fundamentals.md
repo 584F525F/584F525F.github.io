@@ -46,3 +46,11 @@ In this document, I will try to include as much information about Networking bas
 !!! info ""
 
     ![javvin-tcpipguide-pdf](/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf){ type=application/pdf }
+
+
+    ![javvin-tcpipguide-pdf](/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf)
+
+
+    <embed src="/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf" type="application/pdf">
+
+

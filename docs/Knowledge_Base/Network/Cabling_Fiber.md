@@ -66,7 +66,7 @@
    
     #### LC to SC
 
-    ![alt text](/Knowledge_Base/images/fiber-sfp-image.png){: style="height:180px;width:200px"}
+    ![alt text](/Knowledge_Base/images/fiber-sfp-image.png){: style="height:200px;width:200px"}
 
     #### LC to FC
 

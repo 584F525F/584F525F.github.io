@@ -187,22 +187,10 @@ Optionally, you can specify style constraints, e.g.
 
 ![Alt text](<path to pdf>){ type=application/pdf style="min-height:25vh;width:100%" }
 
+https://stackoverflow.com/questions/69237778/how-to-embed-a-local-pdf-file-in-mkdocs-generated-website-on-github-pages
 
-<!--- file: docs/howto/embedding_pdf.md --->
-{% with pdf_file = "/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf" %}
+https://pypi.org/project/mkdocs-pdf/
 
-{% set solid_filepdf = '<i class="fas fa-file-pdf"></i>' %}
-{% set empty_filepdf = '<i class="far fa-file-pdf"></i>' %}
 
-## Example: Embedding a PDF file
 
-<object data="{{ pdf_file }}" type="application/pdf">
-    <embed src="{{ pdf_file }}" type="application/pdf" />
-</object>
-
-## Example: Creating a link to a PDF file
-
-<a href="{{ pdf_file }}" class="image fit">{{ solid_filepdf }}</a>
-
-{% endwith %}
 
