@@ -21,7 +21,13 @@
 
     #### How DNS Works - high level
     
-    ![dns](/Knowledge_Base/images/dns_DNS.jpg)
+    ![dns_DNS](/Knowledge_Base/images/dns_DNS.jpg)
+
+!!! info ""
+
+    #### Root Server Names
+
+    ![dns_Root_Server_Names.jpg](/Knowledge_Base/images/dns_Root_Server_Names.jpg)
 
 
 !!! info ""
