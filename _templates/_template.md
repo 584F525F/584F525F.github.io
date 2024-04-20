@@ -172,7 +172,9 @@ summary
 
 ---
 
-## Image size
+## Image size & path
 
 ![](image-2.png){: style="height:150px;width:150px"}
 
+/docs/Knowledge_Base/images/
+/docs/Knowledge_Base/images/

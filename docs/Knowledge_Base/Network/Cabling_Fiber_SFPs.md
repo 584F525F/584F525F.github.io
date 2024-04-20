@@ -18,7 +18,7 @@ Fiber Transceivers SFP (Small Form-Factor Pluggable)
 !!! info ""
 
     #### SFP Types
-    ![alt text](image.png)
+    ![alt text](Cabling_Fiber_SFPs-image-2.png)
 
     ##### Simplex SFP
     transmits only one direction at a time which in below you is represented by Single Fiber Port
@@ -26,7 +26,7 @@ Fiber Transceivers SFP (Small Form-Factor Pluggable)
     ##### Duplex SFP or BiDi Transceiver
     can Send and Receive at the same time which below is represented by Dual Fiber Port, it should be used in pairs with the same Wavelength
 
-    ![alt text](image-1.png)                       
+    ![alt text](Cabling_Fiber_SFPs-image.png)                     
 
 !!! info ""
 

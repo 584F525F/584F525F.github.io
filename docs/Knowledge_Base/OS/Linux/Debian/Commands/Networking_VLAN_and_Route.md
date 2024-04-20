@@ -330,7 +330,7 @@
     #To test the file run below
     sudo netplan generate <filename>.yaml
 
-    ## To try the config file
+    #To try the config file
     sudo netplan try <filename>.yaml
 
     #while in /etc/netplan/

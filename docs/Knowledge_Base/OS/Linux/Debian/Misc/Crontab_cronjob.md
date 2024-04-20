@@ -123,7 +123,7 @@
 
 !!! info ""
 
-    ## Setting Up a Cron Job
+    ### Setting Up a Cron Job
 
     If cron is set up under root, you'll need to run sudo before your code.
 

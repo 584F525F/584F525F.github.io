@@ -1,6 +1,6 @@
 !!! info ""
 
-    ## Medusa
+    #### Medusa
 
     ```shell
     medusa -u root -P 500-worst-passwords.txt -h 10.10.10.10 -M ssh

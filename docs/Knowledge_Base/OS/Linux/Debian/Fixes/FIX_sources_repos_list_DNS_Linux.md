@@ -79,7 +79,7 @@
     sudo touch sources.list
     sudo nano sources.list
 
-    ## ADD THE BELOW AND SAVE
+    #ADD THE BELOW AND SAVE
     deb <http://security.debian.org/debian-security> jessie/updates main    
     deb <http://ftp.debian.org/debian/> jessie-updates contrib main   
     deb-src <http://security.debian.org/> jessie/updates contrib main  
