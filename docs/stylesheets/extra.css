@@ -213,12 +213,20 @@ element.style {
     scrollbar-width: thin;
 }
 
+.md-typeset {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    font-size: .7rem;
+    line-height: 1.4;
+}
+
 .md-typeset h1 {
     color: var(--md-h1-fg-color); /* --md-subject-fg-color */
     font-size: 1.5em;
     font-weight: 500;
     line-height: 1.2;
-    margin: 0 0 1.25em;
+    letter-spacing: -.01em;
+    margin: 1em 0;
 }
 
 .md-typeset h2 {
@@ -226,16 +234,17 @@ element.style {
     font-size: 1.4em;
     font-weight: 500;
     line-height: 1.2;
-    margin: 1.6em 0 .64em;
+    letter-spacing: -.01em;
+    margin: 1em 0;
 }
 
 .md-typeset h3 {
     color: var(--md-h3-fg-color);
     font-size: 1.3em;
     font-weight: 500;
+    line-height: 1.2;
     letter-spacing: -.01em;
-    line-height: 1.5;
-    margin: 1.6em 0 .8em;
+    margin: 1em 0;
 }
 
 .md-typeset h4 {
@@ -253,7 +262,7 @@ element.style {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: -.01em;
-    margin: 1.25em 0;
+    margin: 1em 0;
 }
 
 .md-typeset h6 {
@@ -262,7 +271,7 @@ element.style {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: -.01em;
-    margin: 1.25em 0;
+    margin: 1em 0;
 }
 
 .md-ellipsis {
@@ -376,15 +385,6 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     transition: color 125ms, background-color 125ms, transform 125ms cubic-bezier(.4,0,.2,1), opacity 125ms;
     z-index: 2;
 }
-
-
-.md-typeset h4 {
-    font-weight: 700;
-    letter-spacing: -.01em;
-    margin: 1em 0;
-    color: var(--md-h4-fg-color);
-}
-
 
 /* possible replacement color for green */
 /* from #fbe051 */
