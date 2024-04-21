@@ -236,61 +236,61 @@ element.style {
     color: var(--md-h1-fg-color); /* --md-subject-fg-color */
     font-size: 1.4em;
     font-weight: 500;
-    line-height: 0.7;
+    /* line-height: 0.7;
     letter-spacing: -.01em;
     margin-top: 2.2em;
-    margin-bottom: -0.5em;
+    margin-bottom: -0.5em; */
 }
 
 .md-typeset h2 {
     color: var(--md-h2-fg-color);
     font-size: 1.3em;
     font-weight: 500;
-    line-height: 0.7;
+    /* line-height: 0.7;
     letter-spacing: -.01em;
     margin-top: 2.2em;
-    margin-bottom: -0.5em;
+    margin-bottom: -0.5em; */
 }
 
 .md-typeset h3 {
     color: var(--md-h3-fg-color);
     font-size: 1.2em;
     font-weight: 500;
-    line-height: 0.7;
+    /* line-height: 0.7;
     letter-spacing: -.01em;
     margin-top: 2.2em;
-    margin-bottom: -0.5em;
+    margin-bottom: -0.5em; */
 }
 
 .md-typeset h4 {
     font-size: 1em;
     font-weight: 500;
-    line-height: 0.7;
-    letter-spacing: -.01em;
+    /* line-height: 0.7; */
+    /* letter-spacing: -.01em;
     margin: 1em 0;
     color: var(--md-h4-fg-color);
     margin-top: 2.2em;
-    margin-bottom: -0.5em;
+    margin-bottom: -0.5em; */
 }
 
 .md-typeset h5 {
     color: var(--md-h5-fg-color);
     font-size: 0.9em;
     font-weight: 500;
-    line-height: 0.7;
+    /* line-height: 0.7;
     letter-spacing: -.01em;
     margin-top: 2.2em;
-    margin-bottom: -0.5em;
+    margin-bottom: -0.5em; */
 }
 
 .md-typeset h6 {
     color: var(--md-h6-fg-color);
     font-size: 0.88em;
     font-weight: 500;
-    line-height: 0.7;
+    /* line-height: 0.7;
     letter-spacing: -.01em;
     margin-top: 2.2em;
-    margin-bottom: -0.5em;
+    margin-bottom: -0.5em; */
 }
 
 .md-ellipsis {
