@@ -152,7 +152,8 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 
 /* nav - font color */
 .md-tabs {
-    color: var(--md-default-mdgrid-fg-color);
+    /* color: var(--md-default-mdgrid-fg-color); */
+    color:#e9ffbe;
     /* font-weight: bold; */
 }
 
@@ -445,4 +446,29 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 --md-h4-fg-color:#9ed2ff;
 --md-h5-fg-color:#c565ff;
 --md-h6-fg-color:#ff62b8;
+}
+
+.cursor {
+    position: relative;
+}
+.cursor i {
+    position: absolute;
+    width: 1px;
+    height: 80%;
+    background-color: gray;
+    left: 5px;
+    top: 10%;
+    animation-name: blink;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    opacity: 1;
+}
+
+.cursor input:focus + i {
+    display: none;
+}
+
+@keyframes blink {
+    from { opacity: 1; }
+    to { opacity: 0; }
 }
