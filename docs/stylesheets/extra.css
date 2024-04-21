@@ -17,7 +17,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 
 /* article subject color */
 .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
-    color: #becc00;
+    color: #e9ffbe;
     border-radius: 2%;
     padding-left: 2px;
     padding-right: 2px;
@@ -79,7 +79,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-footer-fg-color: #fbe051; /* footer next and arrow color */
     --md-footer-fg-color--light: #ffffff; /*    */
     --md-footer-copyright-fg-color: #000000 ;
-    --md-default-mdgrid-fg-color: #ffffff ;
+    --md-default-mdgrid-fg-color: #e9ffbe ;
     --md-codeblock-high-bg-color: #9c9fff ;
     --md-subject-fg-color: #9c9fff ;
     --md-ellipsis-fg-color:#4c4c4c;
@@ -95,7 +95,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-int-link-hover-fg-color: #e9ffbe; /* 9c9fff */
     --md-MkDocs-footer-icon-color: #9c9fff;
     --md-cyberoff-bg-color: #ffffff;
-    --md-TOC-selected-text-bg-color: #fbe051;
+    --md-TOC-selected-text-bg-color: #e9ffbe;
     --md-footer-icon-bg-color: #fbe051;
     --md-h1-fg-color:#9c9fff;
     --md-h2-fg-color: #ff71d2; /*#959100;*/
@@ -121,7 +121,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-footer-fg-color: #fbe051; /* footer next and arrow color */
     --md-footer-fg-color--light: #ff6565;
     --md-footer-copyright-fg-color: #ffffff ;
-    --md-default-mdgrid-fg-color: #ffffff ;
+    --md-default-mdgrid-fg-color: #e9ffbe ;
     --md-codeblock-high-bg-color: #ff9763 ;
     --md-subject-fg-color: #fbe051 ;
     --md-ellipsis-fg-color:rgb(255, 255, 255);
@@ -137,11 +137,11 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-int-link-hover-fg-color: #9c9fff;
     --md-MkDocs-footer-icon-color: #9c9fff;
     --md-cyberoff-bg-color: #000000;
-    --md-TOC-selected-text-bg-color: #9c9fff;
+    --md-TOC-selected-text-bg-color: #adbd8e;
     --md-footer-icon-bg-color: #9c9fff;
     --md-h1-fg-color:#9c9fff;
     --md-h2-fg-color:#ff2dbd;
-    --md-h3-fg-color:#ffec86;
+    --md-h3-fg-color:#ffec86; /*e9ffbe*/
     --md-h4-fg-color:#9ed2ff;
     --md-h5-fg-color:#c565ff;
     --md-h6-fg-color:#ff62b8;
@@ -331,7 +331,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 
 /* nav bar bg color */
 [data-md-color-primary=black] .md-tabs {
-    background-color: var(--md-navbar-bg-color);
+    /* background-color: var(--md-navbar-bg-color); */
 }
 
 /* TOC right side title color */
