@@ -218,7 +218,7 @@ element.style {
     margin: 0 .2rem;
     overflow-y: auto;
     /* scrollbar-color: var(--md-default-fg-color--lighter) #ff656500; */
-    scrollbar-color: #717171 #ff656500;
+    scrollbar-color: #9c9fff #ff656500;
     scrollbar-width: thin;
 }
 
