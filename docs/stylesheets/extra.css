@@ -12,7 +12,8 @@
 html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover {
     color: #f5ff65;
     border-radius: 8%;
-    background-color: var(--md-footer-icon-bg-color);
+    /* background-color: var(--md-footer-icon-bg-color); */
+    background-color: var(#e9ffbe);
   }
 
 /* article subject color */
@@ -333,9 +334,9 @@ element.style {
     color: var(--md-footer-icon-color);
 }
 
-html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover {
+/* html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover {
     color: var(--md-footer-made-with-fg-color);
-}
+} */
 
 /* nav bar bg color */
 [data-md-color-primary=black] .md-tabs {
