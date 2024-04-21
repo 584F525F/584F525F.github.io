@@ -123,7 +123,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-footer-copyright-fg-color: #ffffff ;
     --md-default-mdgrid-fg-color: #e9ffbe ;
     --md-codeblock-high-bg-color: #ff9763 ;
-    --md-subject-fg-color: #fbe051 ;
+    --md-subject-fg-color: #e9ffbe ;
     --md-ellipsis-fg-color:rgb(255, 255, 255);
     --md-header-icon-fg-color: rgb(255, 255, 255);
     --md-icon-search-theme-switcher-fg-color: rgb(255, 255, 255);
@@ -132,7 +132,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-footer-icon-color: #9c9fff;
     --md-footer-made-with-fg-color: #ffffff;
     --md-navbar-bg-color: hsl(225deg 15.32% 32.09%);
-    --md-TOC-color: #fbe051;
+    --md-TOC-color: #e9ffbe;
     --md-int-link-fg-color:#ff6565;
     --md-int-link-hover-fg-color: #e9ffbe;
     --md-MkDocs-footer-icon-color: #9c9fff;
