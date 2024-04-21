@@ -195,7 +195,7 @@ element.style {
 @media screen and (min-width: 60em) {
     .md-nav--secondary .md-nav__title[for=__toc] {
         scroll-snap-align: start;
-        color: --md-nav--secondary-fg-color;/*#b2ffd0*/
+        color: var(--md-nav--secondary-fg-color);/*#b2ffd0*/
         font-size: 0.9em;
     }
 }
