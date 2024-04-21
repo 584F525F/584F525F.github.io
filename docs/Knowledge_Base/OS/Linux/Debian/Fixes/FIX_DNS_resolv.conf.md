@@ -11,11 +11,11 @@
     ##### fix file permission
 
     ```bash
+    cd /etc
     ls -al | grep resol
     drwxr-xr-x   5 root root     4096 Apr  9  2020 resolvconf
     lrwxrwxrwx   1 root root       29 Jan 22  2016 resolv.conf -> ../run/resolvconf/resolv.conf
 
-    cd /etc
     sudo chmod 666 resolv.conf
     ```
 

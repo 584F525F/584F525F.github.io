@@ -105,6 +105,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-h6-fg-color:#ff38a5;
     --md-default-bg-image: url(https://584f525f.github.io/assets/images/layers/no-img.jpg);
     --md-search-result-fg-color: #ff9595;
+    --md-nav--secondary-fg-color:#b2ffd0;
 }
 
 /* coloring dark theme profile */
@@ -146,6 +147,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-h6-fg-color:#ff62b8;
     --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
     --md-search-result-fg-color: #ff9595;
+    --md-nav--secondary-fg-color:#78c395;
 }
 
 /* nav - font color */
@@ -190,10 +192,13 @@ element.style {
     color: var(--md-codeblock-high-bg-color);
 }
 
-/* @media screen and (min-width: 76.25em)
-.md-nav--lifted>.md-nav__list>.md-nav__item>[for] {
-    color: #f5b2b200;
-} */
+@media screen and (min-width: 60em) {
+    .md-nav--secondary .md-nav__title[for=__toc] {
+        scroll-snap-align: start;
+        color: --md-nav--secondary-fg-color;/*#b2ffd0*/
+        font-size: 0.9em;
+    }
+}
 
 /* scrollbar default color */
 .md-search__scrollwrap {
@@ -202,6 +207,8 @@ element.style {
     scrollbar-color: var(--md-default-fg-color--lighter) #ff656500;
     scrollbar-width: thin;
 }
+
+
 
 /* left side scrollbar */
 .md-sidebar__scrollwrap {
@@ -280,6 +287,7 @@ element.style {
     overflow: hidden;
     text-overflow: ellipsis;
     color: var(--md-ellipsis-fg-color);
+    font-size: 0.92em;
 }
 
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
