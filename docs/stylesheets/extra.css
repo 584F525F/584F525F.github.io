@@ -71,7 +71,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-hue: 225deg;
     --md-default-fg-color: rgb(0 0 0);
     --md-default-fg-color--light: #9c9fff; /* #ff6565 */
-    --md-default-fg-color--lighter: #0f0f11;
+    --md-default-fg-color--lighter: #9c9fff;
     --md-default-fg-color--lighter-1: #e9ffbe; /* scroll bar*/
     --md-default-bg-color: #ffffff; /* top TOC section made hidden also blocks color*/
     --md-footer-bg-color: #ffffff3; /* footer next and arrow background color */
@@ -97,7 +97,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-cyberoff-bg-color: #ffffff;
     --md-TOC-selected-text-bg-color: #9c9fff;
     --md-footer-icon-bg-color: #fbe051;
-    --md-h1-fg-color:rgb(0 255 162);
+    --md-h1-fg-color:#9c9fff;
     --md-h2-fg-color:#b3d571; /*#959100;*/
     --md-h3-fg-color:#d7b500;
     --md-h4-fg-color:#4898ff;
@@ -132,14 +132,14 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-footer-icon-color: #9c9fff;
     --md-footer-made-with-fg-color: #ffffff;
     --md-navbar-bg-color: hsl(225deg 15.32% 32.09%);
-    --md-TOC-color: #e9ffbe;
+    --md-TOC-color: #9c9fff;
     --md-int-link-fg-color:#ff6565;
     --md-int-link-hover-fg-color: #5c4cd9;
     --md-MkDocs-footer-icon-color: #9c9fff;
     --md-cyberoff-bg-color: #000000;
     --md-TOC-selected-text-bg-color: #adbd8e;
     --md-footer-icon-bg-color: #9c9fff;
-    --md-h1-fg-color:#00e18f;
+    --md-h1-fg-color:#9c9fff;
     --md-h2-fg-color:#e9ffbe;
     --md-h3-fg-color:#ffec86; /*e9ffbe*/
     --md-h4-fg-color:#9ed2ff;
