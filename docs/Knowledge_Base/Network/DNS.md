@@ -35,7 +35,7 @@
 
     #### Root Server Names
 
-    ![dns_Root_Server_Names.jpg](/Knowledge_Base/images/dns_Root_Server_Names.jpg)
+    ![dns_Root_Server_Names.jpg](/Knowledge_Base/images/dns_Root_Server_Names1.jpg)
 
 
 !!! info ""
