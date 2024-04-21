@@ -105,7 +105,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-h6-fg-color:#ff38a5;
     --md-default-bg-image: url(https://584f525f.github.io/assets/images/layers/no-img.jpg);
     --md-search-result-fg-color: #ff9595;
-    --md-nav--secondary-fg-color:#b2ffd0;
+    --md-nav--secondary-fg-color:#78c395;
 }
 
 /* coloring dark theme profile */
@@ -147,7 +147,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-h6-fg-color:#ff62b8;
     --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
     --md-search-result-fg-color: #ff9595;
-    --md-nav--secondary-fg-color:#78c395;
+    --md-nav--secondary-fg-color:#b2ffd0;
 }
 
 /* nav - font color */
