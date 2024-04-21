@@ -137,14 +137,14 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-int-link-hover-fg-color: #5c4cd9;
     --md-MkDocs-footer-icon-color: #9c9fff;
     --md-cyberoff-bg-color: #000000;
-    --md-TOC-selected-text-bg-color: #adbd8e;
+    --md-TOC-selected-text-bg-color: #9c9fff;
     --md-footer-icon-bg-color: #9c9fff;
     --md-h1-fg-color:#9c9fff;
     --md-h2-fg-color:#e9ffbe;
     --md-h3-fg-color:#ffec86; /*e9ffbe*/
     --md-h4-fg-color:#9ed2ff;
-    --md-h5-fg-color:#c565ff;
-    --md-h6-fg-color:#ff62b8;
+    --md-h5-fg-color:#e9ffbe;
+    --md-h6-fg-color:#6bd1ff;
     --md-default-bg-image: url("https://584f525f.github.io/assets/images/layers/burningflag-blur_nope.jpg");
     --md-search-result-fg-color: #ff9595;
     --md-nav--secondary-fg-color:#b2ffd0;
@@ -234,35 +234,35 @@ element.style {
 
 .md-typeset h1 {
     color: var(--md-h1-fg-color); /* --md-subject-fg-color */
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 0.7;
     letter-spacing: -.01em;
     margin: 1em 0;
 }
 
 .md-typeset h2 {
     color: var(--md-h2-fg-color);
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 0.7;
     letter-spacing: -.01em;
     margin: 1em 0;
 }
 
 .md-typeset h3 {
     color: var(--md-h3-fg-color);
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 0.7;
     letter-spacing: -.01em;
     margin: 1em 0;
 }
 
 .md-typeset h4 {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 0.7;
     letter-spacing: -.01em;
     margin: 1em 0;
     color: var(--md-h4-fg-color);
@@ -270,18 +270,18 @@ element.style {
 
 .md-typeset h5 {
     color: var(--md-h5-fg-color);
-    font-size: 1.0em;
+    font-size: 0.9em;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 0.7;
     letter-spacing: -.01em;
     margin: 1em 0;
 }
 
 .md-typeset h6 {
     color: var(--md-h6-fg-color);
-    font-size: 0.9em;
+    font-size: 0.88em;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 0.7;
     letter-spacing: -.01em;
     margin: 1em 0;
 }
