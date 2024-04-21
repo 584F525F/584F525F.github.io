@@ -86,18 +86,18 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-header-icon-fg-color: rgb(0, 0, 0);
     --md-icon-search-theme-switcher-fg-color: rgb(0, 0, 0);
     --md-header-bg-color:rgb(255, 255, 255);
-    --md-footer-next-prev-fg-color: #3d81ff;
-    --md-footer-icon-color: #3500ff;
+    --md-footer-next-prev-fg-color: #9c9fff;
+    --md-footer-icon-color: #9c9fff;
     --md-footer-made-with-fg-color: #000000;
     --md-navbar-bg-color: #3500ff;
     --md-TOC-color: #3500ff;
     --md-int-link-fg-color:#ff6565;
     --md-int-link-hover-fg-color: #e9ffbe; /* 3500ff */
-    --md-MkDocs-footer-icon-color: #3500ff;
+    --md-MkDocs-footer-icon-color: #9c9fff;
     --md-cyberoff-bg-color: #ffffff;
     --md-TOC-selected-text-bg-color: #fbe051;
     --md-footer-icon-bg-color: #fbe051;
-    --md-h1-fg-color:#402cd5;
+    --md-h1-fg-color:#9c9fff;
     --md-h2-fg-color: #ff71d2; /*#959100;*/
     --md-h3-fg-color:#d7b500;
     --md-h4-fg-color:#4898ff;
@@ -128,18 +128,18 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-header-icon-fg-color: rgb(255, 255, 255);
     --md-icon-search-theme-switcher-fg-color: rgb(255, 255, 255);
     --md-header-bg-color:rgb(0, 0, 0);
-    --md-footer-next-prev-fg-color: #fbe051;
-    --md-footer-icon-color: #fbe051;
+    --md-footer-next-prev-fg-color: #9c9fff;
+    --md-footer-icon-color: #9c9fff;
     --md-footer-made-with-fg-color: #ffffff;
     --md-navbar-bg-color: #3500ff;
     --md-TOC-color: #fbe051;
     --md-int-link-fg-color:#ff6565;
     --md-int-link-hover-fg-color: #3500ff;
-    --md-MkDocs-footer-icon-color: #fbe051;
+    --md-MkDocs-footer-icon-color: #9c9fff;
     --md-cyberoff-bg-color: #000000;
     --md-TOC-selected-text-bg-color: #3500ff;
     --md-footer-icon-bg-color: #3500ff;
-    --md-h1-fg-color:#d2ccff;
+    --md-h1-fg-color:#9c9fff;
     --md-h2-fg-color:#ff2dbd;
     --md-h3-fg-color:#ffec86;
     --md-h4-fg-color:#9ed2ff;
@@ -195,8 +195,10 @@ element.style {
 @media screen and (min-width: 60em) {
     .md-nav--secondary .md-nav__title[for=__toc] {
         scroll-snap-align: start;
-        color: var(--md-nav--secondary-fg-color);/*#b2ffd0*/
-        font-size: 0.9em;
+        /* color: var(--md-nav--secondary-fg-color); */
+        color: var(#9c9fff);/*#9c9fff*/
+        /* font-size: 0.9em; */
+        font-family: cursive;
     }
 }
 
@@ -288,6 +290,7 @@ element.style {
     text-overflow: ellipsis;
     color: var(--md-ellipsis-fg-color);
     font-size: 0.92em;
+    font-family: monospace;
 }
 
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
@@ -384,7 +387,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     background-color: var(--md-cyberoff-bg-color);
   }
 
-  .md-top {
+ .md-top {
     background-color: #3500ff;
     border-radius: 1.3rem;
     box-shadow: var(--md-shadow-z2);
@@ -399,6 +402,14 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     transform: translate(-50%);
     transition: color 125ms, background-color 125ms, transform 125ms cubic-bezier(.4,0,.2,1), opacity 125ms;
     z-index: 2;
+}
+
+.md-source-file__fact {
+    align-items: center;
+    color: var(#9c9fff);
+    display: inline-flex;
+    font-size: .68rem;
+    gap: .3rem;
 }
 
 /* possible replacement color for green */
