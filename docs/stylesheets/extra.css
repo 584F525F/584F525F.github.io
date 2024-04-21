@@ -112,7 +112,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 :root, [data-md-color-scheme=slate] {
     --md-hue: 225deg;
     --md-default-fg-color: hsl(212.54deg 100% 93.91%);
-    --md-default-fg-color--light: #e9ffbe; /* ff6565 fff6b4 subject color and post date #86b7ff */
+    --md-default-fg-color--light: #eaffc1; /* ff6565 fff6b4 subject color and post date #86b7ff */
     --md-default-fg-color--lighter: #e9ffbe; /* scroll bar*/
     --md-default-fg-color--lighter-1: #e9ffbe; /* scroll bar*/
     --md-default-bg-color: #000000; /* top TOC section made hidden also blocks color*/
@@ -238,7 +238,8 @@ element.style {
     font-weight: 500;
     line-height: 0.7;
     letter-spacing: -.01em;
-    margin: 1em 0;
+    margin-top: 2.2em;
+    margin-bottom: -0.5em;
 }
 
 .md-typeset h2 {
@@ -247,7 +248,8 @@ element.style {
     font-weight: 500;
     line-height: 0.7;
     letter-spacing: -.01em;
-    margin: 1em 0;
+    margin-top: 2.2em;
+    margin-bottom: -0.5em;
 }
 
 .md-typeset h3 {
@@ -256,7 +258,8 @@ element.style {
     font-weight: 500;
     line-height: 0.7;
     letter-spacing: -.01em;
-    margin: 1em 0;
+    margin-top: 2.2em;
+    margin-bottom: -0.5em;
 }
 
 .md-typeset h4 {
@@ -266,6 +269,8 @@ element.style {
     letter-spacing: -.01em;
     margin: 1em 0;
     color: var(--md-h4-fg-color);
+    margin-top: 2.2em;
+    margin-bottom: -0.5em;
 }
 
 .md-typeset h5 {
@@ -274,7 +279,8 @@ element.style {
     font-weight: 500;
     line-height: 0.7;
     letter-spacing: -.01em;
-    margin: 1em 0;
+    margin-top: 2.2em;
+    margin-bottom: -0.5em;
 }
 
 .md-typeset h6 {
@@ -283,7 +289,8 @@ element.style {
     font-weight: 500;
     line-height: 0.7;
     letter-spacing: -.01em;
-    margin: 1em 0;
+    margin-top: 2.2em;
+    margin-bottom: -0.5em;
 }
 
 .md-ellipsis {
@@ -439,3 +446,6 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 --md-h5-fg-color:#c565ff;
 --md-h6-fg-color:#ff62b8;
 }
+
+
+/* #eaffc1 */
