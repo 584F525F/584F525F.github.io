@@ -213,8 +213,6 @@ element.style {
     scrollbar-width: thin;
 }
 
-
-
 /* left side scrollbar */
 .md-sidebar__scrollwrap {
     scrollbar-gutter: stable;
@@ -237,7 +235,7 @@ element.style {
 .md-typeset h1 {
     color: var(--md-h1-fg-color); /* --md-subject-fg-color */
     font-size: 1.4em;
-    font-weight: 700;
+    font-weight: 500;
     /* line-height: 0.7;
     letter-spacing: -.01em;
     margin-top: 2.2em;
