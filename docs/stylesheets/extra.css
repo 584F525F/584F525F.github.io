@@ -70,8 +70,8 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 :root, [data-md-color-scheme=default] {
     --md-hue: 225deg;
     --md-default-fg-color: rgb(0 0 0);
-    --md-default-fg-color--light: #c7a700; /* #ff6565 */
-    --md-default-fg-color--lighter: #c7a700;
+    --md-default-fg-color--light: #9c9fff; /* #ff6565 */
+    --md-default-fg-color--lighter: #9c9fff;
     --md-default-fg-color--lighter-1: #e9ffbe; /* scroll bar*/
     --md-default-bg-color: #ffffff; /* top TOC section made hidden also blocks color*/
     --md-footer-bg-color: #ffffff3; /* footer next and arrow background color */
@@ -112,7 +112,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 :root, [data-md-color-scheme=slate] {
     --md-hue: 225deg;
     --md-default-fg-color: hsl(212.54deg 100% 93.91%);
-    --md-default-fg-color--light: #9c9fff; /* ff6565 fff6b4 subject color and post date #86b7ff */
+    --md-default-fg-color--light: #e9ffbe; /* ff6565 fff6b4 subject color and post date #86b7ff */
     --md-default-fg-color--lighter: #e9ffbe; /* scroll bar*/
     --md-default-fg-color--lighter-1: #e9ffbe; /* scroll bar*/
     --md-default-bg-color: #000000; /* top TOC section made hidden also blocks color*/
