@@ -196,3 +196,9 @@ https://pypi.org/project/mkdocs-pdf/
 
 <embed src="/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf" type="application/pdf" style="min-height:100vh;width:100%">
 
+
+[click to open PDF in new tab](XXXXXXXX)
+
+<embed src="XXXXXXXX" type="application/pdf" style="min-height:100vh;width:100%">
+
+
