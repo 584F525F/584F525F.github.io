@@ -1,6 +1,6 @@
 !!! info ""
 
-### The prefered upgrade method
+    ### The prefered upgrade method
 
     Downloading the Firmware and establishing the Upgrade Path
 
