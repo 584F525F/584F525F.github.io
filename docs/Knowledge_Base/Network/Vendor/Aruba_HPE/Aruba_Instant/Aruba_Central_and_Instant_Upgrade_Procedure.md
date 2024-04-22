@@ -10,7 +10,7 @@
     - Location of the firmware Name (This will be different depending on what Access Point models).
     - Note down the name as we will need to search for them when downloading the firmware from Aruba's website.
 
-    ![aruba_upgrade_instant_1](/Knowledge_Base/images/aruba_upgrade_instant_1.png)
+        ![aruba_upgrade_instant_1](/Knowledge_Base/images/aruba_upgrade_instant_1.png)
 
 
 !!! info ""
@@ -20,14 +20,13 @@
     - Visit asp.arubanetworks.com then log in with your account (If you don't have access they you won't be able to get this part done)
     - navigate to "Software & Documents"
 
-    ![aruba_upgrade_instant_2](/Knowledge_Base/images/aruba_upgrade_instant_2.png)
+        ![aruba_upgrade_instant_2](/Knowledge_Base/images/aruba_upgrade_instant_2.png)
 
-    Type the version number as is (including any symbols) in the search field followed by space and the firmware version name we found earlier in the Aruba Virtual Controller firmware section. For example, Ursa, Draco, etc. based on what the Cluster is showing.
+    - Type the version number as is (including any symbols) in the search field followed by space and the firmware version name we found earlier in the Aruba Virtual Controller firmware section. For example, Ursa, Draco, etc. based on what the Cluster is showing.
 
     !!! danger ""
 
         IMPORTANT!
-
 
         You must make sure that the Current Access Points on their current running Firmware are supported on your destination Firmware version.
 
@@ -39,24 +38,26 @@
 
     - ![aruba_firmware_download_1](/Knowledge_Base/images/aruba_firmware_download_1.png)
 
-    - In the Release notes search for Supported Instant AP Platforms (You MUST do this to all the Access Point models you have for the property on the Cluster you are working on):
+    - In the Release notes search for Supported Instant AP Platforms (You MUST do this to all the Access Point models you have for the location you are working on):
     - You must make sure that all your Access Points are supported on that target firmware, if one isn't there, then DO NOT upgrade to this target firmware and bring this up to MOD's attention.
     - If all AP models are supported then you must check the Minimum required Instant firmware to upgrade to your target Firmware.
         - Example: If you have AP 584 with Firmware Instant 8.6.0 then per the below firmware you can't upgrade to this firmware directly and you would have to upgrade it by steps until you reach that Minimum required version of 8.10.0.0 or later.
 
 
-    ![aruba_firmware_download_2](/Knowledge_Base/images/aruba_firmware_download_2.png)
+        ![aruba_firmware_download_2](/Knowledge_Base/images/aruba_firmware_download_2.png)
 
 
 !!! info ""
 
     #### Step 3: The URLs
 
-    1- You first need to create the URL link for the firmware version the property's Aruba VC needs. The URL syntax should be as follows, find the below 2 URL formats
+    ##### Create the URL link
+    
+    The URL syntax should be as follows, find the below 2 URL formats:
 
     Try and see which one works for you, some versions only work on 1 of the below URLs, don't forget to change the Firmware Version Number!
 
-    ##### URL Method 1
+    ###### URL Format 1
 
     http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_NAME_VersionNumber
 
@@ -77,7 +78,7 @@
     Vela http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Vela_8.7.1.6_81786
 
 
-    ##### URL Method 2
+    ###### URL Format 2
 
     http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_NAME_VersionNumber
 
@@ -98,7 +99,9 @@
     Vela http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Vela_8.10.0.1_84079
 
 
-    2- You must test the URL in your browser first, take the URL you generated and paste it into a new tab in your browser. If it starts to download and the file name and version look correct then you're good to proceed with the next steps. If the URL returns an error that was saying denied access, this method will not work and the only known way is to create a case with Aruba and ask for HTTP links and specify the Firmware version and name that is needed so they can provide you with a working link.
+    ##### Test the URL
+    
+    In your browser first, take the URL you generated and paste it into a new tab in your browser. If it starts to download and the file name and version look correct then you're good to proceed with the next steps. If the URL returns an error that was saying denied access, this method will not work and the only known way is to create a case with Aruba and ask for HTTP links and specify the Firmware version and name that is needed so they can provide you with a working link.
 
 
 !!! info ""
