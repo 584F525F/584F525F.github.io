@@ -329,12 +329,8 @@ element.style {
     fill: currentcolor;
     max-height: .8rem;
     vertical-align: -25%;
-    color: var(--md-footer-icon-color);
+    /* color: var(--md-footer-icon-color); */
 }
-
-/* html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover {
-    color: var(--md-footer-made-with-fg-color);
-} */
 
 /* nav bar bg color */
 [data-md-color-primary=black] .md-tabs {
@@ -404,6 +400,10 @@ element.style {
     display: inline-flex;
     font-size: .68rem;
     gap: .3rem;
+}
+
+html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover {
+    color: #e9ffbe;
 }
 
 .colors{
