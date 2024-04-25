@@ -171,26 +171,15 @@ summary
 - [Blog title - Author, Date](https://example.com)
 
 ---
-
 ## Image size & path
 
 ![](/Knowledge_Base/images/image-2.png){: style="height:150px;width:150px"}
 
 /Knowledge_Base/images/
 
-## To embed a PDF file simple use the following syntax.
+---
 
-(pypi.org mkdocs-pdf)[https://pypi.org/project/mkdocs-pdf/]
-
-![Alt text](<path to pdf>){ type=application/pdf }
-Optionally, you can specify style constraints, e.g.
-
-![Alt text](<path to pdf>){ type=application/pdf style="min-height:25vh;width:100%" }
-
-https://stackoverflow.com/questions/69237778/how-to-embed-a-local-pdf-file-in-mkdocs-generated-website-on-github-pages
-
-https://pypi.org/project/mkdocs-pdf/
-
+## PDFs
 
 [click to open PDF in new tab](/Knowledge_Base/images/javvin-tcpipguide-pdf.pdf)
 
@@ -201,4 +190,14 @@ https://pypi.org/project/mkdocs-pdf/
 
 <embed src="XXXXXXXX" type="application/pdf" style="min-height:100vh;width:100%">
 
+---
 
+## Tables
+
+| Method      | Description                          |
+| ----------- | ------------------------------------ |
+| `GET`       | :material-check:     Fetch resource  |
+| `PUT`       | :material-check-all: Update resource |
+| `DELETE`    | :material-close:     Delete resource |
+
+---
