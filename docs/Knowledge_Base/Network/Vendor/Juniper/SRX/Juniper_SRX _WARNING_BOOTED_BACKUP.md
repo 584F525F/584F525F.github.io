@@ -61,8 +61,8 @@
     --------------------------------------------------------------------------
     Boot Media: internal (da0)
     Active Partition: da0s1a
-    Backup Partition: da0s2a <-- this is the backup slice
-    Currently booted from: backup (da0s2a) <-- shows booted from that slice
+    Backup Partition: da0s2a                  <-- this is the backup slice
+    Currently booted from: backup (da0s2a)    <-- shows booted from that slice
     Partitions information:
     Partition Size Mountpoint
     s1a 184M altroot
@@ -109,7 +109,7 @@
     ```bash
     root@srx> show system snapshot media internal
     Information for snapshot on internal (/dev/da0s1a) (primary)
-    Creation date: Jan 22 23:48:47 2016 <-- Displays current date/time of operation in step 3.1
+    Creation date: Jan 22 23:48:47 2016                          <-- Displays current date/time of operation in step 3.1
     JUNOS version on snapshot:
     junos : 12.1X44-D15.5-domestic
     Information for snapshot on internal (/dev/da0s2a) (backup)
