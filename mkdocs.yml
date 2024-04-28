@@ -217,7 +217,7 @@ nav:
             - 'dirsearch': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
   - Knowledge Base:
     - 'Summary': knowledge_base.md
-    - '':
+    - '': 
       - 'Network':
         - 'ARP' : Knowledge_Base/Network/ARP.md
         - 'DNS' : Knowledge_Base/Network/DNS.md
