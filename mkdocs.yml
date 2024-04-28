@@ -93,6 +93,7 @@ copyright: Copyright © 2024 bitwiseoperator.net
 
 extra:
   generator: true
+  homepage: https://xor.bitwiseoperator.net/home.html
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/584F525F/
