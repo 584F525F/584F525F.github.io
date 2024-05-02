@@ -27,11 +27,11 @@
 
     Below is a H510 AP configured with maximum Tx power. It shows 2.4 GHz using Tx power as 16 dBm and 5 GHz at 19 dBm.
 
-    ![alt text](image.png)
+    ![alt text](/Knowledge_Base/images//Knowledge_Base/images/Ruckus_WAP_image.png)
 
     R710 shows 2.4 GHz at 22 dBm and 5 GHz at 20 dBm.
     
-    ![alt text](image-1.png)
+    ![alt text](/Knowledge_Base/images/Ruckus_WAP_image-1.png)
 
 !!! info ""
 
@@ -121,7 +121,7 @@
     5GHz   -2   = 17 dBm
     ```
     
-    ![alt text](image-4.png)
+    ![alt text](/Knowledge_Base/images/Ruckus_WAP_image-4.png)
 
     ##### R350
     
@@ -134,11 +134,11 @@
     14 -6 5Ghz
     ```
 
-    ![alt text](image-2.png)
+    ![alt text](/Knowledge_Base/images/Ruckus_WAP_image-2.png)
 
-    ![alt text](image-3.png)
+    ![alt text](/Knowledge_Base/images/Ruckus_WAP_image-3.png)
 
-    ![alt text](image-5.png)
+    ![alt text](/Knowledge_Base/images/Ruckus_WAP_image-5.png)
 
     ##### T350c
     
