@@ -277,7 +277,7 @@ nav:
             - 'SRX':
               - 'Juniper Add VLAN Ethernet Switching irb': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_Add_VLAN_Ethernet_Switching_irb.md
               - 'Juniper JNCIA study notes': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_JNCIA_study_notes.md
-              - 'Juniper SRX  WARNING BOOTED BACKUP': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX _WARNING_BOOTED_BACKUP.md
+              - 'Juniper SRX  WARNING BOOTED BACKUP': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_WARNING_BOOTED_BACKUP.md
               - 'Juniper SRX Add VLAN Ethernet Switching VLAN': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Add_VLAN_Ethernet_Switching_VLAN.md
               - 'Juniper SRX Configuration rescue and Auto recovery': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Configuration_rescue_and_Auto_recovery.md
               - 'Juniper SRX dhcp-service subsystem is not responding': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_dhcp-service_subsystem_is_not_responding.md
