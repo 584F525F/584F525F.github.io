@@ -134,7 +134,6 @@ plugins:
       slide_effect: slide
       loop: false
       touchNavigation: true
-
 nav:
   - Home: home.html
   - Cyber Offensive:
