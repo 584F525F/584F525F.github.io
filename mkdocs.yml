@@ -177,4 +177,58 @@ nav:
           - 'Wireshark':
             - 'Wireshark Profiles': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Profiles.md
             - 'Wireshark Filters': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Filters.md
+        - 'Vendor':
+          - 'Aruba HPE':
+            - 'Aruba Central Instant Cluster':
+              - 'Aruba Central and Instant Upgrade Procedure': Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/Aruba_Central_and_Instant_Upgrade_Procedure.md
+              - 'Aruba Central AP Configuration Sync issues': Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/Aruba_Central_AP_Configuration_Sync_issues.md
+              - 'Aruba MTU': Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/Aruba_MTU.md
+            - 'Switches':
+              - 'Aruba Central Switch enable CLI': Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Aruba_Central_Switch_enable_CLI.md
+              - 'Aruba HPE SFPs': Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Aruba_HPE_SFPs.md
+          - 'Cisco':
+            - 'CISCO WLC Handshake Failure': Knowledge_Base/Network/Vendor/Cisco/CISCO_WLC_Handshake_Failure.md
+          - 'Juniper':
+            - 'SRX':
+              - 'Juniper Add VLAN Ethernet Switching irb': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_Add_VLAN_Ethernet_Switching_irb.md
+              - 'Juniper JNCIA study notes': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_JNCIA_study_notes.md
+              - 'Juniper SRX  WARNING BOOTED BACKUP': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_WARNING_BOOTED_BACKUP.md
+              - 'Juniper SRX Add VLAN Ethernet Switching VLAN': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Add_VLAN_Ethernet_Switching_VLAN.md
+              - 'Juniper SRX Configuration rescue and Auto recovery': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Configuration_rescue_and_Auto_recovery.md
+              - 'Juniper SRX dhcp-service subsystem is not responding': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_dhcp-service_subsystem_is_not_responding.md
+              - 'Juniper SRX firmware upgrade': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_firmware_upgrade.md
+              - 'Juniper SRX flow': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_flow.md
+              - 'Juniper SRX FTP CLI': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_FTP_CLI.md
+              - 'Juniper SRX Loader Recovery': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Loader_Recovery.md
+              - 'Juniper SRX NAT 1TO1': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_NAT_1TO1.md
+              - 'Juniper SRX NAT Destination': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_NAT_Destination.md
+              - 'Juniper SRX NAT Source': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_NAT_Source.md
+              - 'Juniper SRX NAT Troubleshooting': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_NAT_Troubleshooting.md
+              - 'Juniper SRX packet capture pcap': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_packet_capture_pcap.md
+              - 'Juniper SRX redundancy cluster failover troubleshooting': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_redundancy_cluster_failover_troubleshooting.md
+              - 'Juniper srx troubleshooting': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_srx_troubleshooting.md
+              - 'Juniper SRX Troubleshoot restart IPSEC VPN': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Troubleshoot_restart_IPSEC_VPN.md
+              - 'Juniper SRX WARNING REMOTE HOST IDENTIFICATION HAS CHANGED': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_WARNING_REMOTE_HOST_IDENTIFICATION_HAS_CHANGED.md
+          - 'Meraki':
+            - 'Meraki SFP': Knowledge_Base/Network/Vendor/Meraki/Meraki_SFP.md
+          - 'Ruckus':
+            - 'Access Points':
+              - 'AP-CLI general-commands': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP-CLI_general-commands.md
+              - 'Ruckus SmartZone SZ AP CLI SETUP Support Config Flow': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/Ruckus_SmartZone_SZ_AP_CLI_SETUP_Support_Config_Flow.md
+              - 'Ruckus SZ AP Access Point Firmware Recovery CLI': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/Ruckus_SZ_AP_Access_Point_Firmware_Recovery_CLI.md
+              - 'Ruckus WAP TX Power EIRP': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/Ruckus_WAP_TX_Power_EIRP.md
+            - 'Switches':
+              - 'ALL SFP RUCKUS Optics': Knowledge_Base/Network/Vendor/Ruckus/Switches/ALL_SFP_RUCKUS_Optics.md
+              - 'Brocade ICX console settings': Knowledge_Base/Network/Vendor/Ruckus/Switches/Brocade_ICX_console_settings.md
+              - 'Brocade ICX Switches Firmware upgrade with USB': Knowledge_Base/Network/Vendor/Ruckus/Switches/Brocade_ICX_Switches_Firmware_upgrade_with_USB.md
+              - 'Ruckus SFP Brocade ICX-7250-ds': Knowledge_Base/Network/Vendor/Ruckus/Switches/Ruckus_SFP_Brocade_ICX-7250-ds.md
+            - 'WLC':
+              - 'SZ SmartZone':
+                - 'Ruckus SmartZone SZ CLI General Cluster Upgrade and backup': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/Ruckus_SmartZone_SZ_CLI_General_Cluster_Upgrade_and_backup.md
+                - 'SZ AP Management MGMT Control Data Plane Ports': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/SZ_AP_Management_MGMT_Control_Data_Plane_Ports.md
+                - 'SZ upgrade': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/SZ_upgrade.md
+              - 'Unleashed':
+              - 'ZD ZoneDirector':
+                - 'Ruckus ZoneDirector ZD CLI': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Ruckus_ZoneDirector_ZD_CLI.md
+                - 'ZD Channelization': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/ZD_Channelization.md
   - About: About.md
