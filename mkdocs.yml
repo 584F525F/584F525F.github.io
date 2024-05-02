@@ -209,4 +209,17 @@ nav:
               - 'Juniper srx troubleshooting': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_srx_troubleshooting.md
               - 'Juniper SRX Troubleshoot restart IPSEC VPN': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Troubleshoot_restart_IPSEC_VPN.md
               - 'Juniper SRX WARNING REMOTE HOST IDENTIFICATION HAS CHANGED': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_WARNING_REMOTE_HOST_IDENTIFICATION_HAS_CHANGED.md
+          - 'Meraki':
+            - 'Meraki SFP': Knowledge_Base/Network/Vendor/Meraki/Meraki_SFP.md
+          - 'Ruckus':
+            - 'Access Points':
+              - 'AP-CLI general-commands': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP-CLI_general-commands.md
+              - 'Ruckus SmartZone SZ AP CLI SETUP Support Config Flow': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/Ruckus_SmartZone_SZ_AP_CLI_SETUP_Support_Config_Flow.md
+              - 'Ruckus SZ AP Access Point Firmware Recovery CLI': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/Ruckus_SZ_AP_Access_Point_Firmware_Recovery_CLI.md
+              - 'Ruckus WAP TX Power EIRP': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/Ruckus_WAP_TX_Power_EIRP.md
+            - 'Switches':
+              - 'ALL SFP RUCKUS Optics': Knowledge_Base/Network/Vendor/Ruckus/Switches/ALL_SFP_RUCKUS_Optics.md
+              - 'Brocade ICX console settings': Knowledge_Base/Network/Vendor/Ruckus/Switches/Brocade_ICX_console_settings.md
+              - 'Brocade ICX Switches Firmware upgrade with USB': Knowledge_Base/Network/Vendor/Ruckus/Switches/Brocade_ICX_Switches_Firmware_upgrade_with_USB.md
+              - 'Ruckus SFP Brocade ICX-7250-ds': Knowledge_Base/Network/Vendor/Ruckus/Switches/Ruckus_SFP_Brocade_ICX-7250-ds.md
   - About: About.md
