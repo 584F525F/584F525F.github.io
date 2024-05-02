@@ -202,7 +202,7 @@ nav:
         - 'Command Injection':
           - 'IDOR': Cyber_Offensive/Web/Command_Injection/IDOR.md
         - 'Enumeration & Content Discovery':
-          'Authentication Bypass - User enumeration': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Authentication_Bypass_-_User_enumeration/Authentication_Bypass_-_User_enumeration.md
+          -  'Authentication Bypass - User enumeration': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Authentication_Bypass_-_User_enumeration/Authentication_Bypass_-_User_enumeration.md
           - 'Directory Busting':
             - 'Content Discovery Tools':
               - 'Cansina': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Cansina.md
