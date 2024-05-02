@@ -136,9 +136,6 @@ plugins:
       touchNavigation: true
 nav:
   - Home: home.html
-  - Cyber Offensive:
-    - 'Summary': Cyber_Offensive.md
-    - '':
   - Knowledge Base:
     - 'Summary': Knowledge_Base.md
     - '':
