@@ -172,7 +172,7 @@ nav:
           - 'POP3': Knowledge_Base/Network/Email/POP3.md
           - 'SMTP': Knowledge_Base/Network/Email/SMTP.md
           - 'SPF Sender Policy Framework': Knowledge_Base/Network/Email/SPF_Sender_Policy_Framework.md
-        - 'Ethernet 802.3':
+        - 'Ethernet 802.3'
         - 'Packet Capture':
           - 'TCP Dump': Knowledge_Base/Network/Packet_Capture/TCP_Dump.md
           - 'Wireshark':
@@ -232,7 +232,7 @@ nav:
               - 'ZD ZoneDirector':
                 - 'Ruckus ZoneDirector ZD CLI': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Ruckus_ZoneDirector_ZD_CLI.md
                 - 'ZD Channelization': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/ZD_Channelization.md
-        - 'WiFi 802.11':
+        - 'WiFi 802.11'
       - 'OS':
         - 'Linux':
           - 'Arch':
