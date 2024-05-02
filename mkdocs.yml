@@ -259,7 +259,7 @@ nav:
         - 'Packet Capture':
           - 'TCP Dump': Knowledge_Base/Network/Packet_Capture/TCP_Dump.md
           - 'Wireshark':
-            - 'Profiles': Knowledge_Base/Network/Packet_Capture/Wireshark/Profiles.md
+            - 'Wireshark Profiles': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Profiles.md
             - 'Wireshark Filters': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Filters.md
         - 'Vendor':
           - 'Aruba HPE':
