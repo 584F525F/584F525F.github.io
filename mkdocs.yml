@@ -170,7 +170,7 @@ nav:
         - 'Linux Privilege Escalation': Cyber_Offensive/Privilege_Escalation/Linux_Privilege_Escalation/Linux_Privilege_Escalation.md
         - 'Windows Privilege Escalation': Cyber_Offensive/Privilege_Escalation/Windows_Privilege_Escalation/Windows_Privilege_Escalation.md
       - 'Recon':
-        - 'DNSdumpster': Cyber_Offensive/Recon/DNSdumpster.md
+        - 'DNSLookup': Cyber_Offensive/Recon/DNSLookup.md
         - 'recon': Cyber_Offensive/Recon/recon.md
         - 'shodan.io': Cyber_Offensive/Recon/shodan.io.md
       - 'Remote connection & execution':
