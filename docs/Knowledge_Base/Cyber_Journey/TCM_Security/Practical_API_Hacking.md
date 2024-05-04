@@ -1,0 +1,166 @@
+!!! info ""
+
+    ### Introduction
+
+    API Application Programming Interface
+    
+    ![tcm_api_intro_1](tcm_api_intro_1.png)
+
+    #### Interacting with APIs
+    API to play with [https://catfact.ninja/](https://catfact.ninja/)
+    ![tcm_api_intro_2](tcm_api_intro_2.png)
+    
+    To call API and get a fact [https://catfact.ninja/fact](https://catfact.ninja/fact)
+
+    The API get /fact has a Parameter that we can test
+    ![tcm_api_intro_3](tcm_api_intro_3.png)
+    [](https://catfact.ninja/fact/)]
+
+    Test the Parameter [https://catfact.ninja/fact?max_length=50](https://catfact.ninja/fact?max_length=50)
+
+
+    #### API Types
+    - REST (Client Server Arch., Stateless, uses HTTP methods)
+    - Public
+    - Partner (shared between a number of companies)
+    - Private (used in a single Organization)
+
+    #### HTTP Methods
+    - Get
+    - Head
+    - Post
+    - Delete
+
+
+!!! info "" 
+
+    ### Lab Setup
+
+    - pimpmykali
+        
+        To easily install the required tools (such as docker-compose) and crAPI lab, simply clone this repository and run it with the option "O".
+
+        ```bash
+        git clone https://github.com/Dewalt-arch/pimpmykali
+        ./pimpmykali.sh O
+        ```
+
+    - postman https://www.postman.com/downloads/
+
+    - Burp Suite https://portswigger.net/burp/communitydownload
+      - FoxyProxy extension for Firefox
+
+
+!!! info "" 
+
+    ### Enumerating APIs
+
+    #### Fuzzing APIs
+
+    !!! example ""
+    
+        https://tryhackme.com/r/room/bookstoreoc
+
+        nmap the IP will show up port 5000 and robots.txt
+        ![tcm_api_fuzz_1](tcm_api_fuzz_1.png)
+
+        robots.txt doesn't want bots scanning api
+        ![tcm_api_fuzz_2](tcm_api_fuzz_2.png)
+
+        we visit that api path and we get this
+        so now we know how to use the api
+        ![tcm_api_fuzz_3](tcm_api_fuzz_3.png)
+        
+        keep in mind if you see v2, version numbers, check if maybe there is v1, v3, etc.
+        Try different types of values for input.
+        Try enumerating the API
+
+        ```bash
+        GET /api/v3/resources/books?published=%27 HTTP/1.1
+        ```
+        
+        we can enumerate in place of ```published``` and the value as it as well
+        Below will return only status 200 ok
+
+        ```bash
+        wfuzz -c -z file,/usr/share/wordlists/dirb/common.txt --sc 200 'http://10.10.121.118:5000/api/v2/resources/books?FUZZ=%27'
+
+        #trying v1
+
+        wfuzz -c -z file,/usr/share/wordlists/dirb/common.txt --sc 200 'http://10.10.121.118:5000/api/v1/resources/books?FUZZ=%27'
+        ```
+
+        show
+
+
+
+
+
+
+
+
+    #### Discovery via Source code
+
+
+
+
+!!! info "Attacking Authorization" 
+
+    ### Attacking Authorization
+
+
+
+
+!!! info "" 
+
+    ### Attacking Authentication
+
+
+
+
+!!! info "" 
+
+    ### Injection
+
+
+
+!!! info "" 
+
+    ### Mid-course Capstone
+
+
+
+
+
+
+
+!!! info "" 
+
+    ### Mass Assignment
+
+
+
+
+!!! info "" 
+
+    ### Excessive Data Exposure
+
+
+
+
+!!! info "" 
+
+    ### SSRF - Server-side Request Forgery
+
+
+
+!!! info "" 
+
+    ### Chaining Vulnerabilities
+
+
+
+!!! info "" 
+
+    ### Final Capstone
+
