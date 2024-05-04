@@ -99,6 +99,8 @@ extra:
       link: https://github.com/584F525F/
     - icon: fontawesome/solid/paper-plane
       link: mailto:contact@bitwiseoperator.net
+    - icon: assets/icons/tryhackme.svg
+      link: https://tryhackme.com/p/BitwiseOperator
   # consent:
   #   actions:
   #     - accept
