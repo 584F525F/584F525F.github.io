@@ -3,6 +3,10 @@ site_name: BitwiseOperator XOR_
 # site_url: https://xor.bitwiseoperator.net/home.html
 # https://github.com/584F525F/584F525F.github.io/
 # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-colors-docsstylesheetsextracss
+# https://fontawesome.com/search?o=r&m=free   fontawesome/brands/mandalorian
+# https://pictogrammers.com/library/mdi/
+# https://primer.style/foundations/icons   octicons/info-16
+# https://simpleicons.org/
 # https://github.com/squidfunk/mkdocs-material/tree/master/material/templates/.icons
 
 theme:

