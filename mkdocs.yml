@@ -323,7 +323,6 @@ nav:
                 - 'Ruckus SmartZone SZ CLI General Cluster Upgrade and backup': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/Ruckus_SmartZone_SZ_CLI_General_Cluster_Upgrade_and_backup.md
                 - 'SZ AP Management MGMT Control Data Plane Ports': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/SZ_AP_Management_MGMT_Control_Data_Plane_Ports.md
                 - 'SZ upgrade': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/SZ_upgrade.md
-              - 'Unleashed':
               - 'ZD ZoneDirector':
                 - 'Ruckus ZoneDirector ZD CLI': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Ruckus_ZoneDirector_ZD_CLI.md
                 - 'ZD Channelization': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/ZD_Channelization.md
