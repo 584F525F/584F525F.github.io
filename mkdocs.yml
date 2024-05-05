@@ -327,7 +327,6 @@ nav:
               - 'ZD ZoneDirector':
                 - 'Ruckus ZoneDirector ZD CLI': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Ruckus_ZoneDirector_ZD_CLI.md
                 - 'ZD Channelization': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/ZD_Channelization.md
-        - 'WiFi 802.11':
       - 'OS':
         - 'Linux':
           - 'Arch':
