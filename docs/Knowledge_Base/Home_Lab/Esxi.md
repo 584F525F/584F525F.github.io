@@ -11,16 +11,16 @@
 
     Power off VM
 
-    ![](/Knowledge_Base/images/ESXI_098_.png)
+    ![](/Knowledge_Base/images/ESXI_098_image.png)
 
-    ![](/Knowledge_Base/images/ESXI_098_-1.png)
+    ![](/Knowledge_Base/images/ESXI_098_image-1.png)
 
     Search for parameters and set value, if not there then create a new parameter.
 
     ```isolation.tools.copy.disable``` false
     ```isolation.tools.paste.disable``` false
 
-    ![](/Knowledge_Base/images/ESXI_098_-2.png)
+    ![](/Knowledge_Base/images/ESXI_098_image-2.png)
 
 
 !!! info ""
