@@ -177,6 +177,7 @@ nav:
         - 'Windows Privilege Escalation': Cyber_Offensive/Privilege_Escalation/Windows_Privilege_Escalation/Windows_Privilege_Escalation.md
       - 'Recon':
         - 'DNSLookup': Cyber_Offensive/Recon/DNSLookup.md
+        - 'Dorking': Cyber_Offensive/Recon/Dorking.md
         - 'recon': Cyber_Offensive/Recon/recon.md
         - 'shodan.io': Cyber_Offensive/Recon/shodan.io.md
       - 'Remote connection & execution':
@@ -208,7 +209,7 @@ nav:
         - 'Command Injection':
           - 'IDOR': Cyber_Offensive/Web/Command_Injection/IDOR.md
         - 'Enumeration & Content Discovery':
-          -  'Authentication Bypass - User enumeration': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Authentication_Bypass_-_User_enumeration/Authentication_Bypass_-_User_enumeration.md
+          - 'Authentication Bypass - User enumeration': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Authentication_Bypass_-_User_enumeration/Authentication_Bypass_-_User_enumeration.md
           - 'Directory Busting':
             - 'Content Discovery Tools':
               - 'Cansina': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Cansina.md
@@ -226,7 +227,7 @@ nav:
               - 'dirbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirbuster.md
               - 'dirsearch': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
   - Knowledge Base:
-    - 'Summary': knowledge_base.md
+    - 'Summary': Knowledge_Base.md
     - '':
       - 'Coding':
         - 'Ansible': Knowledge_Base/Coding/Ansible.md
@@ -239,7 +240,13 @@ nav:
         - 'YAML': Knowledge_Base/Coding/YAML.md
       - 'Home Lab':
         - 'Docker': Knowledge_Base/Home_Lab/Docker.md
+        - 'Esxi': Knowledge_Base/Home_Lab/Esxi.md
+        - 'Hak5 WiFi Pineapple': Knowledge_Base/Home_Lab/Hak5_WiFi_Pineapple.md
+        - 'Heimdall Dashboard Portainer Docker': Knowledge_Base/Home_Lab/Heimdall_Dashboard_Portainer_Docker.md
+        - 'Homer Dashboard Portainer Docker': Knowledge_Base/Home_Lab/Homer_Dashboard_Portainer_Docker.md
+        - 'Install InfluxDB, Telegraf & Grafana with Docker': Knowledge_Base/Home_Lab/Install_InfluxDB,_Telegraf_&_Grafana_with_Docker.md
         - 'Kasm Workspaces': Knowledge_Base/Home_Lab/Kasm_Workspaces.md
+        - 'NGINX Server Engine-X': Knowledge_Base/Home_Lab/NGINX_Server_Engine-X.md
         - 'pfSense': Knowledge_Base/Home_Lab/pfSense.md
         - 'Portainer Docker': Knowledge_Base/Home_Lab/Portainer_Docker.md
         - 'Wazuh SEIM': Knowledge_Base/Home_Lab/Wazuh_SEIM.md
@@ -316,9 +323,11 @@ nav:
                 - 'Ruckus SmartZone SZ CLI General Cluster Upgrade and backup': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/Ruckus_SmartZone_SZ_CLI_General_Cluster_Upgrade_and_backup.md
                 - 'SZ AP Management MGMT Control Data Plane Ports': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/SZ_AP_Management_MGMT_Control_Data_Plane_Ports.md
                 - 'SZ upgrade': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/SZ_upgrade.md
+              - 'Unleashed':
               - 'ZD ZoneDirector':
                 - 'Ruckus ZoneDirector ZD CLI': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Ruckus_ZoneDirector_ZD_CLI.md
                 - 'ZD Channelization': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/ZD_Channelization.md
+        - 'WiFi 802.11':
       - 'OS':
         - 'Linux':
           - 'Arch':
