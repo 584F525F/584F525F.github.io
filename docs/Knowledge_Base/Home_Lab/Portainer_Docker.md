@@ -1,6 +1,6 @@
 !!! info ""
 
-### Install
+    ### Install
 
     You must have Docker installed prior to installing Portainer
 
@@ -88,37 +88,36 @@
 
 !!! info ""
 
-### Watcher - WatchTower (Auto docker container updates)
+    ### Watcher - WatchTower (Auto docker container updates)
 
-#### Deploy Watchtower
+    #### Deploy Watchtower
 
-```bash
-docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower
-```
+    ```bash
+    docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower
+    ```
 
-#### Run Watchtower in debug mode
+    #### Run Watchtower in debug mode
 
-You might wonder why there is no log output apart from the welcome message. If you want to increase the logging level or watchtower, you simply just add an argument.
+    You might wonder why there is no log output apart from the welcome message. If you want to increase the logging level or watchtower, you simply just add an argument.
 
-```bash
-docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --debug
-```
+    ```bash
+    docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --debug
+    ```
 
-#### Run Watchtower only once, in debug mode
+    #### Run Watchtower only once, in debug mode
 
-```bash
-docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --run-once --debug
-```
+    ```bash
+    docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --run-once --debug
+    ```
 
-#### Exclude Container from Watchtower
+    #### Exclude Container from Watchtower
 
-```bash
-docker run -d --label=com.centurylinklabs.watchtower.enable= false nginx
-```
+    ```bash
+    docker run -d --label=com.centurylinklabs.watchtower.enable= false nginx
+    ```
 
-#### Scheduled Updates and clean up old images
+    #### Scheduled Updates and clean up old images
 
-```bash
-docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock --restart unless-stopped containrrr/watchtower --schedule "0 0 4 * * *" --debug --cleanup
-```
-
+    ```bash
+    docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock --restart unless-stopped containrrr/watchtower --schedule "0 0 4 * * *" --debug --cleanup
+    ```
