@@ -4,16 +4,16 @@
 
     API Application Programming Interface
     
-    ![tcm_api_intro_1](tcm_api_intro_1.png)
+    ![/Knowledge_Base/images/tcm_api_intro_1](/Knowledge_Base/images/tcm_api_intro_1.png)
 
     #### Interacting with APIs
     API to play with [https://catfact.ninja/](https://catfact.ninja/)
-    ![tcm_api_intro_2](tcm_api_intro_2.png)
+    ![/Knowledge_Base/images/tcm_api_intro_2](/Knowledge_Base/images/tcm_api_intro_2.png)
     
     To call API and get a fact [https://catfact.ninja/fact](https://catfact.ninja/fact)
 
     The API get /fact has a Parameter that we can test
-    ![tcm_api_intro_3](tcm_api_intro_3.png)
+    ![/Knowledge_Base/images/tcm_api_intro_3](/Knowledge_Base/images/tcm_api_intro_3.png)
     [](https://catfact.ninja/fact/)]
 
     Test the Parameter [https://catfact.ninja/fact?max_length=50](https://catfact.ninja/fact?max_length=50)
@@ -62,10 +62,10 @@
         https://tryhackme.com/r/room/bookstoreoc
 
         nmap the IP will show up port 5000 and robots.txt
-        ![tcm_api_fuzz_1](tcm_api_fuzz_1.png)
+        ![/Knowledge_Base/images/tcm_api_fuzz_1](/Knowledge_Base/images/tcm_api_fuzz_1.png)
 
         robots.txt doesn't want bots scanning api
-        ![tcm_api_fuzz_2](tcm_api_fuzz_2.png)
+        ![/Knowledge_Base/images/tcm_api_fuzz_2](/Knowledge_Base/images/tcm_api_fuzz_2.png)
 
         Fuzzing
 
@@ -73,17 +73,17 @@
         gobuster dir -u http://10.10.139.243:5000/ -w /usr/share/wordlists/dirb/big.txt -t 60
         ```
 
-        ![alt text](image.png)
+        ![alt text](/Knowledge_Base/images/tcm_api_fuzz_156.png)
 
         Now if I visit http://10.10.139.243:5000/console I see the below
         
-        ![alt text](image-1.png)
+        ![alt text](/Knowledge_Base/images/tcm_api_fuzz_-1.png)
 
 
 
         we visit that api path and we get this
         so now we know how to use the api
-        ![tcm_api_fuzz_3](tcm_api_fuzz_3.png)
+        ![/Knowledge_Base/images/tcm_api_fuzz_3](/Knowledge_Base/images/tcm_api_fuzz_3.png)
         
         keep in mind if you see v2, version numbers, check if maybe there is v1, v3, etc.
         Try different types of values for input.
@@ -105,21 +105,21 @@
         ```
 
         I am having an issue with the lab, i rebooted the target machine but none of the scans are showing me the show result, anyways, I snatched teh shot from somewhere online.
-        ![alt text](image-7.png)
+        ![alt text](/Knowledge_Base/images/tcm_api_fuzz_-7.png)
 
-        ![alt text](image-2.png)
+        ![alt text](/Knowledge_Base/images/tcm_api_fuzz_-2.png)
 
         Seems like we have LFI, checking ```/etc/passwd```
 
-        ![alt text](image-8.png)
+        ![alt text](/Knowledge_Base/images/tcm_api_fuzz_-8.png)
 
         Checking users list and locating target user
-        ![alt text](image-9.png)
+        ![alt text](/Knowledge_Base/images/tcm_api_fuzz_-9.png)
 
-        ![alt text](image-5.png)
+        ![alt text](/Knowledge_Base/images/tcm_api_fuzz_-5.png)
 
         Now we can try out that pin from above in the interactive console, yup it worked!
-        ![alt text](image-6.png)
+        ![alt text](/Knowledge_Base/images/tcm_api_fuzz_-6.png)
 
         https://exploit-notes.hdks.org/exploit/web/framework/python/werkzeug-pentesting/
         
