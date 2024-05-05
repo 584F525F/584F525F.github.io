@@ -1,9 +1,8 @@
 !!! info ""
 
-### Esxi Backup
+    ### Esxi Backup
 
-
-
+    [nakivo](https://www.nakivo.com/blog/back-up-and-restore-vmware-esxi-host-configuration-guide)
 
 
 !!! info ""
@@ -50,47 +49,23 @@
 
     ### Esxi Patching & Upgrade
 
-    Make sure to update the Volume, zip file name and -p /Knowledge_Base/images/ESXI_098_ name
+    Make sure to update the Volume, zip file name and -p image name
 
-    ```
-    esxcli software profile update -p ESXi-7.0U3g-20328353-standard -d /vmfs/volumes/62dcbea6-47095c67-54da-c81f66ef4d67/VMware-ESXi-7.0U3g-20328353-depot.zip --no-hardware-warning
+    ```bash
+    esxcli software profile update -p ESXi-7.0U3g-20328353-standard -d /vmfs/volumes/62dcbea6-4709q3467-54da-c81f66ef4sdf/VMware-ESXi-7.0U3g-20328353-depot.zip --no-hardware-warning
     ```
 
     [https://customerconnect.vmware.com/patch](https://customerconnect.vmware.com/patch)
 
-    [https://www.youtube.com/watch?v=ngjoF3baGkM](https://www.youtube.com/watch?v=ngjoF3baGkM)
-
+    ```bash
+    esxcli software profile update -p ESXi-7.0U3k-21313628-standard -d /vmfs/volumes/62dcbea6-47095c67-er4a-c81f621dsf4d67/VMware-ESXi-7.0U3k-21313628-depot.zip --no-hardware-warning
     ```
-    esxcli software profile update -p ESXi-7.0U3k-21313628-standard -d /vmfs/volumes/62dcbea6-47095c67-54da-c81f66ef4d67/VMware-ESXi-7.0U3k-21313628-depot.zip --no-hardware-warning
-    ```
-
-    License Key:
-
-    HN2X0-0DH5M-M78Q1-780HH-CN214
-
-    vSphere Dell EMC [https://www.dell.com/support/kbdoc/en-us/000176963/dell-emc-customized-/Knowledge_Base/images/ESXI_098_-of-vmware-esxi-availability-and-download-instructions](https://www.dell.com/support/kbdoc/en-us/000176963/dell-emc-customized-/Knowledge_Base/images/ESXI_098_-of-vmware-esxi-availability-and-download-instructions)
-
-    [https://customerconnect.vmware.com/downloads/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/8_0#custom_iso](https://customerconnect.vmware.com/downloads/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/8_0#custom_iso)
-
-    [https://customerconnect.vmware.com/downloads/details?downloadGroup=OEM-ESXI80-DELLEMC&productId=1345](https://customerconnect.vmware.com/downloads/details?downloadGroup=OEM-ESXI80-DELLEMC&productId=1345)
-
-    [https://customerconnect.vmware.com/downloads/details?downloadGroup=OEM-ESXI70U3-DELLEMC&productId=974](https://customerconnect.vmware.com/downloads/details?downloadGroup=OEM-ESXI70U3-DELLEMC&productId=974)
-
-    [https://www.youtube.com/watch?v=GDGTEw8hubM](https://www.youtube.com/watch?v=GDGTEw8hubM)
-
 
 !!! info ""
 
+    ### Upgrade rollback
 
-
-
-
-
-!!! info ""
-
-
-
-
+    [4sysops](https://4sysops.com/archives/roll-back-and-downgrade-vmware-esxi-version/)
 
 
 !!! info ""
