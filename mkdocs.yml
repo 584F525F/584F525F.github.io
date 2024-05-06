@@ -154,7 +154,8 @@ nav:
         - 'windows certutil': Cyber_Offensive/File_Transfers/windows_certutil.md
         - 'windows cscript': Cyber_Offensive/File_Transfers/windows_cscript.md
         - 'Windows mshta wmic regsvr32': Cyber_Offensive/File_Transfers/Windows_mshta_wmic_regsvr32.md
-      - 'Initial Enumeration': Cyber_Offensive/Initial_Enumeration/Initial_Enumeration.md
+      - 'Initial Enumeration':
+        - 'Initial Enumeration': Cyber_Offensive/Initial_Enumeration/Initial_Enumeration.md
       - 'Lock Picking': Cyber_Offensive/Lock_Picking/Lock_Picking.md
       - 'Password Attacks, Cracking & Decoding':
         - 'Argon2 cracker': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Argon2_cracker.md
@@ -229,20 +230,24 @@ nav:
   - Knowledge Base:
     - 'Summary': Knowledge_Base.md
     - '':
-      - 'Coding':
-        - 'Ansible': Knowledge_Base/Coding/Ansible.md
-        - 'C#': Knowledge_Base/Coding/C#.md
-        - 'C C++': Knowledge_Base/Coding/C_C++.md
-        - 'Github Git': Knowledge_Base/Coding/Github_Git.md
-        - 'Linux Bash': Knowledge_Base/Coding/Linux_Bash.md
-        - 'Python': Knowledge_Base/Coding/Python.md
-        - 'Windows Powershell': Knowledge_Base/Coding/Windows_Powershell.md
-        - 'YAML': Knowledge_Base/Coding/YAML.md
+      - 'Coding & Shell':
+        - 'Ansible': Knowledge_Base/Coding_&_Shell/Ansible.md
+        - 'bash': Knowledge_Base/Coding_&_Shell/bash.md
+        - 'C#': Knowledge_Base/Coding_&_Shell/C#.md
+        - 'C C++': Knowledge_Base/Coding_&_Shell/C_C++.md
+        - 'Github Git': Knowledge_Base/Coding_&_Shell/Github_Git.md
+        - 'Linux Bash': Knowledge_Base/Coding_&_Shell/Linux_Bash.md
+        - 'Python': Knowledge_Base/Coding_&_Shell/Python.md
+        - 'vsCode': Knowledge_Base/Coding_&_Shell/vsCode.md
+        - 'Windows CMD': Knowledge_Base/Coding_&_Shell/Windows_CMD.md
+        - 'Windows Powershell': Knowledge_Base/Coding_&_Shell/Windows_Powershell.md
+        - 'YAML': Knowledge_Base/Coding_&_Shell/YAML.md
       - 'Home Lab':
         - 'Docker': Knowledge_Base/Home_Lab/Docker.md
         - 'Esxi': Knowledge_Base/Home_Lab/Esxi.md
         - 'Hak5 WiFi Pineapple': Knowledge_Base/Home_Lab/Hak5_WiFi_Pineapple.md
         - 'Heimdall Dashboard Portainer Docker': Knowledge_Base/Home_Lab/Heimdall_Dashboard_Portainer_Docker.md
+        - 'Homepage Dashboard': Knowledge_Base/Home_Lab/Homepage_Dashboard.md
         - 'Homer Dashboard Portainer Docker': Knowledge_Base/Home_Lab/Homer_Dashboard_Portainer_Docker.md
         - 'Install InfluxDB, Telegraf & Grafana with Docker': Knowledge_Base/Home_Lab/Install_InfluxDB,_Telegraf_&_Grafana_with_Docker.md
         - 'Kasm Workspaces': Knowledge_Base/Home_Lab/Kasm_Workspaces.md

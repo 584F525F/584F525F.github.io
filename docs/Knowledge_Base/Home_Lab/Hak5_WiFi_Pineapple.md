@@ -5,8 +5,6 @@
 
     Connect the WiFi Pineapple to your computer via USB cable and configure your Network
 
-    ![alt text](</Knowledge_Base/images/WiFI_Pineapple_ 5.png>)
-
     ![alt text](</Knowledge_Base/images/WiFI_Pineapple_2 3.png>)
 
     ![alt text](</Knowledge_Base/images/WiFI_Pineapple_3 4.png>)
