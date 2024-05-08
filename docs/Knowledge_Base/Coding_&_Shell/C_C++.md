@@ -31,7 +31,7 @@
 
     **using the gcc - C compiler**
 
-    ```c title:""
+    ```c
     gcc -fPIC -shared -o shell.so shell.c -nostartfiles
     gcc scriptName -o programName -w
     ```
