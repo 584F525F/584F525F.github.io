@@ -1,3 +1,93 @@
 !!! info ""
 
+    ### MCS Rate SNR RSSI Chart 802.11n 802.11 ac
+
+    ![alt text](</Knowledge_Base/images/MCS Rate SNR RSSI Chart 802.11n 802.11 ac.jpg>)
+
+    ### Airtime Utilization - MSC Index - Modulation - Coding Index 
     
+    !!! warning ""
+        Channel Utilization should not exceed %70, if it goes beyond %80 then there is a big chance something that's not WiFi is interfering.
+
+    **What can cause it?**
+    - Application usage
+    - Slow Data Rates - Check device's supported 802.11
+    - Retransmissions
+    - More Devices
+    - Non-WiFi Interference
+
+    **What to consider?**
+    - Lower number of SSIDs can help with improving Airtime Utilization, Try less than 4 SSIDs. Reason is that you have a lot of Management data that will be consuming time instead of actual Data.
+    - Capabilities of device and data rates
+    - Play around with min bss rates on both bands and eliminate legacy device, removing 802.11 or b maybe
+    - min rate 12 Mbps
+    - Channel width 20 or 40 (try to stick with 20MHz Channel width, especially on the 2.4GHz band)
+    Enable extra channels on 5GHz if needed like DFS
+    - AP Placement
+    - Transmit power
+    - Check the [MCS Index, Modulation and Coding Index](https://mcsindex.net/)
+
+    Some of the WiFi Frames
+    - MAC Frame
+    - Control
+    - Management > Beacon frames
+    - Data
+
+    ```bash
+    Type Value	Type Description	Subtype Value	Subtype Description
+    00			Management			0000			Association Request
+    00			Management			0001			Association Response
+    00			Management			0010			Reassociation Request
+    00			Management			0011			Reassociation Response
+    00			Management			0100			Probe Request
+    00			Management			0101			Probe Response
+    00			Management			0110			Timing Advertisement
+    00			Management			0111			Reserved
+    00			Management			1000			Beacon
+    00			Management			1001			ATIM
+    00			Management			1010			Disassociation
+    00			Management			1011			Authentication
+    00			Management			1100			Deauthentication
+    00			Management			1101			Action
+    00			Management			1110			Action No Ack (NACK)
+    00			Management			1111			Reserved
+
+
+    01			Control				0000-0001		Reserved
+    01			Control				0010			Trigger[3]
+    01			Control				0011			TACK
+    01			Control				0100			Beamforming Report Poll
+    01			Control				0101			VHT/HE NDP Announcement
+    01			Control				0110			Control Frame Extension
+    01			Control				0111			Control Wrapper
+    01			Control				1000			Block Ack Request (BAR)
+    01			Control				1001			Block Ack (BA)
+    01			Control				1010			PS-Poll
+    01			Control				1011			RTS
+    01			Control				1100			CTS
+    01			Control				1101			ACK
+    01			Control				1110			CF-End
+    01			Control				1111			CF-End + CF-ACK
+
+
+    10			Data				0000			Data
+    10			Data				0001			Reserved
+    10			Data				0010			Reserved
+    10			Data				0011			Reserved
+    10			Data				0100			Null (no data)
+    10			Data				0101			Reserved
+    10			Data				0110			Reserved
+    10			Data				0111			Reserved
+    10			Data				1000			QoS Data
+    10			Data				1001			QoS Data + CF-ACK
+    10			Data				1010			QoS Data + CF-Poll
+    10			Data				1011			QoS Data + CF-ACK + CF-Poll
+    10			Data				1100			QoS Null (no data)
+    10			Data				1101			Reserved
+    10			Data				1110			QoS CF-Poll (no data)
+    10			Data				1111			QoS CF-ACK + CF-Poll (no data)
+    11			Extension			0000			DMG Beacon
+    11			Extension			0001			S1G Beacon
+    11			Extension			0010-1111		Reserved
+
+    ```
