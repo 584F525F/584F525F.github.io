@@ -47,3 +47,38 @@
         python -m orbitaldump -t 2 -u usernames.txt -p passwords.txt -h example.com --proxies
     ```
 
+!!! info ""
+
+    ### FTP Server
+
+    (https://pypi.org/project/python-ftp-server/)
+
+    ```python
+    pip install python-ftp-server
+
+    #Navigate to the folder you want to run FTP in
+    python3 -m python_ftp_server
+
+    #Once started, It will give you the port and login
+    #Local address: ftp://<IP>:60000
+    #User: <USER>
+    #Password: <PASSWORD>
+
+    #You can start service anonymous
+    python3 -m python_ftp_server -u anonymous
+    ```
+
+
+!!! info ""
+
+    ### HTTP Server
+
+    This will run http file browser on port 8000, you can change the default port if needed.
+
+    ```bash
+    python -m http.server <port>
+    python -m http.server 8443
+    ```
+
+
+
