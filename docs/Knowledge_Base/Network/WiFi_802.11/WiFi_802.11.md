@@ -27,7 +27,7 @@
     - Transmit power
     - Check the [MCS Index, Modulation and Coding Index](https://mcsindex.net/)
 
-    Some of the WiFi Frames
+    **Some of the WiFi Frames**
     - MAC Frame
     - Control
     - Management > Beacon frames
@@ -91,3 +91,60 @@
     11			Extension			0010-1111		Reserved
 
     ```
+
+    for more details about the WiFi frame, check this resource out [802.11 Frame Types and Formats](https://howiwifi.com/2020/07/13/802-11-frame-types-and-formats/)
+
+
+!!! info ""
+
+    ### FCC Rules & Regulations 2.4 5.0 GHz Band Power Watt dBm Max
+
+    [click to open PDF in new tab](</Knowledge_Base/images/FCC Rules & Regulations 2.4 5.0 GHz Band Power Watt dBm Max.pdf>)
+
+    <embed src="/Knowledge_Base/images/FCC Rules & Regulations 2.4 5.0 GHz Band Power Watt dBm Max.pdf" type="application/pdf" style="min-height:100vh;width:100%">
+
+!!! info ""
+
+    ### WiFi 2.4GHz band
+
+    2.4 GHz band (802.11b/g/n) in North America, there are 11 channels of 20 MHz size allowed by the FCC. Some or all of channels 12-14 are allowed in some other countries, such as Japan. Unfortunately, the center frequencies of channels 1-13 are only 5 MHz apart, leading to only three non-overlapping channels (1, 6 and 11).
+
+    ![alt text](/Knowledge_Base/images/wifi_80211_img_0.png)
+
+
+!!! info ""
+
+    ### WiFi 5GHz band
+
+    ![alt text](/Knowledge_Base/images/wifi_80211_img_1.png)
+
+    ![alt text](/Knowledge_Base/images/wifi_80211_img_2.png)
+
+    ![alt text](/Knowledge_Base/images/wifi_80211_img_3.png)
+
+    ![alt text](/Knowledge_Base/images/wifi_80211_img_4.png)
+    
+
+!!! info ""
+
+    ### WiFi 6GHz band
+
+    ![alt text](<Low Power Indoor (LPI) Access Points in the 6 GHz Band.png>)
+
+
+!!! info ""
+
+    ### WiFi 6 band - 802.11ax
+
+    ![alt text](/Knowledge_Base/images/wifi_80211_img_6.png)
+
+    
+    [click to open PDF in new tab](/Knowledge_Base/images/ReferenceGuide_80211ax.pdf)
+
+    <embed src="/Knowledge_Base/images/ReferenceGuide_80211ax.pdf" type="application/pdf" style="min-height:100vh;width:100%">
+
+
+
+    
+    
+
