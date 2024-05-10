@@ -228,7 +228,7 @@ nav:
               - 'dirbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirbuster.md
               - 'dirsearch': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
   - Knowledge Base:
-    - 'Summary': Knowledge_Base.md
+    - 'Summary': knowledge_base.md
     - '':
       - 'Coding & Shell':
         - 'Ansible': Knowledge_Base/Coding_&_Shell/Ansible.md

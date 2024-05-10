@@ -105,46 +105,123 @@
 
 !!! info ""
 
-    ### WiFi 2.4GHz band
+    ### WiFi RF Spectrum
 
-    2.4 GHz band (802.11b/g/n) in North America, there are 11 channels of 20 MHz size allowed by the FCC. Some or all of channels 12-14 are allowed in some other countries, such as Japan. Unfortunately, the center frequencies of channels 1-13 are only 5 MHz apart, leading to only three non-overlapping channels (1, 6 and 11).
+    ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_1.png)
 
-    ![alt text](/Knowledge_Base/images/wifi_80211_img_0.png)
+    ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_9.png)
+
+    !!! info ""
+
+        #### WiFi 2.4GHz - 802.11n
+
+        2.4 GHz band (802.11b/g/n) in North America, there are 11 channels of 20 MHz size allowed by the FCC. Some or all of channels 12-14 are allowed in some other countries, such as Japan. Unfortunately, the center frequencies of channels 1-13 are only 5 MHz apart, leading to only three non-overlapping channels (1, 6 and 11).
+
+        ![alt text](/Knowledge_Base/images/wifi_80211_img_0.png)
+
+
+    !!! info ""
+
+        #### WiFi 5GHz - 802.11ac
+
+        ![alt text](/Knowledge_Base/images/wifi_80211_img_1.png)
+
+        ![alt text](/Knowledge_Base/images/wifi_80211_img_2.png)
+
+        ![alt text](/Knowledge_Base/images/wifi_80211_img_3.png)
+
+        ![alt text](/Knowledge_Base/images/wifi_80211_img_4.png)
+
+
+    !!! info ""
+
+        #### WiFi 6 & 6E - 802.11ax
+
+        ![alt text](</Knowledge_Base/images/Low Power Indoor (LPI) Access Points in the 6 GHz Band.png>)
+
+        ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_0.png)
+
+        **WiFi 5 vs WiFi 6**
+        ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_10.png)
+        
+        Additional resources:
+        - WiFi 6GHz Network Discovery [click to open PDF in new tab](/Knowledge_Base/images/wifi-6ghz-network-discovery.pdf)
+        - WiFi 6E new Technology Features and Enhancements [click to open PDF in new tab](/Knowledge_Base/images/wi-fi-6e-new-technology-features-and-enhancements-(2022).pdf)
+        - Reference Guide 802.11ax [click to open PDF in new tab](/Knowledge_Base/images/ReferenceGuide_80211ax.pdf)
+
+
+    !!! info ""
+
+        #### Great sources:
+
+        - [WLAN Professionals](https://wlanprofessionals.com/)
+        - [CWNP](https://www.cwnp.com/it-certification-training-resources/)
+
+!!! info ""
+
+    ### WiFi Terms
+
+    #### BSS Coloring
+    A method for addressing medium contention overhead due to overlapping basic service set (OBSS). BSS color aims to uniquely identify different BSSs even though they are transmitting on the same channel. 802.11ax radios can differentiate between BSSs by adding a number (color) to the PHY and MAC headers. The same color bit indicates an intra-BSS. Different color bits indicate inter-BSS. Inter-BSS detection means that a listening radio may not necessarily have to defer. Adaptive CCA implementation could raise the signal detect (SD) threshold for inter-BSS frames while maintaining a lower threshold for intra-BSS traffic. BSS Color potentially decreases the channel contention problem resulting from existing 4 dB signal detect (SD) thresholds.
+
+    #### BSS Min Rate
 
 
 !!! info ""
 
-    ### WiFi 5GHz band
+    ### PoE/PoE+ (Power over Ethernet)
 
-    ![alt text](/Knowledge_Base/images/wifi_80211_img_1.png)
+    This is a Technology that runs through Ethernet 802.3, the reason I am putting it here is that Wireless Access Point in this day and age get their power through PoE (there are exception though but those are far in between and you end up using something like a PoE Injector or Directly plug the AP into a wall outlet).
 
-    ![alt text](/Knowledge_Base/images/wifi_80211_img_2.png)
+    ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_2.png)
 
-    ![alt text](/Knowledge_Base/images/wifi_80211_img_3.png)
 
-    ![alt text](/Knowledge_Base/images/wifi_80211_img_4.png)
-    
+    #### Device detection and negotiation process
+
+    This process is determined through either one of the following methods:
+    - Hardware handshake or PoE handshake. There is another s
+    - Software-based negotiation using LLDP (Link Layer Discovery Protocol), which is a L2 [data link layer protocol] for advertising network capabilities. 
+
+    ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_4.png)
+
+    #### 802.3af PoE
+    - maximum power of 15.4 watts
+    - device type 1
+    - 2-Pair PoE
+
+    #### 802.3at PoE+
+    - maximum power to 25.5 watts
+    - device type 2
+    - 2-Pair PoE
+
+    #### 802.3bt UPoE Type 3
+    - maximum power up 60 watts
+    - 4-pair PoE
+
+    #### 802.3bt UPoE+ Type 4
+    - maximum power up to 100 W of DC power (71.3 W to each device)
+    - 4-pair PoE
+
+    Keep in mind that the Switch doesn't provide infinite watts. For example if the Switch specs provides max 300 watts through PoE and it's a 24 port Switch, you cannot connect 24 PoE devices that require 15.4 watts each. It's simple math 24 X 15.4 = 369.2, this exceeds the Switch Maximum Power output.
+    In reality APs don't consume exactly 15.4 watts, this can vary based on AP and demand.
+
+    #### Extra resources
+    - [Introduction to PoE and the IEEE802.3af and 802.3at Standards](https://ieee.li/pdf/viewgraphs/introduction_to_poe_802.3af_802.3at.pdf)
+    - [Understanding the IEEE 8023bt PoE Standard](https://www.skyworksinc.com/-/media/SkyWorks/SL/documents/public/white-papers/understanding-the-ieee-8023bt-poe-standard.pdf)
+
 
 !!! info ""
 
-    ### WiFi 6GHz band
-
-    ![alt text](<Low Power Indoor (LPI) Access Points in the 6 GHz Band.png>)
-
-
-!!! info ""
-
-    ### WiFi 6 band - 802.11ax
-
-    ![alt text](/Knowledge_Base/images/wifi_80211_img_6.png)
-
+    ### Clients devices WiFi capabilities
     
-    [click to open PDF in new tab](/Knowledge_Base/images/ReferenceGuide_80211ax.pdf)
+    Not all Client devices support the same WiFi Standards you might have configured You can check the [Clients devices WiFi capabilities](https://docs.google.com/spreadsheets/d/1qpQYyIiS9J8wMa7iD0nEMvZxTB7X1i4gEWy19L0N05o/edit#gid=0)
 
-    <embed src="/Knowledge_Base/images/ReferenceGuide_80211ax.pdf" type="application/pdf" style="min-height:100vh;width:100%">
-
-
-
+    How to tell if a client device is using MAC Randomization - Private Address
+    2nd significant bit in the most significant octet you set to 1 that means the 2nd character in the mac address can be one of 4
     
-    
-
+    ```bash
+    X2:XX:XX:XX:XX:XX
+    X6:XX:XX:XX:XX:XX
+    XA:XX:XX:XX:XX:XX
+    XE:XX:XX:XX:XX:XX
+    ```
