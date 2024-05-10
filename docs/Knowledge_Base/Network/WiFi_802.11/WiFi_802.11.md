@@ -144,7 +144,8 @@
         **WiFi 5 vs WiFi 6**
         ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_10.png)
         
-        Additional resources:
+        **Additional resources**
+
         - WiFi 6GHz Network Discovery [click to open PDF in new tab](/Knowledge_Base/images/wifi-6ghz-network-discovery.pdf)
         - WiFi 6E new Technology Features and Enhancements [click to open PDF in new tab](/Knowledge_Base/images/wi-fi-6e-new-technology-features-and-enhancements-(2022).pdf)
         - Reference Guide 802.11ax [click to open PDF in new tab](/Knowledge_Base/images/ReferenceGuide_80211ax.pdf)
