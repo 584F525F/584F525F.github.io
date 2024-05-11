@@ -1,6 +1,6 @@
 BitwiseOperator XOR_ [_ as in blinking terminal cursor]
 
-<p>Graduated with a bachelor's degree in Software Engineer, worked as a Support Engineer for 5 years Installing Call Center solutions, configuring Windows Servers, Installing, configuring, and Administering SQL Server Databases, QA [White & Black box testing], FTP Servers, VDIs, VMs, wrote Windows Applications and Services to increase my efficiency. I also worked closely with the Dev team and assisted in a lot of debug sessions, digging through logs and Wireshark captures [Some the protocols I worked with RTP, SIP, Skinny, H323] year after year to locate bugs and resolve them.</p>
+<p>Graduated with a bachelor's degree in Software Engineer, worked as a Support Engineer for 5 years Installing Call Center solutions, configuring Windows Servers, Installing, configuring, and Administering SQL Server Databases, QA [White & Black box testing], FTP Servers, VDIs, VMs, wrote Windows Applications and Services to increase my efficiency. I also worked closely with the Dev team and assisted in countless debug sessions, digging through logs and Wireshark captures year after year to locate bugs and resolve them, some the protocols I worked with UDP, RTP, SIP, Skinny, H323.</p>
 
 Currently, I'm a Network Engineer and have been in that role for over 4 years now. I manage mid-market WiFi support for a Fortune 500 company, you can imagine the never-ending workload and underpay.
 
@@ -29,4 +29,4 @@ I created Internal documentation and articles to help others better understand p
 
 I have too many interests, some of which are in Technology, Security, Networking, Research, and Engineering, I have a nonstop desire to know all of those things so I can have a better understanding of how all those points interact with each other, a part of what I call [building the logic, my logic], this is exactly what I use in solving any problem regardless of how much I know or don't know about it, that's why research is a very important skill to have. I try to stay as humble as I can with my knowledge simply because I am aware that no matter how much I learn, I will never know it all. Plus, there will always be someone that possesses a skill that I don't have and can learn from, it keeps me motivated to keep going.
 
-Credit where credit is due, This website was created using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). I spent some time in customizing the interface to end up looking the way it does.
+Credit where credit is due, This website was created using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). I spent a lot of time in customizing the interface, functions and features to end up looking and functioning the way it does now.
