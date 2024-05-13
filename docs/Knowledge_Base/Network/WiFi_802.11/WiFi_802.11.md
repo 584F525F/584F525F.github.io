@@ -1,50 +1,41 @@
-!!! info ""
-
-    ??? info "MCS"
+??? info "MCS"
+    
     ### MCS Rate SNR RSSI Chart
+    [MCS TABLE AND HOW TO USE IT](https://wlanprofessionals.com/mcs-table-and-how-to-use-it/)
+    
+    [mcsindex](https://mcsindex.net/)
+    The MCS table evaluates the quality of the RF environment- the RF media that devices are working in, which is reflected in every single transmission.
+    Every transmitter device, whether it be an AP or a client, will make an internal decision of which MCS it is going to use.
+    MCS summarizes and categorizes Wi-Fi parameters such as modulation, coding scheme, guard interval, and channel width.
+    ![alt text](</Knowledge_Base/images/MCS Rate SNR RSSI Chart 802.11n 802.11 ac.jpg>)
+    **MCS Parameters**
+    
+    - High Throughput Modulation and Coding Scheme (HT-MCS)
+      - Used by 802.11n. Represented by an integer in the range of 0-76.
+    - Very High Throughput Modulation and Coding Scheme (VHT-MCS)
+      - Used by 802.11ac. Represented by an integer in the range of 0-9.
+    - Modulation Scheme
+      - Defines the phase and amplitude required for bit computing, from BPSK to QPSK to 16-QAM, 64-QAM, and 256-QAM.
+    - Coding
+      - Rate of bits transferred and Forward Error Correction. A 1/2 Coding means two bits are transferred, and one is received. Minimizing the coding scheme would entail sending the data faster while losing robustness.
+    - Data Width
+      - Specifies the channel used: 20MHz, 40MHz, 80MHz, and 160MHz.
+    - Guard Interval
+      - Waiting time or pause between each packet transmission. 802.11n has 400ns, and 802.11ac has 800 ns. The smaller the guard interval, the faster the throughput.
+    - Minimum SNR and RSSI
+      - Determines the minimum SNR and RSSI required for a specific MSC index.
+    **Using the MCS Table to determine the MCS index**
+    
+    - Define the capacity of the client device, such as the data width and Wi-Fi designation.
+    - Determine and associate the range of such parameters in the table.
+    For example, an 80MHz wide-capable client and supports 802.11ac. This means the AP and the client can support all data transfer defined by the range of the client device, from 6.5 MCS to 1300 MCS.
+    ![alt text](image-1.png)
+    - After determining the MCS index, the client device will send a DHCP request to the radio chipset.
+    - The AP’s radio will decode and demodulate the request. If no error occurs, it will send back an ACK with an MCS index supported by the client device. Every transmitter chooses which MCS to use.
 
-        [MCS TABLE AND HOW TO USE IT](https://wlanprofessionals.com/mcs-table-and-how-to-use-it/)
-        
-        [mcsindex](https://mcsindex.net/)
+??? info "Airtime"
 
-        The MCS table evaluates the quality of the RF environment- the RF media that devices are working in, which is reflected in every single transmission.
-
-        Every transmitter device, whether it be an AP or a client, will make an internal decision of which MCS it is going to use.
-
-        MCS summarizes and categorizes Wi-Fi parameters such as modulation, coding scheme, guard interval, and channel width.
-
-        ![alt text](</Knowledge_Base/images/MCS Rate SNR RSSI Chart 802.11n 802.11 ac.jpg>)
-
-        **MCS Parameters**
-        
-        - High Throughput Modulation and Coding Scheme (HT-MCS)
-          - Used by 802.11n. Represented by an integer in the range of 0-76.
-        - Very High Throughput Modulation and Coding Scheme (VHT-MCS)
-          - Used by 802.11ac. Represented by an integer in the range of 0-9.
-        - Modulation Scheme
-          - Defines the phase and amplitude required for bit computing, from BPSK to QPSK to 16-QAM, 64-QAM, and 256-QAM.
-        - Coding
-          - Rate of bits transferred and Forward Error Correction. A 1/2 Coding means two bits are transferred, and one is received. Minimizing the coding scheme would entail sending the data faster while losing robustness.
-        - Data Width
-          - Specifies the channel used: 20MHz, 40MHz, 80MHz, and 160MHz.
-        - Guard Interval
-          - Waiting time or pause between each packet transmission. 802.11n has 400ns, and 802.11ac has 800 ns. The smaller the guard interval, the faster the throughput.
-        - Minimum SNR and RSSI
-          - Determines the minimum SNR and RSSI required for a specific MSC index.
-
-        **Using the MCS Table to determine the MCS index**
-        
-        - Define the capacity of the client device, such as the data width and Wi-Fi designation.
-        - Determine and associate the range of such parameters in the table.
-
-        For example, an 80MHz wide-capable client and supports 802.11ac. This means the AP and the client can support all data transfer defined by the range of the client device, from 6.5 MCS to 1300 MCS.
-
-        ![alt text](image-1.png)
-
-        - After determining the MCS index, the client device will send a DHCP request to the radio chipset.
-        - The AP’s radio will decode and demodulate the request. If no error occurs, it will send back an ACK with an MCS index supported by the client device. Every transmitter chooses which MCS to use.
-
-    ### Airtime Utilization - MSC Index - Modulation - Coding Index 
+    ### Airtime Utilization
     
     !!! warning ""
         Channel Utilization should not exceed %70, if it goes beyond %80 then there is a big chance something that's not WiFi is interfering.
@@ -66,6 +57,76 @@
     - AP Placement
     - Transmit power
     - Check the [MCS Index, Modulation and Coding Index](https://mcsindex.net/)
+
+
+!!! info "FCC Rules & Regulations"
+
+    ### FCC Rules & Regulations 2.4 5.0 GHz Band Power Watt dBm Max
+
+    [click to open PDF in new tab](</Knowledge_Base/images/FCC Rules & Regulations 2.4 5.0 GHz Band Power Watt dBm Max.pdf>)
+
+    <embed src="/Knowledge_Base/images/FCC Rules & Regulations 2.4 5.0 GHz Band Power Watt dBm Max.pdf" type="application/pdf" style="min-height:100vh;width:100%">
+
+??? info "RF"
+
+    ### WiFi RF Spectrum
+
+    ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_1.png)
+
+    ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_9.png)
+
+    !!! info ""
+
+        #### WiFi 2.4GHz - 802.11n
+
+        2.4 GHz band (802.11b/g/n) in North America, there are 11 channels of 20 MHz size allowed by the FCC. Some or all of channels 12-14 are allowed in some other countries, such as Japan. Unfortunately, the center frequencies of channels 1-13 are only 5 MHz apart, leading to only three non-overlapping channels (1, 6 and 11).
+
+        ![alt text](/Knowledge_Base/images/wifi_80211_img_0.png)
+
+
+    !!! info ""
+
+        #### WiFi 5GHz - 802.11ac
+
+        ![alt text](/Knowledge_Base/images/wifi_80211_img_1.png)
+
+        ![alt text](/Knowledge_Base/images/wifi_80211_img_2.png)
+
+        ![alt text](/Knowledge_Base/images/wifi_80211_img_3.png)
+
+        ![alt text](/Knowledge_Base/images/wifi_80211_img_4.png)
+
+
+    !!! info ""
+
+        #### WiFi 6 & 6E - 802.11ax
+
+        ![alt text](</Knowledge_Base/images/Low Power Indoor (LPI) Access Points in the 6 GHz Band.png>)
+
+        ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_0.png)
+
+        **WiFi 5 vs WiFi 6**
+        ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_10.png)
+        
+        **Additional resources**
+
+        - WiFi 6GHz Network Discovery [click to open PDF in new tab](/Knowledge_Base/images/wifi-6ghz-network-discovery.pdf)
+        - WiFi 6E new Technology Features and Enhancements [click to open PDF in new tab](/Knowledge_Base/images/wi-fi-6e-new-technology-features-and-enhancements-(2022).pdf)
+        - Reference Guide 802.11ax [click to open PDF in new tab](/Knowledge_Base/images/ReferenceGuide_80211ax.pdf)
+
+
+    !!! info ""
+
+        #### Great sources:
+
+        - [WLAN Professionals](https://wlanprofessionals.com/)
+        - [CWNP](https://www.cwnp.com/it-certification-training-resources/)
+
+??? info "Terms"
+
+    ### WiFi Terms
+
+    #### WiFi Frames
 
     **Some of the WiFi Frames**
     - MAC Frame
@@ -134,74 +195,6 @@
 
     for more details about the WiFi frame, check this resource out [802.11 Frame Types and Formats](https://howiwifi.com/2020/07/13/802-11-frame-types-and-formats/)
 
-
-!!! info ""
-
-    ### FCC Rules & Regulations 2.4 5.0 GHz Band Power Watt dBm Max
-
-    [click to open PDF in new tab](</Knowledge_Base/images/FCC Rules & Regulations 2.4 5.0 GHz Band Power Watt dBm Max.pdf>)
-
-    <embed src="/Knowledge_Base/images/FCC Rules & Regulations 2.4 5.0 GHz Band Power Watt dBm Max.pdf" type="application/pdf" style="min-height:100vh;width:100%">
-
-!!! info ""
-
-    ### WiFi RF Spectrum
-
-    ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_1.png)
-
-    ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_9.png)
-
-    !!! info ""
-
-        #### WiFi 2.4GHz - 802.11n
-
-        2.4 GHz band (802.11b/g/n) in North America, there are 11 channels of 20 MHz size allowed by the FCC. Some or all of channels 12-14 are allowed in some other countries, such as Japan. Unfortunately, the center frequencies of channels 1-13 are only 5 MHz apart, leading to only three non-overlapping channels (1, 6 and 11).
-
-        ![alt text](/Knowledge_Base/images/wifi_80211_img_0.png)
-
-
-    !!! info ""
-
-        #### WiFi 5GHz - 802.11ac
-
-        ![alt text](/Knowledge_Base/images/wifi_80211_img_1.png)
-
-        ![alt text](/Knowledge_Base/images/wifi_80211_img_2.png)
-
-        ![alt text](/Knowledge_Base/images/wifi_80211_img_3.png)
-
-        ![alt text](/Knowledge_Base/images/wifi_80211_img_4.png)
-
-
-    !!! info ""
-
-        #### WiFi 6 & 6E - 802.11ax
-
-        ![alt text](</Knowledge_Base/images/Low Power Indoor (LPI) Access Points in the 6 GHz Band.png>)
-
-        ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_0.png)
-
-        **WiFi 5 vs WiFi 6**
-        ![alt text](/Knowledge_Base/images/wifi_80211_img_w0_10.png)
-        
-        **Additional resources**
-
-        - WiFi 6GHz Network Discovery [click to open PDF in new tab](/Knowledge_Base/images/wifi-6ghz-network-discovery.pdf)
-        - WiFi 6E new Technology Features and Enhancements [click to open PDF in new tab](/Knowledge_Base/images/wi-fi-6e-new-technology-features-and-enhancements-(2022).pdf)
-        - Reference Guide 802.11ax [click to open PDF in new tab](/Knowledge_Base/images/ReferenceGuide_80211ax.pdf)
-
-
-    !!! info ""
-
-        #### Great sources:
-
-        - [WLAN Professionals](https://wlanprofessionals.com/)
-        - [CWNP](https://www.cwnp.com/it-certification-training-resources/)
-
-!!! info ""
-
-    ### WiFi Terms
-
     #### BSS Coloring
     A method for addressing medium contention overhead due to overlapping basic service set (OBSS). BSS color aims to uniquely identify different BSSs even though they are transmitting on the same channel. 802.11ax radios can differentiate between BSSs by adding a number (color) to the PHY and MAC headers. The same color bit indicates an intra-BSS. Different color bits indicate inter-BSS. Inter-BSS detection means that a listening radio may not necessarily have to defer. Adaptive CCA implementation could raise the signal detect (SD) threshold for inter-BSS frames while maintaining a lower threshold for intra-BSS traffic. BSS Color potentially decreases the channel contention problem resulting from existing 4 dB signal detect (SD) thresholds.
 
@@ -254,7 +247,7 @@
     When a device moves through a Hotel and the device is connected to a WiFi network, the connection should seamlessly transition from Access Point to another on the same WLAN.
 
 
-!!! info ""
+??? info "Power!"
 
     ### PoE/PoE+ (Power over Ethernet)
 
@@ -297,7 +290,7 @@
     - [Understanding the IEEE 8023bt PoE Standard](https://www.skyworksinc.com/-/media/SkyWorks/SL/documents/public/white-papers/understanding-the-ieee-8023bt-poe-standard.pdf)
 
 
-!!! info ""
+!!! info "Client device"
 
     ### Clients devices WiFi capabilities
     
