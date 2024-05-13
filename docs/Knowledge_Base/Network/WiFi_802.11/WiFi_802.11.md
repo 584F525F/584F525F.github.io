@@ -1,8 +1,48 @@
 !!! info ""
 
-    ### MCS Rate SNR RSSI Chart 802.11n 802.11 ac
+    ??? info "MCS"
+    ### MCS Rate SNR RSSI Chart
 
-    ![alt text](</Knowledge_Base/images/MCS Rate SNR RSSI Chart 802.11n 802.11 ac.jpg>)
+        [MCS TABLE AND HOW TO USE IT](https://wlanprofessionals.com/mcs-table-and-how-to-use-it/)
+        
+        [mcsindex](https://mcsindex.net/)
+
+        The MCS table evaluates the quality of the RF environment- the RF media that devices are working in, which is reflected in every single transmission.
+
+        Every transmitter device, whether it be an AP or a client, will make an internal decision of which MCS it is going to use.
+
+        MCS summarizes and categorizes Wi-Fi parameters such as modulation, coding scheme, guard interval, and channel width.
+
+        ![alt text](</Knowledge_Base/images/MCS Rate SNR RSSI Chart 802.11n 802.11 ac.jpg>)
+
+        **MCS Parameters**
+        
+        - High Throughput Modulation and Coding Scheme (HT-MCS)
+          - Used by 802.11n. Represented by an integer in the range of 0-76.
+        - Very High Throughput Modulation and Coding Scheme (VHT-MCS)
+          - Used by 802.11ac. Represented by an integer in the range of 0-9.
+        - Modulation Scheme
+          - Defines the phase and amplitude required for bit computing, from BPSK to QPSK to 16-QAM, 64-QAM, and 256-QAM.
+        - Coding
+          - Rate of bits transferred and Forward Error Correction. A 1/2 Coding means two bits are transferred, and one is received. Minimizing the coding scheme would entail sending the data faster while losing robustness.
+        - Data Width
+          - Specifies the channel used: 20MHz, 40MHz, 80MHz, and 160MHz.
+        - Guard Interval
+          - Waiting time or pause between each packet transmission. 802.11n has 400ns, and 802.11ac has 800 ns. The smaller the guard interval, the faster the throughput.
+        - Minimum SNR and RSSI
+          - Determines the minimum SNR and RSSI required for a specific MSC index.
+
+        **Using the MCS Table to determine the MCS index**
+        
+        - Define the capacity of the client device, such as the data width and Wi-Fi designation.
+        - Determine and associate the range of such parameters in the table.
+
+        For example, an 80MHz wide-capable client and supports 802.11ac. This means the AP and the client can support all data transfer defined by the range of the client device, from 6.5 MCS to 1300 MCS.
+
+        ![alt text](image-1.png)
+
+        - After determining the MCS index, the client device will send a DHCP request to the radio chipset.
+        - The AP’s radio will decode and demodulate the request. If no error occurs, it will send back an ACK with an MCS index supported by the client device. Every transmitter chooses which MCS to use.
 
     ### Airtime Utilization - MSC Index - Modulation - Coding Index 
     
@@ -166,6 +206,52 @@
     A method for addressing medium contention overhead due to overlapping basic service set (OBSS). BSS color aims to uniquely identify different BSSs even though they are transmitting on the same channel. 802.11ax radios can differentiate between BSSs by adding a number (color) to the PHY and MAC headers. The same color bit indicates an intra-BSS. Different color bits indicate inter-BSS. Inter-BSS detection means that a listening radio may not necessarily have to defer. Adaptive CCA implementation could raise the signal detect (SD) threshold for inter-BSS frames while maintaining a lower threshold for intra-BSS traffic. BSS Color potentially decreases the channel contention problem resulting from existing 4 dB signal detect (SD) thresholds.
 
     #### BSS Min Rate
+
+    Use this option to configure the minimum transmission rate supported by the WLAN. When OFDM Only is enabled, BSS Min Rate offers three options: Default, 12 Mbps, and 24 Mbps. If set to Default, Mgmt Tx rate is fixed at 6 Mbps. This option can also be used to prevent 802.11b clients from connecting, and to allow greater client density with higher data rates.
+
+    If you have devices that *all* can do WPA2, use "ofdm-only", which will set the management frame min-rate to 6mb and refuse all CCK (802.11b/g only) clients
+
+    If a device cannot achieve the min bss rate limit, the client device won't be able to connect to the WLAN in that area, they would have to move closer to the AP to get better rates.
+
+    #### Mgmt Tx Rate
+    
+    Use this setting to configure the rate at which management frames are sent. The default is 2 Mbps. This option is only available if both OFDM Only and BSS Min Rate are disabled. (Otherwise, Mgmt Tx Rate is defined by those settings.)
+
+    #### WiFi Backhaul
+    Imagine you want to connected 2 buildings Network but you don't have the capability or means to run an Ethernet or Fiber cables between the 2 buildings, you can instead use WiFi Access Points to do the job.
+    
+    Using fixed **PTP** (Point To Point) or **PTMP** (Point To Multi Point) **Access Points** you can have two or more buildings Networks connected.
+
+    ![alt text](image.png)
+
+    #### 802.11K
+
+    **Transmit Power Control**:  The 802.11h amendment defined the use of transmit power
+    control (TPC) for the 5 GHz band to reduce interference. Under 802.11k, TPC will also
+    be used in other frequency bands and in areas governed by other regulatory agencies.
+    
+    **Client Statistics**:  Physical layer information, such as signal-to-noise ratio, signal
+    strength, and data rates, can all be reported back to the access point or WLAN
+    controller. MAC information, such as frame transmissions, retries, and errors, may all be
+    reported back to the access point or WLAN controller as well.
+    
+    **Channel Statistics**:  Clients may gather noise-floor information based on any RF energy
+    in the background of the channel and report this information back to the access point.
+    Channel-load information may also be collected and sent to the AP. The access point or
+    WLAN controller may use this information for channel management decisions.
+    
+    **Neighbor Reports**:  802.11k gave client stations the ability to learn from access points
+    or WLAN controllers about other access points where the client stations might potentially roam. AP neighbor report information is shared among WLAN devices to improve
+    roaming efficiency.
+
+
+    #### 802.11 r-Fast Transition
+
+    The fast basic service set transition (FT) amendment. The technology is more often referred to as fast-secure roaming because it defines faster handoffs when roaming occurs between cells in a WLAN using the strong security 56 Chapter 2 ■ IEEE 802.11 Standard and Amendments defined by a robust secure network (RSN). Be aware that there are multiple types of fastsecure roaming that are implemented by different vendors. These include CCKM, PKC, OKC, and fast session resumption.
+
+    #### Roaming
+
+    When a device moves through a Hotel and the device is connected to a WiFi network, the connection should seamlessly transition from Access Point to another on the same WLAN.
 
 
 !!! info ""
