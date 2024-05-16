@@ -12,7 +12,8 @@ site_name: BitwiseOperator XOR_
 theme:
   name: material
   # custom_dir: overrides
-  logo: assets/icons/xor.png
+  logo: assets/icons/mandalorian.png
+  favicon: assets/icons/xor.img.png
   icon: 
     # repo: fontawesome/brands/github-alt
     #fontawesome/brands/mandalorian
@@ -29,8 +30,7 @@ theme:
       danger: octicons/zap-16
       bug: octicons/bug-16
       example: octicons/beaker-16
-      quote: octicons/quote-16
-  favicon: assets/icons/xor.img.png
+      quote: octicons/quote-16  
 
   palette:
     # Palette toggle for light mode
