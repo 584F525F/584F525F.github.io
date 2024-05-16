@@ -14,7 +14,8 @@ theme:
   # custom_dir: overrides
   icon: 
     # repo: fontawesome/brands/github-alt
-    logo: fontawesome/brands/mandalorian
+    #fontawesome/brands/mandalorian
+    logo: fontawesome/solid/bug
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -28,7 +29,7 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
-  favicon: assets/icons/mandalorian-white.png
+  favicon: assets/icons/xor.img.png
 
   palette:
     # Palette toggle for light mode
