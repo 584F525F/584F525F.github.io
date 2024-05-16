@@ -12,8 +12,8 @@ site_name: BitwiseOperator XOR_
 theme:
   name: material
   # custom_dir: overrides
-  logo: assets/icons/mandalorian.png
-  favicon: assets/icons/xor.img.png
+  logo: assets/icons/xor_img.png.png
+  favicon: assets/icons/xor.png
   icon: 
     # repo: fontawesome/brands/github-alt
     #fontawesome/brands/mandalorian
