@@ -29,7 +29,7 @@
     - Define the capacity of the client device, such as the data width and Wi-Fi designation.
     - Determine and associate the range of such parameters in the table.
     For example, an 80MHz wide-capable client and supports 802.11ac. This means the AP and the client can support all data transfer defined by the range of the client device, from 6.5 MCS to 1300 MCS.
-    ![alt text](image-1.png)
+    ![alt text](/Knowledge_Base/images/WiFi_802_11_img_1.png)
     - After determining the MCS index, the client device will send a DHCP request to the radio chipset.
     - The AP’s radio will decode and demodulate the request. If no error occurs, it will send back an ACK with an MCS index supported by the client device. Every transmitter chooses which MCS to use.
 
@@ -215,7 +215,7 @@
     
     Using fixed **PTP** (Point To Point) or **PTMP** (Point To Multi Point) **Access Points** you can have two or more buildings Networks connected.
 
-    ![alt text](image.png)
+    ![alt text](/Knowledge_Base/images/WiFi_802_11_img_0.png)
 
     #### 802.11K
 
