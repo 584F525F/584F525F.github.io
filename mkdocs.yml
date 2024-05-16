@@ -12,7 +12,7 @@ site_name: BitwiseOperator XOR_
 theme:
   name: material
   # custom_dir: overrides
-  logo: assets/xor.png
+  logo: assets/icons/xor.png
   icon: 
     # repo: fontawesome/brands/github-alt
     #fontawesome/brands/mandalorian
