@@ -20,7 +20,7 @@
 }
 .md-main__inner > .md-content,
 .md-main__inner > .md-sidebar--secondary {
-  display: none;
+  display:none;
 }
 .md-content__inner {
   margin-bottom: 0;
@@ -60,7 +60,7 @@
 }
 .mdx-parallax {
   height: 100vh;
-  filter: hue-rotate(45deg);
+  /* filter: hue-rotate(25deg); */
   margin-top: -2.4rem;
   overflow: hidden auto;
   overscroll-behavior-y: none;
@@ -283,7 +283,7 @@
   backface-visibility: hidden;
   color: var(--md-primary-bg-color);
   margin: 0 0.8rem;
-  max-width: 24rem;
+  /* max-width: 24rem; */
 }
 .mdx-hero__teaser h1 {
   color: whitesmoke;
