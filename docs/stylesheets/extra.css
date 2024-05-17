@@ -113,7 +113,7 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 /* coloring dark theme profile */
 :root, [data-md-color-scheme=slate] {
     --md-hue: 225deg;
-    --md-default-fg-color: hsl(212.54deg 100% 93.91%);
+    --md-default-fg-color: hsl(215, 100%, 98%);
     --md-default-fg-color--light: #eaffc1; /* ff6565 fff6b4 subject color and post date #86b7ff */
     --md-default-fg-color--lighter: #B7FAD5; /* scroll bar*/
     --md-default-fg-color--lighter-1: #B7FAD5; /* scroll bar*/
@@ -424,3 +424,4 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
 --c-14:#B7FAD5;
 --c-15:rgb(0 255 162);
 }
+

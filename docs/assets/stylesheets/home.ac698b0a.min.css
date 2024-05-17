@@ -1,5 +1,8 @@
 .md-typeset {
-  color: var(--md-typeset-color);
+  color: white;
+  font-size: 1.3em;
+  font-weight: 500;
+  font-family: system-ui;
 }
 .md-typeset h2 {
   font-weight: 500;
@@ -73,8 +76,8 @@
   transform-style: preserve-3d;
 }
 .mdx-parallax__group:first-child {
-  background-color: black;
-  /* contain: strict; */
+  background-color: initial;
+  contain: strict;
   height: 140vh;
 }
 .safari .mdx-parallax__group:first-child {
