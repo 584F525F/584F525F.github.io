@@ -13,7 +13,6 @@ theme:
   name: material
   # custom_dir: overrides
   logo: assets/icons/xor.png
-  favicon: assets/icons/xor.png
   icon: 
     # repo: fontawesome/brands/github-alt
     #fontawesome/brands/mandalorian
@@ -31,6 +30,7 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
+  favicon: assets/icons/xor.png
 
   palette:
     # Palette toggle for light mode
@@ -396,4 +396,4 @@ nav:
             - 'WSL Windows Subsystem Linux': Knowledge_Base/OS/Windows/Commands/WSL_Windows_Subsystem_Linux.md
           - 'Troubleshooting':
             - 'ERR SSL VERSION OR CIPHER MISMATCH': Knowledge_Base/OS/Windows/Troubleshooting/ERR_SSL_VERSION_OR_CIPHER_MISMATCH.md
-  - About: About.html
+  - whoami: whoami.html

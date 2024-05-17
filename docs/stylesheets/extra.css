@@ -118,8 +118,8 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a:hover
     --md-default-fg-color--lighter: #B7FAD5; /* scroll bar*/
     --md-default-fg-color--lighter-1: #B7FAD5; /* scroll bar*/
     --md-default-bg-color: #000000; /* top TOC section made hidden also blocks color*/
-    --md-footer-bg-color: hsla(223, 14%, 10%, 0); /* footer next and arrow background color */
-    --md-footer-bg-color--dark: hsla(220, 15%, 8%, 0); /* footer copyright section background color */
+    --md-footer-bg-color: hsl(0, 0%, 0%); /* footer next and arrow background color */
+    --md-footer-bg-color--dark: hsl(0, 0%, 0%); /* footer copyright section background color */
     --md-footer-fg-color: #B7FAD5; /* footer next and arrow color */
     --md-footer-fg-color--light: #ff6565;
     --md-footer-copyright-fg-color: #ffffff ;
