@@ -189,7 +189,6 @@ nav:
         - 'evil-winrm': Cyber_Offensive/Remote_connection_&_execution/evil-winrm.md
         - 'psexec.py': Cyber_Offensive/Remote_connection_&_execution/psexec.py.md
         - 'Remote connection & execution': Cyber_Offensive/Remote_connection_&_execution/Remote_connection_&_execution.md
-        - 'Reverse Shell': Cyber_Offensive/Remote_connection_&_execution/Reverse_Shell.md
         - 'smbexec.py': Cyber_Offensive/Remote_connection_&_execution/smbexec.py.md
         - 'winrm': Cyber_Offensive/Remote_connection_&_execution/winrm.md
         - 'wmiexec.py': Cyber_Offensive/Remote_connection_&_execution/wmiexec.py.md
