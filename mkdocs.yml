@@ -176,8 +176,8 @@ nav:
           - 'Rules': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Rules.md
           - 'Wordlists & Incremental': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Wordlists_&_Incremental.md
       - 'Privilege Escalation':
-        - 'Linux Privilege Escalation': Cyber_Offensive/Privilege_Escalation/Linux_Privilege_Escalation/Linux_Privilege_Escalation.md
-        - 'Windows Privilege Escalation': Cyber_Offensive/Privilege_Escalation/Windows_Privilege_Escalation/Windows_Privilege_Escalation.md
+        'Linux Privilege Escalation': Cyber_Offensive/Privilege_Escalation/Linux_Privilege_Escalation/Linux_Privilege_Escalation.md
+        'Windows Privilege Escalation': Cyber_Offensive/Privilege_Escalation/Windows_Privilege_Escalation/Windows_Privilege_Escalation.md
       - 'Recon':
         - 'DNSLookup': Cyber_Offensive/Recon/DNSLookup.md
         - 'Dorking': Cyber_Offensive/Recon/Dorking.md
@@ -211,7 +211,8 @@ nav:
         - 'Command Injection':
           - 'IDOR': Cyber_Offensive/Web/Command_Injection/IDOR.md
         - 'Enumeration & Content Discovery':
-          - 'Authentication Bypass - User enumeration': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Authentication_Bypass_-_User_enumeration/Authentication_Bypass_-_User_enumeration.md
+          - 'Authentication Bypass - User enumeration':
+            - 'Authentication Bypass - User enumeration': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Authentication_Bypass_-_User_enumeration/Authentication_Bypass_-_User_enumeration.md
           - 'Directory Busting':
             - 'Content Discovery Tools':
               - 'Cansina': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Cansina.md
@@ -233,12 +234,14 @@ nav:
     - '':
       - 'Coding & Shell':
         - 'Ansible': Knowledge_Base/Coding_&_Shell/Ansible.md
+        - 'assembly': Knowledge_Base/Coding_&_Shell/assembly.md
         - 'bash': Knowledge_Base/Coding_&_Shell/bash.md
         - 'C#': Knowledge_Base/Coding_&_Shell/C#.md
         - 'C C++': Knowledge_Base/Coding_&_Shell/C_C++.md
         - 'Github Git': Knowledge_Base/Coding_&_Shell/Github_Git.md
         - 'Linux Bash': Knowledge_Base/Coding_&_Shell/Linux_Bash.md
         - 'Python': Knowledge_Base/Coding_&_Shell/Python.md
+        - 'Visual Studio': Knowledge_Base/Coding_&_Shell/Visual_Studio.md
         - 'vsCode': Knowledge_Base/Coding_&_Shell/vsCode.md
         - 'Windows CMD': Knowledge_Base/Coding_&_Shell/Windows_CMD.md
         - 'Windows Powershell': Knowledge_Base/Coding_&_Shell/Windows_Powershell.md
@@ -274,20 +277,22 @@ nav:
           - 'POP3': Knowledge_Base/Network/Email/POP3.md
           - 'SMTP': Knowledge_Base/Network/Email/SMTP.md
           - 'SPF Sender Policy Framework': Knowledge_Base/Network/Email/SPF_Sender_Policy_Framework.md
+        - 'Ethernet 802.3': Knowledge_Base/Network/Ethernet_802.3/Ethernet_802.3.md
         - 'Packet Capture':
           - 'TCP Dump': Knowledge_Base/Network/Packet_Capture/TCP_Dump.md
           - 'Wireshark':
             - 'Wireshark Filters': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Filters.md
             - 'Wireshark Profiles': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Profiles.md
+            - 'Wireshark Summary': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Summary.md
         - 'Vendor':
           - 'Aruba HPE':
             - 'Aruba Central Instant Cluster':
-              - 'Aruba Central and Instant Upgrade Procedure': Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/Aruba_Central_and_Instant_Upgrade_Procedure.md
-              - 'Aruba Central AP Configuration Sync issues': Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/Aruba_Central_AP_Configuration_Sync_issues.md
+              - 'AP Configuration Sync issues Aruba Central and Instant': Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/AP_Configuration_Sync_issues_Aruba_Central_and_Instant.md
               - 'Aruba MTU': Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/Aruba_MTU.md
+              - 'Upgrade Procedure Aruba Central and Instant': Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/Upgrade_Procedure_Aruba_Central_and_Instant.md
             - 'Switches':
-              - 'Aruba Central Switch enable CLI': Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Aruba_Central_Switch_enable_CLI.md
               - 'Aruba HPE SFPs': Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Aruba_HPE_SFPs.md
+              - 'Switch enable CLI Aruba Central': Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Switch_enable_CLI_Aruba_Central.md
           - 'Cisco':
             - 'CISCO WLC Handshake Failure': Knowledge_Base/Network/Vendor/Cisco/CISCO_WLC_Handshake_Failure.md
           - 'Juniper':
@@ -315,23 +320,26 @@ nav:
             - 'Meraki SFP': Knowledge_Base/Network/Vendor/Meraki/Meraki_SFP.md
           - 'Ruckus':
             - 'Access Points':
-              - 'AP-CLI general-commands': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP-CLI_general-commands.md
-              - 'Ruckus SmartZone SZ AP CLI SETUP Support Config Flow': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/Ruckus_SmartZone_SZ_AP_CLI_SETUP_Support_Config_Flow.md
-              - 'Ruckus SZ AP Access Point Firmware Recovery CLI': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/Ruckus_SZ_AP_Access_Point_Firmware_Recovery_CLI.md
-              - 'Ruckus WAP TX Power EIRP': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/Ruckus_WAP_TX_Power_EIRP.md
+              - 'AP CLI Setup Support Config Flow Ruckus SZ': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP_CLI_Setup_Support_Config_Flow_Ruckus_SZ.md
+              - 'AP Firmware Recovery CLI Ruckus SZ': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP_Firmware_Recovery_CLI_Ruckus_SZ.md
+              - 'AP TX Power EIRP Ruckus SZ': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP_TX_Power_EIRP_Ruckus_SZ.md
+              - 'CLI General Commands Ruckus SZ': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/CLI_General_Commands_Ruckus_SZ.md
             - 'Switches':
-              - 'ALL SFP RUCKUS Optics': Knowledge_Base/Network/Vendor/Ruckus/Switches/ALL_SFP_RUCKUS_Optics.md
-              - 'Brocade ICX console settings': Knowledge_Base/Network/Vendor/Ruckus/Switches/Brocade_ICX_console_settings.md
-              - 'Brocade ICX Switches Firmware upgrade with USB': Knowledge_Base/Network/Vendor/Ruckus/Switches/Brocade_ICX_Switches_Firmware_upgrade_with_USB.md
-              - 'Ruckus SFP Brocade ICX-7250-ds': Knowledge_Base/Network/Vendor/Ruckus/Switches/Ruckus_SFP_Brocade_ICX-7250-ds.md
+              - 'Console Settings Ruckus Brocade ICX': Knowledge_Base/Network/Vendor/Ruckus/Switches/Console_Settings_Ruckus_Brocade_ICX.md
+              - 'Firmware upgrade with USB Ruckus Brocade ICX': Knowledge_Base/Network/Vendor/Ruckus/Switches/Firmware_upgrade_with_USB_Ruckus_Brocade_ICX.md
+              - 'SFP Brocade ICX-7250 ds Ruckus Brocade ICX': Knowledge_Base/Network/Vendor/Ruckus/Switches/SFP_Brocade_ICX-7250_ds_Ruckus_Brocade_ICX.md
+              - 'SFP RUCKUS Optics Ruckus Brocade ICX': Knowledge_Base/Network/Vendor/Ruckus/Switches/SFP_RUCKUS_Optics_Ruckus_Brocade_ICX.md
             - 'WLC':
               - 'SZ SmartZone':
-                - 'Ruckus SmartZone SZ CLI General Cluster Upgrade and backup': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/Ruckus_SmartZone_SZ_CLI_General_Cluster_Upgrade_and_backup.md
-                - 'SZ AP Management MGMT Control Data Plane Ports': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/SZ_AP_Management_MGMT_Control_Data_Plane_Ports.md
-                - 'SZ upgrade': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/SZ_upgrade.md
+                - 'AP Management MGMT Control Data Plane Ports Ruckus SmartZone SZ': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/AP_Management_MGMT_Control_Data_Plane_Ports_Ruckus_SmartZone_SZ.md
+                - 'Firmware upgrade Ruckus SmartZone SZ': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/Firmware_upgrade_Ruckus_SmartZone_SZ.md
+                - 'General Cluster Upgrade and backup Ruckus SmartZone SZ': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/General_Cluster_Upgrade_and_backup_Ruckus_SmartZone_SZ.md
+              - 'Unleashed':
+                - 'Ruckus Unleashed': Knowledge_Base/Network/Vendor/Ruckus/WLC/Unleashed/Ruckus_Unleashed.md
               - 'ZD ZoneDirector':
-                - 'Ruckus ZoneDirector ZD CLI': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Ruckus_ZoneDirector_ZD_CLI.md
-                - 'ZD Channelization': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/ZD_Channelization.md
+                - 'Channelization Ruckus ZoneDirector ZD ': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Channelization_Ruckus_ZoneDirector_ZD_.md
+                - 'CLI Ruckus ZoneDirector ZD': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/CLI_Ruckus_ZoneDirector_ZD.md
+        - 'WiFi 802.11': Knowledge_Base/Network/WiFi_802.11/WiFi_802.11.md
       - 'OS':
         - 'Linux':
           - 'Arch':
@@ -352,7 +360,8 @@ nav:
               - 'SSL Cert end date check': Knowledge_Base/OS/Linux/Debian/Commands/SSL_Cert_end_date_check.md
               - 'System Commands': Knowledge_Base/OS/Linux/Debian/Commands/System_Commands.md
               - 'wget': Knowledge_Base/OS/Linux/Debian/Commands/wget.md
-            - 'Desktop Environment': Knowledge_Base/OS/Linux/Debian/Desktop_Environment/dekstop_environment.md
+            - 'Desktop Environment':
+              - 'dekstop environment': Knowledge_Base/OS/Linux/Debian/Desktop_Environment/dekstop_environment.md
             - 'Fixes':
               - 'FIX-speedtest-cli apt update error': Knowledge_Base/OS/Linux/Debian/Fixes/FIX-speedtest-cli_apt_update_error.md
               - 'FIX DNS resolv.conf': Knowledge_Base/OS/Linux/Debian/Fixes/FIX_DNS_resolv.conf.md
@@ -396,3 +405,4 @@ nav:
           - 'Troubleshooting':
             - 'ERR SSL VERSION OR CIPHER MISMATCH': Knowledge_Base/OS/Windows/Troubleshooting/ERR_SSL_VERSION_OR_CIPHER_MISMATCH.md
   - whoami: whoami.html
+
