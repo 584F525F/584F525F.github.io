@@ -2,7 +2,6 @@
 
     ### C Compiler
 
-
     Download and install [Minimalist GNU for Windows](https://sourceforge.net/projects/mingw/files/latest/download)
     - Install
     - continue
@@ -35,3 +34,10 @@
     gcc -fPIC -shared -o shell.so shell.c -nostartfiles
     gcc scriptName -o programName -w
     ```
+
+!!! info ""
+
+    ### Learning Resources
+
+    - [learn-c](https://www.learn-c.org/)
+    - []()

@@ -85,17 +85,17 @@
 }
 @media (min-width: 125vh) {
   .mdx-parallax__group:first-child {
-    height: 160em;
+    height: 170em;
   }
 }
 @media (min-width: 137.5vh) {
   .mdx-parallax__group:first-child {
-    height: 155em;
+    height: 165em;
   }
 }
 @media (min-width: 150vh) {
   .mdx-parallax__group:first-child {
-    height: 175em;
+    height: 180em;
   }
 }
 @media (min-width: 162.5vh) {
