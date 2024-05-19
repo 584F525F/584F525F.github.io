@@ -78,44 +78,44 @@
 .mdx-parallax__group:first-child {
   background-color: initial;
   contain: strict;
-  height: 140vh;
+  height: 140em;
 }
 .safari .mdx-parallax__group:first-child {
   contain: none;
 }
 @media (min-width: 125vh) {
   .mdx-parallax__group:first-child {
-    height: 120vw;
+    height: 160em;
   }
 }
 @media (min-width: 137.5vh) {
   .mdx-parallax__group:first-child {
-    height: 125vw;
+    height: 155em;
   }
 }
 @media (min-width: 150vh) {
   .mdx-parallax__group:first-child {
-    height: 130vw;
+    height: 175em;
   }
 }
 @media (min-width: 162.5vh) {
   .mdx-parallax__group:first-child {
-    height: 135vw;
+    height: 185em;
   }
 }
 @media (min-width: 175vh) {
   .mdx-parallax__group:first-child {
-    height: 140vw;
+    height: 175em;
   }
 }
 @media (min-width: 187.5vh) {
   .mdx-parallax__group:first-child {
-    height: 145vw;
+    height: 190em;
   }
 }
 @media (min-width: 200vh) {
   .mdx-parallax__group:first-child {
-    height: 150vw;
+    height: 200em;
   }
 }
 .mdx-parallax__group:last-child {
