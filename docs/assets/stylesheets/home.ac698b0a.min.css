@@ -47,7 +47,8 @@
   background-color: initial;
 }
 .md-header:not(.md-header--shadow) {
-  background-color: initial;
+  background-color: black;
+  /* background-color: initial; */
   transition: background-color 125ms,
     transform 125ms cubic-bezier(0.1, 0.7, 0.1, 1), box-shadow 0ms;
 }
