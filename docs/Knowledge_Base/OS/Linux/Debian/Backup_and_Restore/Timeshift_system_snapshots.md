@@ -1,4 +1,5 @@
-!!! "Timeshift installation"
+!!! info "Timeshift installation"
+    
     ### Timeshift installation
     ```bash
     sudo apt install timeshift
@@ -11,7 +12,8 @@
     -tags O stands for On-demand Backup
     ```
 
-!!! "Using Timeshift"
+!!! info "Using Timeshift"
+
     ### Using Timeshift
     
     #### Installing TImeshift
