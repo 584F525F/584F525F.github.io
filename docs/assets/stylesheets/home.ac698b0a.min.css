@@ -79,19 +79,19 @@
 .mdx-parallax__group:first-child {
   background-color: initial;
   contain: strict;
-  height: 140em;
+  height: 150em;
 }
 .safari .mdx-parallax__group:first-child {
   contain: none;
 }
 @media (min-width: 125vh) {
   .mdx-parallax__group:first-child {
-    height: 170em;
+    height: 190em;
   }
 }
 @media (min-width: 137.5vh) {
   .mdx-parallax__group:first-child {
-    height: 165em;
+    height: 175em;
   }
 }
 @media (min-width: 150vh) {
