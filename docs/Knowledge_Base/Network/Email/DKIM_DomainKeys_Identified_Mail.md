@@ -11,5 +11,5 @@
 
     ### How it works
 
-    ![alt text](DKIM_Howitworks.png)
+    ![alt text](/Knowledge_Base/images/DKIM_Howitworks.png)
 

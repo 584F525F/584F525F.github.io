@@ -12,9 +12,9 @@
 
     ### How it works
 
-    ![alt text](DMARC_Howitworks.png)
+    ![alt text](/Knowledge_Base/images/DMARC_Howitworks.png)
 
-    ![alt text](DMARK_Record_Syntax.png)
+    ![alt text](/Knowledge_Base/images/DMARK_Record_Syntax.png)
 
     Settings up a DNS record for DMARC with all rejects. multiple types of content text provided
 

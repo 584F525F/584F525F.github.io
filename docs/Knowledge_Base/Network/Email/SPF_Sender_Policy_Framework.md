@@ -12,7 +12,7 @@
 
     ### How it works
 
-    ![alt text](SPF_Howitworks.png)
+    ![alt text](/Knowledge_Base/images/SPF_Howitworks.png)
 
     ---
 
