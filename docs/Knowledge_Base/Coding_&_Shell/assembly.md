@@ -24,6 +24,7 @@
     - [Jonathan Bartlett - Programming from the Ground Up](https://www.cs.princeton.edu/courses/archive/spr08/cos217/reading/ProgrammingGroundUp-1-0-lettersize.pdf)
     - [NASM Assembly Language Tutorials - asmtutor](https://asmtutor.com/)
     - [Webster](https://www.plantation-productions.com/Webster/)
+    - [AMD CS107 Guide to x86-64](https://josemariasola.github.io/reference/assembler/Stanford%20CS107%20Guide%20to%20x86-64.pdf)
 
 
 !!! info ""
@@ -37,7 +38,23 @@
 
 
 
+!!! info ""
 
+    #### Info & Cheatsheets
+
+    ![alt text](image-3.png)
+
+    [Intel x86 Assembly Language Cheat Sheet](https://scadahacker.com/library/Documents/Cheat_Sheets/Programming%20-%20x86%20Instructions%201.pdf)
+
+    ![alt text](image-4.png)
+
+    [X86/WIN32 REVERSE ENGINEERING CHEAT­SHEET](https://trailofbits.github.io/ctf/vulnerabilities/references/X86_Win32_Reverse_Engineering_Cheat_Sheet.pdf)
+
+    [x64 Cheat Sheet](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
+
+
+
+    
 
 
 
