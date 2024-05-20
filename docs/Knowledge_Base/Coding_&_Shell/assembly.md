@@ -4,7 +4,7 @@
     The assembler implementation may (and generally is) OS-specific, because of the output program it produces (a Unix executable is not the same as a Windows executable, even though the underlying machine instruction set is x86, for example).
 
     Hierarchy of Programming Languages
-    ![alt text](image-2.png)
+    ![alt text](/Knowledge_Base/images/assembly_0s_2.png)
 
 
 !!! info ""
@@ -42,11 +42,11 @@
 
     #### Info & Cheatsheets
 
-    ![alt text](image-3.png)
+    ![alt text](/Knowledge_Base/images/assembly_0s_3.png)
 
     [Intel x86 Assembly Language Cheat Sheet](https://scadahacker.com/library/Documents/Cheat_Sheets/Programming%20-%20x86%20Instructions%201.pdf)
 
-    ![alt text](image-4.png)
+    ![alt text](/Knowledge_Base/images/assembly_0s_4.png)
 
     [X86/WIN32 REVERSE ENGINEERING CHEAT­SHEET](https://trailofbits.github.io/ctf/vulnerabilities/references/X86_Win32_Reverse_Engineering_Cheat_Sheet.pdf)
 
