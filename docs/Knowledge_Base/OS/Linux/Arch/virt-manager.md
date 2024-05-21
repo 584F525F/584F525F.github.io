@@ -110,4 +110,10 @@
 
     https://sysguides.com/install-a-windows-11-virtual-machine-on-kvm
 
-    
+
+!!! info ""
+
+	Resources
+
+	[install-virtio-drivers-for-windows-guests](https://sysguides.com/install-kvm-on-linux#3-04-install-virtio-drivers-for-windows-guests-)
+	[mount-the-virtio-winiso-image](https://sysguides.com/install-a-windows-11-virtual-machine-on-kvm#6-16-mount-the-virtio-winiso-image)
