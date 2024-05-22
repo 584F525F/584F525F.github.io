@@ -27,4 +27,12 @@
     
     #remove a file from repo, you will need to cmmint and push afterwards
     git rem "XX"
+
+    #configuring the remote repo, this way you can call origin instead of the full repo link
+    git remote add origin https://github.com/584F525F/584F525F.github.io/
+
+    #print the current configured remote repo
+    git remote -v
+
+    
     ```
