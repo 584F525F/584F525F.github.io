@@ -229,7 +229,7 @@ nav:
           - 'User Enumeration & Content Discovery':
             - 'Authentication Bypass & User enumeration': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/User_Enumeration_&_Content_Discovery/Authentication_Bypass_&_User_enumeration.md
   - Knowledge Base:
-    - 'Summary': Knowledge_Base.md
+    - 'Summary': knowledge_base.md
     - '':
       - 'Coding & Shell':
         - 'Ansible': Knowledge_Base/Coding_&_Shell/Ansible.md
