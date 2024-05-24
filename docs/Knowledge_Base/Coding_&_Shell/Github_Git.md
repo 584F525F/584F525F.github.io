@@ -34,5 +34,13 @@
     #print the current configured remote repo
     git remote -v
 
+    #clear cache, re-add everything and commit then push
+    git rm -r --cached .
+    git add .
+    git commit -am 'git cache cleared'
+    git push
+
+    #revert back last commit
+    git reset HEAD^ --hard
     
     ```
