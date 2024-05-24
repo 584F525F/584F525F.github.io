@@ -258,9 +258,6 @@ nav:
         - 'pfSense': Knowledge_Base/Home_Lab/pfSense.md
         - 'Portainer Docker': Knowledge_Base/Home_Lab/Portainer_Docker.md
         - 'Wazuh SEIM': Knowledge_Base/Home_Lab/Wazuh_SEIM.md
-        - 'heimdall docker -1': Knowledge_Base/images/heimdall_docker_-1.png
-        - 'heimdall docker -2': Knowledge_Base/images/heimdall_docker_-2.png
-        - 'heimdall docker 1': Knowledge_Base/images/heimdall_docker_1.png
       - 'Network':
         - 'ARP': Knowledge_Base/Network/ARP.md
         - 'Cabling Fiber': Knowledge_Base/Network/Cabling_Fiber.md
@@ -344,8 +341,6 @@ nav:
                 - 'Channelization Ruckus ZoneDirector ZD ': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Channelization_Ruckus_ZoneDirector_ZD_.md
                 - 'CLI Ruckus ZoneDirector ZD': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/CLI_Ruckus_ZoneDirector_ZD.md
         - 'WiFi 802.11': Knowledge_Base/Network/WiFi_802.11/WiFi_802.11.md
-      - 'News':
-        - 'News': Knowledge_Base/News/News.md
       - 'OS':
         - 'Linux':
           - 'Arch':
@@ -411,8 +406,10 @@ nav:
             - 'WSL Windows Subsystem Linux': Knowledge_Base/OS/Windows/Commands/WSL_Windows_Subsystem_Linux.md
           - 'Troubleshooting':
             - 'ERR SSL VERSION OR CIPHER MISMATCH': Knowledge_Base/OS/Windows/Troubleshooting/ERR_SSL_VERSION_OR_CIPHER_MISMATCH.md
-      - 'Privacy':
-        - 'Privacy': Knowledge_Base/Privacy/Privacy.md
+  - 'Privacy':
+    - 'Privacy': Knowledge_Base/Privacy/Privacy.md
+  - 'News':
+    - 'News': Knowledge_Base/News/News.md
   - whoami: whoami.html
 
 
