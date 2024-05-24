@@ -1,6 +1,8 @@
-DHCP [Dynamic Host Configuration Protocol]
+!!! info ""
 
-DORA [Discover Offer Request Acknowledge]
+    DHCP [Dynamic Host Configuration Protocol]
 
-![alt text](/Knowledge_Base/images/dhcpwireshark.png)
+    DORA [Discover Offer Request Acknowledge]
+
+    ![alt text](/Knowledge_Base/images/dhcpwireshark.png)
 

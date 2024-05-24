@@ -8,4 +8,4 @@
        
     In th example below you can see the MAC Address returned Vendor is Ruckus
 
-    ![alt text](image.png)
+    ![alt text](/Knowledge_Base/images/oui_987.png)
