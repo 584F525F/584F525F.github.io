@@ -406,10 +406,10 @@ nav:
             - 'WSL Windows Subsystem Linux': Knowledge_Base/OS/Windows/Commands/WSL_Windows_Subsystem_Linux.md
           - 'Troubleshooting':
             - 'ERR SSL VERSION OR CIPHER MISMATCH': Knowledge_Base/OS/Windows/Troubleshooting/ERR_SSL_VERSION_OR_CIPHER_MISMATCH.md
-  - 'Privacy':
-    - 'Privacy': Knowledge_Base/Privacy/Privacy.md
-  - 'News':
-    - 'News': Knowledge_Base/News/News.md
+      - 'Privacy':
+        - 'Privacy': Knowledge_Base/Privacy/Privacy.md
+      - 'News':
+        - 'News': Knowledge_Base/News/News.md
   - whoami: whoami.html
 
 
