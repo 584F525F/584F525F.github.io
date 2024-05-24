@@ -29,25 +29,43 @@
 
     SMTP server listens on port 25 by default. To see basic communication with an SMTP server, we used Telnet to connect to it. Once connected, we issue `helo hostname` and then start typing our email.
 
-    ```bash
+    ```shell
     telnet 10.10.45.250 25
     #Trying 10.10.45.250...
     #Connected to MACHINE_IP.
     #Escape character is '^]'.
     #220 bento.localdomain ESMTP Postfix (Ubuntu)
+    ```
+
+    ```shell
     helo telnet
     #250 bento.localdomain
+    ```
+
+    ```shell
     mail from: 
     #250 2.1.0 Ok
+    ```
+
+    ```shell
     rcpt to: 
     #250 2.1.5 Ok
+    ```
+
+    ```shell
     data
     #354 End data with .
+    ```
+
+    ```shell
     subject: Sending email with Telnet
     Hello Frank,
     I am just writing to say hi!             
-    #.
+    .
     #250 2.0.0 Ok: queued as C3E7F45F06
+    ```
+
+    ```shell
     quit
     #221 2.0.0 Bye
     #Connection closed by foreign host.
@@ -67,7 +85,7 @@
     - <mark>**MUA**</mark> (Mail User Agent) is the email client we mentioned above. It’s an application or a website that you use to send and receive email messages.
     - <mark>**MSA**</mark> (Mail Submission Agent) receives emails from the email client, checks its headers, and verifies that the addresses are indicated correctly. 
     - [<mark>**MTA**</mark>](https://mailtrap.io/blog/mail-transfer-agent/) (Mail Transfer Agent) is a sendmail program that processes and transfers emails. It receives messages from the MSA. Most modern MTAs take on MSA’s responsibilities. In that case, message transfer won’t include MSAs. The most popular MTAs are Sendmail, Postfix, and Exim.
-    - <mark>**MDA**</mark> (Mail Delivery Agent) is the final agent before your emails get delivered to the recipient’s SMTP server and then retrieved through inbound email servers (IMAP or POP3).
+    - <mark>**MDA**</mark> (Mail Delivery Agent) is the final agent before your emails get delivered to the recipient’s `SMTP` server and then retrieved through inbound email servers (IMAP or POP3).
 
     ![alt text](/Knowledge_Base/images/SMTP-20231231234938.png)
 
