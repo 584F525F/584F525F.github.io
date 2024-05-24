@@ -156,8 +156,7 @@ nav:
         - 'windows certutil': Cyber_Offensive/File_Transfers/windows_certutil.md
         - 'windows cscript': Cyber_Offensive/File_Transfers/windows_cscript.md
         - 'Windows mshta wmic regsvr32': Cyber_Offensive/File_Transfers/Windows_mshta_wmic_regsvr32.md
-      - 'Initial Enumeration':
-        - 'Initial Enumeration': Cyber_Offensive/Initial_Enumeration/Initial_Enumeration.md
+      - 'Initial Enumeration': Cyber_Offensive/Initial_Enumeration/Initial_Enumeration.md
       - 'Lock Picking': Cyber_Offensive/Lock_Picking/Lock_Picking.md
       - 'Password Attacks, Cracking & Decoding':
         - 'Argon2 cracker': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Argon2_cracker.md
@@ -211,7 +210,6 @@ nav:
         - 'Command Injection':
           - 'IDOR': Cyber_Offensive/Web/Command_Injection/IDOR.md
         - 'Enumeration & Content Discovery':
-          - 'Authentication Bypass & User enumeration': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Authentication_Bypass_&_User_enumeration/Authentication_Bypass_&_User_enumeration.md
           - 'Directory Busting':
             - 'Content Discovery Tools':
               - 'Cansina': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Cansina.md
@@ -228,8 +226,10 @@ nav:
               - 'dirb': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirb.md
               - 'dirbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirbuster.md
               - 'dirsearch': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
+          - 'User Enumeration & Content Discovery':
+            - 'Authentication Bypass & User enumeration': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/User_Enumeration_&_Content_Discovery/Authentication_Bypass_&_User_enumeration.md
   - Knowledge Base:
-    - 'Summary': knowledge_base.md
+    - 'Summary': Knowledge_Base.md
     - '':
       - 'Coding & Shell':
         - 'Ansible': Knowledge_Base/Coding_&_Shell/Ansible.md
@@ -258,21 +258,26 @@ nav:
         - 'pfSense': Knowledge_Base/Home_Lab/pfSense.md
         - 'Portainer Docker': Knowledge_Base/Home_Lab/Portainer_Docker.md
         - 'Wazuh SEIM': Knowledge_Base/Home_Lab/Wazuh_SEIM.md
+        - 'heimdall docker -1': Knowledge_Base/images/heimdall_docker_-1.png
+        - 'heimdall docker -2': Knowledge_Base/images/heimdall_docker_-2.png
+        - 'heimdall docker 1': Knowledge_Base/images/heimdall_docker_1.png
       - 'Network':
         - 'ARP': Knowledge_Base/Network/ARP.md
         - 'Cabling Fiber': Knowledge_Base/Network/Cabling_Fiber.md
         - 'Cabling Fiber SFPs': Knowledge_Base/Network/Cabling_Fiber_SFPs.md
-        - 'dhcp': Knowledge_Base/Network/dhcp.md
+        - 'DHCP': Knowledge_Base/Network/DHCP.md
         - 'DNS': Knowledge_Base/Network/DNS.md
         - 'IGMP': Knowledge_Base/Network/IGMP.md
         - 'Network Fundamentals': Knowledge_Base/Network/Network_Fundamentals.md
+        - 'OUI Device MAC Addresses': Knowledge_Base/Network/OUI_Device_MAC_Addresses.md
         - 'Radius': Knowledge_Base/Network/Radius.md
         - 'SNMP': Knowledge_Base/Network/SNMP.md
         - 'Subnetting': Knowledge_Base/Network/Subnetting.md
         - 'VPN': Knowledge_Base/Network/VPN.md
         - 'Email':
           - 'DKIM DomainKeys Identified Mail': Knowledge_Base/Network/Email/DKIM_DomainKeys_Identified_Mail.md
-          - 'DMRAC Domain-based Message Authentication Reporting and Conformance': Knowledge_Base/Network/Email/DMRAC_Domain-based_Message_Authentication_Reporting_and_Conformance.md
+          - 'DMARC Domain-based Message Authentication Reporting and Conformance': Knowledge_Base/Network/Email/DMARC_Domain-based_Message_Authentication_Reporting_and_Conformance.md
+          - 'IMAP': Knowledge_Base/Network/Email/IMAP.md
           - 'POP3': Knowledge_Base/Network/Email/POP3.md
           - 'SMTP': Knowledge_Base/Network/Email/SMTP.md
           - 'SPF Sender Policy Framework': Knowledge_Base/Network/Email/SPF_Sender_Policy_Framework.md
@@ -339,10 +344,14 @@ nav:
                 - 'Channelization Ruckus ZoneDirector ZD ': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Channelization_Ruckus_ZoneDirector_ZD_.md
                 - 'CLI Ruckus ZoneDirector ZD': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/CLI_Ruckus_ZoneDirector_ZD.md
         - 'WiFi 802.11': Knowledge_Base/Network/WiFi_802.11/WiFi_802.11.md
+      - 'News':
+        - 'News': Knowledge_Base/News/News.md
       - 'OS':
         - 'Linux':
           - 'Arch':
+            - 'Arch Openvpn': Knowledge_Base/OS/Linux/Arch/Arch_Openvpn.md
             - 'virt-manager': Knowledge_Base/OS/Linux/Arch/virt-manager.md
+            - 'xrandr changing primary display': Knowledge_Base/OS/Linux/Arch/xrandr_changing_primary_display.md
           - 'Debian':
             - 'Backup and Restore':
               - 'Timeshift system snapshots': Knowledge_Base/OS/Linux/Debian/Backup_and_Restore/Timeshift_system_snapshots.md
@@ -359,8 +368,7 @@ nav:
               - 'SSL Cert end date check': Knowledge_Base/OS/Linux/Debian/Commands/SSL_Cert_end_date_check.md
               - 'System Commands': Knowledge_Base/OS/Linux/Debian/Commands/System_Commands.md
               - 'wget': Knowledge_Base/OS/Linux/Debian/Commands/wget.md
-            - 'Desktop Environment':
-              - 'dekstop environment': Knowledge_Base/OS/Linux/Debian/Desktop_Environment/dekstop_environment.md
+            - 'Desktop Environment': Knowledge_Base/OS/Linux/Debian/Desktop_Environment/dekstop_environment.md
             - 'Fixes':
               - 'FIX-speedtest-cli apt update error': Knowledge_Base/OS/Linux/Debian/Fixes/FIX-speedtest-cli_apt_update_error.md
               - 'FIX DNS resolv.conf': Knowledge_Base/OS/Linux/Debian/Fixes/FIX_DNS_resolv.conf.md
@@ -403,5 +411,8 @@ nav:
             - 'WSL Windows Subsystem Linux': Knowledge_Base/OS/Windows/Commands/WSL_Windows_Subsystem_Linux.md
           - 'Troubleshooting':
             - 'ERR SSL VERSION OR CIPHER MISMATCH': Knowledge_Base/OS/Windows/Troubleshooting/ERR_SSL_VERSION_OR_CIPHER_MISMATCH.md
+      - 'Privacy':
+        - 'Privacy': Knowledge_Base/Privacy/Privacy.md
   - whoami: whoami.html
+
 
