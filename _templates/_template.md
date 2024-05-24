@@ -201,3 +201,9 @@ summary
 | `DELETE`    | :material-close:     Delete resource |
 
 ---
+
+
+
+
+<mark>Color Mark Yellow</mark>
+

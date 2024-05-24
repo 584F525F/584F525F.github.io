@@ -13,11 +13,12 @@
     ![alt text](/Knowledge_Base/images/SMTP-822a449fd569c16c875a13ca2487b714.png)
 
     **The figure shows the following five steps that an email needs to go through to reach the recipient’s inbox:**
-    1. <mark class="hltr-yellow">A Mail User Agent (MUA) or simply an email client</mark> connects to a <mark class="hltr-yellow">Mail Submission Agent (MSA)</mark> to send it a user's email.
-    2. The <mark class="hltr-red">MSA</mark> receives the message, <mark class="hltr-red">checks for any errors before transferring it to the Mail Transfer Agent (MTA) server</mark>, commonly hosted on the same server.
-    3. The <mark class="hltr-orange">MTA will send the email message to the MTA of the recipient</mark>. The MTA can also function as a Mail Submission Agent (MSA).
-    4. A typical setup would have the MTA server also functioning as a Mail Delivery Agent (MDA).
-    5. The <mark class="hltr-green">recipient will collect its email from the MDA using their email client</mark>.
+       
+    5. <mark>A Mail User Agent (MUA) or simply an email client</mark> connects to a <mark>Mail Submission Agent (MSA)</mark> to send it a user's email.
+    6. The <mark>MSA</mark> receives the message, <mark>checks for any errors before transferring it to the Mail Transfer Agent (MTA) server</mark>, commonly hosted on the same server.
+    7. The <mark>MTA will send the email message to the MTA of the recipient</mark>, The MTA can also function as a Mail Submission Agent (MSA).
+    8. A typical setup would have the MTA server also functioning as a Mail Delivery Agent (MDA).
+    9. The <mark>recipient will collect its email from the MDA using their email client</mark>.
 
 
     **In the same way, we need to follow a protocol to communicate with an HTTP server, and we need to rely on email protocols to talk with an MTA and an MDA. The protocols are:**
@@ -63,17 +64,17 @@
 
     There are four main agents: 
 
-    - **MUA** (Mail User Agent) is the email client we mentioned above. It’s an application or a website that you use to send and receive email messages.
-    - **MSA** (Mail Submission Agent) receives emails from the email client, checks its headers, and verifies that the addresses are indicated correctly. 
-    - [**MTA**](https://mailtrap.io/blog/mail-transfer-agent/) (Mail Transfer Agent) is a sendmail program that processes and transfers emails. It receives messages from the MSA. Most modern MTAs take on MSA’s responsibilities. In that case, message transfer won’t include MSAs. The most popular MTAs are Sendmail, Postfix, and Exim.
-    - **MDA** (Mail Delivery Agent) is the final agent before your emails get delivered to the recipient’s SMTP server and then retrieved through inbound email servers (IMAP or POP3).
+    - <mark>**MUA**</mark> (Mail User Agent) is the email client we mentioned above. It’s an application or a website that you use to send and receive email messages.
+    - <mark>**MSA**</mark> (Mail Submission Agent) receives emails from the email client, checks its headers, and verifies that the addresses are indicated correctly. 
+    - [<mark>**MTA**</mark>](https://mailtrap.io/blog/mail-transfer-agent/) (Mail Transfer Agent) is a sendmail program that processes and transfers emails. It receives messages from the MSA. Most modern MTAs take on MSA’s responsibilities. In that case, message transfer won’t include MSAs. The most popular MTAs are Sendmail, Postfix, and Exim.
+    - <mark>**MDA**</mark> (Mail Delivery Agent) is the final agent before your emails get delivered to the recipient’s SMTP server and then retrieved through inbound email servers (IMAP or POP3).
 
-    ![alt text](/Knowledge_Base/imges/SMTP-20231231234938.png)
+    ![alt text](/Knowledge_Base/images/SMTP-20231231234938.png)
 
-    ![alt text](/Knowledge_Base/imges/SMTP-20231231234916.png)
+    ![alt text](/Knowledge_Base/images/SMTP-20231231234916.png)
 
-    ![alt text](/Knowledge_Base/imges/SMTP-20231231235130.png)
+    ![alt text](/Knowledge_Base/images/SMTP-20231231235130.png)
 
-    ![alt text](/Knowledge_Base/imges/SMTP-20231231234814.png)
+    ![alt text](/Knowledge_Base/images/SMTP-20231231234814.png)
 
-    ![alt text](/Knowledge_Base/imges/SMTP-20231231234602.png)
+    ![alt text](/Knowledge_Base/images/SMTP-20231231234602.png)
