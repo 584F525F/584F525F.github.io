@@ -28,7 +28,7 @@
     - RJ45 to RJ45: Part number 50-1000117-01
     - RJ45 to DB9F: Part number 50-0000112-01
 
-    ![brocade_icx_7150_1](brocade_icx_7150_1.png)
+    ![brocade_icx_7150_1](/Knowledge_Base/imagesbrocade_icx_7150_1.png)
 
     **Sources**
     - [ICX7150](https://docs.commscope.com/bundle/icx7150-installguide/page/GUID-9FB7FB94-16E9-4FB8-8BBB-8B1BDD9B7E79.html)
@@ -46,7 +46,7 @@
     To connect a PC to the serial interface, a **DB9M-to-USB** adapter is required; this adapter can be obtained from an online electronics supplier.
 
     Figure 1. DB9M-to-USB Adapter!
-    ![DB9M-to-USB_Adapter](DB9M-to-USB_Adapter.png)
+    ![DB9M-to-USB_Adapter](/Knowledge_Base/images/DB9M-to-USB_Adapter.png)
 
     Once a serial connection to the switch has been made, a terminal emulation program can be used to access the CLI.
 
