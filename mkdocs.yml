@@ -330,6 +330,7 @@ nav:
               - 'Firmware upgrade with USB Ruckus Brocade ICX': Knowledge_Base/Network/Vendor/Ruckus/Switches/Firmware_upgrade_with_USB_Ruckus_Brocade_ICX.md
               - 'SFP Brocade ICX-7250 ds Ruckus Brocade ICX': Knowledge_Base/Network/Vendor/Ruckus/Switches/SFP_Brocade_ICX-7250_ds_Ruckus_Brocade_ICX.md
               - 'SFP RUCKUS Optics Ruckus Brocade ICX': Knowledge_Base/Network/Vendor/Ruckus/Switches/SFP_RUCKUS_Optics_Ruckus_Brocade_ICX.md
+              - 'Brocade ICX Broadcast & Multicast': docs/Knowledge_Base/Network/Vendor/Ruckus/Switches/Brocade_ICX_Broadcast_&_Multicast.md
             - 'WLC':
               - 'SZ SmartZone':
                 - 'AP Management MGMT Control Data Plane Ports Ruckus SmartZone SZ': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/AP_Management_MGMT_Control_Data_Plane_Ports_Ruckus_SmartZone_SZ.md
