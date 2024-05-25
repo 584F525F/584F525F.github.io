@@ -20,10 +20,10 @@
 
     Make sure this is selected [**Debug** > **Disassembly**]
     
-    ![alt text](image.png)
+    ![alt text](/Knowledge_Base/images/visualstudio-img-soijs-0.png)
 
     Put your breakpoint in then run the program
     
-    ![alt text](image-1.png)
+    ![alt text](/Knowledge_Base/images/visualstudio-img-soijs-1.png)
 
 
