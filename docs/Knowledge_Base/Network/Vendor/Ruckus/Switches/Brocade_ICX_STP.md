@@ -1,5 +1,6 @@
 !!! info ""
 
+    ### How to deal with Broadcast Storms
 
     ```bash
     conf t
@@ -23,6 +24,8 @@
 
 !!! info ""
 
+    ### IPv4 ACLs
+
     IPv4 ACLs that filter based on VLAN membership or VE port membership
     (Router image only) You cannot change VLAN membership on a port while per-port-per-vlan is enabled
 
@@ -40,13 +43,7 @@
 
 !!! info ""
 
-    Limiting multicast
-
-    ```bash
-    #limit multicast Pkts/sec
-    multicast limit 10000
-    ```
-
+    ### How to deal with Multicast Storms
 
     Isolated VLAN. pvlan type command specifies that this port-based VLAN is a PVLAN and can be of the following types:
 
@@ -99,3 +96,10 @@
 
     ![alt text](image-1.png)
 
+    
+    You can also try Limiting multicast, but I do not recommend this.
+
+    ```bash
+    #limit multicast Pkts/sec
+    multicast limit 10000
+    ```
