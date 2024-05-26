@@ -26,38 +26,39 @@
 
     ### Multicast (IGMP)
 
+    ### Summary
+
     When a device processes a multicast packet, by default, it broadcasts the packets to all ports except the incoming port of a VLAN. Packets are flooded by hardware without going to the CPU. This behavior causes some clients to receive unwanted traffic.
 
     IGMP snooping provides multicast containment by forwarding traffic to only the ports that have IGMP receivers for a specific multicast group (destination address). A device maintains the IGMP group membership information by processing the IGMP reports and leave messages, so traffic can be forwarded to ports receiving IGMP reports. An IPv4 multicast address is a destination address in the range of 224.0.0.0 to 239.255.255.255. Addresses of 224.0.0.X are reserved.
 
     If a VLAN is not IGMP snooping-enabled, it floods multicast data and control packets to the entire VLAN in hardware. When snooping is enabled, IGMP packets are trapped to the CPU. Data packets are mirrored to the CPU in addition to being VLAN flooded. The CPU then installs hardware resources, so that subsequent data packets can be switched to desired ports in hardware without going to the CPU. If there is no client report or port to queriers for a data stream, the hardware resource drops it.
 
-    **IGMP mode** (The **default** mode is **passive**)
-    - Active
-      actively sends out IGMP queries to identify multicast groups on the network, and makes entries in the IGMP table based on the group membership reports it receives.
-    - Passive
-       it forwards reports to the router ports which receive queries. IGMP snooping in the passive mode does not send queries. However, it forwards queries to the entire VLAN.
+    #### IGMP modes
+    
+    The default mode is passive. Below are the 2 IGMP modes
+
+    - **Active**
+      actively sends out IGMP queries to <mark>identify multicast groups on the network</mark>, and makes entries in the IGMP table based on the group membership reports it receives.
+    - **Passive**
+       it forwards reports to the router ports which receive queries. IGMP snooping in the passive mode does not send queries. However, it <mark>forwards queries to the entire VLAN</mark>.
+
+    #### The commands
 
     ```bash
-
     #To globally set the IGMP mode
-    device(config)#ip multicast passive
+    device(config)#ip multicast active
 
     #To set the IGMP mode for VLAN 20, enter the following commands.
     device(config)#vlan 20
-    device(config-vlan-20)#multicast passive
-
+    device(config-vlan-20)#multicast active
 
     #You can set the IGMP version this way, same syntax if IGMP over VLAN
     device(config)#ip multicast version 3
     Syntax: [no] ip multicast version [2 | 3]
     #If you do not specify a version number, IGMP V2 is assumed.
-    ```
 
-    ```bash
-    vlan 850
-    multicast passive
-
+    #multicast reporting
     ip multicast report-control
 
     #displaying the IGMP snooping configuration
