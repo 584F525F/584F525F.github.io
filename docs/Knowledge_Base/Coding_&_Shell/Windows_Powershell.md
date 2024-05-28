@@ -1,5 +1,7 @@
 !!! info ""
 
+    **Powershell** is an interpreter for the .Net Framework
+    
     ### Variables
 
     Variables are declared like this

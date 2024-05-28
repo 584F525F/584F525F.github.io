@@ -23,7 +23,7 @@
 
     ### Device Requirements
 
-    ![alt text](image.png)
+    ![alt text](/Knowledge_Base/images/MAP-IMG-sokuhs-0.png)
 
 !!! info ""
 
