@@ -10,6 +10,8 @@
 !!! info ""
 
     #### Resources
+    - [x86 Cheat sheet](https://exploit-notes.hdks.org/exploit/reverse-engineering/assembly/x86-assembly/)
+    - [32-bit Cheat sheet](https://exploit-notes.hdks.org/exploit/reverse-engineering/assembly/32-bit-arm-assembly/)
     - [wikipedia Comparison of assemblers](https://en.wikipedia.org/wiki/Comparison_of_assemblers)
     - [wikipedia - Assembly language](https://en.wikipedia.org/wiki/Assembly_language)
     - [seattlewebsitedevelopers - Assembly Language](https://seattlewebsitedevelopers.medium.com/assembly-language-38e4b0edca0d)
