@@ -231,20 +231,20 @@ nav:
   - Knowledge Base:
     - 'Summary': knowledge_base.md
     - '':
-      - 'Coding & Shell':
-        - 'Ansible': Knowledge_Base/Coding_&_Shell/Ansible.md
-        - 'assembly': Knowledge_Base/Coding_&_Shell/assembly.md
-        - 'bash': Knowledge_Base/Coding_&_Shell/bash.md
-        - 'C#': Knowledge_Base/Coding_&_Shell/C#.md
-        - 'C C++': Knowledge_Base/Coding_&_Shell/C_C++.md
-        - 'Github Git': Knowledge_Base/Coding_&_Shell/Github_Git.md
-        - 'Linux Bash': Knowledge_Base/Coding_&_Shell/Linux_Bash.md
-        - 'Python': Knowledge_Base/Coding_&_Shell/Python.md
-        - 'Visual Studio': Knowledge_Base/Coding_&_Shell/Visual_Studio.md
-        - 'vsCode': Knowledge_Base/Coding_&_Shell/vsCode.md
-        - 'Windows CMD': Knowledge_Base/Coding_&_Shell/Windows_CMD.md
-        - 'Windows Powershell': Knowledge_Base/Coding_&_Shell/Windows_Powershell.md
-        - 'YAML': Knowledge_Base/Coding_&_Shell/YAML.md
+      - 'Coding & Coding_&_Scripting':
+        - 'Ansible': Knowledge_Base/Coding_&_Scripting/Ansible.md
+        - 'Assembly': Knowledge_Base/Coding_&_Scripting/Assembly.md
+        - 'Bash': Knowledge_Base/Coding_&_Scripting/Bash.md
+        - 'C#': Knowledge_Base/Coding_&_Scripting/C#.md
+        - 'C C++': Knowledge_Base/Coding_&_Scripting/C_C++.md
+        - 'Github Git': Knowledge_Base/Coding_&_Scripting/Github_Git.md
+        - 'Linux Bash': Knowledge_Base/Coding_&_Scripting/Linux_Bash.md
+        - 'Python': Knowledge_Base/Coding_&_Scripting/Python.md
+        - 'Visual Studio': Knowledge_Base/Coding_&_Scripting/Visual_Studio.md
+        - 'vsCode': Knowledge_Base/Coding_&_Scripting/vsCode.md
+        - 'Windows CMD': Knowledge_Base/Coding_&_Scripting/Windows_CMD.md
+        - 'Powershell': Knowledge_Base/Coding_&_Scripting/Powershell.md
+        - 'YAML': Knowledge_Base/Coding_&_Scripting/YAML.md
       - 'Home Lab':
         - 'Docker': Knowledge_Base/Home_Lab/Docker.md
         - 'Esxi': Knowledge_Base/Home_Lab/Esxi.md
