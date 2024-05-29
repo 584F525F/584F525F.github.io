@@ -29,6 +29,7 @@
     git rem "XX"
 
     #configuring the remote repo, this way you can call origin instead of the full repo link
+    git remote add origin <github repo link>
     git remote add origin https://github.com/584F525F/584F525F.github.io/
 
     #print the current configured remote repo
@@ -42,6 +43,6 @@
     
     git add .
     git commit -am 'git cache cleared'
-    git push
+    git push <github repo link> <branch>
     
     ```
