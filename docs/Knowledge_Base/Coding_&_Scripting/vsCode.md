@@ -17,3 +17,25 @@
     [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp)
 
 
+!!! info ""
+
+    ### Linux Installation
+
+    [Visual Studio Code on Linux](https://code.visualstudio.com/docs/setup/linux)
+    [Download Visual Studio Code](https://code.visualstudio.com/download)
+
+    #### Ubuntu install
+
+    Download the .deb package from [Here](https://code.visualstudio.com/download)
+
+    ```bash
+    #modify permissions on the .deb file
+    chmod +x code_*.deb
+
+    #install the package
+    sudo dpkg -i code_*.deb
+    ```
+
+
+
+
