@@ -51,11 +51,88 @@
 
 !!! info ""
 
-    ### cleaning unused images
+    #### Create the docker group
 
     ```bash
-    docker image prune -a
+    sudo groupadd docker
     ```
+
+    #### Add your user to the docker group
+
+    !!! Warning ""
+
+        The docker group grants root-level privileges to the user. For details on how this impacts security in your system, see [Docker Daemon Attack Surface](https://docs.docker.com/engine/security/#docker-daemon-attack-surface).
+
+    ```bash
+    sudo usermod -aG docker $USER
+    ```
+
+    Log out and log back in so that your group membership is re-evaluated
+
+    #### activate the changes to groups
+
+    ```bash
+    newgrp docker
+    ```
+
+    #### Verify that you can run docker commands without sudo
+
+    ```bash
+    docker run hello-world
+    ```
+    
+    #### boot startup
+    
+    ##### To enable Docker start on boot
+
+    ```bash
+    sudo systemctl enable docker.service
+    sudo systemctl enable containerd.service
+    ```
+
+    ##### To disable Docker start on boot
+
+    ```bash
+    sudo systemctl disable docker.service
+    sudo systemctl disable containerd.service
+    ```
+
+
+    #### [Run the Docker daemon as a non-root user (Rootless mode)](https://docs.docker.com/engine/security/rootless/)
+
+
+!!! info ""
+
+    ### Docker compose plugin
+
+    #### Install/Update the plugin only
+
+    ```bash
+    sudo apt-get update
+    sudo apt-get install docker-compose-plugin
+    ```
+
+    Check the version
+
+    ```bash
+    docker compose version
+    ```
+
+    #### download and install Compose plugin along side docker
+
+    ```bash
+    sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+    sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+    ```
+
+    #### docker-compose commands
+
+    ```bash
+    docker-compose up -d
+
+
+    ```
+
 
 !!! info ""
 
@@ -117,8 +194,7 @@
     |command | description |
     |:-|:-|
     |```docker-compose build``` |To build docker compose file|
-    |```docker-compose up``` |To run docker compose file|
-    |```docker-compose ls``` |docker-compose ls|
+    |```docker-compose up``` |To run docker compose file - Create and start containers|
     |```docker-compose start``` |To start containers which are already created using docker compose file|
     |```docker docker-compose run``` |To run one one of application inside |
     |```docker-compose rm``` |To remove docker containers from docker compose |
