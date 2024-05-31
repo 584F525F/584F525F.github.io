@@ -1,5 +1,7 @@
 !!! info ""
 
+    ### Summary
+
     Assembly language depends on the CPU Architecture. An assembler translates mnemonics (e.g. jump, mov, add, etc.) from an assembly language into machine instructions. Machine instructions are entirely dependent on the hardware (they represent the hardware/CPU instruction set).
     The assembler implementation may (and generally is) OS-specific, because of the output program it produces (a Unix executable is not the same as a Windows executable, even though the underlying machine instruction set is x86, for example).
 
@@ -9,7 +11,7 @@
 
 !!! info ""
 
-    #### Resources
+    ### Resources
     - [x86 Cheat sheet](https://exploit-notes.hdks.org/exploit/reverse-engineering/assembly/x86-assembly/)
     - [32-bit Cheat sheet](https://exploit-notes.hdks.org/exploit/reverse-engineering/assembly/32-bit-arm-assembly/)
     - [wikipedia Comparison of assemblers](https://en.wikipedia.org/wiki/Comparison_of_assemblers)
@@ -27,11 +29,12 @@
     - [NASM Assembly Language Tutorials - asmtutor](https://asmtutor.com/)
     - [Webster](https://www.plantation-productions.com/Webster/)
     - [AMD CS107 Guide to x86-64](https://josemariasola.github.io/reference/assembler/Stanford%20CS107%20Guide%20to%20x86-64.pdf)
+    - [Brown.edu x64 cheatsheet](/Knowledge_Base/images/Assembly_Brown.edu_x64_cheatsheet.pdf)
 
 
 !!! info ""
 
-    #### View disassembly code in the Visual Studio debugger (C#, C++, Visual Basic, F#)
+    ### View disassembly code in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 
     Source: [Microsoft](https://learn.microsoft.com/en-us/visualstudio/debugger/how-to-use-the-disassembly-window?view=vs-2022)
 
@@ -42,7 +45,7 @@
 
 !!! info ""
 
-    #### Info & Cheatsheets
+    ### Info & Cheatsheets
 
     ![alt text](/Knowledge_Base/images/assembly_0s_3.png)
 
@@ -56,7 +59,76 @@
 
 
 
-    
+!!! info ""
 
+    ### Instructions quick overview
+
+
+    #### Jump Instructions
+
+    |Instruction|Description|Condition Code|
+    |:-|:-|:-|
+    |sete / setz D | Set if equal/zero | ZF | 
+    |setne / setnz D | Set if not equal/nonzero | ~ZF |
+    |sets D | Set if negative | SF |
+    |setns D | Set if nonnegative | ~SF |
+    |setg / setnle D | Set if greater (signed) | ~(SF^0F)&~ZF |
+    |setge / setnl D | Set if greater or equal (signed) | ~(SF^0F) |
+    |setl / setnge D | Set if less (signed) | SF^0F |
+    |setle / setng D | Set if less or equal | (SF^OF)|ZF |
+    |seta / setnbe D | Set if above (unsigned) | ~CF&~ZF |
+    |setae / setnb D | Set if above or equal (unsigned) | ~CF |
+    |setb / setnae D | Set if below (unsigned) | CF |
+    |setbe / setna D | Set if below or equal (unsigned) | CF/ZF |
+
+    #### Jump Instructions
+
+    | **Instruction** | **Description** | **Condition Code** |
+    |:-|:-|:-|
+    |jmp | Label | Jump to label |
+    |jmp | *Operand | Jump to specified location |
+    |je / jz | Label Jump if equal/zero | ZF|
+    |jne / jnz|  Label Jump if not equal/nonzero | ~ZF |
+    |js | Label Jump if negative | SF |
+    |jns | Label Jump if nonnegative | ~SF |
+    |jg / jnle | Label Jump if greater (signed) | ~(SF^0F)&~ZF |
+    |jge / jnl | Label Jump if greater or equal (signed) | ~(SF^0F) |
+    |jl / jnge | Label Jump if less (signed) | SF^0F |
+    |jle / jng | Label Jump if less or equal | (SF^OF)|ZF |
+    |ja / jnbe | Label Jump if above (unsigned) | ~CF&~ZF|
+    |jae / jnb | Label Jump if above or equal (unsigned) | ~CF |
+    |jb / jnae | Label Jump if below (unsigned) | CF |
+    |jbe / jna | Label Jump if below or equal (unsigned) | CF|ZF |
+
+    #### Conditional Move Instructions
+
+    Conditional move instructions do not have any suffixes, but their source and destination
+    operands must have the same size.
+
+    | **Instruction** | **Description** | **Condition Code** |
+    |:-|:-|:-|
+    |cmove / cmovz S, D | Move if equal/zero | ZF |
+    |cmovne / cmovnz S, D | Move if not equal/nonzero | ~ZF |
+    |cmovs S, D | Move if negative SF |
+    |cmovns S, D | Move if nonnegative | ~SF |
+    |cmovg / cmovnle S, D | Move if greater (signed) | ~(SF^0F)&~ZF |
+    |cmovge / cmovnl S, D | Move if greater or equal (signed) | ~(SF^0F) |
+    |cmovl / cmovnge S, D | Move if less (signed) | SF^0F |
+    |cmovle / cmovng S, D | Move if less or equal | (SF^OF)|ZF |
+    |cmova / cmovnbe S, D | Move if above (unsigned) | ~CF&~ZF |
+    |cmovae / cmovnb S, D | Move if above or equal (unsigned) | ~CF |
+    |cmovb / cmovnae S, D | Move if below (unsigned) | CF |
+    |cmovbe / cmovna S, D | Move if below or equal (unsigned) | CF|ZF |
+
+    #### Procedure Call Instruction
+
+    Procedure call instructions do not have any suffixes.
+
+    | **Instruction** | **Description** | **Condition Code** |
+    |:-|:-|:-|
+    |call | Label Push return address and jump to label |
+    |call | *Operand Push return address and jump to specified location |
+    |leave |  | Set %rsp to %rbp, then pop top of stack into %rbp |
+    |ret |  | Pop return address from stack and jump there |
 
 
