@@ -125,7 +125,7 @@
 
         This should take care of multicast storm issues, of course you will need to issue `clear statistics` command after each change and monitor if the changes are actually working or not
         
-        ![alt text](ICX-s98nsxz-0.png)
+        ![alt text](/Knowledge_Base/images/ICX-s98nsxz-0.png)
 
         After the change
 
@@ -180,14 +180,31 @@
     wr mem
     ```
 
-    OR
+    <mark>**OR**</mark>
 
     Create an ACL and assign it
 
+    You will need to know what ports are being utilized by the vendor, depending if this is an STB (Set Top Boxes), Chromecast, etc...
+
+    |Port(s) | Protocol | Service|
+    |:-|:-|:-|
+    |5353 | tcp,udp | Multicast DNS (MDNS) |
+    | 5353 | udp |  Bonjour |
+    | 1900 | tcp,udp | SSDP, UPnP (Universal PnP) |
+
+    Below ACL will block ports 1900 & 5353
+
     ```bash
-    ip access-list extended ACL
-     permit ip 172.17.52.0 0.0.3.255 host 172.17.52.2
-     deny ip 172.17.52.0 0.0.3.255 host 224.0.0.251
-     deny udp 172.17.52.0 0.0.3.255 any eq 5353
-     permit ip any any
+    ip access-list extended Filter_mDNS
+    deny udp any any eq 5353
+    deny udp any any eq 1900
+    permit ip any any
+    ```
+
+    Below is how you apply the ACL above to a Router ve for a specific VLAN
+
+    ```bash
+    #configure the Filter on Interface ve level
+    interface ve <ve_Number>
+     ip access-group Filter_mDNS in
     ```
