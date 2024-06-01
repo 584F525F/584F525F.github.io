@@ -1,1 +1,1 @@
-![alt text](<Linux Kernal.jpg>)
+![alt text](</Knowledge_Base/images/Linux Kernal.jpg>)

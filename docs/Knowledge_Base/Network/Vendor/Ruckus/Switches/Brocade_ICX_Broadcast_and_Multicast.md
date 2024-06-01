@@ -125,11 +125,11 @@
 
         This should take care of multicast storm issues, of course you will need to issue `clear statistics` command after each change and monitor if the changes are actually working or not
         
-        ![alt text](image.png)
+        ![alt text](ICX-s98nsxz-0.png)
 
         After the change
 
-        ![alt text](image-1.png)
+        ![alt text](/Knowledge_Base/images/ICX-s98nsxz-1.png)
         
         You can also try Limiting multicast, but I do not recommend this.
 
