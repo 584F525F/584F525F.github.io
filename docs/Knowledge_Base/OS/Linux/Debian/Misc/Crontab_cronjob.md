@@ -2,7 +2,7 @@
 
     The crontab file has a specific syntax for defining the schedule of a task. Each line in the file represents a single task, and the line is made up of six fields separated by spaces, representing the schedule for when the task should run. The fields are as follows:
 
-    ![alt text](crontab.png)
+    ![alt text](/Knowledge_Base/images/crontab.png)
 
     For example, to run a task every day at 3:00 AM, the line in the crontab file would be:
 

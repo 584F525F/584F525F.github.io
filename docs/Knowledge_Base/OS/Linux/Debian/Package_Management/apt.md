@@ -2,6 +2,39 @@
     
     #### Using APT - Advanced Package Tool
     
+    [apt-get man pages](https://manpages.ubuntu.com/manpages/bionic/man8/apt-get.8.html)
+
+    ##### Installing a package
+	
+    ```bash
+    sudo apt-get install <PackageName>
+    ```
+
+    ##### Removing a package
+	
+    Removes a package, however it **leaves its configuration files on the system**
+
+    ```bash
+    sudo apt-get remove <PackageName>
+    ```
+
+    ##### Purging a package
+	
+    Removes the package and any of its configuration files as long as they are located in `/etc`.
+    If you have configuration files in a location such as `/home` those configurations will remain there when using purge.
+
+    ```bash
+    sudo apt-get purge <PackageName>
+    ```
+
+    ##### Remove & Purging a package
+
+    ```bash
+    apt-get remove --purge packagename
+    ```
+
+    You can read more about the differences between purge and remove here [apt remove vs apt purge](https://itsfoss.com/apt-remove-purge/)
+
     ##### Upgrade OS run
 	
     ```bash
@@ -11,20 +44,20 @@
     ##### To upgrade existing package
     
     ```bash
-    sudo apt-get --only-upgrade install <Package>
+    sudo apt-get --only-upgrade install <PackageName>
     ```
 
     ##### To install & Remove a package
     
     ```bash
-    sudo apt-get install <Package>
-    sudo apt-get remove <Package>
+    sudo apt-get install <PackageName>
+    sudo apt-get remove <PackageName>
     ```
 
     ##### To search for package
     
     ```bash
-    apt search <package>
+    apt search <PackageName>
     ```
 
     ##### See list of upgradable packages
@@ -43,7 +76,7 @@
     ###### View package details, version, etc.
     
     ```bash
-    apt show <Package>
+    apt show <PackageName>
     ```
 
     ##### Check stats on installed Packages
