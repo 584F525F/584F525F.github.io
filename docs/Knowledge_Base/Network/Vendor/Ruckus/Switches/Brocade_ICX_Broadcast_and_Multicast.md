@@ -161,50 +161,52 @@
 
     ### IPv4 ACLs
 
-    IPv4 ACLs that filter based on VLAN membership or VE port membership
-    (Router image only) You cannot change VLAN membership on a port while per-port-per-vlan is enabled
+    #### Method 1
 
-    ```bash
-    #in global config run the below and then reload the switch
-    enable acl-per-port-per-vlan
-    wr mem
-    exit
-    reload
+        IPv4 ACLs that filter based on VLAN membership or VE port membership
+        (Router image only) You cannot change VLAN membership on a port while per-port-per-vlan is enabled
 
-    #do this on all ports EXCEPT the UPLINK PORT
-    int eth 1/1/x to 1/1/x
-    loop-detection shutdown-disable
+        ```bash
+        #in global config run the below and then reload the switch
+        enable acl-per-port-per-vlan
+        wr mem
+        exit
+        reload
 
-    int eth 1/1/x to 1/1/x
-    source-guard enable
-    wr mem
-    ```
+        #do this on all ports EXCEPT the UPLINK PORT
+        int eth 1/1/x to 1/1/x
+        loop-detection shutdown-disable
 
-    <mark>**OR**</mark>
+        int eth 1/1/x to 1/1/x
+        source-guard enable
+        wr mem
+        ```
 
-    Create an ACL and assign it
+    #### Method 2 (Preferable)
 
-    You will need to know what ports are being utilized by the vendor, depending if this is an STB (Set Top Boxes), Chromecast, etc...
+        Create an ACL and assign it
 
-    |Port(s) | Protocol | Service|
-    |:-|:-|:-|
-    |5353 | tcp,udp | Multicast DNS (MDNS) |
-    | 5353 | udp |  Bonjour |
-    | 1900 | tcp,udp | SSDP, UPnP (Universal PnP) |
+        You will need to know what ports are being utilized by the vendor, depending if this is an STB (Set Top Boxes), Chromecast, etc...
 
-    Below ACL will block ports 1900 & 5353
+        |Port(s) | Protocol | Service|
+        |:-|:-|:-|
+        |5353 | tcp,udp | Multicast DNS (MDNS) |
+        | 5353 | udp |  Bonjour |
+        | 1900 | tcp,udp | SSDP, UPnP (Universal PnP) |
 
-    ```bash
-    ip access-list extended Filter_mDNS
-    deny udp any any eq 5353
-    deny udp any any eq 1900
-    permit ip any any
-    ```
+        Below ACL will block ports 1900 & 5353
 
-    Below is how you apply the ACL above to a Router ve for a specific VLAN
+        ```bash
+        ip access-list extended Filter_mDNS
+        deny udp any any eq 5353
+        deny udp any any eq 1900
+        permit ip any any
+        ```
 
-    ```bash
-    #configure the Filter on Interface ve level
-    interface ve <ve_Number>
-     ip access-group Filter_mDNS in
-    ```
+        Below is how you apply the ACL above to a Router ve for a specific VLAN
+
+        ```bash
+        #configure the Filter on Interface ve level
+        interface ve <ve_Number>
+        ip access-group Filter_mDNS in
+        ```
