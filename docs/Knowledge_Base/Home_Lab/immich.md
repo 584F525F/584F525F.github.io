@@ -175,7 +175,6 @@
 		REDIS_HOSTNAME=immich_redis
 		```
 
-    Open your browser to http://127.0.0.1:2283 and continue your setup.
-
+    Open your browser to [http://127.0.0.1:2283](http://127.0.0.1:2283) and continue your setup.
 
     In order to recreate the container using docker compose, run `docker compose up -d`. In most cases docker will recognize that the .env file has changed and recreate the affected containers. If this should not work, try running `docker compose up -d --force-recreate`
