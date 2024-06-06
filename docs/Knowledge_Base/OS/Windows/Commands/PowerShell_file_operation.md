@@ -21,7 +21,7 @@
     another way of doing it
 
     ```powershell
-    Get-ChildItem "C:\Users\yshana534\gibt\docs\Knowledge_Base" *.md -Recurse | Select-Object FullName
+    Get-ChildItem "C:\temp\test_folder" *.md -Recurse | Select-Object FullName
     ```
 
     #### Create a file
