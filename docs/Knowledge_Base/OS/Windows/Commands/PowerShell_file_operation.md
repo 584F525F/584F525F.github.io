@@ -2,12 +2,24 @@
 
     ### Files
 
-    #### Renaming files [replacing spcific chars in files]
+    #### Renaming files [replacing specific chars in files]
 
-    rename files, replacing any -opendir with nothing
+    rename files, replacing any old_value with new_value
 
     ```powershell
-    get-childitem * -r | foreach {rename-item $_ $_.name.replace("-opendir","")}
+    get-childitem * -r | foreach {rename-item $_ $_.name.replace("old_value","new_value")}
+    ```
+
+    List the files in a directory and recurse replace old_value with new_value
+
+    ```powershell
+    ls *.md -r | Rename-Item -NewName {$_.name -replace "old_value","new_value"}
+    ```
+
+    Replace file/folder name value from old_value to new_value
+
+    ```powershell
+    Get-ChildItem -r | Rename-Item -NewName { $_.name -replace 'old_value', 'new_value'} -verbose
     ```
 
     #### Get file full path
