@@ -189,7 +189,7 @@
         If any of the above are false, stop and correct the issue
         ```
 
-        Software upgrades should only be performed on healthy clusters to prevent further issues.
+        Software upgrades should only be performed on healthy clusters to prevent further issues
 
         ##### 2. Determine next Upgrade Version
 
@@ -200,7 +200,7 @@
         show version
         ```
 
-        Refer to 'Common Upgrade Paths' section to determine the next software version.
+        Refer to `Common Upgrade Paths` section to determine the next software version
 
         ##### 3. Cleanup old files
 
@@ -211,7 +211,8 @@
         ##### 4. Update the Autorecovery State
 
         ```bash
-        request system autorecovery state save` on both nodes
+        #run the command on both nodes
+        request system autorecovery state save
         ```
 
         ##### 5. Verify Alternate Root Partition Software
@@ -230,9 +231,7 @@
         request routing-engine login node #
         ```
 
-        Repeat the same verification.
-
-        If either node does not match run
+        Repeat the same verification, if either node does not match then run the following
 
         ```bash
         request system snapshot slice alternate
@@ -309,13 +308,12 @@
 
         ##### 3. Validate and add the software package
 
-        From the SRX command line, run the following to validate and add the software, modifying `filename` to match filename used in the previous step:
+        From the SRX command line, run the following to validate and add the software, modifying **`filename`** to match filename used in the previous step:
 
         ```bash
+        #run the command on both Nodes (note that this might take sometime to finish)
         request system software add /var/tmp/filename
         ```
-
-        Repeat this command on the other node. This command will take some time to finish.
 
         To finish the install, reboot the devices
 
@@ -327,7 +325,7 @@
 
         ##### 4. Verification
 
-        When the SRX has finished rebooting and is accessible again, log in and verify the expected version has been installed using `show version`.
+        When the SRX has finished rebooting and is accessible again, log in and verify the expected version has been installed using **`show version`**
 
         If the version does not match the expected result, verify the version of Software used to upgrade the system.
 
