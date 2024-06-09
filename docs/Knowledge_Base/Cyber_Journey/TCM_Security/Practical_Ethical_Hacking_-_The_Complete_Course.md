@@ -6,49 +6,49 @@
     
     !!! info ""
     
-        #### Introduction (1:11)
+        #### Introduction
     
     
     
     !!! info ""
     
-        #### IP Addresses (13:06)
+        #### IP Addresses
     
     
     
     !!! info ""
     
-        #### MAC Addresses (3:13)
+        #### MAC Addresses
     
     
     
     !!! info ""
     
-        #### TCP, UDP, and the Three-Way Handshake (5:12)
+        #### TCP, UDP, and the Three-Way Handshake
     
     
     
     !!! info ""
     
-        #### Common Ports and Protocols (6:09)
+        #### Common Ports and Protocols
     
     
     
     !!! info ""
     
-        #### The OSI Model (5:30)
+        #### The OSI Model
     
     
     
     !!! info ""
     
-        #### Subnetting Part 1 (26:59)
+        #### Subnetting Part 1
     
     
     
     !!! info ""
     
-        #### Subnetting Part 2 (4:13)
+        #### Subnetting Part 2
     
     
     
@@ -65,19 +65,19 @@
     
     !!! info ""
     
-        #### Installing VMWare / VirtualBox (6:15)
+        #### Installing VMWare / VirtualBox
     
     
     
     !!! info ""
     
-        #### Configuring VirtualBox (3:16)
+        #### Configuring VirtualBox
     
     
     
     !!! info ""
     
-        #### Installing Kali Linux (5:32)
+        #### Installing Kali Linux
     
     
     
@@ -94,55 +94,55 @@
     
     !!! info ""
     
-        #### Exploring Kali Linux (3:28)
+        #### Exploring Kali Linux
     
     
     
     !!! info ""
     
-        #### Sudo Overview (5:12)
+        #### Sudo Overview
     
     
     
     !!! info ""
     
-        #### Navigating the File System (18:12)
+        #### Navigating the File System
     
     
     
     !!! info ""
     
-        #### Users and Privileges (16:54)
+        #### Users and Privileges
     
     
     
     !!! info ""
     
-        #### Common Network Commands (8:26)
+        #### Common Network Commands
     
     
     
     !!! info ""
     
-        #### Viewing, Creating, and Editing Files (6:21)
+        #### Viewing, Creating, and Editing Files
     
     
     
     !!! info ""
     
-        #### Starting and Stopping Services (6:17)
+        #### Starting and Stopping Services
     
     
     
     !!! info ""
     
-        #### Installing and Updating Tools (11:53)
+        #### Installing and Updating Tools
     
     
     
     !!! info ""
     
-        #### Scripting with Bash (22:34)
+        #### Scripting with Bash
     
     
     
@@ -160,133 +160,133 @@
     
     !!! info ""
     
-        #### Introduction (2:19)
+        #### Introduction
     
     
 
     
     !!! info ""
     
-        #### Strings (7:24)
+        #### Strings
     
     
 
     
     !!! info ""
     
-        #### Math (5:44)
+        #### Math
     
     
 
     
     !!! info ""
     
-        #### Variables and Methods (10:20)
+        #### Variables and Methods
     
     
 
     
     !!! info ""
     
-        #### Functions (8:58)
+        #### Functions
     
     
 
     
     !!! info ""
     
-        #### Boolean Expressions and Relational Operators (8:33)
+        #### Boolean Expressions and Relational Operators
     
     
 
     
     !!! info ""
     
-        #### Conditional Statements (6:58)
+        #### Conditional Statements
     
     
 
     
     !!! info ""
     
-        #### Lists (12:12)
+        #### Lists
     
     
 
     
     !!! info ""
     
-        #### Tuples (2:11)
+        #### Tuples
     
     
 
     
     !!! info ""
     
-        #### Looping (4:29)
+        #### Looping
     
     
 
     
     !!! info ""
     
-        #### Advanced Strings (12:39)
+        #### Advanced Strings
     
     
 
     
     !!! info ""
     
-        #### Dictionaries (6:24)
+        #### Dictionaries
     
     
 
     
     !!! info ""
     
-        #### Importing Modules (5:58)
+        #### Importing Modules
     
     
 
     
     !!! info ""
     
-        #### Sockets (7:39)
+        #### Sockets
     
     
 
     
     !!! info ""
     
-        #### Building a Port Scanner (18:33)
+        #### Building a Port Scanner
     
     
 
     
     !!! info ""
     
-        #### User Input (8:38)
+        #### User Input
     
     
 
     
     !!! info ""
     
-        #### Reading and Writing Files (9:56)
+        #### Reading and Writing Files
     
     
 
     
     !!! info ""
     
-        #### Classes and Objects (7:51)
+        #### Classes and Objects
     
     
 
     
     !!! info ""
     
-        #### Building a Shoe Budget Tool (14:19)
+        #### Building a Shoe Budget Tool
     
     
 
@@ -306,7 +306,7 @@
     
     !!! info ""
     
-        #### The Five Stages of Ethical Hacking (5:16)
+        #### The Five Stages of Ethical Hacking
     
     
 
@@ -326,84 +326,84 @@
     
     !!! info ""
     
-        #### Passive Reconnaissance Overview (7:32)
+        #### Passive Reconnaissance Overview
     
     
 
     
     !!! info ""
     
-        #### Identifying Our Target (3:33)
+        #### Identifying Our Target
     
     
 
     
     !!! info ""
     
-        #### Discovering Email Addresses (15:48)
+        #### Discovering Email Addresses
     
     
 
     
     !!! info ""
     
-        #### Gathering Breached Credentials with Breach-Parse (7:17)
+        #### Gathering Breached Credentials with Breach-Parse
     
     
 
     
     !!! info ""
     
-        #### Hunting Breached Credentials with DeHashed (11:55)
+        #### Hunting Breached Credentials with DeHashed
     
     
 
     
     !!! info ""
     
-        #### Hunting Subdomains Part 1 (5:31)
+        #### Hunting Subdomains Part 1
     
     
 
     
     !!! info ""
     
-        #### Hunting Subdomains Part 2 (4:48)
+        #### Hunting Subdomains Part 2
     
     
 
     
     !!! info ""
     
-        #### Identifying Website Technologies (7:06)
+        #### Identifying Website Technologies
     
     
 
     
     !!! info ""
     
-        #### Information Gathering with Burp Suite (8:48)
+        #### Information Gathering with Burp Suite
     
     
 
     
     !!! info ""
     
-        #### Google Fu (5:31)
+        #### Google Fu
     
     
 
     
     !!! info ""
     
-        #### Utilizing Social Media (5:37)
+        #### Utilizing Social Media
     
     
 
     
     !!! info ""
     
-        #### Additional Learning (OSINT Fundamentals) (0:48)
+        #### Additional Learning (OSINT Fundamentals)
     
     
 
@@ -422,56 +422,56 @@
     
     !!! info ""
     
-        #### Installing Kioptrix (6:17)
+        #### Installing Kioptrix
     
     
 
     
     !!! info ""
     
-        #### Scanning with Nmap (19:46)
+        #### Scanning with Nmap
     
     
 
     
     !!! info ""
     
-        #### Enumerating HTTP and HTTPS Part 1 (15:01)
+        #### Enumerating HTTP and HTTPS Part 1
     
     
 
     
     !!! info ""
     
-        #### Enumerating HTTP and HTTPS Part 2 (15:08)
+        #### Enumerating HTTP and HTTPS Part 2
     
     
 
     
     !!! info ""
     
-        #### Enumerating SMB (14:19)
+        #### Enumerating SMB
     
     
 
     
     !!! info ""
     
-        #### Enumerating SSH (4:09)
+        #### Enumerating SSH
     
     
 
     
     !!! info ""
     
-        #### Researching Potential Vulnerabilities (14:49)
+        #### Researching Potential Vulnerabilities
     
     
 
     
     !!! info ""
     
-        #### Our Notes So Far (3:06)
+        #### Our Notes So Far
     
     
 
@@ -495,14 +495,14 @@
     
     !!! info ""
     
-        #### Scanning with Nessus Part 1 (10:34)
+        #### Scanning with Nessus Part 1
     
     
 
     
     !!! info ""
     
-        #### Scanning with Nessus Part 2 (6:09)
+        #### Scanning with Nessus Part 2
     
     
 
@@ -521,28 +521,28 @@
     
     !!! info ""
     
-        #### Reverse Shells vs Bind Shells (7:00)
+        #### Reverse Shells vs Bind Shells
     
     
 
     
     !!! info ""
     
-        #### Staged vs Non-Staged Payloads (3:21)
+        #### Staged vs Non-Staged Payloads
     
     
 
     
     !!! info ""
     
-        #### Gaining Root with Metasploit (7:40)
+        #### Gaining Root with Metasploit
     
     
 
     
     !!! info ""
     
-        #### Manual Exploitation (12:40)
+        #### Manual Exploitation
     
 
 
@@ -552,20 +552,20 @@
     
     !!! info ""
     
-        #### Brute Force Attacks (7:49)
+        #### Brute Force Attacks
     
     
     
     !!! info ""
     
-        #### Credential Stuffing and Password Spraying (14:02)
+        #### Credential Stuffing and Password Spraying
     
 
 
 
     !!! info ""
     
-        #### Our Notes, Revisited (3:03)
+        #### Our Notes, Revisited
 
 
 
@@ -578,60 +578,60 @@
 
 !!! info ""
 
-        ### New Capstone
+    ### New Capstone
     
     
     !!! info ""
     
-        #### Introduction (5:42)
-    
-
-
-
-    !!! info ""
-    
-        #### Set Up - Blue (3:56)
+        #### Introduction
     
 
 
 
     !!! info ""
     
-        #### Walkthrough - Blue (17:00)
+        #### Set Up - Blue
     
 
 
 
     !!! info ""
     
-        #### Set Up - Academy (2:24)
+        #### Walkthrough - Blue
     
 
 
 
     !!! info ""
     
-        #### Walkthrough - Academy (44:19)
-    
-
-
-    !!! info ""
-    
-        #### Walkthrough - Dev (25:20)
+        #### Set Up - Academy
     
 
 
 
     !!! info ""
     
-    #### Walkthrough - Butler (36:18)
+        #### Walkthrough - Academy
+    
+
+
+    !!! info ""
+    
+        #### Walkthrough - Dev
     
 
 
 
     !!! info ""
     
-        #### Walkthrough - Blackpearl (23:30)
+    #### Walkthrough - Butler
+    
+
+
+
+    !!! info ""
+    
+        #### Walkthrough - Blackpearl
     
 
     
@@ -645,7 +645,7 @@
 
     !!! info ""
     
-        #### Active Directory Overview (5:39)
+        #### Active Directory Overview
     
     
     
@@ -653,7 +653,7 @@
     
     !!! info ""
     
-        #### Physical Active Directory Components (2:37)
+        #### Physical Active Directory Components
     
     
     
@@ -662,7 +662,7 @@
     
     !!! info ""
     
-        #### Logical Active Directory Components (7:13)
+        #### Logical Active Directory Components
     
     
     
@@ -683,7 +683,7 @@
     
     !!! info ""
     
-        #### Lab Overview and Requirements (3:03)
+        #### Lab Overview and Requirements
     
     
     
@@ -691,7 +691,7 @@
     
     !!! info ""
     
-        #### Lab Build - (Cloud Alternative) (2:04)
+        #### Lab Build - (Cloud Alternative)
     
     
     
@@ -699,35 +699,35 @@
     
     !!! info ""
     
-        #### Downloading Necessary ISOs (3:59)
+        #### Downloading Necessary ISOs
     
     
 
     
     !!! info ""
     
-        #### Setting Up the Domain Controller (16:25)
+        #### Setting Up the Domain Controller
     
     
 
     
     !!! info ""
     
-        #### Setting Up the User Machines (11:01)
+        #### Setting Up the User Machines
     
     
 
     
     !!! info ""
     
-        #### Setting Up Users, Groups, and Policies (17:02)
+        #### Setting Up Users, Groups, and Policies
     
     
 
     
     !!! info ""
     
-        #### Joining Our Machines to the Domain (12:06)
+        #### Joining Our Machines to the Domain
     
 
     
@@ -740,98 +740,98 @@
     
     !!! info ""
     
-        #### Introduction (2:14)
+        #### Introduction
     
     
 
     
     !!! info ""
     
-        #### LLMNR Poisoning Overview (4:56)
+        #### LLMNR Poisoning Overview
     
     
 
     
     !!! info ""
     
-        #### Capturing Hashes with Responder (5:59)
+        #### Capturing Hashes with Responder
     
     
 
     
     !!! info ""
     
-        #### Cracking Our Captured Hashes (11:04)
+        #### Cracking Our Captured Hashes
     
     
 
     
     !!! info ""
     
-        #### LLMNR Poisoning Mitigation (2:22)
+        #### LLMNR Poisoning Mitigation
     
     
 
     
     !!! info ""
     
-        #### SMB Relay Attacks Overview (5:28)
+        #### SMB Relay Attacks Overview
     
     
 
     
     !!! info ""
     
-        #### SMB Relay Attacks Lab (10:59)
+        #### SMB Relay Attacks Lab
     
     
 
     
     !!! info ""
     
-        #### SMB Relay Attack Defenses (3:45)
+        #### SMB Relay Attack Defenses
     
     
 
     
     !!! info ""
     
-        #### Gaining Shell Access (13:42)
+        #### Gaining Shell Access
     
     
 
     
     !!! info ""
     
-        #### IPv6 Attacks Overview (4:00)
+        #### IPv6 Attacks Overview
     
     
 
     
     !!! info ""
     
-        #### IPv6 DNS Takeover via mitm6 (10:57)
+        #### IPv6 DNS Takeover via mitm6
     
     
 
     
     !!! info ""
     
-        #### IPv6 Attack Defenses (2:50)
+        #### IPv6 Attack Defenses
     
     
 
     
     !!! info ""
     
-        #### Passback Attacks (5:16)
+        #### Passback Attacks
     
     
 
     
     !!! info ""
     
-        #### Initial Internal Attack Strategy (3:56)
+        #### Initial Internal Attack Strategy
     
     
 
@@ -846,35 +846,39 @@
 
     ### Attacking Active Directory: Post-Compromise Enumeration
     
-    Introduction (2:10)
+
+
+    !!! info ""
+    
+        #### Introduction
     
     
 
     
     !!! info ""
     
-        #### Domain Enumeration with ldapdomaindump (4:24)
+        #### Domain Enumeration with ldapdomaindump
     
     
 
     
     !!! info ""
     
-        #### Domain Enumeration with Bloodhound (12:28)
+        #### Domain Enumeration with Bloodhound
     
     
 
     
     !!! info ""
     
-        #### Domain Enumeration with Plumhound (6:42)
+        #### Domain Enumeration with Plumhound
     
     
 
     
     !!! info ""
     
-        #### Domain Enumeration with PingCastle (6:16)
+        #### Domain Enumeration with PingCastle
     
     
 
@@ -894,112 +898,112 @@
     
     !!! info ""
     
-        #### Introduction (0:49)
+        #### Introduction
     
     
 
     
     !!! info ""
     
-        #### Pass Attacks Overview (5:56)
+        #### Pass Attacks Overview
     
     
 
     
     !!! info ""
     
-        #### Pass Attacks (13:37)
+        #### Pass Attacks
     
     
 
     
     !!! info ""
     
-        #### Dumping and Cracking Hashes (10:59)
+        #### Dumping and Cracking Hashes
     
     
 
     
     !!! info ""
     
-        #### Pass Attack Mitigations (1:53)
+        #### Pass Attack Mitigations
     
     
 
     
     !!! info ""
     
-        #### Kerberoasting Overview (3:47)
+        #### Kerberoasting Overview
     
     
 
     
     !!! info ""
     
-        #### Kerberoasting Walkthrough (3:34)
+        #### Kerberoasting Walkthrough
     
     
 
     
     !!! info ""
     
-        #### Kerberoasting Mitigation (0:53)
+        #### Kerberoasting Mitigation
     
     
 
     
     !!! info ""
     
-        #### Token Impersonation Overview (4:51)
+        #### Token Impersonation Overview
     
     
 
     
     !!! info ""
     
-        #### Token Impersonation Walkthrough (9:26)
+        #### Token Impersonation Walkthrough
     
     
 
     
     !!! info ""
     
-        #### Token Impersonation Mitigation (1:19)
+        #### Token Impersonation Mitigation
     
     
 
     
     !!! info ""
     
-        #### LNK File Attacks (8:00)
+        #### LNK File Attacks
     
     
 
     
     !!! info ""
     
-        #### GPP / cPassword Attacks and Mitigations (4:20)
+        #### GPP / cPassword Attacks and Mitigations
     
     
 
     
     !!! info ""
     
-        #### Mimikatz Overview (2:02)
+        #### Mimikatz Overview
     
     
 
     
     !!! info ""
     
-        #### Credential Dumping with Mimikatz (8:59)
+        #### Credential Dumping with Mimikatz
     
     
 
     
     !!! info ""
     
-        #### Post-Compromise Attack Strategy (3:40)
+        #### Post-Compromise Attack Strategy
     
     
 
@@ -1019,28 +1023,28 @@
     
     !!! info ""
     
-        #### Post-Domain Compromise Attack Strategy (4:16)
+        #### Post-Domain Compromise Attack Strategy
     
     
 
     
     !!! info ""
     
-        #### Dumping the NTDS.dit (9:43)
+        #### Dumping the NTDS.dit
     
     
 
     
     !!! info ""
     
-        #### Golden Ticket Attacks Overview (2:41)
+        #### Golden Ticket Attacks Overview
     
     
 
     
     !!! info ""
     
-        #### Golden Ticket Attacks (7:18)
+        #### Golden Ticket Attacks
     
 
     
@@ -1053,21 +1057,21 @@
     
     !!! info ""
     
-        #### Section Overview (2:53)
+        #### Section Overview
     
     
 
     
     !!! info ""
     
-        #### Abusing ZeroLogon (9:02)
+        #### Abusing ZeroLogon
     
     
 
     
     !!! info ""
     
-        #### PrintNightmare (CVE-2021-1675) Walkthrough (12:05)
+        #### PrintNightmare (CVE-2021-1675) Walkthrough
     
     
 
@@ -1086,21 +1090,21 @@
     
     !!! info ""
     
-        #### AD Case Study #1 (7:41)
+        #### AD Case Study #1
     
     
 
     
     !!! info ""
     
-        #### AD Case Study #2 (7:19)
+        #### AD Case Study #2
     
     
 
     
     !!! info ""
     
-        #### AD Case Study #3 (7:52)
+        #### AD Case Study #3
     
 
     
@@ -1113,42 +1117,42 @@
     
     !!! info ""
     
-        #### Introduction (1:49)
+        #### Introduction
     
     
 
     
     !!! info ""
     
-        #### File Transfers Review (2:32)
+        #### File Transfers Review
     
     
 
     
     !!! info ""
     
-        #### Maintaining Access Overview (3:32)
+        #### Maintaining Access Overview
     
     
 
     
     !!! info ""
     
-        #### Pivoting Overview (4:00)
+        #### Pivoting Overview
     
     
 
     
     !!! info ""
     
-        #### Pivoting Walkthrough (8:07)
+        #### Pivoting Walkthrough
     
     
 
     
     !!! info ""
     
-        #### Cleaning Up (2:48)
+        #### Cleaning Up
     
     
 
@@ -1167,56 +1171,56 @@
     
     !!! info ""
     
-        #### Introduction (1:49)
+        #### Introduction
     
     
 
     
     !!! info ""
     
-        #### Installing Go (1:19)
+        #### Installing Go
     
     
 
     
     !!! info ""
     
-        #### Finding Subdomains with Assetfinder (7:43)
+        #### Finding Subdomains with Assetfinder
     
     
 
     
     !!! info ""
     
-        #### Finding Subdomains with Amass (5:27)
+        #### Finding Subdomains with Amass
     
     
 
     
     !!! info ""
     
-        #### Finding Alive Domains with Httprobe (7:14)
+        #### Finding Alive Domains with Httprobe
     
     
 
     
     !!! info ""
     
-        #### Screenshotting Websites with GoWitness (4:10)
+        #### Screenshotting Websites with GoWitness
     
     
 
     
     !!! info ""
     
-        #### Automating the Enumeration Process (5:46)
+        #### Automating the Enumeration Process
     
     
 
     
     !!! info ""
     
-        #### Additional Resources (2:18)
+        #### Additional Resources
     
     
 
@@ -1235,169 +1239,161 @@
     
     !!! info ""
     
-        #### Introduction (0:58)
+        #### Introduction
     
     
 
     
     !!! info ""
     
-        #### Lab Setup (full text instructions included in course notes) (8:35)
+        #### Lab Setup (full text instructions included in course notes)
     
     
 
     
     !!! info ""
     
-        #### SQL Injection - Introduction (4:03)
+        #### SQL Injection - Introduction
     
     
 
     
     !!! info ""
     
-        #### SQL Injection - UNION (9:38)
+        #### SQL Injection - UNION
     
     
 
     
     !!! info ""
     
-        #### SQL Injection - Blind Part 1 (9:52)
+        #### SQL Injection - Blind Part 1
     
     
 
     
     !!! info ""
     
-        #### SQL Injection - Blind Part 2 (12:53)
+        #### SQL Injection - Blind Part 2
     
     
 
     
     !!! info ""
     
-        #### SQL Injection - Challenge Waklthrough (5:36)
+        #### SQL Injection - Challenge Waklthrough
     
     
 
     
     !!! info ""
     
-        #### XSS - Introduction (4:50)
+        #### XSS - Introduction
     
     
 
     
     !!! info ""
     
-        #### XSS - DOM Lab (3:25)
+        #### XSS - DOM Lab
     
     
 
     
     !!! info ""
     
-        #### XSS - Stored Lab (7:38)
+        #### XSS - Stored Lab
     
     
 
     
     !!! info ""
     
-        #### XSS - Challenge Walkthrough (3:24)
+        #### XSS - Challenge Walkthrough
     
     
 
     
     !!! info ""
     
-        #### Command Injection - Introduction (2:24)
+        #### Command Injection - Introduction
     
     
 
     
     !!! info ""
     
-        #### Command Injection - Basics (7:54)
+        #### Command Injection - Basics
     
     
 
     
     !!! info ""
     
-        #### Command Injection - Blind / Out-of-Band (8:49)
+        #### Command Injection - Blind / Out-of-Band
     
     
 
     
     !!! info ""
     
-        #### Command Injection - Challenge Walkthrough (4:04)
+        #### Command Injection - Challenge Walkthrough
     
     
 
     
     !!! info ""
     
-        #### Insecure File Upload - Introduction (0:31)
+        #### Insecure File Upload - Introduction
     
     
 
     
     !!! info ""
     
-        #### Insecure File Upload - Basic Bypass (8:48)
+        #### Insecure File Upload - Basic Bypass
     
     
 
     
     !!! info ""
     
-        #### Insecure File Upload - Magic Bytes (9:13)
+        #### Insecure File Upload - Magic Bytes
     
     
 
     
     !!! info ""
     
-        #### Insecure File Upload - Challenge Walkthrough (3:29)
+        #### Insecure File Upload - Challenge Walkthrough
     
     
 
     
     !!! info ""
     
-        #### Attacking Authentication - Intro (1:14)
+        #### Attacking Authentication - Intro
     
     
 
     
     !!! info ""
     
-        #### Attacking Authentication - Brute Force (7:00)
+        #### Attacking Authentication - Brute Force
     
     
 
     
     !!! info ""
     
-        #### Attacking Authentication - MFA (6:20)
+        #### Attacking Authentication - MFA
     
     
 
     
     !!! info ""
     
-        #### Attacking Authentication - Challenge Walkthrough (10:30)
-    
-    
-
-
-    
-    !!! info ""
-    
-        #### XXE - External Entities Injection (6:04)
+        #### Attacking Authentication - Challenge Walkthrough
     
     
 
@@ -1405,7 +1401,7 @@
     
     !!! info ""
     
-        #### IDOR - Insecure Direct Object Reference (4:38)
+        #### XXE - External Entities Injection
     
     
 
@@ -1413,7 +1409,7 @@
     
     !!! info ""
     
-        #### Capstone - Introduction (0:57)
+        #### IDOR - Insecure Direct Object Reference
     
     
 
@@ -1421,7 +1417,15 @@
     
     !!! info ""
     
-        #### Capstone - Solution (17:07)
+        #### Capstone - Introduction
+    
+    
+
+
+    
+    !!! info ""
+    
+        #### Capstone - Solution
     
     
 
@@ -1442,7 +1446,7 @@
     
     !!! info ""
     
-        #### 001_Wireless_Penetration_Testing_Overview (10:26)
+        #### 001_Wireless_Penetration_Testing_Overview
     
     
 
@@ -1450,7 +1454,7 @@
     
     !!! info ""
     
-        #### 002_WPA_PS2_Exploit_Walkthrough (13:12)
+        #### 002_WPA_PS2_Exploit_Walkthrough
     
     
 
@@ -1469,7 +1473,7 @@
 
     !!! info ""
     
-        #### 001_Common_Legal_Documents (7:17)
+        #### 001_Common_Legal_Documents
     
 
 
@@ -1478,7 +1482,7 @@
 
     !!! info ""
     
-        #### 002_Pentest_Report_Writing (11:16)
+        #### 002_Pentest_Report_Writing
     
 
 
@@ -1487,7 +1491,7 @@
 
     !!! info ""
     
-        #### 003_Reviewing_a_Real_Pentest_Report (19:34)
+        #### 003_Reviewing_a_Real_Pentest_Report
     
 
 
