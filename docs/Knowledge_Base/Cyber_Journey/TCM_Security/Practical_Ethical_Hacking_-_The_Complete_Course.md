@@ -8,7 +8,6 @@
         #### IP Addresses
     
     
-    
     !!! info ""
     
         #### MAC Addresses
@@ -22,7 +21,8 @@
     
         TCP (Transmission Control Protocol) and UDP (User Datagram Protocol)
 
-        TCP Handshake
+        **TCP Handshake**:
+
         - **SYN (Synchronize)**: The initiating device (often referred to as the client) sends a TCP packet with the SYN flag set to the destination device (often referred to as the server). This packet indicates the desire to establish a connection and includes an initial sequence number.
         - **SYN-ACK (Synchronize-Acknowledge)**: Upon receiving the SYN packet, the destination device responds with a TCP packet that has both the SYN and ACK (acknowledge) flags set. This packet acknowledges the receipt of the initial SYN packet and also includes its own initial sequence number
         - **ACK (Acknowledge)**: Finally, the initiating device acknowledges the SYN-ACK packet by sending an ACK packet back to the destination. This packet confirms the establishment of the connection and typically contains an incremented sequence number.
@@ -74,9 +74,10 @@
     
     !!! info ""
     
-        #### Subnetting Part 1
+        #### Subnetting
 
         **Resources**:
+
         - [Seven Second Subnetting](https://www.youtube.com/watch?v=ZxAwQB8TZsM)
         - [Subnet Guide](https://drive.google.com/file/d/1ETKH31-E7G-7ntEOlWGZcDZWuukmeHFe/view)
 
@@ -116,18 +117,6 @@
         ![alt text](image-2.png)
 
 
-    
-    !!! info ""
-    
-        #### Subnetting Part 2
-    
-    
-    
-    !!! info ""
-    
-        #### Section Quiz
-
-
 !!! info ""
 
     ### Setting Up Our Lab
@@ -137,9 +126,10 @@
     
         #### Installing VMWare / VirtualBox
     
-        VMware: https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
-        VirtualBox: https://www.virtualbox.org/wiki/Downloads
-    
+        - [VMware](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html)
+        - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+
+
     !!! info ""
     
         #### Configuring VirtualBox
@@ -149,24 +139,17 @@
     
         #### Installing Kali Linux
     
-        Download Kali - https://www.kali.org/get-kali/#kali-virtual-machines
-
-        Download 7zip - https://www.7-zip.org/download.html
+        - [Download Kali](https://www.kali.org/get-kali/#kali-virtual-machines)
+        - [Download 7zip](https://www.7-zip.org/download.html)
 
         Kali 2019.4. The credentials of root:toor
         The credentials, as of 2020.1, are kali:kali
 
 
-    !!! info ""
-    
-        #### Section Quiz
-
-
 !!! info ""
 
     ### Introduction to Linux
-    
-    
+
     
     !!! info ""
     
@@ -339,9 +322,7 @@
     
     
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -484,9 +465,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 
@@ -504,9 +483,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 
@@ -601,9 +578,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -669,9 +644,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -700,9 +673,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -763,9 +734,7 @@
 
 
 
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 
@@ -862,9 +831,7 @@
     
     
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 
@@ -1029,9 +996,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 
@@ -1076,9 +1041,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 
@@ -1201,9 +1164,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 
@@ -1269,9 +1230,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -1350,9 +1309,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -1418,9 +1375,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -1624,9 +1579,7 @@
 
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -1653,9 +1606,7 @@
 
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -1690,9 +1641,7 @@
 
 
 
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""

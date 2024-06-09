@@ -40,9 +40,7 @@
         #### Subnetting Part 2
     
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -69,9 +67,7 @@
     
     
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -134,9 +130,7 @@
     
     
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -279,9 +273,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 
@@ -299,9 +291,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 
@@ -396,9 +386,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -464,9 +452,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -495,9 +481,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -558,9 +542,7 @@
 
 
 
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 
@@ -657,9 +639,7 @@
     
     
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 
@@ -824,9 +804,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 
@@ -871,9 +849,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 
@@ -996,9 +972,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 
@@ -1064,9 +1038,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -1145,9 +1117,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -1213,9 +1183,7 @@
     
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -1419,9 +1387,7 @@
 
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -1448,9 +1414,7 @@
 
 
     
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
@@ -1485,9 +1449,7 @@
 
 
 
-    !!! info ""
-    
-        #### Section Quiz
+
 
 
 !!! info ""
