@@ -216,19 +216,12 @@
 
             |part|Explanation|
             |:-|:-|
-            |----------|----------|
             |**`-rwxr-x---`** | The first character indicates that it is a regular file. The following three characters (rwx) represent the owner's permissions (read, write, and execute). The next three characters (**`r-x`**) represent the group's permissions (read and execute). The last three characters (*`---`*) represent the permissions for other users (no permissions).|
-            |----------|----------|
             | **`1`** | Indicates the number of hard links to the file.|
-            |----------|----------|
             | **`user`** | Refers to the owner of the file.|
-            |----------|----------|
             | **`group`** | Refers to the group assigned to the file.|
-            |----------|----------|
             | **`4096`** | Indicates the file size in bytes.|
-            |----------|----------|
             | **`May 10 12:34`** | Specifies the date and time of the last modification.|
-            |----------|----------|
             | **`myfile.txt`** | Represents the name of the file.|
         
             It's worth noting that if a permission is not granted for a particular entity, a hyphen (`-`) is displayed in its place. Additionally, the output can include additional information such as special permissions, ownership, and timestamps.
