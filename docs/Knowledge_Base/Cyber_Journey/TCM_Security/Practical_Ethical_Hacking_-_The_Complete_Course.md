@@ -206,48 +206,43 @@
 
         In the `ls -la` output, the permissions are displayed as a series of nine characters. The first character represents the file type (e.g., `-` for a regular file, `d` for a directory). The next three characters represent the owner's permissions, followed by the group's permissions, and then the permissions for other users.
 
-        For example, let's consider an `ls -la` output line:
+        !!! example ""
+        
+            For example, let's consider an `ls -la` output line:
 
-        `-rwxr-x--- 1 user group 4096 May 10 12:34 myfile.txt`
+            `-rwxr-x--- 1 user group 4096 May 10 12:34 myfile.txt`
 
-        In this example, the permissions are broken down as follows:
+            In this example, the permissions are broken down as follows:
 
-        - *`-rwxr-x---`*: The first character indicates that it is a regular file. The following three characters (rwx) represent the owner's permissions (read, write, and execute). The next three characters (**`r-x`**) represent the group's permissions (read and execute). The last three characters (*`---`*) represent the permissions for other users (no permissions).
-        - **`1`**: Indicates the number of hard links to the file.
-        - **`user`**: Refers to the owner of the file.
-        - **`group`**: Refers to the group assigned to the file.
-        - **`4096`**: Indicates the file size in bytes.
-        - **`May 10 12:34`**: Specifies the date and time of the last modification.
-        - **`myfile.txt`**: Represents the name of the file.
-        It's worth noting that if a permission is not granted for a particular entity, a hyphen (`-`) is displayed in its place. Additionally, the output can include additional information such as special permissions, ownership, and timestamps.
+            |part|Explanation|
+            |:-|:-|
+            |----------|----------|
+            |**`-rwxr-x---`** | The first character indicates that it is a regular file. The following three characters (rwx) represent the owner's permissions (read, write, and execute). The next three characters (**`r-x`**) represent the group's permissions (read and execute). The last three characters (*`---`*) represent the permissions for other users (no permissions).|
+            |----------|----------|
+            | **`1`** | Indicates the number of hard links to the file.|
+            |----------|----------|
+            | **`user`** | Refers to the owner of the file.|
+            |----------|----------|
+            | **`group`** | Refers to the group assigned to the file.|
+            |----------|----------|
+            | **`4096`** | Indicates the file size in bytes.|
+            |----------|----------|
+            | **`May 10 12:34`** | Specifies the date and time of the last modification.|
+            |----------|----------|
+            | **`myfile.txt`** | Represents the name of the file.|
+        
+            It's worth noting that if a permission is not granted for a particular entity, a hyphen (`-`) is displayed in its place. Additionally, the output can include additional information such as special permissions, ownership, and timestamps.
 
         Here are explanations and examples of the commands mentioned in this video. Please note, Teachable blocks the mention of some of the sensitive paths shown in the video, so we cannot display them in text format here:
 
-        - **`chmod`** (Change Mode):
-
-            **Explanation**: Changes the permissions of a file or directory.
-            **Example**: Running `chmod +x script.sh` would add the execute permission to the file "script.sh", allowing it to be executed as a script.
+        |Command|Explanation|Example|
+        |:-|:-|:-|
+        | **`chmod`** | (Change Mode) Changes the permissions of a file or directory. | Running `chmod +x script.sh` would add the execute permission to the file "script.sh", allowing it to be executed as a script.|
+        | **`adduser`** | Creates a new user account. | Running adduser john would create a new user account with the username "john" and prompt for additional user information.|
+        | **`su`** | (Switch User) Allows a user to switch to another user account. | Running su jane would switch to the user account "jane" after entering the password for that account.|
+        | **`/etc/sudoers`** | Displays the content of the `/etc/sudoers` file, which contains configuration information for the sudo command. | Running **`/etc/sudoers`** would display the configuration directives for sudo access and permissions.|
+        | **`sudo -l`** | Lists the commands a user is allowed to run with sudo privileges. | Running **`sudo -l`** would display the commands and permissions available to the current user with sudo access.|
         
-        - **`adduser`**:
-
-            **Explanation**: Creates a new user account.
-            **Example**: Running adduser john would create a new user account with the username "john" and prompt for additional user information.
-        
-        - **`su`** (Switch User):
-
-            **Explanation**: Allows a user to switch to another user account.
-            **Example**: Running su jane would switch to the user account "jane" after entering the password for that account.
-        
-        - **`/etc/sudoers`**:
-
-            **Explanation**: Displays the content of the `/etc/sudoers` file, which contains configuration information for the sudo command.
-            **Example**: Running **`/etc/sudoers`** would display the configuration directives for sudo access and permissions.
-
-        - **`sudo -l`**:
-
-            **Explanation**: Lists the commands a user is allowed to run with sudo privileges.
-            **Example**: Running **`sudo -l`** would display the commands and permissions available to the current user with sudo access.
-            
         Please note that some of these commands require administrative privileges, and caution should be exercised when modifying system files or working with user accounts.
     
     !!! info ""
@@ -256,71 +251,34 @@
     
         Here are explanations and examples of the commands mentioned in this video:
 
-        - **`ip a`**:
-
-            **Explanation**: Displays the network interfaces and their associated IP addresses.
-            **Example**: Running ip a would show information about network interfaces, including their IP addresses, MAC addresses, and other details.
-
-        - **`ifconfig`**:
-
-            **Explanation**: Displays the configuration and status of network interfaces.
-            **Example**: Running ifconfig would show the configuration details, including IP addresses, MAC addresses, and other information for active network interfaces.
+        |Command|Explanation|Example|
+        |:-|:-|:-|
+        | **`ip a`** | Displays the network interfaces and their associated IP addresses. | Running ip a would show information about network interfaces, including their IP addresses, MAC addresses, and other details.|
+        | **`ifconfig`** | Displays the configuration and status of network interfaces. | Running ifconfig would show the configuration details, including IP addresses, MAC addresses, and other information for active network interfaces.|
+        | **`iwconfig`** | Displays the configuration and status of wireless network interfaces. | Running iwconfig would show the configuration details, such as wireless signal strength, frequency, and encryption information, for active wireless interfaces.|
+        | **`ip n`** | Displays the Neighbor Table, which contains the IP-to-MAC address mappings for devices in the local network. | Running ip n would show the IP and MAC addresses of devices that have recently communicated with the current device.|
+        | **`arp -a`** | Displays the ARP (Address Resolution Protocol) cache, which maps IP addresses to MAC addresses. | Running arp -a would show the IP and MAC addresses of devices that have been resolved recently by the ARP protocol.|
+        | **`ip r`** | Displays the routing table, which contains information about network routes. | Running ip r would show the routing table, including destination networks, gateway IP addresses, and network interfaces.|
+        | **`route`** | Displays or manipulates the IP routing table. | Running route would display the routing table, similar to the ip r command.|
+        | **`ping`** | Sends ICMP echo requests to a specified IP address to check network connectivity and measure round-trip time. | Running ping 8.8.8.8 would send ICMP echo requests to the IP address "8.8.8.8" (Google's DNS server) and display the round-trip time and packet loss statistics.|
         
-        - **`iwconfig`**:
-
-            **Explanation**: Displays the configuration and status of wireless network interfaces.
-            **Example**: Running iwconfig would show the configuration details, such as wireless signal strength, frequency, and encryption information, for active wireless interfaces.
-        
-        - **`ip n`**:
-
-            **Explanation**: Displays the Neighbor Table, which contains the IP-to-MAC address mappings for devices in the local network.
-            **Example**: Running ip n would show the IP and MAC addresses of devices that have recently communicated with the current device.
-        
-        - **`arp -a`**:
-
-            **Explanation**: Displays the ARP (Address Resolution Protocol) cache, which maps IP addresses to MAC addresses.
-            **Example**: Running arp -a would show the IP and MAC addresses of devices that have been resolved recently by the ARP protocol.
-        
-        - **`ip r`**:
-
-            **Explanation**: Displays the routing table, which contains information about network routes.
-            **Example**: Running ip r would show the routing table, including destination networks, gateway IP addresses, and network interfaces.
-        
-        - **`route`**:
-
-            **Explanation**: Displays or manipulates the IP routing table.
-            **Example**: Running route would display the routing table, similar to the ip r command.
-        
-        - **`ping`**:
-
-            **Explanation**: Sends ICMP echo requests to a specified IP address to check network connectivity and measure round-trip time.
-            **Example**: Running ping 8.8.8.8 would send ICMP echo requests to the IP address "8.8.8.8" (Google's DNS server) and display the round-trip time and packet loss statistics.
-            
         These commands are commonly used for network troubleshooting, configuration, and gathering network-related information in Linux systems.
-    
+
+
     !!! info ""
 
         #### Viewing, Creating, and Editing Files
 
         Here are explanations and examples of the commands mentioned in this video:
-
-        - **`echo "hello" > hey.txt'**
-
-            **Explanation**: Creates a new file named "hey.txt" with the content "hello" and overwrites the file if it already exists.
-            **Example**: Running echo "hello" > hey.txt would create a file named "hey.txt" and write the word "hello" into it.
-
-        - **`echo "hello again" >> hey.txt'**
-            **Explanation**: Appends the content "hello again" to an existing file named "hey.txt" or creates a new file if it doesn't exist.
-            **Example**: Running echo "hello again" >> hey.txt would append the text "hello again" to the end of the "hey.txt" file.
-        - **`touch newfile.txt'**
-            **Explanation**: Creates a new empty file named "newfile.txt" or updates the timestamp of an existing file to the current time.
-            **Example**: Running touch newfile.txt would create an empty file named "newfile.txt" if it doesn't exist or update its timestamp if it already exists.
-        - **`nano newfile.txt'**
-            **Explanation**: Opens the text editor Nano and allows you to create or edit the content of a file named "newfile.txt".
-            **Example**: Running nano newfile.txt would open the Nano editor, where you can enter or modify text in the "newfile.txt" file.
-        - **`mousepad newfile.txt'**
-            **Explanation**: Opens the Mousepad text editor and allows you to create or edit the content of a file named "newfile.txt".
-            **Example**: Running mousepad newfile.txt would open the Mousepad editor, where you can enter or modify text in the "newfile.txt" file.
+        
+        |Command|Explanation|Example|
+        |:-|:-|:-|
+        | **`echo "hello" > hey.txt`** | Creates a new file named "hey.txt" with the content "hello" and overwrites the file if it already exists. | Running `echo "hello" > hey.txt` would create a file named "hey.txt" and write the word "hello" into it.|
+        |-|-|-|
+        | **`echo "hello again" >> hey.txt`** | Appends the content "hello again" to an existing file named "hey.txt" or creates a new file if it doesn't exist. | Running `echo "hello again" >> hey.txt` would append the text "hello again" to the end of the "hey.txt" file.|
+        | **`touch newfile.txt`** | Creates a new empty file named "newfile.txt" or updates the timestamp of an existing file to the current time. | Running `touch newfile.txt` would create an empty file named "newfile.txt" if it doesn't exist or update its timestamp if it already exists.|
+        | **`nano newfile.txt`** | Opens the text editor Nano and allows you to create or edit the content of a file named "newfile.txt". | Running `nano newfile.txt` would open the Nano editor, where you can enter or modify text in the "newfile.txt" file.|
+        | **`mousepad newfile.txt`** | Opens the Mousepad text editor and allows you to create or edit the content of a file named "newfile.txt". | Running `mousepad newfile.txt` would open the Mousepad editor, where you can enter or modify text in the "newfile.txt" file.|
             
         These commands are commonly used for file manipulation and editing in Linux systems. The echo command is used to print text or variables to the terminal or redirect them to files. The touch command is used to create or update file timestamps. The nano and mousepad commands are text editors that allow you to create and modify files directly from the terminal.
     
@@ -329,13 +287,31 @@
     
         #### Starting and Stopping Services
     
-    
+        Here are explanations and examples of the commands mentioned in this video:
+
+        |Command|Explanation|Example|
+        |:-|:-|:-|
+        | **`sudo service apache2 start`** | Starts the Apache web server service. | Running `sudo service apache2 start` would initiate the Apache web server and make it available for serving web pages.|
+        | **`sudo service apache2 stop`** | Stops the Apache web server service. | Running `sudo service apache2 stop` would halt the running Apache web server, shutting down any active web page serving.|
+        | **`python3 -m http.server 80`** | Starts a simple HTTP server using Python on port 80. | Running `python3 -m http.server 80` would start a basic HTTP server on port 80, allowing you to serve files from the current directory.|
+        | **`sudo systemctl enable ssh`** | Enables the SSH (Secure Shell) service to start automatically on system boot. | Running `sudo systemctl enable ssh` would configure the system to start the SSH service during system startup.|
+        | **`sudo systemctl disable ssh`** | Disables the SSH service from starting automatically on system boot. | Running `sudo systemctl disable ssh` would prevent the SSH service from starting automatically during system startup.|
+        
+        These commands are frequently used in Linux systems for managing services, starting and stopping processes, and enabling or disabling specific services at system startup. The sudo command is used to execute commands with superuser privileges. The service and systemctl commands are used to manage system services.|
     
     !!! info ""
     
         #### Installing and Updating Tools
     
-    
+        Here are explanations and examples of the commands mentioned in this video:
+
+        |Command|Explanation|Example|
+        |:-|:-|:-|
+        |**`sudo apt update && sudo apt upgrade`** | Updates the package lists and upgrades installed packages on a Debian-based Linux system using the APT package manager. | Running `sudo apt update && sudo apt upgrade` would update the package lists to retrieve information about available updates, and then upgrade the installed packages to their latest versions|
+        |**`sudo apt install cron-daemon-common`** | Installs the "cron-daemon-common" package using APT. Cron is a time-based job scheduler in Linux systems, and the "cron-daemon-common" package provides common files and utilities for the cron daemon. | Running `sudo apt install cron-daemon-common` would download and install the "cron-daemon-common" package on the system|
+        |**`sudo git clone https://github.com/Dewalt-arch/pimpmykali.git`** | Clones a Git repository from the specified URL using the Git version control system. | Running `sudo git clone https://github.com/Dewalt-arch/pimpmykali.git` would clone the repository from the given URL and create a local copy of the repository's files and version history|
+
+        These commands are commonly used in Linux systems for updating packages, installing new software, and managing version-controlled repositories. The sudo command is used to execute commands with superuser privileges. The apt command is used for package management in Debian-based distributions. The git command is used for version control and working with Git repositories.
     
     !!! info ""
     
