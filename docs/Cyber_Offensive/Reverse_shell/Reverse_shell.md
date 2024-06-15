@@ -2,6 +2,7 @@
 
     #### sources
 
+    - [calc1f4r Rootme](https://github.com/calc1f4r/Rootme)
     - [Reverse Shells](https://reverse-shell.sh/)
     - [Online - Reverse Shell Generator](https://www.revshells.com/)
     - [ShutdownRepo/shellerator](https://github.com/ShutdownRepo/shellerator)

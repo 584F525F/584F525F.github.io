@@ -1,10 +1,10 @@
 !!! info ""
 
-    Rust installation
+    ### Rust installation
 
-    ### Windows
+    #### Windows
 
-    #### Install all needed packages
+    ##### Install all needed packages
 
     ```bash
     rustup uninstall toolchain stable-x86_64-pc-windows-msvc
@@ -13,16 +13,23 @@
     cargo install jcc-cli
     ```
 
-    ### Linux
+    #### Linux
 
-    #### Install rust, also installs cargo which is used to run the script
+    ##### Install rust, also installs cargo which is used to run the script
 
     ```bash
     curl https://sh.rustup.rs -sSf | sh 
     ```
 
-    #### Install the JCC-CLI
+    ##### Install the JCC-CLI
 
     ```bash
     cargo install jcc-cli
     ```
+
+!!! info ""
+
+    ### Resources
+
+    [rust-lang](https://doc.rust-lang.org/book/title-page.html)
+
