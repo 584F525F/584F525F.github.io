@@ -12,44 +12,52 @@
 
     #### Choose whether you want to use the async or multithread Python script and run the one you need
 
-    ##### async
+    !!! info ""
+        
+        ##### async
 
-    ```bash
-    usage: async-ssh-bruteforcer.py [-h] [-p PORT] -w WORDLIST -u USERNAME target
+        ```bash
+        usage: async-ssh-bruteforcer.py [-h] [-p PORT] -w WORDLIST -u USERNAME target
 
-    positional arguments:
-    target                Host to attack on e.g. 10.10.10.10.
+        positional arguments:
+        target                Host to attack on e.g. 10.10.10.10.
 
-    options:
-    -h, --help            show this help message and exit
-    -p PORT, --port PORT  Port to attack on, Default:22
-    -w WORDLIST, --wordlist WORDLIST
-    -u USERNAME, --username USERNAME
-                            Username with which bruteforce to
-    ```
+        options:
+        -h, --help            show this help message and exit
+        -p PORT, --port PORT  Port to attack on, Default:22
+        -w WORDLIST, --wordlist WORDLIST
+        -u USERNAME, --username USERNAME
+                                Username with which bruteforce to
+        ```
 
-    ```bash
-    python3 async-ssh-bruteforcer.py -p <port> -u <username> -w <wordlist> <target>
-    ```
+        Example
 
-    ##### multithreaded
+        ```bash
+        python3 async-ssh-bruteforcer.py -p <port> -u <username> -w <wordlist> <target>
+        ```
 
-    ```bash
-    usage: multithreaded-ssh-bruteforcer.py [-h] [-p PORT] -w WORDLIST -u USERNAME [-t THREADS] target
+    !!! info ""
+        
+        ##### multithreaded
 
-    positional arguments:
-    target                Host to attack on e.g. 10.10.10.10.
+        ```bash
+        usage: multithreaded-ssh-bruteforcer.py [-h] [-p PORT] -w WORDLIST -u USERNAME [-t THREADS] target
 
-    options:
-    -h, --help            show this help message and exit
-    -p PORT, --port PORT  Port to attack on, Default:22
-    -w WORDLIST, --wordlist WORDLIST
-    -u USERNAME, --username USERNAME
-                            Username with which bruteforce to
-    -t THREADS, --threads THREADS
-                            Specify the thread to use ,Default:4,supports 8 threads
-    ```
+        positional arguments:
+        target                Host to attack on e.g. 10.10.10.10.
 
-    ```bash
-    python3 multithreaded-ssh-bruteforcer.py -p <port> -u <username> -w <wordlist> -t <threads_default_4_supports_upto_8> <target>
-    ```
+        options:
+        -h, --help            show this help message and exit
+        -p PORT, --port PORT  Port to attack on, Default:22
+        -w WORDLIST, --wordlist WORDLIST
+        -u USERNAME, --username USERNAME
+                                Username with which bruteforce to
+        -t THREADS, --threads THREADS
+                                Specify the thread to use ,Default:4,supports 8 threads
+        ```
+        
+        Example
+
+        ```bash
+        python3 multithreaded-ssh-bruteforcer.py -p <port> -u <username> -w <wordlist> -t <threads_default_4_supports_upto_8> <target>
+        ```
