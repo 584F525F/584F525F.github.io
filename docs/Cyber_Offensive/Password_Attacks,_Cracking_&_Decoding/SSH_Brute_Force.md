@@ -29,7 +29,7 @@
     ```
 
     ```bash
-    python3 async-ssh-bruteforcer.py -p <port> -u <username> -w <wordlist>
+    python3 async-ssh-bruteforcer.py -p <port> -u <username> -w <wordlist> <target>
     ```
 
     ##### multithreaded
@@ -51,5 +51,5 @@
     ```
 
     ```bash
-    python3 multithreaded-ssh-bruteforcer.py -p <port> -u <username> -w <wordlist> -t <threads_default_4_supports_upto_8>
+    python3 multithreaded-ssh-bruteforcer.py -p <port> -u <username> -w <wordlist> -t <threads_default_4_supports_upto_8> <target>
     ```

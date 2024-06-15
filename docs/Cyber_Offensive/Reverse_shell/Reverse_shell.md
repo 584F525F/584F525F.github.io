@@ -2,6 +2,7 @@
 
     #### sources
 
+    - [InternalAllTheThings](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#summary)
     - [calc1f4r Rootme](https://github.com/calc1f4r/Rootme)
     - [Reverse Shells](https://reverse-shell.sh/)
     - [Online - Reverse Shell Generator](https://www.revshells.com/)
