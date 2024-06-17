@@ -122,7 +122,8 @@ plugins:
   - open-in-new-tab
   # - mkdocs-pdf
   # - privacy
-  # - tags
+  - tags
+  - optimize
   - git-revision-date-localized
   # - social
   # - optimize #https://squidfunk.github.io/mkdocs-material/plugins/optimize
