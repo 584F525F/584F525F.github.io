@@ -7,7 +7,7 @@
     5    = 000101
     10   = 001010
     ```
-
+ 
     #### Bitwise AND
 
     Take two numbers, line them up on top of each other, and create a new number that has a 1 where both numbers have a 1 (everything else is 0).

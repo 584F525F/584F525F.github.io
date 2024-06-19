@@ -1,7 +1,7 @@
 !!! info ""
 
     !!! info ""
-
+ 
         ### C Compiler Windows install
 
         Download and install [Minimalist GNU for Windows](https://sourceforge.net/projects/mingw/files/latest/download)
