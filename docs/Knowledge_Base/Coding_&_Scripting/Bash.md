@@ -20,6 +20,8 @@
     done
     ```
 
+!!! info ""
+
     #### If statement
 
     `$1` here represent the first argument.
@@ -29,6 +31,8 @@
         echo "This happens"
     fi
     ```
+
+!!! info ""
 
     #### If/Else
 
@@ -42,6 +46,8 @@
     fi
     ```
 
+!!! info ""
+
     #### Command line arguments
 
     Command line arguments are represented like this
@@ -54,6 +60,8 @@
 
     This is the first command line argument
 
+!!! info ""
+
     #### Daemonize an execution
 
     If you do a ping-sweep with host the command will take about a second to complete. And if you run that against 255 hosts I will take a long time to complete. To avoid this we can just deamonize every execution to make it faster. We use the `&` to daemonize it.
@@ -65,6 +73,8 @@
         ping -c 1 $ip &
     done
     ```
+
+!!! info ""
 
     #### Use the output of command
 
@@ -86,6 +96,31 @@
     cat $(locate 646.c | tail -n 1)
     ```
 
+
+    #### Iterate over a file
+
+    This script will iterate over a file and echo out every single line
+
+    ```bash
+    #!/bin/bash
+
+    for line in $(cat file.txt);do
+        echo $line
+    done
+    ```
+
+    Another way of writing is this
+
+    ```bash
+    #!/bin/bash
+
+    while read p; do
+        echo  $p
+    done <file.txt
+    ```
+
+
+!!! info ""
 
     #### picoCTF flag save
 
@@ -119,26 +154,4 @@
     Run only the save.sh
     Now that would have created a get_flag.sh and a flag.txt
     you can cat the txt file for the flag
-    ```
-
-    ## Iterate over a file
-
-    This script will iterate over a file and echo out every single line
-
-    ```bash
-    #!/bin/bash
-
-    for line in $(cat file.txt);do
-        echo $line
-    done
-    ```
-
-    Another way of writing is this
-
-    ```bash
-    #!/bin/bash
-
-    while read p; do
-        echo  $p
-    done <file.txt
     ```
