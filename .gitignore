@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 
 .vscode/
+_templates/_template_0.md
