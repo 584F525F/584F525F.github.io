@@ -1,15 +1,56 @@
+
+### Wazuh Server Installation
+
 !!! info ""
 
-    ### Add the Wazuh repository
-
-    Install the GPG key:
+    #### Resources
     
+    - OVA [Virtual Machine (OVA) - Installation alternatives](https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html)
+    - Docker [Deployment on Docker - Installation alternatives · Wazuh documentation](https://documentation.wazuh.com/current/deployment-options/docker/index.html)
+
+
+    #### OVA Installation 
+    
+    After installing the OVA, go into SSH to change the passwords for all services
+
+    ```bash
+    curl -so wazuh-passwords-tool.sh https://packages.wazuh.com/4.4/wazuh-passwords-tool.sh
+    #-ap is the password for shell wazuh-user
+    sudo bash wazuh-passwords-tool.sh -a -au wazuh -ap wazuh
+
+    #### Restart the server afterwards
+    ```
+    
+    !!! warning ""
+
+        **WARNING**: Wazuh indexer passwords changed. Remember to update the password in the Wazuh dashboard and Filebeat nodes if necessary, and restart the services. hope it helps anyone struggling.
+
+
+    #### Restarting Wazuh services
+
+    ```bash
+    sudo systemctl restart wazuh-manager
+    sudo systemctl restart wazuh-indexer
+    sudo systemctl restart wazuh-dashboard
+    sudo systemctl restart filebeat
+    ```
+
+
+### Wazuh Agent Installation
+
+
+!!! info ""
+
+    #### Add the Wazuh repository
+
+    Install the GPG key
+
     ```bash
     curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/wazuh.gpg --import && chmod 644 /usr/share/keyrings/wazuh.gpg
     ```
 
     Add the repository
-    
+
     ```bash
     echo "deb [signed-by=/usr/share/keyrings/wazuh.gpg] https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/wazuh.list
     ```
@@ -30,10 +71,10 @@
 
 !!! info ""
 
-    ### Deploy a Wazuh agent 
+    #### Deploy a Wazuh agent 
 
     To deploy the Wazuh agent on your endpoint, select your package manager and edit the `WAZUH_MANAGER` variable to contain your Wazuh manager IP address or hostname.
-    
+
     ```bash
     WAZUH_MANAGER="10.10.10.49" apt-get install wazuh-agent
     ```
@@ -52,7 +93,7 @@
 
     !!! warning ""
         **Recommended action** - Disable Wazuh updates Compatibility between the Wazuh agent and the Wazuh manager is guaranteed when the Wazuh manager version is later than or equal to that of the Wazuh agent. Therefore, we recommend disabling the Wazuh repository to prevent accidental upgrades. To do so, use the following command
-    
+
     ```bash
     sed -i "s/^deb/#deb/" /etc/apt/sources.list.d/wazuh.list
     apt-get update
@@ -64,7 +105,7 @@
 
 !!! info ""
 
-    ### Uninstall a Wazuh agent
+    #### Uninstall a Wazuh agent
 
     To uninstall the agent, run the following commands:
 
@@ -79,7 +120,7 @@
     ```
 
     Disable the Wazuh agent service
-    
+
     ```bash
     systemctl disable wazuh-agent
     systemctl daemon-reload
@@ -87,42 +128,7 @@
 
 !!! info ""
 
-    ### Resources
+    #### Resources
     
     [Deploying Wazuh agents on Linux endpoints - Wazuh agent](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-linux.html)
-
-
-!!! info ""
-
-    ### Wazuh Server Installation
-
-    OVA [Virtual Machine (OVA) - Installation alternatives](https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html)
-
-    Docker [Deployment on Docker - Installation alternatives · Wazuh documentation](https://documentation.wazuh.com/current/deployment-options/docker/index.html)
-
-
-    #### OVA Installation 
-    After installing the OVA, go into SSH to change the passwords for all services
-    ```bash
-    curl -so wazuh-passwords-tool.sh https://packages.wazuh.com/4.4/wazuh-passwords-tool.sh
-    #-ap is the password for shell wazuh-user
-    sudo bash wazuh-passwords-tool.sh -a -au wazuh -ap wazuh
-
-    #### Restart the server afterwards
-
-    ```
-    
-    !!! warning ""
-        WARNING: Wazuh indexer passwords changed. Remember to update the password in the Wazuh dashboard and Filebeat nodes if necessary, and restart the services. hope it helps anyone struggling.
-
-
-    #### Restarting Wazuh services
-
-    ```bash
-    sudo systemctl restart wazuh-manager
-    sudo systemctl restart wazuh-indexer
-    sudo systemctl restart wazuh-dashboard
-    sudo systemctl restart filebeat
-    ```
-
 

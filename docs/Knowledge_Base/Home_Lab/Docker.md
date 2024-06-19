@@ -2,6 +2,8 @@
 
     ### Resource(s)
 
+    - [official docker CLI reference](https://docs.docker.com/reference/cli/docker/)
+    - [Official docker cheat sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
     - [docker manuals](https://docs.docker.com/manuals/)
     - [docker hub](https://hub.docker.com/)
     - [docker-OSX](https://github.com/sickcodes/Docker-OSX)
@@ -299,6 +301,58 @@
         docker run --rm -it --privileged --name my-pentest aaaguirrep/pentest /bin/zsh
         ```
 
+!!! info ""
 
+    ### Watchtower (automating Docker container base image updates)
 
+    
+    #### Resource
+        
+    - [Project Homepage](https://containrrr.dev/watchtower/)
+    - [Github](https://github.com/christianlempa/videos/tree/main/watchtower-tutorial)
+        
+    #### Steps
+        
+    ##### How To Update Docker Container automatically with nearly zero downtime
+    
+    How to update docker container automatically with Watchtower. Scheduled updates without owntime for your entire docker environment.
+    
+    We will use the free and open-source software Watchtower.
+    
+    ##### Prerequisites
+    
+    Linux Server running Docker
+    
+    ##### Run Watchtower
+    
+    Watchtower can be easily deployed by executing a simple docker run command.
 
+    ```bash
+    docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/atchtower
+    ```
+    
+    ##### Run Watchtower in debug mode
+    
+    You might wonder why there is no log output apart from the welcome message. If you want to ncrease the logging level or watchtower, you simply just add an argument.
+
+    ```bash
+    docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/atchtower --debug
+    ```
+    
+    ##### Run Watchtower only once, in debug mode
+
+    ```bash
+    docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/atchtower --run-once --debug
+    ```
+    
+    ##### Exclude Container from Watchtower
+
+    ```bash
+    docker run -d --label=com.centurylinklabs.watchtower.enable= false nginx
+    ```
+    
+    ##### Scheduled Updates and clean up old images
+
+    ```bash
+    docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock --restart nless-stopped containrrr/watchtower --schedule "0 0 4 * * *" --debug --cleanup
+    ```

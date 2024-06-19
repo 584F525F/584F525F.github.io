@@ -6,6 +6,7 @@
 
     - [DNS SPF record overview - Cloudflare](https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/)
     - [Open spf - SPF Record Syntax](http://www.open-spf.org/SPF_Record_Syntax/)
+    - [Email Spoof Test](https://emailspooftest.com/)
 
 
 !!! info ""

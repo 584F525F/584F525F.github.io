@@ -45,4 +45,34 @@
     git commit -am 'git cache cleared'
     git push <github repo link> <branch>
     
+    #error: Pulling is not possible because you have unmerged files.
+    #run to check where conflict is
+    git status
+    git add <file.ext>
+    git pull origin master --allow-unrelated-histories
+    git commit
+    git push --set-upstream origin master
+
+    #mkdocs
+    git init
+    cd C:\Users\xxxxx\mkdocs\xxxxx.github.io-main
+    python -m venv venv
+    .\\venv\Scripts\activate.bat
+    code .
+
+    terminal in vscode
+    mkdocs serve
+
+
+    git config --global user.email "xxxxx@exampledomain.com"
+    git config --global user.name "xxxxx"
+
     ```
+
+
+    ### Cheat sheet
+
+    [GIT Cheat Sheet - Intellipaat Blog](https://intellipaat.com/blog/tutorial/devops-tutorial/git-cheat-sheet/)
+
+    ![alt text](Git-Cheat-Sheet.jpg)
+

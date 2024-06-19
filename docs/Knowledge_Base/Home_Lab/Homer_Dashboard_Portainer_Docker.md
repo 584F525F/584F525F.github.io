@@ -3,32 +3,32 @@
     ### Install Homer
     
     I keep all my dockers in a dockers folder in my home directory. If it doesn’t exist already, create this folder:-
-    
-    ```
+
+    ```bash
     mkdir ~/dockers
     ```
     
     Now create a folder for Homer to live in.
-    
-    ```
+
+    ```bash
     mkdir ~/docker/homer
     ```
-    
+
     Create a folder for the assets
-    
-    ```
+
+    ```bash
     mkdir ~/docker/homer/assets
     ```
-    
+
     Change directory to this folder
-    
-    ```
+
+    ```bash
     cd ~/docker/homer
     ```
     
     Create a docker-compose.yml file
-    
-    ```
+
+    ```bash
     nano docker-compose.yml
     ```
     
@@ -199,6 +199,7 @@
     ```dockerfile
     #Install using Git
     git clone https://github.com/dracula/homer.git
+    ```
 
     #OR You can install it this way
 
@@ -206,12 +207,16 @@
     #Download https://github.com/dracula/homer/archive/master.zip
     git clone https://github.com/dracula/homer/archive/master.zip
 
-    Activating theme
-        1- Copy custom.css to www/assets/custom.css.
-        1- Copy dracula-background.png to www/assets/dracula-background.
-        3- Put these lines into www/assets/config.yml and save the file:
-        # Will load Dracula theme.
-        stylesheet:
-            - "assets/custom.css"
-        4- Refresh the page. Boom! It's working.
+    **Activating theme**
+
+    1- Copy custom.css to www/assets/custom.css.
+    1- Copy dracula-background.png to www/assets/dracula-background.
+    3- Put these lines into www/assets/config.yml and save the file, will load Dracula theme
+
+    ```dockerfile
+    stylesheet:
+        - "assets/custom.css"
     ```
+
+    4- Refresh the page. Boom! It's working.
+

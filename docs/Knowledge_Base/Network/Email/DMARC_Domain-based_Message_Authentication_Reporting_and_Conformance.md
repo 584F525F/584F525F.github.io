@@ -6,6 +6,7 @@
 
     - [DNS DMARC record summary - Cloudflare](https://www.cloudflare.com/learning/dns/dns-records/dns-dmarc-record/)
     - [DMARC org](https://dmarc.org/)
+    - [Email Spoof Test](https://emailspooftest.com/)
 
 
 !!! info ""

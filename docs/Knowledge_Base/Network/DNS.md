@@ -53,4 +53,4 @@
 
     #### Troubleshooting
 
-    coming soon
+    [https://www.dnsleaktest.com/results.html](https://www.dnsleaktest.com/results.html)

@@ -31,7 +31,7 @@
 
     ### Upgrade
 
-    ```
+    ```bash
     docker ps -a
 
     #Locate the ones with name "/portainer"
@@ -85,6 +85,27 @@
 
     You’re now ready to start managing your containers with Compose v2
 
+
+!!! info ""
+
+    ### Portainer Docker Upgrade
+
+    ```bash
+    docker ps -a
+
+    #Locate the ones with name "/portainer"
+    #0eab77c40087   portainer/portainer-ce      "/portainer"
+    #take first 4 chars of the random string
+
+    docker stop 0eab
+    docker rm 0eab
+
+    docker pull portainer/portainer-ce:latest
+
+    docker run -d -p 8000:8000 -p 8443:8443 -p 9443:9443 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ee:latest
+
+    #All Done
+    ```
 
 !!! info ""
 

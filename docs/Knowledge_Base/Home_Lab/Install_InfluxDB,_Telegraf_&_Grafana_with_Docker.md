@@ -12,7 +12,7 @@
 
     ### docker-compose.yml
 
-    ```
+    ```yaml
     version: "3"
 
     services:
@@ -55,7 +55,7 @@
 
     ### .env
 
-    ```
+    ```shell
     DOCKER_INFLUXDB_INIT_MODE=setup
 
     ## Environment variables used during the setup and operation of the stack

@@ -1,14 +1,23 @@
+```
+tags:
+    - windows
+    - cmd
+    - command prompt
+
+```
+
+
 !!! info ""
 
     The equivalent to the Linux command `;` as in
 
-    ```
+    ```shell
     echo "command 1" ; echo "command 2"
     ```
 
     is
 
-    ```
+    ```shell
     dir & whoami
     ```
 
@@ -18,31 +27,31 @@
 
     Delete file
 
-    ```
+    ```shell
     del
     ```
 
     Create folder/directory
 
-    ```
+    ```shell
     md folderName
     ```
 
     Show hidden files
 
-    ```
+    ```shell
     dir /A
     ```
 
     Print out file content, like cat
 
-    ```
+    ```shell
     type file.txt
     ```
 
     grep files
 
-    ```
+    ```shell
     findstr file.txt
     ```
 
@@ -51,21 +60,28 @@
     ### Network
 
     Show network information
+
     ```shell
     netstat -an
     ```
 
     Show network adapter info
 
-    `ipconfig`
+    ```shell
+    ipconfig
+    ```
 
     Ping another machine
 
-    `ping 192.168.1.101`
+    ```shell
+    ping 192.168.1.101
+    ```
 
     Traceroute
 
-    `tracert`
+    ```shell
+    tracert
+    ```
 
 !!! info ""
 
@@ -73,17 +89,21 @@
 
     List processes
 
-    `tasklist`
+    ```shell
+    tasklist
+    ```
 
     Kill a process
 
-    `taskkill /PID 1532 /F`
+    ```shell
+    taskkill /PID 1532 /F
+    ```
 
 !!! info ""
 
     ### Users
 
-    ```
+    ```shell
     net users
 
     # Add user
@@ -99,48 +119,13 @@
 
 !!! info ""
 
-    ### Other
-
-    Shutdown
-
-    ```
-    # Shutdown now
-    shutdown /s /t 0
-
-    # Restart
-    shutdown /r /t 0
-    ```
-
-    ciper - Clear data/shred
-
-    ```
-    Shreds the whole machine
-    ciper /w:C:\
-    ```
-
-    Show environmental variables
-
-    ```
-    set
-    ```
-
-    Show options for commands
-
-    The "man"-pages in windows is simply:
-
-    ```
-    help dir
-    ```
-
-!!! info ""
-
     ### Mounting - Mapping
 
     In the windows world mounting is called mapping.
 
     If you want to see which drives are mapped/mounted to your file-system you can use any of these commands:
 
-    ```
+    ```shell
     # This is the most thorough
     wmic logicaldisk get deviceid, volumename, description
 
@@ -166,14 +151,14 @@
 
     Using `net use` we can connect to other shared folder, on other systems. Many windows machines have a default-share called IPC (Interprocess communication share). It does not contain any files. But we can usually connect to it without authentication. This is called a null-session. Although the share does not contain any files it contains a lot of data that is useful for enumeration. The Linux-equivalent of `net use` is usually `smbclient`.
 
-    ```
+    ```shell
     net use \\IP address\IPC$ "" /u:""
     net use \\192.168.1.101\IPC$ "" /u:""
     ```
 
     If you want to map a drive from another network to your filesystem you can do that like this:
 
-    ```
+    ```shell
     # This will map it to drive z
     net use z: \\192.168.1.101\SYSVOL
 
@@ -185,7 +170,7 @@
 
     You enter the z-drive by doing this:
 
-    ```
+    ```shell
     C:\>z:
     Z:\
 
@@ -198,13 +183,50 @@
 
     First leave the drive if you are in it:
 
-    ```
+    ```shell
     c:
     net use z: /del
     ```
+
+
+!!! info ""
+
+    ### Other
+
+    Shutdown
+
+    ```shell
+    # Shutdown now
+    shutdown /s /t 0
+
+    # Restart
+    shutdown /r /t 0
+    ```
+
+    ciper - Clear data/shred
+
+    ```shell
+    Shreds the whole machine
+    ciper /w:C:\
+    ```
+
+    Show environmental variables
+
+    ```shell
+    set
+    ```
+
+    Show options for commands
+
+    The "man"-pages in windows is simply:
+
+    ```shell
+    help dir
+    ```
+
 
 !!! info ""
 
     ### References
 
-    This might come in handy for the linux-users: [http://www.lemoda.net/windows/windows2unix/windows2unix.html](http://www.lemoda.net/windows/windows2unix/windows2unix.html)
+    This might come in handy for the linux-users [lemoda windows2unix](http://www.lemoda.net/windows/windows2unix/windows2unix.html)

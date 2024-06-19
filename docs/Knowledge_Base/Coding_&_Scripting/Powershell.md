@@ -1,12 +1,12 @@
-!!! info ""
+**Powershell** is an interpreter for the .Net Framework
 
-    **Powershell** is an interpreter for the .Net Framework
+!!! info ""  
     
     ### Variables
 
     Variables are declared like this
 
-    ```
+    ```powershell
     $test = "something"
     ```
 
@@ -23,13 +23,13 @@
 
     So if we want to run script `script.ps1` we have to set the execution-policy. First let's check what execution-policy we currently have:
 
-    ```
+    ```powershell
     Get-ExecutionPolicy
     ```
 
     Then we can set the execution policy like this
 
-    ```
+    ```powershell
     set-ExecutionPolicy unrestricted
     ```
 

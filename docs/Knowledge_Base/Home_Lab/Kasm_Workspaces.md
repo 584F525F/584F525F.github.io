@@ -46,18 +46,18 @@
 
     ```bash
     cd /tmp
-    curl -O https://kasm-static-content.s3.amazonaws.com//Knowledge_Base/images/KASM_release_1.14.0.3a7abb.tar.gz
-    tar -xf /Knowledge_Base/images/KASM_release_1.14.0.3a7abb.tar.gz
+    curl -O https://kasm-static-content.s3.amazonaws.com/KASM_release_1.14.0.3a7abb.tar.gz
+    tar -xf KASM_release_1.14.0.3a7abb.tar.gz
 
     #If you want to install on default port 443 then run this command.
     #If you want to install with non default port, check the next step
-    sudo bash /Knowledge_Base/images/KASM_release/install.sh -L 443
+    sudo bash KASM_release/install.sh -L 443
     ```
 
     If you want to install with non default port then change the port number below 8443 to the desired port number.
 
     ```bash
-    sudo bash /Knowledge_Base/images/KASM_release/install.sh -L 8443
+    sudo bash KASM_release/install.sh -L 8443
     ```
 
     Log into the Web Application running on port 443 at **https://<WEBAPP_SERVER>**
@@ -84,30 +84,28 @@
     #Stop the Kasm Services
     sudo /opt/kasm/bin/stop
 
-    #backup and then replace /Knowledge_Base/images/KASM_nginx.crt & /Knowledge_Base/images/KASM_nginx.key file
-    sudo cp /opt/kasm/current/certs//Knowledge_Base/images/KASM_nginx.crt /opt/kasm/current/certs//Knowledge_Base/images/KASM_nginx_backup.crt
-    sudo cp /opt/kasm/current/certs//Knowledge_Base/images/KASM_nginx.key /opt/kasm/current/certs//Knowledge_Base/images/KASM_nginx_backup.key
+    #backup and then replace kasm_nginx.crt & kasm_nginx.key file
+    sudo cp /opt/kasm/current/certs/kasm_nginx.crt /opt/kasm/current/certs/kasm_nginx_backup.crt
+    sudo cp /opt/kasm/current/certs/kasm_nginx.key /opt/kasm/current/certs/kasm_nginx_backup.key
     ls /opt/kasm/current/certs
     #Insert value crt
-    nano /tmp//Knowledge_Base/images/KASM_nginx_new.crt
+    nano /tmp/kasm_nginx_new.crt
     #insert value key
-    nano /tmp//Knowledge_Base/images/KASM_nginx_new.key
-    sudo cp /tmp//Knowledge_Base/images/KASM_nginx_new.crt /opt/kasm/current/certs//Knowledge_Base/images/KASM_nginx.crt
-    sudo cp /tmp//Knowledge_Base/images/KASM_nginx_new.key /opt/kasm/current/certs//Knowledge_Base/images/KASM_nginx.key
-    rm /tmp//Knowledge_Base/images/KASM_nginx_new.crt
-    rm /tmp//Knowledge_Base/images/KASM_nginx_new.key
+    nano /tmp/kasm_nginx_new.key
+    sudo cp /tmp/kasm_nginx_new.crt /opt/kasm/current/certs/kasm_nginx.crt
+    sudo cp /tmp/kasm_nginx_new.key /opt/kasm/current/certs/kasm_nginx.key
+    rm /tmp/kasm_nginx_new.crt
+    rm /tmp/kasm_nginx_new.key
 
     #Start the Kasm Services
     sudo /opt/kasm/bin/start
 
     #Test if nginx is running correctly. Wait 30 seconds
-    sudo docker ps | grep /Knowledge_Base/images/KASM_proxy
+    sudo docker ps | grep kasm_proxy
 
-    sudo cp /opt/kasm/current/certs//Knowledge_Base/images/KASM_nginx_backup.crt /opt/kasm/current/certs//Knowledge_Base/images/KASM_nginx.crt
-    sudo cp /opt/kasm/current/certs//Knowledge_Base/images/KASM_nginx_backup.key /opt/kasm/current/certs//Knowledge_Base/images/KASM_nginx.key
+    sudo cp /opt/kasm/current/certs/KASM_nginx_backup.crt /opt/kasm/current/certs/KASM_nginx.crt
+    sudo cp /opt/kasm/current/certs/KASM_nginx_backup.key /opt/kasm/current/certs/KASM_nginx.key
     ```
-
-
 
 !!! info ""
 
@@ -151,23 +149,23 @@
     Remove Kasm service containers
 
     ``` bash
-    export /Knowledge_Base/images/KASM_UID=**$(**id kasm -u**)**export /Knowledge_Base/images/KASM_GID=**$(**id kasm -g**)**
+    export KASM_UID=**$(**id kasm -u**)**export KASM_GID=**$(**id kasm -g**)**
     sudo -E docker compose -f /opt/kasm/current/docker/docker-compose.yaml rm
     ```
 
     Remove the Kasm docker network
 
     ``` bash
-    sudo docker network rm /Knowledge_Base/images/KASM_default_network
+    sudo docker network rm kasm_default_network
     ```
 
     Remove the Kasm database docker volume
 
     ``` bash
-    sudo docker volume rm /Knowledge_Base/images/KASM_db_1.12.0
+    sudo docker volume rm <docker_image>
     ```
 
-    Remove the Kasm docker /Knowledge_Base/images/KASM_images
+    Remove the Kasm docker_image
 
     ``` bash
     sudo docker rmi redis:5-alpine
@@ -178,7 +176,7 @@
     sudo docker rmi kasmweb/manager:1.12.0
     sudo docker rmi kasmweb/api:1.12.0
 
-    sudo docker rmi $(sudo docker /Knowledge_Base/images/KASM_images --filter "label=com.kasmweb./Knowledge_Base/images/KASM_image=true" -q)
+    sudo docker rmi $(sudo docker images --filter "label=com.kasmweb.image=true" -q)
     ```
 
     Remove the Kasm installation directory structure
@@ -189,7 +187,7 @@
     Remove the Kasm User Accounts
 
     ``` bash
-    sudo deluser /Knowledge_Base/images/KASM_db
+    sudo deluser KASM_db
     sudo deluser kasm
     ```
     Restart
@@ -240,7 +238,7 @@
     listen 8443 ssl ;
     ```
 
-    Update the docker-compose.yaml to export the desired port for /Knowledge_Base/images/KASM_proxy container
+    Update the docker-compose.yaml to export the desired port for kasm_proxy container
 
     ```bash
     sudo sed -i "s/- \"443:443\"/- \"8443:8443\"/g"  /opt/kasm/current/docker/docker-compose.yaml
@@ -249,19 +247,19 @@
     (Optional) Verify the changes with the following command
 
     ```bash
-    sudo grep /Knowledge_Base/images/KASM_proxy -A5 /opt/kasm/current/docker/docker-compose.yaml
-    container_name: /Knowledge_Base/images/KASM_proxy
-    /Knowledge_Base/images/KASM_image: "kasmweb/nginx:latest"
+    sudo grep kasm_proxy -A5 /opt/kasm/current/docker/docker-compose.yaml
+    container_name: KASM_proxy
+    KASM_image: "kasmweb/nginx:latest"
     ports:
         - "8443:8443"
     networks:
-        - /Knowledge_Base/images/KASM_default_network
+        - KASM_default_network
     ```
 
-    Remove the /Knowledge_Base/images/KASM_proxy container so it can be recreated using the updated port mapping
+    Remove the KASM_proxy container so it can be recreated using the updated port mapping
 
     ```bash
-    sudo docker rm -f /Knowledge_Base/images/KASM_proxy
+    sudo docker rm -f KASM_proxy
     ```
 
     Start All Kasm services
@@ -275,14 +273,14 @@
 
 !!! info ""
 
-    ### Kasm Docker /Knowledge_Base/images/KASM_images
+    ### Kasm Docker
 
-    [Default Docker /Knowledge_Base/images/KASM_images — Kasm 1.14.0 documentation](https://kasmweb.com/docs/latest/guide/custom_/Knowledge_Base/images/KASM_images.html)
+    [Default Docker Images](https://kasmweb.com/docs/latest/guide/custom_/Knowledge_Base/images/KASM_images.html)
 
-    If you want to manually pull the /Knowledge_Base/images/KASM_images to Kasm Workspaces
+    If you want to manually pull the docker_images to Kasm Workspaces
 
     ```bash
-    sudo docker pull docker_/Knowledge_Base/images/KASM_image
+    sudo docker pull docker <docker_image>
 
     #You will need to change the version numbers
     sudo docker pull kasmweb/firefox:1.14.0
@@ -343,3 +341,9 @@
     ```
 
     Kasm stop start
+
+!!! info ""
+
+    ### Troubleshooting
+
+    [Troubleshooting — Kasm 1.14.0 documentation](https://kasmweb.com/docs/latest/guide/troubleshooting.html#server-side-issues)
