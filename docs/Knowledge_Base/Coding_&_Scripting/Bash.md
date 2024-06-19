@@ -52,7 +52,7 @@
     $1
     ```
 
-    This is the first command line argument.
+    This is the first command line argument
 
     #### Daemonize an execution
 
