@@ -5,7 +5,7 @@
 
 
     #### Installing Nginx
-    
+
     ``` bash
     sudo apt update
     sudo apt install nginx -y
@@ -18,7 +18,7 @@
 
     #### Creating our own website
     Paste the following to the `index.html` file:
-    
+
     ```html
     <!doctype html>
     <html>
@@ -34,14 +34,14 @@
     ```
 
     #### Setting up virtual host
-    
+
     ```bash
     cd /etc/nginx/sites-enabled
     sudo "${EDITOR:-nano}" tutorial
     ```
 
     `root` is a directory where we have placed our .html file. `index` is used to specify file available when visiting root directory of site. `server_name` can be anything you want, because you aren’t pointing it to any real domain by now.
-    
+
     ```html
     server {
         listen 5895;
@@ -63,3 +63,7 @@
     ```bash
     sudo service nginx restart
     ```
+
+    #### Resources
+
+    [Install and configure Nginx | Ubuntu](https://ubuntu.com/tutorials/install-and-configure-nginx#1-overview)
