@@ -1,6 +1,6 @@
 !!! warning ""
 
-    #### 0. Create a user
+    #### Create a user
 
     First steps to securing your linux machine after install
     Create a new user
@@ -33,7 +33,7 @@
     Is the information correct? [Y/n]
     ```
 
-    #### 1. Disable root login usermod	
+    #### Disable root login usermod	
 
     ```bash
     sudo usermod -L root
@@ -41,7 +41,7 @@
 
 !!! warning ""
     
-    #### 2. Change root User’s Shell
+    #### Change root User’s Shell
     This method is only effective with programs that require a shell for user login, otherwise, sudo, ftp and email clients can access the root account.
 
     ```bash
@@ -56,7 +56,7 @@
     ```
     
     Enter your prefered warning message, then save your changes and exit the file
-    The the ducks are qucking around, so watch your back Jack!
+    `The the ducks are quaking around, so watch your back Jack!`
     
     Cat the message
 
@@ -66,7 +66,7 @@
 
 !!! warning ""
     
-    #### 3. Disable SSH Root Login
+    #### Disable SSH Root Login
     This method only affects openssh tools set, programs such as ssh, scp, sftp will be blocked from accessing the root account.
 
     ```bash
@@ -83,7 +83,8 @@
 
 !!! warning ""
     
-    #### 4. Restrict root Acess to Services Via PAM [Pluggable Authentication Modules]
+    #### Restrict root Access to Services Via PAM [Pluggable Authentication Modules]
+    
     This method only affect programs and services that are PAM aware. You can block root access to the system via ftp and email clients and more.
 
     ```bash

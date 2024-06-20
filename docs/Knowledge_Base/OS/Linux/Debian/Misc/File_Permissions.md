@@ -14,21 +14,32 @@
     1 =--x (execute only)
     0 =--- (no permission)
     ```
+    |value|description|
+    |:-|:-|
+    |'0'| (000) `---` No permission|
+    |'1'| (001) `--x` Execute permission|
+    |'2'| (010) `-w-` Write permission|
+    |'3'| (011) `-wx` Write and execute permissions|
+    |'4'| (100) `r--` Read permission|
+    |'5'| (101) `r-x` Read and execute permissions|
+    |'6'| (110) `rw-` Read and write permissions|
+    |'7'| (111) `rwx` Read, write, and execute permissions|
 
     For example, to give read, write, and execute permissions to the owner, read and execute permissions to the group, and execute permission to others
 
-    chmod 751 file.txt
+    chmod `751` file.txt
     You can also use the binary representation of each digit to understand the permission better. For example,
 
     example
 
     ```bash
     chmod 751 file.txt
-
-    111 (7) is binary representation of 7, first digit represents user permission, so it is 111 (rwx)
-    101 (5) is binary representation of 5, second digit represents group permission, so it is 101 (r-x)
-    001 (1) is binary representation of 1, third digit represents other permission, so it is 001 (--x)
     ```
+
+    111 (`7`) is binary representation of 7, first digit represents user permission, so it is 111 (`rwx`)
+    101 (`5`) is binary representation of 5, second digit represents group permission, so it is 101 (`r-x`)
+    001 (`1`) is binary representation of 1, third digit represents other permission, so it is 001 (`--x`)
+    
 
     There's a mnemonic that can help you remember these numbers
 

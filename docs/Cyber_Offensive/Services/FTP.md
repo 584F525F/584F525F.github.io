@@ -6,16 +6,23 @@
 
     ```bash
     sudo apt-get install vsftpd
+    ```
+
+    #### Update config to writable
+
+    ```bash
     sudo nano /etc/vsftpd.conf
     ```
 
-    locate **write_enable=YES** and remove the **#** infront of it and save the file changes.
+    locate `write_enable=YES` and remove the `#` in front of it and save the file changes.
 
-    #### Restart vsftpd  
+    #### Restart vsftpd
 
     ```bash
     sudo systemctl restart vsftpd
     ```
+
+    Now you can FTP and do what you need to do.
 
     #### purging vsftpd
 

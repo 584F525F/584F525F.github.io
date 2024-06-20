@@ -3,7 +3,7 @@
     #### Recommended
 
     ##### Check OS release
-    
+
     ```bash
     lsb_release -a
     cat /etc/lsb-release
@@ -41,7 +41,7 @@
     To point to the newer version of ubuntu. After it runs an update, and  asks you to press enter to start the process of upgrade.
     
     Open a new terminal, and start the upgrade, delete the lock file for apt first.
-    
+
     ```bash
     sudo rm /var/lib/apt/lists/lock
     apt-fast dist-upgrade

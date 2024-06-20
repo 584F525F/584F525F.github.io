@@ -155,3 +155,10 @@
     Now that would have created a get_flag.sh and a flag.txt
     you can cat the txt file for the flag
     ```
+
+!!! info ""
+
+    ### Resources
+
+    [How to Create and Run Bash Shell Script [Beginner's Guide]](https://linuxhandbook.com/run-shell-script/)
+

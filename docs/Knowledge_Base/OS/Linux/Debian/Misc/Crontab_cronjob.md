@@ -71,7 +71,7 @@
 
     ### Basic Cron Syntax
 
-    There's a useful site called [Crontab Generator](http://crontab-generator.org/) that will calculate the setup of a cron job for you, but first we'll go through a brief overview of what a syntax will look like.
+    There's a useful site called [**Crontab Generator**](http://crontab-generator.org/) that will calculate the setup of a cron job for you, but first we'll go through a brief overview of what a syntax will look like.
 
 !!! info ""
 
@@ -137,7 +137,7 @@
 
     ```bash
     crontab -l
-    crontab: no crontab for user
+    #crontab: no crontab for user
     ```
 
     edit the crontab

@@ -26,15 +26,19 @@
 
 !!! info ""
 
-    #### Modify /etc/ssh/sshd_config
+    #### Modify `/etc/ssh/sshd_config`
 
-    change ChallengeResponseAuthentication rom     no to yes
-    so this part of the file looks like this:
+    change `ChallengeResponseAuthentication rom     no` to `yes`
+
+    so this part of the file looks like this
+
+    ```bash
     Change to yes to enable challenge-response passwords (beware issues with
       #some PAM modules and threads)
-      ChallengeResponseAuthentication no #CHANGE THIS TO YES
+      ChallengeResponseAuthentication yes
       #Change to no to disable tunnelled clear text passwords
       #PasswordAuthentication yes
+    ```
 
 !!! info ""
 

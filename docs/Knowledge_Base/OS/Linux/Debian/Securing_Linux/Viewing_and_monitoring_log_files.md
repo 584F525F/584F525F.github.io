@@ -7,7 +7,7 @@
     ##### **Authorization log**
     
     Keeps track of authorization systems, such as password prompts, the sudo command and remote logins.
-    
+
     ```bash
     /var/log/auth.log
     ```
@@ -15,7 +15,7 @@
     ##### **Daemon Log**
     
     Daemons are programs that run in the background, usually without user interaction. For example, display server, SSH sessions, printing services, bluetooth, and more.
-    
+
     ```bash
     /var/log/daemon.log
     ```
@@ -23,7 +23,7 @@
     ##### **Debug log**
     
     Provides debugging information from the Ubuntu system and applications.
-    
+
     ```bash
     /var/log/debug
     ```
@@ -40,7 +40,7 @@
     ##### **System log**
     
     Contains more information about your system. If you can’t find anything in the other logs, it’s probably here.
-    
+
     ```bash
     /var/log/syslog
     ```
@@ -48,7 +48,7 @@
     #### Application logs
     
     Some applications also create logs in 
-    
+
     ```bash
     /var/log/
     ```
@@ -77,15 +77,15 @@
     
     ##### **Login failures log**
     
-    Contains info about login failures. You can view it with the faillog command.
-    
+    Contains info about login failures. You can view it with the `faillog` command.
+
     ```bash
     /var/log/faillog
     ```
     
     ##### **Last logins log**
     
-    Contains info about last logins. You can view it with the lastlog command.
+    Contains info about last logins. You can view it with the `lastlog` command.
 
     ```bash
     /var/log/lastlog
@@ -112,53 +112,59 @@
     There is also a magnifying glass icon to the right of the cog that allows you to search within the currently selected log file.
     
     GNOME System Log Viewer [official documentation](https://help.gnome.org/users/gnome-system-log/).
-    
+
 
 !!! info ""
 
     ### Viewing and monitoring logs from the command line
     
     #### Viewing files
-    
-     less file.txt
+
+    ```bash
+    less file.txt
+    ```
     
     #### Viewing the start or end of a file
     
-    head and tail commands
-    
+    `head` and `tail` commands
+
     ```bash
     tail -n 15 file.txt
-    head -n 15 [file.txt](https://file.txt)
+    head -n 15 file.txt
     ```
     
     #### Monitoring files
     
-    Pass the -f flag to tail. It will keep running, printing new additions to the file, until you stop it (Ctrl + C). For example:
-    
+    Pass the `-f` flag to tail. It will keep running, printing new additions to the file, until you stop it (Ctrl + C). For example:
+
     ```bash
-    tail -f file.txt.
+    tail -f file.txt
     ```
     
     #### Searching files
-    
+
     ##### less
+
     ```bash
     less and press /. A
     ```
 
     ##### grep command
-    To search for lines containing “test” in file.txt, you would run 
-    
+
+    To search for lines containing `"test"` in file.txt, you would run 
+
     ```bash
-    grep "test" file.txt.
+    grep "test" file.txt
     ```
     
     If the result of a grep search is too long, you may pipe it to less, allowing you to scroll and search through it
-    
+
     ```bash
-    grep "test" file.txt | less.
+    grep "test" file.txt | less
     ```
 
 !!! info ""
-    Resources:
+    
+    #### Resources
+
     [Log files locations](https://ubuntu.com/tutorials/viewing-and-monitoring-log-files#2-log-files-locations)

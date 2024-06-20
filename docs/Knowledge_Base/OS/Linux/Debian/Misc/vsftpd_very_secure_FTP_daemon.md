@@ -13,10 +13,14 @@
     #### Update config to writable
 
     ```bash
-    #locate write_enable=YES and remove the # infront of it and save the file changes.
     sudo nano /etc/vsftpd.conf
+    ```
+
+    locate `write_enable=YES` and remove the `#` in front of it and save the file changes.
 
     #Restart vsftpd
+
+    ```bash
     sudo systemctl restart vsftpd
     ```
 
