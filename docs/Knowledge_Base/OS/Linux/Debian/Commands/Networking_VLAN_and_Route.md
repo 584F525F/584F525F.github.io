@@ -19,14 +19,14 @@
     #### restart network service
 
     TO RESTART - NEW WAY
-    
+
     ```bash
     sudo systemctl restart NetworkManager
     ```
 
     TO RESTART - OLD WAY
-    
-    ```abash
+
+    ```bash
     sudo service network-manager restart
     ```
 
@@ -109,7 +109,7 @@
 
     DEVICE    TYPE      STATE      CONNECTION
     eth0      ethernet  connected  Wired connection 1
-    VLAN1049  vlan      connected  vlan-VLAN1049
+    VLAN50  vlan      connected  vlan-VLAN50
     lo        loopback  unmanaged  --
     ```
 
@@ -123,9 +123,9 @@
     1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
-    link/ether 00:1e:06:48:b2:17 brd ff:ff:ff:ff:ff:ff
-    3: VLAN1049@eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DEFAULT group default qlen 1000
-    link/ether 00:1e:06:48:b2:17 brd ff:ff:ff:ff:ff:ff
+    link/ether 00:11:22:48:b2:17 brd ff:ff:ff:ff:ff:ff
+    3: VLAN50@eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DEFAULT group default qlen 1000
+    link/ether 00:11:22:48:b2:17 brd ff:ff:ff:ff:ff:ff
     ```
     ##### Adding a WLAN Adapter
 
@@ -133,7 +133,7 @@
 
     ```bash
     Sudo ifconfig
-    wlan0 Link encap:Ethernet HWaddr 40:a5:ef:f3:9a:17 UP BROADCAST MULTICAST MTU:1500 Metric:1 RX packets:0 errors:0 dropped:222 overruns:0 frame:0 TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 collisions:0 txqueuelen:1000 RX bytes:0 (0.0 B) TX bytes:0 (0.0 B)
+    wlan0 Link encap:Ethernet HWaddr 05:06:07:f3:9a:17 UP BROADCAST MULTICAST MTU:1500 Metric:1 RX packets:0 errors:0 dropped:222 overruns:0 frame:0 TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 collisions:0 txqueuelen:1000 RX bytes:0 (0.0 B) TX bytes:0 (0.0 B)
 
     sudo iwconfig wlan0 essid "WLAN_NAME"
     sudo dhclient wlan0
@@ -161,7 +161,7 @@
     ```bash
     nmcli con up ssid/uuid
 
-    wlan0 Link encap:Ethernet HWaddr 40:a5:ef:f3:9a:17 inet addr:192.168.20.85 Bcast:192.168.23.255 Mask:255.255.252.0
+    wlan0 Link encap:Ethernet HWaddr 05:06:07:f3:9a:17 inet addr:192.168.20.85 Bcast:192.168.23.255 Mask:255.255.252.0
     ```
 
     ##### show nmcli connections
@@ -172,29 +172,29 @@
     ```
 
     example
-    
+
     ```bash
     NAME                UUID                                  TYPE      DEVICE
     Wired connection 1  96a930f1-7119-3f77-a0e9-76356a82cceb  ethernet  eth0
-    vlan-VLAN1049       c5e76778-76fc-49f9-bbb5-cff1a55e0704  vlan     VLAN1049
+    vlan-VLAN50       c5e76778-76fc-49f9-bbb5-cff1a55e0704  vlan     VLAN50
     ```
 
     ##### nmcli modify connection
 
     ```bash
-    sudo nmcli con modify VLAN1049 802-3-ethernet.cloned-mac-address 00:1e:06:37:71:39
+    sudo nmcli con modify VLAN50 802-3-ethernet.cloned-mac-address 00:11:22:37:71:39
     ```
 
     ##### nmcli add connection
 
     ```bash
-    sudo nmcli con add type vlan ifname VLAN1049 dev eth0 id 1049
-    sudo nmcli con up VLAN1049
-    sudo nmcli con up vlan-VLAN1049
+    sudo nmcli con add type vlan ifname VLAN50 dev eth0 id 50
+    sudo nmcli con up VLAN50
+    sudo nmcli con up vlan-VLAN50
 
-    sudo nmcli con add type vlan ifname VLAN1000 dev eth0 id 1000
-    sudo nmcli con up VLAN1000
-    sudo nmcli con up vlan-VLAN1000
+    sudo nmcli con add type vlan ifname VLAN200 dev eth0 id 1000
+    sudo nmcli con up VLAN200
+    sudo nmcli con up vlan-VLAN200
 
     You will see it in green instead of Orange once you run nmcli con show again
     ```
@@ -211,7 +211,7 @@
     ##### Setting a dev as managed
 
     ```bash
-    sudo nmcli dev set vlan1049 managed yes
+    sudo nmcli dev set vlan50 managed yes
     ```
 
 !!! info ""
@@ -219,47 +219,47 @@
     #### Route
     
     ##### Show route
-    
+
     ```bash
     route -n
 
     Kernel IP routing table    Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
     0.0.0.0         10.30.30.1      0.0.0.0         UG    0      0        0 eth0
-    0.0.0.0         10.20.20.1      0.0.0.0         UG    300    0        0 eth0.1000
-    10.5.0.0        10.10.10.1      0.0.0.0         UG    0      0        0 vlan1049
+    0.0.0.0         10.20.20.1      0.0.0.0         UG    300    0        0 eth0.35
+    10.5.0.0        10.10.10.1      0.0.0.0         UG    0      0        0 vlan50
     ```
 
     ##### Route DELETE
 
     ```bash
     sudo route del -net 0.0.0.0 gw 10.30.30.1 netmask 0.0.0.0 dev eth0
-    sudo route del -net 0.0.0.0 gw 10.20.20.1 netmask 0.0.0.0 dev eth0.1000
-    sudo route del -net 0.0.0.0 gw 10.10.10.1 dev vlan1049
+    sudo route del -net 0.0.0.0 gw 10.20.20.1 netmask 0.0.0.0 dev eth0.35
+    sudo route del -net 0.0.0.0 gw 10.10.10.1 dev vlan50
     ```
 
     ##### Route ADD
 
     ```bash
-    sudo route add -net 0.0.0.0 gw 172.20.0.1 dev VLAN1049
-    sudo route add -net 0.0.0.0 gw 172.20.0.1 dev VLAN1000
-    sudo route add -net 0.0.0.0 gw 172.20.0.1 dev eth0.1000
-    sudo route add -net 0.0.0.0 gw 172.20.0.1 dev eth0.1049
+    sudo route add -net 0.0.0.0 gw 172.20.0.1 dev VLAN50
+    sudo route add -net 0.0.0.0 gw 172.20.0.1 dev VLAN200
+    sudo route add -net 0.0.0.0 gw 172.20.0.1 dev eth0.35
+    sudo route add -net 0.0.0.0 gw 172.20.0.1 dev eth0.50
     ```
 
     ##### Check Route
 
     Keep in mind that you will loose access if the Route looks like this, you need to wait for your routes to fully populate, might take a bit so keep checking
-    
+
     ```bash
     route -n
 
     Kernel IP routing table
     Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
     0.0.0.0         10.20.20.254  0.0.0.0         UG    100    0        0 eth0
-    0.0.0.0         172.20.0.1      0.0.0.0         UG    400    0        0 VLAN1049
+    0.0.0.0         172.20.0.1      0.0.0.0         UG    400    0        0 VLAN50
     10.20.20.128  0.0.0.0         255.255.255.128 U     100    0        0 eth0
-    169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 VLAN1049
-    172.20.0.0      0.0.0.0         255.255.240.0   U     400    0        0 VLAN1049
+    169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 VLAN50
+    172.20.0.0      0.0.0.0         255.255.240.0   U     400    0        0 VLAN50
     ```
 
     Table should look like this, if green is missing then if you delete the eth0 route, you can’t reach the device
@@ -271,15 +271,15 @@
     Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
     0.0.0.0         10.50.115.20  0.0.0.0         UG    0      0        0 eth0
     0.0.0.0         10.50.115.20  0.0.0.0         UG    100    0        0 eth0
-    0.0.0.0         172.20.0.1      0.0.0.0         UG    400    0        0 VLAN1049
+    0.0.0.0         172.20.0.1      0.0.0.0         UG    400    0        0 VLAN50
     10.20.20.0        10.50.115.20  255.255.0.0     UG    0      0        0 eth0
     10.50.20.128  0.0.0.0         255.255.255.128 U     100    0        0 eth0
     20.128.20.192  10.50.115.20  255.255.255.240 UG    0      0        0 eth0
     66.20.20.32   10.50.115.20  255.255.255.224 UG    0      0        0 eth0
     20.195.20.20  10.50.115.20  255.255.255.240 UG    0      0        0 eth0
     20.45.20.192   10.50.115.20  255.255.255.224 UG    0      0        0 eth0
-    169.20.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 VLAN1049
-    172.20.0.0      0.0.0.0         255.255.240.0   U     400    0        0 VLAN1049
+    169.20.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 VLAN50
+    172.20.0.0      0.0.0.0         255.255.240.0   U     400    0        0 VLAN50
     20.20.47.32   10.50.115.20  255.255.255.240 UG    0      0        0 eth0
     ```
 
@@ -290,7 +290,6 @@
     - Resources
     - [https://tom-henderson.github.io/2019/04/12/ubuntu-vlan-config.html](https://tom-henderson.github.io/2019/04/12/ubuntu-vlan-config.html)
     - [https://netplan.io/examples](https://netplan.io/examples)
-
 
     ```YAML
     sudo apt update
@@ -306,8 +305,8 @@
                 eth0:
                 dhcp4: true
                 vlans:
-                    vlan1049:
-                        id: 1049
+                    vlan50:
+                        id: 50
                         link: eth0
                         addresses: [172.20.100.1/22]
             
@@ -322,8 +321,8 @@
                     search: [mydomain, otherdomain]
                     addresses: [10.10.10.1, 1.1.1.1]
                 vlans:
-                    vlan1049:
-                        id: 1049
+                    vlan50:
+                        id: 50
                         link: eth0
                         addresses: [172.20.100.1/22]
 

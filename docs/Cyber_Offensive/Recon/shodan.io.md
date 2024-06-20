@@ -1,5 +1,12 @@
 !!! info ""
 
+    ### Overview
+
+    Although you can access [shodan](https://shodan.io/) through GUI, you can actually use [cli.shodan](https://cli.shodan.io/) instead.
+
+
+!!! info ""
+
     ### shodan-dorks
 
     [shodan-dorks github](https://github.com/dootss/shodan-dorks)

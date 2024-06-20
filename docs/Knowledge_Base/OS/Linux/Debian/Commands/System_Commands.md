@@ -23,11 +23,15 @@
     sudo apt install openssh-server -y
     ```
 
+    ![alt text](/docs/Knowledge_Base/images/lx_sys_cmd_img-0.png)
+
     ##### check service status
 
     ```bash
     sudo systemctl status ssh
     ```
+
+    ![alt text](/docs/Knowledge_Base/images/lx_sys_cmd_img-1.png)
 
     #### ufw
 
@@ -37,8 +41,12 @@
     sudo ufw allow ssh
     ```
 
+    ![alt text](/docs/Knowledge_Base/images/lx_sys_cmd_img-2.png)
+
     enable and reload the ufw
 
     ```bash
     sudo ufw enable && sudo ufw reload
     ```
+
+    ![alt text](/docs/Knowledge_Base/images/lx_sys_cmd_img-3.png)

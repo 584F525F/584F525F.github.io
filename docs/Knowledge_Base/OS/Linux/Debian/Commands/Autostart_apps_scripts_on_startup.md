@@ -1,5 +1,6 @@
 !!! info ""
-    #### init.d
+
+    ### init.d
 
     ```bash
     cd /etc/init.d
@@ -8,4 +9,4 @@
     ```
 
     Write your scrip and save
-    Now everytime the OS boots it will run all scripts in the init.d
+    Now every time the OS boots it will run all scripts in the init.d

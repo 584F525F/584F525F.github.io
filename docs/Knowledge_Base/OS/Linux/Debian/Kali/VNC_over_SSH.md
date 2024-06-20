@@ -56,5 +56,4 @@
     /usr/share/novnc/utils/novnc_proxy --listen 8081 --vnc localhost:5900
     ```
 
-    You can access it now through your browser
-    http://10.10.10.102:8081/vnc.html?host=hostname&port=8081
+    You can access it now through your browser at http://10.10.10.102:8081/vnc.html?host=hostname&port=8081
