@@ -2,6 +2,6 @@
 
     Path for app shortcut
 
-    ```shell
+    ```powershell
     %appdata%\Microsoft\Windows\Start Menu\Programs\Startup
     ```
