@@ -179,318 +179,307 @@ nav:
   - Home: home.html
   - Cyber Offensive:
     - 'Summary': Cyber_Offensive.md
-    - 'Note Taking': Cyber_Offensive/Note_Taking.md
-    - 'Pentesting Guide': Cyber_Offensive/Pentesting_Guide.md
+    - 'Note Taking': /Cyber_Offensive/Note_Taking.md
+    - 'Pentesting Guide': /Cyber_Offensive/Pentesting_Guide.md
     - 'File Transfers':
-      - 'FTP': Cyber_Offensive/File_Transfers/FTP.md
-      - 'ftpd': Cyber_Offensive/File_Transfers/ftpd.md
-      - 'scp': Cyber_Offensive/File_Transfers/scp.md
-      - 'SMB': Cyber_Offensive/File_Transfers/SMB.md
-      - 'Telnet': Cyber_Offensive/File_Transfers/Telnet.md
-      - 'windows certutil': Cyber_Offensive/File_Transfers/windows_certutil.md
-      - 'windows cscript': Cyber_Offensive/File_Transfers/windows_cscript.md
-      - 'Windows mshta wmic regsvr32': Cyber_Offensive/File_Transfers/Windows_mshta_wmic_regsvr32.md
-    - 'Initial Enumeration': Cyber_Offensive/Initial_Enumeration/Initial_Enumeration.md
-    - 'Lock Picking': Cyber_Offensive/Lock_Picking/Lock_Picking.md
+      - 'FTP': /Cyber_Offensive/File_Transfers/FTP.md
+      - 'ftpd': /Cyber_Offensive/File_Transfers/ftpd.md
+      - 'scp': /Cyber_Offensive/File_Transfers/scp.md
+      - 'SMB': /Cyber_Offensive/File_Transfers/SMB.md
+      - 'Telnet': /Cyber_Offensive/File_Transfers/Telnet.md
+      - 'windows certutil': /Cyber_Offensive/File_Transfers/windows_certutil.md
+      - 'windows cscript': /Cyber_Offensive/File_Transfers/windows_cscript.md
+      - 'Windows mshta wmic regsvr32': /Cyber_Offensive/File_Transfers/Windows_mshta_wmic_regsvr32.md
+    - 'Initial Enumeration': /Cyber_Offensive/Initial_Enumeration/Initial_Enumeration.md
+    - 'Lock Picking': /Cyber_Offensive/Lock_Picking/Lock_Picking.md
     - 'Misc':
-      - 'Car Hacking': Cyber_Offensive/Misc/Car_Hacking.md
-      - 'Intresting Protocols': Cyber_Offensive/Misc/Intresting_Protocols.md
-      - 'Resources': Cyber_Offensive/Misc/Resources.md
+      - 'Car Hacking': /Cyber_Offensive/Misc/Car_Hacking.md
+      - 'Interesting Protocols': /Cyber_Offensive/Misc/Interesting_Protocols.md
+      - 'Resources': /Cyber_Offensive/Misc/Resources.md
     - 'Password Attacks, Cracking & Decoding':
-      - 'Argon2 cracker': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Argon2_cracker.md
-      - 'Cracking Files': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Cracking_Files.md
-      - 'Decoding': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Decoding.md
-      - 'Hashcat': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Hashcat.md
-      - 'Hydra': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Hydra.md
-      - 'Medusa': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Medusa.md
-      - 'Ncrack': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Ncrack.md
-      - 'Passing the hash': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Passing_the_hash.md
-      - 'SSH Brute Force': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/SSH_Brute_Force.md
-      - 'Wordlists': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Wordlists.md
+      - 'Argon2 cracker': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Argon2_cracker.md
+      - 'Cracking Files': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Cracking_Files.md
+      - 'Decoding': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Decoding.md
+      - 'Hashcat': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Hashcat.md
+      - 'Hydra': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Hydra.md
+      - 'Medusa': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Medusa.md
+      - 'Ncrack': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Ncrack.md
+      - 'Passing the hash': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Passing_the_hash.md
+      - 'SSH Brute Force': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/SSH_Brute_Force.md
+      - 'Wordlists': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/Wordlists.md
       - 'JohnTheRipper':
-        - 'Basic Usage': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Basic_Usage.md
-        - 'Cracking modes': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Cracking_modes.md
-        - 'Misc & Tricks': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Misc_&_Tricks.md
-        - 'Rules': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Rules.md
-        - 'Wordlists & Incremental': Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Wordlists_&_Incremental.md
+        - 'Basic Usage': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Basic_Usage.md
+        - 'Cracking modes': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Cracking_modes.md
+        - 'Misc & Tricks': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Misc_&_Tricks.md
+        - 'Rules': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Rules.md
+        - 'Wordlists & Incremental': /Cyber_Offensive/Password_Attacks,_Cracking_&_Decoding/JohnTheRipper/Wordlists_&_Incremental.md
     - 'Privilege Escalation':
-      - 'Linux Privilege Escalation': Cyber_Offensive/Privilege_Escalation/Linux_Privilege_Escalation/Linux_Privilege_Escalation.md
-      - 'Windows Privilege Escalation': Cyber_Offensive/Privilege_Escalation/Windows_Privilege_Escalation/Windows_Privilege_Escalation.md
+      - 'Linux Privilege Escalation': /Cyber_Offensive/Privilege_Escalation/Linux_Privilege_Escalation/Linux_Privilege_Escalation.md
+      - 'Windows Privilege Escalation': /Cyber_Offensive/Privilege_Escalation/Windows_Privilege_Escalation/Windows_Privilege_Escalation.md
     - 'Recon':
-      - 'DNSLookup': Cyber_Offensive/Recon/DNSLookup.md
-      - 'Dorking': Cyber_Offensive/Recon/Dorking.md
-      - 'recon': Cyber_Offensive/Recon/recon.md
-      - 'shodan.io': Cyber_Offensive/Recon/shodan.io.md
+      - 'DNSLookup': /Cyber_Offensive/Recon/DNSLookup.md
+      - 'Dorking': /Cyber_Offensive/Recon/Dorking.md
+      - 'recon': /Cyber_Offensive/Recon/recon.md
+      - 'shodan.io': /Cyber_Offensive/Recon/shodan.io.md
     - 'Remote connection & execution':
-      - 'atexec.py': Cyber_Offensive/Remote_connection_&_execution/atexec.py.md
-      - 'dcomexec.py': Cyber_Offensive/Remote_connection_&_execution/dcomexec.py.md
-      - 'evil-winrm': Cyber_Offensive/Remote_connection_&_execution/evil-winrm.md
-      - 'psexec.py': Cyber_Offensive/Remote_connection_&_execution/psexec.py.md
-      - 'Remote connection & execution': Cyber_Offensive/Remote_connection_&_execution/Remote_connection_&_execution.md
-      - 'smbexec.py': Cyber_Offensive/Remote_connection_&_execution/smbexec.py.md
-      - 'winrm': Cyber_Offensive/Remote_connection_&_execution/winrm.md
-      - 'wmiexec.py': Cyber_Offensive/Remote_connection_&_execution/wmiexec.py.md
-    - 'Reverse shell': Cyber_Offensive/Reverse_shell/Reverse_shell.md
+      - 'atexec.py': /Cyber_Offensive/Remote_connection_&_execution/atexec.py.md
+      - 'dcomexec.py': /Cyber_Offensive/Remote_connection_&_execution/dcomexec.py.md
+      - 'evil-winrm': /Cyber_Offensive/Remote_connection_&_execution/evil-winrm.md
+      - 'psexec.py': /Cyber_Offensive/Remote_connection_&_execution/psexec.py.md
+      - 'Remote connection & execution': /Cyber_Offensive/Remote_connection_&_execution/Remote_connection_&_execution.md
+      - 'smbexec.py': /Cyber_Offensive/Remote_connection_&_execution/smbexec.py.md
+      - 'winrm': /Cyber_Offensive/Remote_connection_&_execution/winrm.md
+      - 'wmiexec.py': /Cyber_Offensive/Remote_connection_&_execution/wmiexec.py.md
+    - 'Reverse shell': /Cyber_Offensive/Reverse_shell/Reverse_shell.md
     - 'Services':
-      - 'FTP': Cyber_Offensive/Services/FTP.md
-      - 'IMAP': Cyber_Offensive/Services/IMAP.md
-      - 'MSSQL': Cyber_Offensive/Services/MSSQL.md
-      - 'POP3': Cyber_Offensive/Services/POP3.md
-      - 'SMTP': Cyber_Offensive/Services/SMTP.md
+      - 'FTP': /Cyber_Offensive/Services/FTP.md
+      - 'IMAP': /Cyber_Offensive/Services/IMAP.md
+      - 'MSSQL': /Cyber_Offensive/Services/MSSQL.md
+      - 'POP3': /Cyber_Offensive/Services/POP3.md
+      - 'SMTP': /Cyber_Offensive/Services/SMTP.md
       - 'Samba SMB':
-        - 'SAMBA - SMB': Cyber_Offensive/Services/Samba_SMB/SAMBA_-_SMB.md
-        - 'SMB Client': Cyber_Offensive/Services/Samba_SMB/SMB_Client.md
-        - 'Tools': Cyber_Offensive/Services/Samba_SMB/Tools.md
+        - 'SAMBA - SMB': /Cyber_Offensive/Services/Samba_SMB/SAMBA_-_SMB.md
+        - 'SMB Client': /Cyber_Offensive/Services/Samba_SMB/SMB_Client.md
+        - 'Tools': /Cyber_Offensive/Services/Samba_SMB/Tools.md
     - 'Web':
-      - 'RFI-LFI File Inclusion': Cyber_Offensive/Web/RFI-LFI_File_Inclusion.md
-      - 'SQL Injection': Cyber_Offensive/Web/SQL_Injection.md
-      - 'SSRF': Cyber_Offensive/Web/SSRF.md
-      - 'XSS (Cross-Site Scripting)': Cyber_Offensive/Web/XSS_(Cross-Site_Scripting).md
+      - 'RFI-LFI File Inclusion': /Cyber_Offensive/Web/RFI-LFI_File_Inclusion.md
+      - 'SQL Injection': /Cyber_Offensive/Web/SQL_Injection.md
+      - 'SSRF': /Cyber_Offensive/Web/SSRF.md
+      - 'XSS (Cross-Site Scripting)': /Cyber_Offensive/Web/XSS_(Cross-Site_Scripting).md
       - 'Command Injection':
-        - 'IDOR': Cyber_Offensive/Web/Command_Injection/IDOR.md
+        - 'IDOR': /Cyber_Offensive/Web/Command_Injection/IDOR.md
       - 'Enumeration & Content Discovery':
         - 'Directory Busting':
           - 'Content Discovery Tools':
-            - 'Cansina': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Cansina.md
-            - 'Chameleon': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Chameleon.md
-            - 'froxbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/froxbuster.md
-            - 'fuff': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/fuff.md
-            - 'General Content Discovery': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/General_Content_Discovery.md
-            - 'gobuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/gobuster.md
-            - 'Katana': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Katana.md
-            - 'Kiterunner': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Kiterunner.md
-            - 'Wfuzz': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Wfuzz.md
+            - 'Cansina': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Cansina.md
+            - 'Chameleon': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Chameleon.md
+            - 'froxbuster': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/froxbuster.md
+            - 'fuff': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/fuff.md
+            - 'General Content Discovery': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/General_Content_Discovery.md
+            - 'gobuster': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/gobuster.md
+            - 'Katana': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Katana.md
+            - 'Kiterunner': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Kiterunner.md
+            - 'Wfuzz': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/Content_Discovery_Tools/Wfuzz.md
           - 'File and Directory Enumeration':
-            - 'Async-DirBuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/Async-DirBuster.md
-            - 'Dictionaries': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/Dictionaries.md
-            - 'dirb': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirb.md
-            - 'dirbuster': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirbuster.md
-            - 'dirsearch': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
+            - 'Async-DirBuster': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/Async-DirBuster.md
+            - 'Dictionaries': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/Dictionaries.md
+            - 'dirb': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirb.md
+            - 'dirbuster': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirbuster.md
+            - 'dirsearch': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/Directory_Busting/File_and_Directory_Enumeration/dirsearch.md
         - 'User Enumeration & Content Discovery':
-          - 'Authentication Bypass and User enumeration': Cyber_Offensive/Web/Enumeration_&_Content_Discovery/User_Enumeration_&_Content_Discovery/Authentication_Bypass_and_User_enumeration.md
+          - 'Authentication Bypass and User enumeration': /Cyber_Offensive/Web/Enumeration_&_Content_Discovery/User_Enumeration_&_Content_Discovery/Authentication_Bypass_and_User_enumeration.md
   - Knowledge Base:
-    - 'Summary': Knowledge_Base.md
+    - 'Summary': knowledge_base.md
     - 'Coding & Scripting':
-      - 'Ansible': Knowledge_Base/Coding_&_Scripting/Ansible.md
-      - 'Assembly': Knowledge_Base/Coding_&_Scripting/Assembly.md
-      - 'Bash': Knowledge_Base/Coding_&_Scripting/Bash.md
-      - 'Bitwise Operation': Knowledge_Base/Coding_&_Scripting/Bitwise_Operation.md
-      - 'C#': Knowledge_Base/Coding_&_Scripting/C#.md
-      - 'C C++': Knowledge_Base/Coding_&_Scripting/C_C++.md
-      - 'Github Git': Knowledge_Base/Coding_&_Scripting/Github_Git.md
-      - 'JS Java Script': Knowledge_Base/Coding_&_Scripting/JS_Java_Script.md
-      - 'Misc': Knowledge_Base/Coding_&_Scripting/Misc.md
-      - 'Powershell': Knowledge_Base/Coding_&_Scripting/Powershell.md
-      - 'Python': Knowledge_Base/Coding_&_Scripting/Python.md
-      - 'Regex': Knowledge_Base/Coding_&_Scripting/Regex.md
-      - 'Rust': Knowledge_Base/Coding_&_Scripting/Rust.md
-      - 'VBS Visual Basic Scripting': Knowledge_Base/Coding_&_Scripting/VBS_Visual_Basic_Scripting.md
-      - 'Visual Studio': Knowledge_Base/Coding_&_Scripting/Visual_Studio.md
-      - 'vsCode': Knowledge_Base/Coding_&_Scripting/vsCode.md
-      - 'Windows CMD': Knowledge_Base/Coding_&_Scripting/Windows_CMD.md
-      - 'YAML': Knowledge_Base/Coding_&_Scripting/YAML.md
-      - 'Yara': Knowledge_Base/Coding_&_Scripting/Yara.md
-    - 'Cyber Journey':
-      - 'CRYPTOHACK': Knowledge_Base/Cyber_Journey/CRYPTOHACK/CRYPTOHACK.md
-      - 'HTB HackTheBox':
-        - 'HTB': Knowledge_Base/Cyber_Journey/HTB_HackTheBox/HTB.md
-      - 'TCM Security':
-        - 'Mobile Application Penetration Testing': Knowledge_Base/Cyber_Journey/TCM_Security/Mobile_Application_Penetration_Testing.md
-        - 'Mobile Application Penetration Testing Summary': Knowledge_Base/Cyber_Journey/TCM_Security/Mobile_Application_Penetration_Testing_Summary.md
-        - 'Practical API Hacking': Knowledge_Base/Cyber_Journey/TCM_Security/Practical_API_Hacking.md
-        - 'Practical Ethical Hacking - The Complete Course': Knowledge_Base/Cyber_Journey/TCM_Security/Practical_Ethical_Hacking_-_The_Complete_Course.md
-        - 'Practical Ethical Hacking - The Complete Course Summary': Knowledge_Base/Cyber_Journey/TCM_Security/Practical_Ethical_Hacking_-_The_Complete_Course_Summary.md
-        - 'Practical Malware Analysis and Triage': Knowledge_Base/Cyber_Journey/TCM_Security/Practical_Malware_Analysis_and_Triage.md
-        - 'Practical Malware Analysis and Triage Summary': Knowledge_Base/Cyber_Journey/TCM_Security/Practical_Malware_Analysis_and_Triage_Summary.md
-      - 'THM TryHackMe':
-        - 'Cyber Security Awareness': Knowledge_Base/Cyber_Journey/THM_TryHackMe/Cyber_Security_Awareness.md
-        - 'THM': Knowledge_Base/Cyber_Journey/THM_TryHackMe/THM.md
+      - 'Ansible': /Knowledge_Base/Coding_&_Scripting/Ansible.md
+      - 'Assembly': /Knowledge_Base/Coding_&_Scripting/Assembly.md
+      - 'Bash': /Knowledge_Base/Coding_&_Scripting/Bash.md
+      - 'Bitwise Operation': /Knowledge_Base/Coding_&_Scripting/Bitwise_Operation.md
+      - 'C#': /Knowledge_Base/Coding_&_Scripting/C#.md
+      - 'C C++': /Knowledge_Base/Coding_&_Scripting/C_C++.md
+      - 'Github Git': /Knowledge_Base/Coding_&_Scripting/Github_Git.md
+      - 'JS Java Script': /Knowledge_Base/Coding_&_Scripting/JS_Java_Script.md
+      - 'Misc': /Knowledge_Base/Coding_&_Scripting/Misc.md
+      - 'Powershell': /Knowledge_Base/Coding_&_Scripting/Powershell.md
+      - 'Python': /Knowledge_Base/Coding_&_Scripting/Python.md
+      - 'Regex': /Knowledge_Base/Coding_&_Scripting/Regex.md
+      - 'Rust': /Knowledge_Base/Coding_&_Scripting/Rust.md
+      - 'VBS Visual Basic Scripting': /Knowledge_Base/Coding_&_Scripting/VBS_Visual_Basic_Scripting.md
+      - 'Visual Studio': /Knowledge_Base/Coding_&_Scripting/Visual_Studio.md
+      - 'vsCode': /Knowledge_Base/Coding_&_Scripting/vsCode.md
+      - 'Windows CMD': /Knowledge_Base/Coding_&_Scripting/Windows_CMD.md
+      - 'YAML': /Knowledge_Base/Coding_&_Scripting/YAML.md
+      - 'Yara': /Knowledge_Base/Coding_&_Scripting/Yara.md
     - 'Home Lab':
-      - 'Docker': Knowledge_Base/Home_Lab/Docker.md
-      - 'Esxi': Knowledge_Base/Home_Lab/Esxi.md
-      - 'GW NAT & Cloudflare': Knowledge_Base/Home_Lab/GW_NAT_&_Cloudflare.md
-      - 'Hak5 WiFi Pineapple': Knowledge_Base/Home_Lab/Hak5_WiFi_Pineapple.md
-      - 'Heimdall Dashboard Portainer Docker': Knowledge_Base/Home_Lab/Heimdall_Dashboard_Portainer_Docker.md
-      - 'Homepage Dashboard': Knowledge_Base/Home_Lab/Homepage_Dashboard.md
-      - 'Homer Dashboard Portainer Docker': Knowledge_Base/Home_Lab/Homer_Dashboard_Portainer_Docker.md
-      - 'immich': Knowledge_Base/Home_Lab/immich.md
-      - 'Install InfluxDB, Telegraf & Grafana with Docker': Knowledge_Base/Home_Lab/Install_InfluxDB,_Telegraf_&_Grafana_with_Docker.md
-      - 'Kasm Workspaces': Knowledge_Base/Home_Lab/Kasm_Workspaces.md
-      - 'Mullvad VPN': Knowledge_Base/Home_Lab/Mullvad_VPN.md
-      - 'NGINX Server Engine-X': Knowledge_Base/Home_Lab/NGINX_Server_Engine-X.md
-      - 'pfSense': Knowledge_Base/Home_Lab/pfSense.md
-      - 'Portainer Docker': Knowledge_Base/Home_Lab/Portainer_Docker.md
-      - 'Wazuh SEIM': Knowledge_Base/Home_Lab/Wazuh_SEIM.md
+      - 'Docker': /Knowledge_Base/Home_Lab/Docker.md
+      - 'Esxi': /Knowledge_Base/Home_Lab/Esxi.md
+      - 'GW NAT & Cloudflare': /Knowledge_Base/Home_Lab/GW_NAT_&_Cloudflare.md
+      - 'Hak5 WiFi Pineapple': /Knowledge_Base/Home_Lab/Hak5_WiFi_Pineapple.md
+      - 'Heimdall Dashboard Portainer Docker': /Knowledge_Base/Home_Lab/Heimdall_Dashboard_Portainer_Docker.md
+      - 'Homepage Dashboard': /Knowledge_Base/Home_Lab/Homepage_Dashboard.md
+      - 'Homer Dashboard Portainer Docker': /Knowledge_Base/Home_Lab/Homer_Dashboard_Portainer_Docker.md
+      - 'immich': /Knowledge_Base/Home_Lab/immich.md
+      - 'Install InfluxDB, Telegraf & Grafana with Docker': /Knowledge_Base/Home_Lab/Install_InfluxDB,_Telegraf_&_Grafana_with_Docker.md
+      - 'Kasm Workspaces': /Knowledge_Base/Home_Lab/Kasm_Workspaces.md
+      - 'Mullvad VPN': /Knowledge_Base/Home_Lab/Mullvad_VPN.md
+      - 'NGINX Server Engine-X': /Knowledge_Base/Home_Lab/NGINX_Server_Engine-X.md
+      - 'pfSense': /Knowledge_Base/Home_Lab/pfSense.md
+      - 'Portainer Docker': /Knowledge_Base/Home_Lab/Portainer_Docker.md
+      - 'Wazuh SEIM': /Knowledge_Base/Home_Lab/Wazuh_SEIM.md
     - 'Network':
-      - 'ARP': Knowledge_Base/Network/ARP.md
-      - 'Cabling Fiber': Knowledge_Base/Network/Cabling_Fiber.md
-      - 'Cabling Fiber SFPs': Knowledge_Base/Network/Cabling_Fiber_SFPs.md
-      - 'DHCP': Knowledge_Base/Network/DHCP.md
-      - 'DNS': Knowledge_Base/Network/DNS.md
-      - 'IGMP': Knowledge_Base/Network/IGMP.md
-      - 'LDAP': Knowledge_Base/Network/LDAP.md
-      - 'Network Fundamentals': Knowledge_Base/Network/Network_Fundamentals.md
-      - 'OUI Device MAC Addresses': Knowledge_Base/Network/OUI_Device_MAC_Addresses.md
-      - 'Radius': Knowledge_Base/Network/Radius.md
-      - 'SNMP': Knowledge_Base/Network/SNMP.md
-      - 'Subnetting': Knowledge_Base/Network/Subnetting.md
-      - 'VPN': Knowledge_Base/Network/VPN.md
+      - 'ARP': /Knowledge_Base/Network/ARP.md
+      - 'Cabling Fiber': /Knowledge_Base/Network/Cabling_Fiber.md
+      - 'Cabling Fiber SFPs': /Knowledge_Base/Network/Cabling_Fiber_SFPs.md
+      - 'DHCP': /Knowledge_Base/Network/DHCP.md
+      - 'DNS': /Knowledge_Base/Network/DNS.md
+      - 'IGMP': /Knowledge_Base/Network/IGMP.md
+      - 'LDAP': /Knowledge_Base/Network/LDAP.md
+      - 'Network Fundamentals': /Knowledge_Base/Network/Network_Fundamentals.md
+      - 'OUI Device MAC Addresses': /Knowledge_Base/Network/OUI_Device_MAC_Addresses.md
+      - 'Radius': /Knowledge_Base/Network/Radius.md
+      - 'SNMP': /Knowledge_Base/Network/SNMP.md
+      - 'Subnetting': /Knowledge_Base/Network/Subnetting.md
+      - 'VPN': /Knowledge_Base/Network/VPN.md
       - 'Email':
-        - 'DKIM DomainKeys Identified Mail': Knowledge_Base/Network/Email/DKIM_DomainKeys_Identified_Mail.md
-        - 'DMARC Domain-based Message Authentication Reporting and Conformance': Knowledge_Base/Network/Email/DMARC_Domain-based_Message_Authentication_Reporting_and_Conformance.md
-        - 'IMAP': Knowledge_Base/Network/Email/IMAP.md
-        - 'POP3': Knowledge_Base/Network/Email/POP3.md
-        - 'SMTP': Knowledge_Base/Network/Email/SMTP.md
-        - 'SPF Sender Policy Framework': Knowledge_Base/Network/Email/SPF_Sender_Policy_Framework.md
-      - 'Ethernet 802.3': Knowledge_Base/Network/Ethernet_802.3/Ethernet_802.3.md
+        - 'DKIM DomainKeys Identified Mail': /Knowledge_Base/Network/Email/DKIM_DomainKeys_Identified_Mail.md
+        - 'DMARC Domain-based Message Authentication Reporting and Conformance': /Knowledge_Base/Network/Email/DMARC_Domain-based_Message_Authentication_Reporting_and_Conformance.md
+        - 'IMAP': /Knowledge_Base/Network/Email/IMAP.md
+        - 'POP3': /Knowledge_Base/Network/Email/POP3.md
+        - 'SMTP': /Knowledge_Base/Network/Email/SMTP.md
+        - 'SPF Sender Policy Framework': /Knowledge_Base/Network/Email/SPF_Sender_Policy_Framework.md
+      - 'Ethernet 802.3': /Knowledge_Base/Network/Ethernet_802.3/Ethernet_802.3.md
       - 'Packet Capture':
-        - 'TCP Dump': Knowledge_Base/Network/Packet_Capture/TCP_Dump.md
+        - 'TCP Dump': /Knowledge_Base/Network/Packet_Capture/TCP_Dump.md
         - 'Wireshark':
-          - 'Wireshark disable dark mode': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_disable_dark_mode.md
-          - 'Wireshark Filters': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Filters.md
-          - 'Wireshark GeoIP Mapping': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_GeoIP_Mapping.md
-          - 'Wireshark HTTPS Inspection': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_HTTPS_Inspection.md
-          - 'Wireshark Install': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Install.md
-          - 'Wireshark Malware Analysis': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Malware_Analysis.md
-          - 'Wireshark Profiles': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Profiles.md
-          - 'Wireshark Ruckus Odroid Remote Packet Capture': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Ruckus_Odroid_Remote_Packet_Capture.md
-          - 'Wireshark SNMP': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_SNMP.md
-          - 'Wireshark Summary': Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Summary.md
+          - 'Wireshark disable dark mode': /Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_disable_dark_mode.md
+          - 'Wireshark Filters': /Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Filters.md
+          - 'Wireshark GeoIP Mapping': /Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_GeoIP_Mapping.md
+          - 'Wireshark HTTPS Inspection': /Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_HTTPS_Inspection.md
+          - 'Wireshark Install': /Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Install.md
+          - 'Wireshark Malware Analysis': /Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Malware_Analysis.md
+          - 'Wireshark Profiles': /Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Profiles.md
+          - 'Wireshark Ruckus Odroid Remote Packet Capture': /Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Ruckus_Odroid_Remote_Packet_Capture.md
+          - 'Wireshark SNMP': /Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_SNMP.md
+          - 'Wireshark Summary': /Knowledge_Base/Network/Packet_Capture/Wireshark/Wireshark_Summary.md
       - 'Vendor':
         - 'Aruba HPE':
-          - 'Aruba HP Multicast and Broadcast': Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_HP_Multicast_and Broadcast.md
+          - 'Aruba HP Multicast and Broadcast': /Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_HP_Multicast_and Broadcast.md
           - 'Aruba Central Instant Cluster':
-            - 'AP Configuration Sync issues Aruba Central and Instant': Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/AP_Configuration_Sync_issues_Aruba_Central_and_Instant.md
-            - 'Aruba MTU': Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/Aruba_MTU.md
-            - 'Upgrade Procedure Aruba Central and Instant': Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/Upgrade_Procedure_Aruba_Central_and_Instant.md
+            - 'AP Configuration Sync issues Aruba Central and Instant': /Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/AP_Configuration_Sync_issues_Aruba_Central_and_Instant.md
+            - 'Aruba MTU': /Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/Aruba_MTU.md
+            - 'Upgrade Procedure Aruba Central and Instant': /Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/Upgrade_Procedure_Aruba_Central_and_Instant.md
           - 'Switches':
-            - 'Aruba HPE SFPs': Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Aruba_HPE_SFPs.md
-            - 'Switch enable CLI Aruba Central': Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Switch_enable_CLI_Aruba_Central.md
+            - 'Aruba HPE SFPs': /Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Aruba_HPE_SFPs.md
+            - 'Aruba WAN Switch Routing 2 Circuit Redundancy': /Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Aruba_WAN_Switch_Routing_2_Circuit_Redundancy.md
+            - 'Switch enable CLI Aruba Central': /Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Switch_enable_CLI_Aruba_Central.md
         - 'Cisco':
-          - 'CISCO WLC Handshake Failure': Knowledge_Base/Network/Vendor/Cisco/CISCO_WLC_Handshake_Failure.md
+          - 'CISCO WLC Handshake Failure': /Knowledge_Base/Network/Vendor/Cisco/CISCO_WLC_Handshake_Failure.md
         - 'Juniper':
-          - 'Juniper Add VLAN - Ethernet Switching irb': Knowledge_Base/Network/Vendor/Juniper/Juniper_Add_VLAN_-_Ethernet_Switching_irb.md
-          - 'Juniper Add VLAN - Ethernet Switching VLAN': Knowledge_Base/Network/Vendor/Juniper/Juniper_Add_VLAN_-_Ethernet_Switching_VLAN.md
-          - 'Juniper Add VLAN - VLAN Tagging reth': Knowledge_Base/Network/Vendor/Juniper/Juniper_Add_VLAN_-_VLAN_Tagging_reth.md
-          - 'Juniper Configuration Generator': Knowledge_Base/Network/Vendor/Juniper/Juniper_Configuration_Generator.md
-          - 'Juniper JNCIA study notes': Knowledge_Base/Network/Vendor/Juniper/Juniper_JNCIA_study_notes.md
+          - 'Juniper Add VLAN - Ethernet Switching irb': /Knowledge_Base/Network/Vendor/Juniper/Juniper_Add_VLAN_-_Ethernet_Switching_irb.md
+          - 'Juniper Add VLAN - Ethernet Switching VLAN': /Knowledge_Base/Network/Vendor/Juniper/Juniper_Add_VLAN_-_Ethernet_Switching_VLAN.md
+          - 'Juniper Add VLAN - VLAN Tagging reth': /Knowledge_Base/Network/Vendor/Juniper/Juniper_Add_VLAN_-_VLAN_Tagging_reth.md
+          - 'Juniper Configuration Generator': /Knowledge_Base/Network/Vendor/Juniper/Juniper_Configuration_Generator.md
+          - 'Juniper JNCIA study notes': /Knowledge_Base/Network/Vendor/Juniper/Juniper_JNCIA_study_notes.md
           - 'SRX':
-            - 'Juniper Configuration Convertor Display set': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_Configuration_Convertor_Display_set.md
-            - 'Juniper Configuration Rescue and Auto recovery': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_Configuration_Rescue_and_Auto_recovery.md
-            - 'Juniper DHCP-Service subsystem is not responding': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_DHCP-Service_subsystem_is_not_responding.md
-            - 'Juniper DHCP Client Static Binding': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_DHCP_Client_Static_Binding.md
-            - 'Juniper SRX Firmware upgrade': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Firmware_upgrade.md
-            - 'Juniper SRX Firmware Upgrade 2': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Firmware_Upgrade_2.md
-            - 'Juniper SRX Flow': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Flow.md
-            - 'Juniper SRX FTP CLI': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_FTP_CLI.md
-            - 'Juniper SRX General Troubleshooting': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_General_Troubleshooting.md
-            - 'Juniper SRX Loader Recovery': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Loader_Recovery.md
-            - 'Juniper SRX NAT 1TO1': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_NAT_1TO1.md
-            - 'Juniper SRX NAT Destination': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_NAT_Destination.md
-            - 'Juniper SRX NAT Source': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_NAT_Source.md
-            - 'Juniper SRX NAT Troubleshooting': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_NAT_Troubleshooting.md
-            - 'Juniper SRX packet capture pcap': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_packet_capture_pcap.md
-            - 'Juniper SRX Troubleshooting Redundancy Cluster Failover': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Troubleshooting_Redundancy_Cluster_Failover.md
-            - 'Juniper SRX Troubleshoot restart IPSEC VPN': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Troubleshoot_restart_IPSEC_VPN.md
-            - 'Juniper SRX WARNING BOOTED BACKUP': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_WARNING_BOOTED_BACKUP.md
-            - 'Juniper SRX WARNING REMOTE HOST IDENTIFICATION HAS CHANGED': Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_WARNING_REMOTE_HOST_IDENTIFICATION_HAS_CHANGED.md
+            - 'Juniper Configuration Convertor Display set': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_Configuration_Convertor_Display_set.md
+            - 'Juniper Configuration Rescue and Auto recovery': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_Configuration_Rescue_and_Auto_recovery.md
+            - 'Juniper DHCP-Service subsystem is not responding': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_DHCP-Service_subsystem_is_not_responding.md
+            - 'Juniper DHCP Client Static Binding': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_DHCP_Client_Static_Binding.md
+            - 'Juniper SRX Firmware upgrade 1': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Firmware_upgrade_1.md
+            - 'Juniper SRX Firmware Upgrade 2': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Firmware_Upgrade_2.md
+            - 'Juniper SRX Flow': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Flow.md
+            - 'Juniper SRX FTP CLI': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_FTP_CLI.md
+            - 'Juniper SRX General Troubleshooting': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_General_Troubleshooting.md
+            - 'Juniper SRX Loader Recovery': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Loader_Recovery.md
+            - 'Juniper SRX NAT 1TO1': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_NAT_1TO1.md
+            - 'Juniper SRX NAT Destination': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_NAT_Destination.md
+            - 'Juniper SRX NAT Source': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_NAT_Source.md
+            - 'Juniper SRX NAT Troubleshooting': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_NAT_Troubleshooting.md
+            - 'Juniper SRX packet capture pcap': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_packet_capture_pcap.md
+            - 'Juniper SRX Troubleshooting Redundancy Cluster Failover': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Troubleshooting_Redundancy_Cluster_Failover.md
+            - 'Juniper SRX Troubleshoot restart IPSEC VPN': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_Troubleshoot_restart_IPSEC_VPN.md
+            - 'Juniper SRX WARNING BOOTED BACKUP': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_WARNING_BOOTED_BACKUP.md
+            - 'Juniper SRX WARNING REMOTE HOST IDENTIFICATION HAS CHANGED': /Knowledge_Base/Network/Vendor/Juniper/SRX/Juniper_SRX_WARNING_REMOTE_HOST_IDENTIFICATION_HAS_CHANGED.md
         - 'Meraki':
-          - 'Meraki SFP': Knowledge_Base/Network/Vendor/Meraki/Meraki_SFP.md
+          - 'Meraki SFP': /Knowledge_Base/Network/Vendor/Meraki/Meraki_SFP.md
         - 'Ruckus':
           - 'Access Points':
-            - 'AP CLI Setup Support Config Flow Ruckus SZ': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP_CLI_Setup_Support_Config_Flow_Ruckus_SZ.md
-            - 'AP Firmware Recovery CLI Ruckus SZ': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP_Firmware_Recovery_CLI_Ruckus_SZ.md
-            - 'AP TX Power EIRP Ruckus SZ': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP_TX_Power_EIRP_Ruckus_SZ.md
-            - 'CLI General Commands Ruckus SZ': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/CLI_General_Commands_Ruckus_SZ.md
+            - 'AP CLI Setup Support Config Flow Ruckus SZ': /Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP_CLI_Setup_Support_Config_Flow_Ruckus_SZ.md
+            - 'AP Firmware Recovery CLI Ruckus SZ': /Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP_Firmware_Recovery_CLI_Ruckus_SZ.md
+            - 'AP TX Power EIRP Ruckus SZ': /Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP_TX_Power_EIRP_Ruckus_SZ.md
+            - 'CLI General Commands Ruckus SZ': /Knowledge_Base/Network/Vendor/Ruckus/Access_Points/CLI_General_Commands_Ruckus_SZ.md
+            - 'Ruckus Access Point compatibility - ZoneDirector ZD SmartZone SZ Firmware': /Knowledge_Base/Network/Vendor/Ruckus/Access_Points/Ruckus_Access_Point_compatibility_-_ZoneDirector_ZD_SmartZone_SZ_Firmware.md
+            - 'Ruckus ICX Brocade CLI Dot1x Ruckus MAC Authentication Security Port': /Knowledge_Base/Network/Vendor/Ruckus/Access_Points/Ruckus_ICX_Brocade_CLI_Dot1x_Ruckus_MAC_Authentication_Security_Port.md
           - 'Switches':
-            - 'Brocade ICX Broadcast and Multicast': Knowledge_Base/Network/Vendor/Ruckus/Switches/Brocade_ICX_Broadcast_and_Multicast.md
-            - 'Console Settings Ruckus Brocade ICX': Knowledge_Base/Network/Vendor/Ruckus/Switches/Console_Settings_Ruckus_Brocade_ICX.md
-            - 'Firmware upgrade with USB Ruckus Brocade ICX': Knowledge_Base/Network/Vendor/Ruckus/Switches/Firmware_upgrade_with_USB_Ruckus_Brocade_ICX.md
-            - 'SFP Brocade ICX-7250 ds Ruckus Brocade ICX': Knowledge_Base/Network/Vendor/Ruckus/Switches/SFP_Brocade_ICX-7250_ds_Ruckus_Brocade_ICX.md
-            - 'SFP RUCKUS Optics Ruckus Brocade ICX': Knowledge_Base/Network/Vendor/Ruckus/Switches/SFP_RUCKUS_Optics_Ruckus_Brocade_ICX.md
+            - 'Brocade ICX Broadcast and Multicast': /Knowledge_Base/Network/Vendor/Ruckus/Switches/Brocade_ICX_Broadcast_and_Multicast.md
+            - 'Brocade ICX Switch Configuration CLI flash SPR SPS': /Knowledge_Base/Network/Vendor/Ruckus/Switches/Brocade_ICX_Switch_Configuration_CLI_flash_SPR_SPS.md
+            - 'Console Settings Ruckus Brocade ICX': /Knowledge_Base/Network/Vendor/Ruckus/Switches/Console_Settings_Ruckus_Brocade_ICX.md
+            - 'Firmware upgrade with USB Ruckus Brocade ICX': /Knowledge_Base/Network/Vendor/Ruckus/Switches/Firmware_upgrade_with_USB_Ruckus_Brocade_ICX.md
+            - 'SFP Brocade ICX-7250 ds Ruckus Brocade ICX': /Knowledge_Base/Network/Vendor/Ruckus/Switches/SFP_Brocade_ICX-7250_ds_Ruckus_Brocade_ICX.md
+            - 'SFP RUCKUS Optics Ruckus Brocade ICX': /Knowledge_Base/Network/Vendor/Ruckus/Switches/SFP_RUCKUS_Optics_Ruckus_Brocade_ICX.md
           - 'WLC':
             - 'SZ SmartZone':
-              - 'AP Management MGMT Control Data Plane Ports Ruckus SmartZone SZ': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/AP_Management_MGMT_Control_Data_Plane_Ports_Ruckus_SmartZone_SZ.md
-              - 'Firmware upgrade Ruckus SmartZone SZ': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/Firmware_upgrade_Ruckus_SmartZone_SZ.md
-              - 'General Cluster Upgrade and backup Ruckus SmartZone SZ': Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/General_Cluster_Upgrade_and_backup_Ruckus_SmartZone_SZ.md
+              - 'AP Management MGMT Control Data Plane Ports Ruckus SmartZone SZ': /Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/AP_Management_MGMT_Control_Data_Plane_Ports_Ruckus_SmartZone_SZ.md
+              - 'Firmware upgrade Ruckus SmartZone SZ': /Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/Firmware_upgrade_Ruckus_SmartZone_SZ.md
+              - 'General Cluster Upgrade and backup Ruckus SmartZone SZ': /Knowledge_Base/Network/Vendor/Ruckus/WLC/SZ_SmartZone/General_Cluster_Upgrade_and_backup_Ruckus_SmartZone_SZ.md
             - 'Unleashed':
-              - 'Ruckus Unleashed': Knowledge_Base/Network/Vendor/Ruckus/WLC/Unleashed/Ruckus_Unleashed.md
+              - 'Ruckus Unleashed': /Knowledge_Base/Network/Vendor/Ruckus/WLC/Unleashed/Ruckus_Unleashed.md
             - 'ZD ZoneDirector':
-              - 'Channelization Ruckus ZoneDirector ZD ': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Channelization_Ruckus_ZoneDirector_ZD_.md
-              - 'CLI Ruckus ZoneDirector ZD': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/CLI_Ruckus_ZoneDirector_ZD.md
-              - 'Ruckus CrossBreeder - Standalone Automation Implementation Steps': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Ruckus_CrossBreeder_-_Standalone_Automation_Implementation_Steps.md
-              - 'Zone Director Blank login screen': Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Zone_Director_Blank_login_screen.md
-      - 'WiFi 802.11': Knowledge_Base/Network/WiFi_802.11/WiFi_802.11.md
-    - 'News': Knowledge_Base/News/News.md
+              - 'Channelization Ruckus ZoneDirector ZD ': /Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Channelization_Ruckus_ZoneDirector_ZD_.md
+              - 'CLI Ruckus ZoneDirector ZD': /Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/CLI_Ruckus_ZoneDirector_ZD.md
+              - 'Ruckus CrossBreeder - Standalone Automation Implementation Steps': /Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Ruckus_CrossBreeder_-_Standalone_Automation_Implementation_Steps.md
+              - 'Zone Director Blank login screen': /Knowledge_Base/Network/Vendor/Ruckus/WLC/ZD_ZoneDirector/Zone_Director_Blank_login_screen.md
+        - 'Zyxel':
+          - 'Zyxel MIBs': /Knowledge_Base/Network/Vendor/Zyxel/Zyxel_MIBs.md
+      - 'WiFi 802.11': /Knowledge_Base/Network/WiFi_802.11/WiFi_802.11.md
+    - 'News': /Knowledge_Base/News/News.md
     - 'OS':
       - 'General':
-        - 'Putty Logging': Knowledge_Base/OS/General/Putty_Logging.md
+        - 'Putty Logging': /Knowledge_Base/OS/General/Putty_Logging.md
       - 'Linux':
         - 'Arch':
-          - 'Arch Openvpn': Knowledge_Base/OS/Linux/Arch/Arch_Openvpn.md
-          - 'virt-manager': Knowledge_Base/OS/Linux/Arch/virt-manager.md
-          - 'xrandr changing primary display': Knowledge_Base/OS/Linux/Arch/xrandr_changing_primary_display.md
+          - 'Arch Openvpn': /Knowledge_Base/OS/Linux/Arch/Arch_Openvpn.md
+          - 'virt-manager': /Knowledge_Base/OS/Linux/Arch/virt-manager.md
+          - 'xrandr changing primary display': /Knowledge_Base/OS/Linux/Arch/xrandr_changing_primary_display.md
         - 'Debian':
           - 'Backup and Restore':
-            - 'Timeshift system snapshots': Knowledge_Base/OS/Linux/Debian/Backup_and_Restore/Timeshift_system_snapshots.md
-            - 'Undo Deleted Files': Knowledge_Base/OS/Linux/Debian/Backup_and_Restore/Undo_Deleted_Files.md
+            - 'Timeshift system snapshots': /Knowledge_Base/OS/Linux/Debian/Backup_and_Restore/Timeshift_system_snapshots.md
+            - 'Undo Deleted Files': /Knowledge_Base/OS/Linux/Debian/Backup_and_Restore/Undo_Deleted_Files.md
           - 'Commands':
-            - 'Autostart apps scripts on startup': Knowledge_Base/OS/Linux/Debian/Commands/Autostart_apps_scripts_on_startup.md
-            - 'curl': Knowledge_Base/OS/Linux/Debian/Commands/curl.md
-            - 'DNS Lookup': Knowledge_Base/OS/Linux/Debian/Commands/DNS_Lookup.md
-            - 'environment keys': Knowledge_Base/OS/Linux/Debian/Commands/environment_keys.md
-            - 'Find Search Locate': Knowledge_Base/OS/Linux/Debian/Commands/Find_Search_Locate.md
-            - 'Linux Clearing Storage': Knowledge_Base/OS/Linux/Debian/Commands/Linux_Clearing_Storage.md
-            - 'Linux date time': Knowledge_Base/OS/Linux/Debian/Commands/Linux_date_time.md
-            - 'Networking VLAN and Route': Knowledge_Base/OS/Linux/Debian/Commands/Networking_VLAN_and_Route.md
-            - 'SSL Cert end date check': Knowledge_Base/OS/Linux/Debian/Commands/SSL_Cert_end_date_check.md
-            - 'System Commands': Knowledge_Base/OS/Linux/Debian/Commands/System_Commands.md
-            - 'wget': Knowledge_Base/OS/Linux/Debian/Commands/wget.md
-          - 'Desktop Environment': Knowledge_Base/OS/Linux/Debian/Desktop_Environment/dekstop_environment.md
+            - 'Autostart apps scripts on startup': /Knowledge_Base/OS/Linux/Debian/Commands/Autostart_apps_scripts_on_startup.md
+            - 'curl': /Knowledge_Base/OS/Linux/Debian/Commands/curl.md
+            - 'DNS Lookup': /Knowledge_Base/OS/Linux/Debian/Commands/DNS_Lookup.md
+            - 'environment keys': /Knowledge_Base/OS/Linux/Debian/Commands/environment_keys.md
+            - 'Find Search Locate': /Knowledge_Base/OS/Linux/Debian/Commands/Find_Search_Locate.md
+            - 'Linux Clearing Storage': /Knowledge_Base/OS/Linux/Debian/Commands/Linux_Clearing_Storage.md
+            - 'Linux date time': /Knowledge_Base/OS/Linux/Debian/Commands/Linux_date_time.md
+            - 'Networking VLAN and Route': /Knowledge_Base/OS/Linux/Debian/Commands/Networking_VLAN_and_Route.md
+            - 'SSL Cert end date check': /Knowledge_Base/OS/Linux/Debian/Commands/SSL_Cert_end_date_check.md
+            - 'System Commands': /Knowledge_Base/OS/Linux/Debian/Commands/System_Commands.md
+            - 'wget': /Knowledge_Base/OS/Linux/Debian/Commands/wget.md
+          - 'Desktop Environment': /Knowledge_Base/OS/Linux/Debian/Desktop_Environment/dekstop_environment.md
           - 'Fixes':
-            - 'FIX-speedtest-cli apt update error': Knowledge_Base/OS/Linux/Debian/Fixes/FIX-speedtest-cli_apt_update_error.md
-            - 'FIX DNS resolv.conf': Knowledge_Base/OS/Linux/Debian/Fixes/FIX_DNS_resolv.conf.md
-            - 'FIX sources repos list DNS Linux': Knowledge_Base/OS/Linux/Debian/Fixes/FIX_sources_repos_list_DNS_Linux.md
-            - 'Ubuntu update error waiting for unattended-upgrade to exit': Knowledge_Base/OS/Linux/Debian/Fixes/Ubuntu_update_error_waiting_for_unattended-upgrade_to_exit.md
+            - 'FIX-speedtest-cli apt update error': /Knowledge_Base/OS/Linux/Debian/Fixes/FIX-speedtest-cli_apt_update_error.md
+            - 'FIX DNS resolv.conf': /Knowledge_Base/OS/Linux/Debian/Fixes/FIX_DNS_resolv.conf.md
+            - 'FIX sources repos list DNS Linux': /Knowledge_Base/OS/Linux/Debian/Fixes/FIX_sources_repos_list_DNS_Linux.md
+            - 'Ubuntu update error waiting for unattended-upgrade to exit': /Knowledge_Base/OS/Linux/Debian/Fixes/Ubuntu_update_error_waiting_for_unattended-upgrade_to_exit.md
           - 'Kali':
-            - 'Issues fixes': Knowledge_Base/OS/Linux/Debian/Kali/Issues_fixes.md
-            - 'kali setup': Knowledge_Base/OS/Linux/Debian/Kali/kali_setup.md
-            - 'Proxychains': Knowledge_Base/OS/Linux/Debian/Kali/Proxychains.md
-            - 'SSH Server': Knowledge_Base/OS/Linux/Debian/Kali/SSH_Server.md
-            - 'VNC over SSH': Knowledge_Base/OS/Linux/Debian/Kali/VNC_over_SSH.md
-            - 'Wireless Adapter': Knowledge_Base/OS/Linux/Debian/Kali/Wireless_Adapter.md
+            - 'Issues fixes': /Knowledge_Base/OS/Linux/Debian/Kali/Issues_fixes.md
+            - 'kali setup': /Knowledge_Base/OS/Linux/Debian/Kali/kali_setup.md
+            - 'Proxychains': /Knowledge_Base/OS/Linux/Debian/Kali/Proxychains.md
+            - 'SSH Server': /Knowledge_Base/OS/Linux/Debian/Kali/SSH_Server.md
+            - 'VNC over SSH': /Knowledge_Base/OS/Linux/Debian/Kali/VNC_over_SSH.md
+            - 'Wireless Adapter': /Knowledge_Base/OS/Linux/Debian/Kali/Wireless_Adapter.md
           - 'Linux Directories':
-            - 'Hierarchy': Knowledge_Base/OS/Linux/Debian/Linux_Directories/Hierarchy.md
-            - 'Tree-Directory Browsing': Knowledge_Base/OS/Linux/Debian/Linux_Directories/Tree-Directory_Browsing.md
+            - 'Hierarchy': /Knowledge_Base/OS/Linux/Debian/Linux_Directories/Hierarchy.md
+            - 'Tree-Directory Browsing': /Knowledge_Base/OS/Linux/Debian/Linux_Directories/Tree-Directory_Browsing.md
           - 'Misc':
-            - 'Crontab cronjob': Knowledge_Base/OS/Linux/Debian/Misc/Crontab_cronjob.md
-            - 'File Permissions': Knowledge_Base/OS/Linux/Debian/Misc/File_Permissions.md
-            - 'Linux Kernal': Knowledge_Base/OS/Linux/Debian/Misc/Linux_Kernal.md
-            - 'OS Upgrade': Knowledge_Base/OS/Linux/Debian/Misc/OS_Upgrade.md
-            - 'Users and Groups': Knowledge_Base/OS/Linux/Debian/Misc/Users_and_Groups.md
-            - 'vsftpd very secure FTP daemon': Knowledge_Base/OS/Linux/Debian/Misc/vsftpd_very_secure_FTP_daemon.md
-            - 'X Symbolic Links': Knowledge_Base/OS/Linux/Debian/Misc/X_Symbolic_Links.md
+            - 'Crontab cronjob': /Knowledge_Base/OS/Linux/Debian/Misc/Crontab_cronjob.md
+            - 'File Permissions': /Knowledge_Base/OS/Linux/Debian/Misc/File_Permissions.md
+            - 'Linux Kernal': /Knowledge_Base/OS/Linux/Debian/Misc/Linux_Kernal.md
+            - 'OS Upgrade': /Knowledge_Base/OS/Linux/Debian/Misc/OS_Upgrade.md
+            - 'Users and Groups': /Knowledge_Base/OS/Linux/Debian/Misc/Users_and_Groups.md
+            - 'vsftpd very secure FTP daemon': /Knowledge_Base/OS/Linux/Debian/Misc/vsftpd_very_secure_FTP_daemon.md
+            - 'X Symbolic Links': /Knowledge_Base/OS/Linux/Debian/Misc/X_Symbolic_Links.md
           - 'Package Management':
-            - 'apt': Knowledge_Base/OS/Linux/Debian/Package_Management/apt.md
-            - 'dpkg': Knowledge_Base/OS/Linux/Debian/Package_Management/dpkg.md
-            - 'other': Knowledge_Base/OS/Linux/Debian/Package_Management/other.md
+            - 'apt': /Knowledge_Base/OS/Linux/Debian/Package_Management/apt.md
+            - 'dpkg': /Knowledge_Base/OS/Linux/Debian/Package_Management/dpkg.md
+            - 'other': /Knowledge_Base/OS/Linux/Debian/Package_Management/other.md
           - 'Securing Linux':
-            - 'Disable Root account': Knowledge_Base/OS/Linux/Debian/Securing_Linux/Disable_Root_account.md
-            - 'SSH 2FA': Knowledge_Base/OS/Linux/Debian/Securing_Linux/SSH_2FA.md
-            - 'Viewing and monitoring log files': Knowledge_Base/OS/Linux/Debian/Securing_Linux/Viewing_and_monitoring_log_files.md
+            - 'Disable Root account': /Knowledge_Base/OS/Linux/Debian/Securing_Linux/Disable_Root_account.md
+            - 'SSH 2FA': /Knowledge_Base/OS/Linux/Debian/Securing_Linux/SSH_2FA.md
+            - 'Viewing and monitoring log files': /Knowledge_Base/OS/Linux/Debian/Securing_Linux/Viewing_and_monitoring_log_files.md
           - 'Services and applications':
-            - 'vnc install': Knowledge_Base/OS/Linux/Debian/Services_and_applications/vnc_install.md
+            - 'vnc install': /Knowledge_Base/OS/Linux/Debian/Services_and_applications/vnc_install.md
       - 'Windows':
-        - 'applications': Knowledge_Base/OS/Windows/applications.md
+        - 'applications': /Knowledge_Base/OS/Windows/applications.md
         - 'Commands':
-          - 'PowerShell file operation': Knowledge_Base/OS/Windows/Commands/PowerShell_file_operation.md
-          - 'Removing Edge Browser': Knowledge_Base/OS/Windows/Commands/Removing_Edge_Browser.md
-          - 'routes': Knowledge_Base/OS/Windows/Commands/routes.md
-          - 'Windows Start-up': Knowledge_Base/OS/Windows/Commands/Windows_Start-up.md
-          - 'WSL Windows Subsystem Linux': Knowledge_Base/OS/Windows/Commands/WSL_Windows_Subsystem_Linux.md
+          - 'PowerShell file operation': /Knowledge_Base/OS/Windows/Commands/PowerShell_file_operation.md
+          - 'Removing Edge Browser': /Knowledge_Base/OS/Windows/Commands/Removing_Edge_Browser.md
+          - 'routes': /Knowledge_Base/OS/Windows/Commands/routes.md
+          - 'Windows Start-up': /Knowledge_Base/OS/Windows/Commands/Windows_Start-up.md
+          - 'WSL Windows Subsystem Linux': /Knowledge_Base/OS/Windows/Commands/WSL_Windows_Subsystem_Linux.md
         - 'Troubleshooting':
-          - 'ERR SSL VERSION OR CIPHER MISMATCH': Knowledge_Base/OS/Windows/Troubleshooting/ERR_SSL_VERSION_OR_CIPHER_MISMATCH.md
-    - 'Privacy': Knowledge_Base/Privacy/Privacy.md
-    # - Blog:
-    #   - blog/index.md
-    - whoami: whoami.html
+          - 'ERR SSL VERSION OR CIPHER MISMATCH': /Knowledge_Base/OS/Windows/Troubleshooting/ERR_SSL_VERSION_OR_CIPHER_MISMATCH.md
+    - 'Privacy': /Knowledge_Base/Privacy/Privacy.md
+  - whoami: whoami.html

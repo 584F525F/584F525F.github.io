@@ -74,7 +74,7 @@
         ```
 
         If saving the configuration to a file for later transfer using your preferred file transfer method
-        
+
         ```bash
         #replace “filename” with your desired name
         show configuration | display set | save /var/tmp/filename
@@ -136,7 +136,7 @@
         ##### 3. Verification
 
         When the SRX has finished rebooting and is accessible again, log in and verify the expected version has been installed
-        
+
         ```bash
         show version
         ```
@@ -160,7 +160,7 @@
     For use with an SRX cluster. For each software upgrade, this section should be completed in its entirety.
 
     Not all required changes can be completed from a single cluster node and as such, access to the other node is required. You can access the other node from the primary using
-    
+
     ```bash
     #replace the “#” with the node you wish to access
     request routing-engine login node #

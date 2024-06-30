@@ -1,6 +1,7 @@
 !!! info ""
 
     #### Enable support mode
+
     ```bash
     Aruba-central support-mode enable
     ```

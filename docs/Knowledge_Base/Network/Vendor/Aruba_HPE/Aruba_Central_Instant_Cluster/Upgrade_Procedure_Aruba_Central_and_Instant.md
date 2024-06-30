@@ -172,3 +172,11 @@
     ![aruba_upgrade_troubleshooting_1](/Knowledge_Base/images/aruba_upgrade_troubleshooting_1.png)
 
     ![aruba_upgrade_troubleshooting_2](/Knowledge_Base/images/aruba_upgrade_troubleshooting_2.png)
+
+    **Other commands**
+
+    ```bash
+    show log provision
+    show log upgrade
+    show activate
+    ```

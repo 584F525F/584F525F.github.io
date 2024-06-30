@@ -197,10 +197,12 @@
         Below ACL will block ports 1900 & 5353
 
         ```bash
+        #Not for Chromcasts - Only STBS
+        #if you have Chromcasts you cant do any any, you have to put the the IP you need to isolate
         ip access-list extended Filter_mDNS
-        deny udp any any eq 5353
-        deny udp any any eq 1900
-        permit ip any any
+        sequence 10 deny udp any any eq 5353
+        sequence 20 deny udp any any eq 1900
+        sequence 30 permit ip any any
         ```
 
         Below is how you apply the ACL above to a Router ve for a specific VLAN
@@ -209,4 +211,22 @@
         #configure the Filter on Interface ve level
         interface ve <ve_Number>
         ip access-group Filter_mDNS in
+        ```
+
+        #assign the list to a port
+
+        ```bash
+        interface ethernet 1/1/14
+        ip access-group Filter_mDNS in
+        ```
+
+        Additional setup
+
+        ```bash
+        vlan 10
+        spanning-tree
+        loop-detection
+        wr mem
+        spanning-tree
+        wr mem
         ```
