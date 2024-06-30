@@ -8,7 +8,7 @@
 
     Example: [https://X.X.X.X/admin10/login.jsp]
 
-    ![img](Zone_Director_Blank_login_screen_img.png)
+    ![img](/Knowledge_Base/images/Zone_Director_Blank_login_screen_img.png)
 
 
     ### Issue Reason
@@ -25,4 +25,4 @@
 
     The page might not look exactly like this but that doesn't matter, all you need is to click the Browse and continue with the Firmware upgrade.
 
-    ![img](Zone_Director_Blank_login_screen_img_1.png)
+    ![img](/Knowledge_Base/images/Zone_Director_Blank_login_screen_img_1.png)
