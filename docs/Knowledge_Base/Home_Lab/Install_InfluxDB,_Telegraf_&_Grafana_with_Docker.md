@@ -4,7 +4,7 @@
 
     - [github tig-stack](https://github.com/huntabyte/tig-stack)
     - [Youtube video](https://www.youtube.com/watch?v=QGG_76OmRnA)
-    - Yaml Validator [https://www.yamllint.com/](https://www.yamllint.com/)
+    - [Yaml Validator](https://www.yamllint.com/)
     - [Telegraf best practices]([https://www.influxdata.com/blog/telegraf-best-practices/](https://www.influxdata.com/blog/telegraf-best-practices/))
 
 

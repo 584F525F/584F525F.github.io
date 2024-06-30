@@ -42,11 +42,9 @@
 
     #### packet capture samples
     
-    (DNS over TLS proxied - no TLS on LAN)[https://www.cloudshark.org/captures/277545f545d8]
-
-    (chrome-doh-example.pcapng)[https://www.cloudshark.org/captures/c561ae9532d4]
-
-    (chrome-doh-example-with-secrets.pcapng)[https://www.cloudshark.org/captures/add993b5e5af]
+    - [DNS over TLS proxied - no TLS on LAN](https://www.cloudshark.org/captures/277545f545d8)
+    - [chrome-doh-example.pcapng](https://www.cloudshark.org/captures/c561ae9532d4)
+    - [chrome-doh-example-with-secrets.pcapng](https://www.cloudshark.org/captures/add993b5e5af)
 
 
 !!! warning ""

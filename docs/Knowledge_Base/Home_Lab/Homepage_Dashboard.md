@@ -62,4 +62,5 @@
 !!! info ""
 
     ### Sources
-    https://gethomepage.dev/latest/
+
+    [gethomepage](https://gethomepage.dev/latest/)

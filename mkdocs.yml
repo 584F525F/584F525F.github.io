@@ -482,4 +482,6 @@ nav:
         - 'Troubleshooting':
           - 'ERR SSL VERSION OR CIPHER MISMATCH': Knowledge_Base/OS/Windows/Troubleshooting/ERR_SSL_VERSION_OR_CIPHER_MISMATCH.md
     - 'Privacy': Knowledge_Base/Privacy/Privacy.md
+    # - Blog:
+    #   - blog/index.md
   - whoami: whoami.html
