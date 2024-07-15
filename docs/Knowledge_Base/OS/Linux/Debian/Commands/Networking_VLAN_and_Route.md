@@ -59,8 +59,8 @@
     #### Network configuration files locations
 
     ```bash
-    nano /etc/NetworkManager/NetworkManager.conf
-    nano /etc/network/interfaces
+    sudo nano /etc/NetworkManager/NetworkManager.conf
+    sudo nano /etc/network/interfaces
     ```
 
 !!! info ""
@@ -239,10 +239,10 @@
 
     ##### Route ADD
 
+    dev syntax depends on how you have those devices set up. You can check by using 'nmcli conn show'
+
     ```bash
     sudo route add -net 0.0.0.0 gw 172.20.0.1 dev VLAN50
-    sudo route add -net 0.0.0.0 gw 172.20.0.1 dev VLAN200
-    sudo route add -net 0.0.0.0 gw 172.20.0.1 dev eth0.35
     sudo route add -net 0.0.0.0 gw 172.20.0.1 dev eth0.50
     ```
 
@@ -262,7 +262,8 @@
     172.20.0.0      0.0.0.0         255.255.240.0   U     400    0        0 VLAN50
     ```
 
-    Table should look like this, if green is missing then if you delete the eth0 route, you can’t reach the device
+    Table should look like this. If you want to delete the eth0 default route so you can force all traffic on a VLAN, you will lose connectivity to the device.
+    In most cases you can regain access if you bounce the Switch port the device is connected to (Disable > wait a few seconds > Enable).
 
     ```bash
     route -n
@@ -334,4 +335,17 @@
 
     #while in /etc/netplan/
     sudo netplan apply
+    ```
+
+!!! info ""
+
+    #### extra commands
+
+    ```bash
+    cat /proc/net/route
+    ip route
+    ip route get x.x.x.x
+    ip route show table local
+    #policy-based routing
+    ip rule show
     ```

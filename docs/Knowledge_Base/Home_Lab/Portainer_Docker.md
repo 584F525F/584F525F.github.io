@@ -22,9 +22,9 @@
     docker ps
     ```
 
-    Log in https://localhost:9443
+    Log in [https://localhost:9443](https://localhost:9443)
     
-    Sources: [Docker Linux Install CE](https://docs.portainer.io/start/install-ce/server/docker/linux)
+    **Sources**: [Docker Linux Install CE](https://docs.portainer.io/start/install-ce/server/docker/linux)
 
 
 !!! info ""
