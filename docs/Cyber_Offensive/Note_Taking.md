@@ -29,4 +29,3 @@
 
     - [OSCP Exam Report Template Markdown](https://github.com/noraj/OSCP-Exam-Report-Template-Markdown)
     - [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
-

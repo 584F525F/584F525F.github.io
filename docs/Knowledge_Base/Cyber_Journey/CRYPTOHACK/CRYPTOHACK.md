@@ -1,1 +1,3 @@
-[CryptoHack](https://cryptohack.org/)
+!!! info ""
+
+    [CryptoHack](https://cryptohack.org/)

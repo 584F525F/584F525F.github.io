@@ -15,8 +15,6 @@
 
     ![alt text](/Knowledge_Base/images/SPF_Howitworks.png)
 
-    ---
-
     #### Mechanisms
 
     ```bash

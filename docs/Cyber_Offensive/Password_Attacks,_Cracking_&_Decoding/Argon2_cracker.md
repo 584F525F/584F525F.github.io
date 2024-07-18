@@ -1,6 +1,7 @@
 !!! info ""
 
-    #### sources:
+    #### sources
+    
     - [Argon2 Cracker Github](https://github.com/CyberKnight00/Argon2_Cracker)
 
 !!! info ""

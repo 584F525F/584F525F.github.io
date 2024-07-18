@@ -7,7 +7,7 @@
     #### Install
     
     Ffuf depends on Go 1.16 or greater
-    
+
     ```bash
     git clone https://github.com/ffuf/ffuf ; cd ffuf ; go get ; go build
     ```
@@ -22,7 +22,7 @@
     ### Commands
     
     ##### FUZZ keyword at the end of URL (-u)
-    
+
     ```bash
     ffuf -w /path/to/wordlist -u https://target/FUZZ
     ```
@@ -30,7 +30,7 @@
     ##### Virtual host discovery (without DNS records)
     
     Assuming that the default virtualhost response size is 4242 bytes, we can       ilter out all the responses of that size (-fs 4242)while fuzzing the     Host    header:
-    
+
     ```shell
     ffuf -w /path/to/vhost/wordlist -u https://target -H "Host: FUZZ" -fs 4242
     
@@ -39,13 +39,13 @@
     ##### GET parameter fuzzing
     
     similar to directory discovery, and works by defining the FUZZ keyword as     a   art of the URL. This also assumes a response size of 4242 bytes for       nvalid GET parameter name.
-    
+
     ```shell
     ffuf -w /path/to/paramnames.txt -u https://target/script.php?     UZZ=test_value -fs 4242
     ```
     
     If the parameter name is known, the values can be fuzzed the same way.     This   xample assumes a wrong parameter value returning HTTP response code     401.
-    
+
     ```shell
     ffuf -w /path/to/values.txt -u https://target/script.php?valid_name=FUZZ      fc 401
     ```
@@ -53,7 +53,7 @@
     ##### POST data fuzzing
     
     This is a very straightforward operation, again by using the FUZZ keyword.      his example is fuzzing only part of the POST request. We're again  iltering     out the 401 responses.
-    
+
     ```shell
     ffuf -w /path/to/postdata.txt -X POST -d "username=admin\&password=FUZZ"     -u   ttps://target/login.php -fc 401
     ```
@@ -61,13 +61,13 @@
     ##### Maximum execution time
     
     If you don't want ffuf to run indefinitely, you can use the -maxtime. This      tops the entire process after a given time (in seconds).
-    
+
     ```shell
     ffuf -w /path/to/wordlist -u https://target/FUZZ -maxtime 60
     ```
     
     When working with recursion, you can control the maxtime per job using      maxtime-job. This will stop the current job after a given time (in       seconds) and continue with the next one. New jobs are created when the       recursion functionality detects a subdirectory.
-    
+
     ```shell
     ffuf -w /path/to/wordlist -u https://target/FUZZ -maxtime-job 60     -recursion   recursion-depth 2
     ```

@@ -1,6 +1,7 @@
 !!! info ""
 
-    #### sources:
+    #### sources
+    
     [Offensive Security Cheatsheet](https://cheatsheet.haax.fr/passcracking-hashfiles/cracking_files/)
 
 

@@ -32,25 +32,25 @@
     #### Recursion
 
     Recursive brute-force is brute-forcing continuously the after of found directories. For example, if dirsearch finds admin/, it will brute-force admin/* (* is where it brute forces). To enable this feature, use -r (or --recursive) flag
-    
+
     ```bash
     python3 dirsearch.py -e php,html,js -u https://target -r
     ```
 
     You can set the max recursion depth with --max-recursion-depth, and status codes to recurse with --recursion-status
-    
+
     ```bash
     python3 dirsearch.py -e php,html,js -u https://target -r --max-recursion-depth 3 --recursion-status 200-399
     ```
 
     If there are sub-directories that you do not want to brute-force recursively, use --exclude-subdirs
-    
+
     ```bash
     python3 dirsearch.py -e php,html,js -u https://target -r --exclude-subdirs image/,media/,css/
     ```
 
     ### Options | Switches
-    
+
     ```bash
     Usage: dirsearch.py [-u|--url] target [-e|--extensions] extensions [options]
 

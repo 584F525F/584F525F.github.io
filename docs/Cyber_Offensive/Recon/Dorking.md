@@ -44,7 +44,6 @@
 
     [pagodo github](https://github.com/opsdisk/pagodo)
 
-    
 
 !!! info ""
 
@@ -53,7 +52,7 @@
     [DorkFinder- github](https://github.com/glavstroy/DorkFinder?tab=readme-ov-file)
 
     #### Install on Linux
-    
+
     ```bash
     git clone https://github.com/glavstroy/DorkFinder
     cd DorkFinder
@@ -82,6 +81,3 @@
     ```bash
     python3 dorkfinder.py -t example.com -o
     ```
-
-
-

@@ -59,10 +59,7 @@
 
     #Recursion
     wfuzz -z list,"admin-CVS-cgi\-bin"  -R1 http://testphp.vulnweb.com/FUZZ
-
-
     ```
-
 
 !!! info ""
 

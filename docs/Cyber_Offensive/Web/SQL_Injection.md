@@ -17,7 +17,6 @@
     #### Generic SQL Injection Payloads
 
     ```shell
-
     '
     ''
     `

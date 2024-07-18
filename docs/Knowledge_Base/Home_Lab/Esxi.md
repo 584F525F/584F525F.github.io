@@ -44,7 +44,6 @@
     Restart the server and boot from the created device
     ```
 
-
 !!! info ""
 
     ### Esxi Patching & Upgrade
@@ -97,7 +96,7 @@
         - **Linux**
             
             Ununtu defragment
-                
+
             ```bash
             #no need to unmount disk
             sudo e4defrag -c /path/x/x/x
@@ -107,11 +106,7 @@
             ```
 
             Shrinking the Virtual disk
+
             ```bash
             sudo vmware-toolbox-cmd disk shrinkonly
             ```
-
-
-
-
-

@@ -339,7 +339,7 @@
 
 !!! info ""
 
-    #### extra commands
+    ### extra commands
 
     ```bash
     cat /proc/net/route

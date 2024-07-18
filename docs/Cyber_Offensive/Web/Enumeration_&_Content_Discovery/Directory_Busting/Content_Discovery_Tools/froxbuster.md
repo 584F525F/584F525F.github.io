@@ -59,7 +59,7 @@
     ```
 
     ##### Pass auth token via query parameter
+
     ```bash
     ./feroxbuster -u http://127.1 --query token=0123456789ABCDEF
     ```
-    

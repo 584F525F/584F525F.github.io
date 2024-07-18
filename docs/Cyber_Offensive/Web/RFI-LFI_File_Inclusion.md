@@ -31,6 +31,7 @@
     ```
 
     Gemfile
+
     ```bash
     gem 'ronin-vulns', '~> 0.1'
     ```
@@ -40,5 +41,3 @@
     ```bash
     gem.add_dependency 'ronin-vulns', '~> 0.1'
     ```
-
-

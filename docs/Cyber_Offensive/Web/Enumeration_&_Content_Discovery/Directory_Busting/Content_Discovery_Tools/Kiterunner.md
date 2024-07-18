@@ -42,13 +42,13 @@
 
     ## Quick Start
 
-    ```
+    ```shell
     kr [scan|brute] <input> [flags]
     ```
 
-    - `<input>` can be a file, a domain, or URI. we'll figure it out for you. See  [Input/Host Formatting](#inputhost-formatting) for more details
+    `<input>` can be a file, a domain, or URI. we'll figure it out for you. See  [Input/Host Formatting](#inputhost-formatting) for more details
 
-    ```
+    ```shell
     # Just have a list of hosts and no wordlist
     kr scan hosts.txt -A=apiroutes-210328:20000 -x 5 -j 100 --fail-status-codes 400,401,404,403,501,502,426,411
 
@@ -66,7 +66,7 @@
 
     ## CLI Help
 
-    ```
+    ```bash
     Usage:
       kite scan [flags]
 
@@ -103,7 +103,8 @@
     ```
 
     bruteforce flags (all the flags above +)
-    ```
+
+    ```bash
       -D, --dirsearch-compat              this will replace %EXT% with the extensions provided. backwards compat with dirsearch because shubs loves him some dirsearch
       -e, --extensions strings            extensions to append while scanning
       -w, --wordlist strings              normal wordlist to use for scanning
@@ -125,7 +126,7 @@
     Its preferred that you provide a full URI as the input, however you can provide incomplete URIs and we'll try and guess what you mean.
     An example list of domains you can supply are:
 
-    ```
+    ```bash
     one.com
     two.com:80
     three.com:443
@@ -136,7 +137,7 @@
 
     The above list of domains will expand into the subsequent list of targets
 
-    ```
+    ```bash
     (two targets are created for one.com, since neither port nor protocol was specified)
     http://one.com (port 80 implied)
     https://one.com (port 443 implied)
@@ -148,7 +149,8 @@
     http://six.com/api (port 80 implied; basepath API appended)
     ```
 
-    the rules we apply are:
+    The rules we apply are:
+
     - if you supply a scheme, we use the scheme.
       - We only support http & https
       - if you don't supply a scheme, we'll guess based on the port
@@ -162,6 +164,7 @@
     ## API Scanning
 
     When you have a single target
+
     ```bash
     # single target
     kr scan https://target.com:8443/ -w routes.kite -A=apiroutes-210228:20000 -x 10 --ignore-length=34
@@ -227,7 +230,7 @@
 
     The wordlists when used, are cached in `~/.cache/kiterunner/wordlists`. When used, these are compiled from `.txt` -> `.kite` 
 
-    ```
+    ```bash
     +-----------------------------------+-------------------------------------------------------+----------------+---------+----------+--------+
     |               ALIAS               |                       FILENAME                        |     SOURCE     |  COUNT  | FILESIZE | CACHED |
     +-----------------------------------+-------------------------------------------------------+----------------+---------+----------+--------+
@@ -254,7 +257,8 @@
     ```
 
     **Usage**
-    ```
+
+    ```bash
     kr scan targets.txt -A=apiroutes-210228 -x 10 --ignore-length=34
     kr brute targets.txt -A=aspx-210228 -x 10 --ignore-length=34 -easp,aspx
     ```
@@ -264,7 +268,8 @@
     When using assetnote provided wordlists, you may not want to use the entire wordlist, so you can opt to use the first N lines in a given wordlist using the `head syntax`. The format is `<wordlist_name>:<N lines>` when specifying a wordlist.
 
     **Usage**
-    ```
+
+    ```bash
     # this will use the first 20000 lines in the api routes wordlist
     kr scan targets.txt -A=apiroutes-210228:20000 -x 10 --ignore-length=34
 
@@ -299,12 +304,14 @@
     **Usage**
 
     The format is decided by the filetype extension supplied by the `<input>` and `<output>` fields. We support `txt`, `json` and `kite`
+
     ```bash
     kr kb convert wordlist.txt wordlist.kite
     kr kb convert wordlist.kite wordlist.json
     kr kb convert wordlist.kite wordlist.txt
     ```
-    ```
+
+    ```bash
     ❯ go run ./cmd/kiterunner kb convert -qh
     convert an input file format into the specified output file format
 

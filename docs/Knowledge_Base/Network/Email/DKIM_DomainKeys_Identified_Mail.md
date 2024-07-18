@@ -6,7 +6,6 @@
 
     - [dns-dkim-record](https://www.cloudflare.com/learning/dns/dns-records/dns-dkim-record/)
     - [Email Spoof Test](https://emailspooftest.com/)
-    
 
 
 !!! info ""

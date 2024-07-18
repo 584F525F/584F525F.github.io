@@ -28,7 +28,7 @@
     ```
 
     Add the repository to Apt sources:
-    
+
     ```bash
     echo \
     "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
@@ -248,8 +248,6 @@
     |```docker port``` |To show docker containers public ports |
 
 
-
-
 !!! info ""
 
     ### docker pentest container
@@ -271,7 +269,7 @@
         #### Use cases
 
         Use the container to access HTB (Hack the Box) machines by HTB vpn
-        
+
         ```bash
         docker run --rm -it --cap-add=NET_ADMIN --device=/dev/net/tun --sysctl net.ipv6.conf.all.disable_ipv6=0 --name my-pentest aaaguirrep/pentest /bin/zsh
         ```

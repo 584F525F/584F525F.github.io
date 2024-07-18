@@ -131,4 +131,3 @@
     #### Resources
     
     [Deploying Wazuh agents on Linux endpoints - Wazuh agent](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-linux.html)
-

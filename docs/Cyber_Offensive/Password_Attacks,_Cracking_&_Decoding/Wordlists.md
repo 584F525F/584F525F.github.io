@@ -1,6 +1,7 @@
 !!! info ""
 
     #### Wordlists references
+    
     - [Kaonashi](https://github.com/kaonashi-passwords/Kaonashi)
     - [weakpass](https://weakpass.com/wordlist)
     - [gwicks dictionaries](http://www.gwicks.net/dictionaries.htm)
