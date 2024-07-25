@@ -160,19 +160,29 @@
 
 		#### `.env` file configuration
 
+		`openssl rand -base64 128` to generate random JWT Secret
+
 		Make sure to update the location of where your files will be saved `UPLOAD_LOCATION=<directory_path>.`, for example, “UPLOAD_LOCATION=/mystorage/images.”
 
 		```bash
 		UPLOAD_LOCATION=./library
 		IMMICH_VERSION=release
-		DB_PASSWORD=postgres_pass
+		DB_PASSWORD=postgres87s_bkxgnx_pass
+		JWT_SECRET=HWrEf6blkaajUtcvMASepa0iDn12+ppYccHIDz4dRI2X/g8Dp1XsceltqGvamvt0
+k1vsCyJPC1Cs/oUHZYY/E6PWKkga34TgyPFUVj5iFK9UGsdP/xCB1/jmwqVFyazm
+e8jz1Huk2siwvGKYDpmEHGeegDYXp4Zf1imUVcUpKFk=
 
 		# The values below this line do not need to be changed
 		######################################################
-		DB_HOSTNAME=immich_postgres
-		DB_USERNAME=postgres
-		DB_DATABASE_NAME=immich
-		REDIS_HOSTNAME=immich_redis
+		DB_HOSTNAME=immich_postgress_x8n7xigxes
+		DB_USERNAME=posss78y9hstgres
+		DB_DATABASE_NAME=immichs6g7s
+		REDIS_HOSTNAME=immich_redis_76sbfjsv
+		IMMICH_WEB_URL=http://10.10.10.31:3000
+		IMMICH_SERVER_URL=http://10.10.10.31:3001
+		DISABLE_REVERSE_GEOCODING=false
+		REVERSE_GEOCODING_PERCISION=3
+		LOG_LEVEL=log
 		```
 
     Open your browser to [http://127.0.0.1:2283](http://127.0.0.1:2283) and continue your setup.
