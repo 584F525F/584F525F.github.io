@@ -1443,3 +1443,95 @@
     This function was also called prior to the util_execSystem call that used the PSK specified by the user.
 
     The character escaping appears to be properly implemented so this specific call of the util_execSystem does not appear vulnerable to command injection, however, Ghidra noted that there are 510 references to the function inside the libcmm.so file. Upon initial inspection, many of these appear to be other functions that are calling util_execSystem. These functions should be reviewed to check if there is any way to pass unsanitized user inputs into the util_execSystem function.
+
+
+
+    ## Section 1 - Electrical Engineering For Hackers 101
+
+    ### What is Electricity
+
+    Nucleus is at the center of the Atom and is made up of
+    - Proton (Positive charge)
+    - Neutron (No charge)
+    - Electron (Negative charge). much lighter and is around the Nucleus
+
+    Electrons flow from a negative electrode to a positive electrode as a result of a potential difference between them.
+
+    ### Electrical Engineering Fundamentals: Schematics, Voltage Source, Resistors and Ohm's Law
+
+    - Schematics:
+      - Visual representation of a Circuit.
+    - Current:
+      - Series Circuit:
+        - All components are connected end-to-end, forming a single path for current flow.
+        - Current remains at the same value through out a circuit.
+        - ![alt text](image-3.png)
+        - [ohms-law calculator](https://www.allaboutcircuits.com/tools/ohms-law-calculator/)
+      - Parallel Circuit: 
+        - All components are connected across each other, forming exactly two sets of electrically common points.
+        - Each individual path is called a Branch
+        - ![alt text](image-4.png)
+        - [parallel-resistance calculator](https://www.allaboutcircuits.com/tools/parallel-resistance-calculator/)
+    - voltage:
+      - Series Circuit:
+        - Drops across resistor(s).
+      - Parallel Circuit:
+        - Remains constant across a circuit.
+    - Resistor:
+      - Electrical Power is absorbed by a resistance as it is the product of voltage and current with some resistances converting this power into heat.
+      - Resistors Wattage Rating and is defined as the amount of heat that a resistive element can dissipate for an indefinite period of time without degrading its performance.
+      - [Resistor color code calculator](https://www.allaboutcircuits.com/tools/resistor-color-code-calculator/)
+    
+    ![alt text](Schematics-3.png)
+
+    #### Standard Electrical Units of Measure
+
+    |Electrical Parameter	|Measuring Unit	|Symbol|	Description| X |
+    |:-|:-|:-|:-|:-|
+    |Voltage	|Volt	|V or E|	Unit of Electrical Potential V = I × R|Pressure that triggers electron flow|
+    |Current	|Ampere	|I or i|	Unit of Electrical Current I = V ÷ R|Rate of electron flow, I = intensity|
+    |Resistance	|Ohm	|R or Ω|	Unit of DC Resistance R = V ÷ I|Flow inhibitor, Ω = Greek letter omega|
+    |Conductance	|Siemen	|G or ℧|	Reciprocal of Resistance G = 1 ÷ R||
+    |Capacitance	|Farad	|C|	Unit of Capacitance C = Q ÷ V||
+    |Charge	|Coulomb	|Q|	Unit of Electrical Charge Q = C × V||
+    |Inductance	|Henry	|L or H|	Unit of Inductance VL = -L(di/dt)||
+    |Power	|Watts	|W|	Unit of Power P = V × I  or  I2 × R||
+    |Impedance	|Ohm	|Z|	Unit of AC Resistance Z2 = R2 + X2||
+    |Frequency	|Hertz	|Hz|	Unit of Frequency ƒ = 1 ÷ T||
+
+    **1kV** = 1 kilo-volt  –  which is equal to 1,000 Volts.
+    **1mA** = 1 milli-amp  –  which is equal to one thousandths (1/1000) of an Ampere.
+    **47kΩ** = 47 kilo-ohms  –  which is equal to 47 thousand Ohms.
+    **100uF** = 100 micro-farads  –  which is equal to 100 millionths (100/1,000,000) of a Farad.
+    **1kW** = 1 kilo-watt  –  which is equal to 1,000 Watts.
+    **1MHz** = 1 mega-hertz  –  which is equal to one million Hertz.
+
+    #### ohms law
+    Voltage (E in Volts) = Current (I in Amps A) *X* Resistance (R in Ohms Ω)
+    V = I * R
+
+    ![alt text](ohms-law-3.png)
+
+
+    #### Kirchhoff voltage law and the Conservation of Energy
+
+    For a **closed loop** series path the **algebraic sum** of all the **voltages** around any closed loop in a circuit is **equal to zero**. This is because a circuit loop is a closed conducting path so no energy is lost.
+
+    Calculations can be checked here [kirchhoffs-voltage-law](https://www.electronics-tutorials.ws/dccircuits/kirchhoffs-voltage-law.html)
+
+    #### Kirchhoff’s Current Law (KCL)
+
+    Deals with the conservation of charge entering and leaving a junction.
+
+    Parallel Circuit
+    
+
+    ### Circuit Lab Simulation Demo
+
+    [Circuit Lab](https://www.circuitlab.com/)
+
+
+    ## Sources
+
+    - [electronics-tutorials](https://www.electronics-tutorials.ws/)
+    - [allaboutcircuits](https://www.allaboutcircuits.com/textbook/direct-current/chpt-6/kirchhoffs-voltage-law-kvl/)
