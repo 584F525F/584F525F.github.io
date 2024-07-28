@@ -74,5 +74,5 @@
 
     [GIT Cheat Sheet - Intellipaat Blog](https://intellipaat.com/blog/tutorial/devops-tutorial/git-cheat-sheet/)
 
-    ![alt text](Git-Cheat-Sheet.jpg)
+    ![alt text](/Knowledge_Base/images/Git-Cheat-Sheet.jpg)
 

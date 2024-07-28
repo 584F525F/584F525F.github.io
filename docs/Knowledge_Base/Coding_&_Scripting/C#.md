@@ -3,7 +3,7 @@
     ## Visual Studio - Windows Forms Embed Resources
 
 
-    ### Creating Folder and adding Embedding Resources
+    ### Creating a folder and Embedding a resource
 
     Create a Folder, this is the Folder that will contain our Embedded File
 
