@@ -110,11 +110,11 @@
         CIDR notation provides a concise way to represent networks and subnets by specifying the prefix length. It allows for flexibility in defining network boundaries and enables efficient address allocation in IP networking.
 
 
-        ![alt text](image.png)
+        ![alt text](/Knowledge_Base/images/ETH-img-s768tgisg7-0.png)
 
         Bits
 
-        ![alt text](image-2.png)
+        ![alt text](/Knowledge_Base/images/ETH-img-s768tgisg7-2.png)
 
 
 !!! info ""

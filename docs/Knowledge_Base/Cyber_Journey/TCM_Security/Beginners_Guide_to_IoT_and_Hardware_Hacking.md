@@ -1446,7 +1446,7 @@
         The character escaping appears to be properly implemented so this specific call of the util_execSystem does not appear vulnerable to command injection, however, Ghidra noted that there are 510 references to the function inside the libcmm.so file. Upon initial inspection, many of these appear to be other functions that are calling util_execSystem. These functions should be reviewed to check if there is any way to pass unsanitized user inputs into the util_execSystem function.
 
 
-    !!! warning ""
+    !!! info ""
         
         ## Section 1 - Electrical Engineering For Hackers 101
 
@@ -1467,12 +1467,12 @@
         - Series Circuit:
             - All components are connected end-to-end, forming a single path for current flow.
             - Current remains at the same value through out a circuit.
-            - ![alt text](image-3.png)
+            - ![alt text](/Knowledge_Base/images/IOT-Hacking-87sadtigasdas76s-3.png)
             - [ohms-law calculator](https://www.allaboutcircuits.com/tools/ohms-law-calculator/)
         - Parallel Circuit: 
             - All components are connected across each other, forming exactly two sets of electrically common points.
             - Each individual path is called a Branch
-            - ![alt text](image-4.png)
+            - ![alt text](/Knowledge_Base/images/IOT-Hacking-87sadtigasdas76s-4.png)
             - [parallel-resistance calculator](https://www.allaboutcircuits.com/tools/parallel-resistance-calculator/)
         - voltage:
         - Series Circuit:
@@ -1484,7 +1484,7 @@
         - Resistors Wattage Rating and is defined as the amount of heat that a resistive element can dissipate for an indefinite period of time without degrading its performance.
         - [Resistor color code calculator](https://www.allaboutcircuits.com/tools/resistor-color-code-calculator/)
         
-        ![alt text](Schematics-3.png)
+        ![alt text](/Knowledge_Base/images/Schematics-3.png)
 
         #### Standard Electrical Units of Measure
 
@@ -1512,7 +1512,7 @@
         Voltage (E in Volts) = Current (I in Amps A) *X* Resistance (R in Ohms Ω)
         V = I * R
 
-        ![alt text](ohms-law-3.png)
+        ![alt text](/Knowledge_Base/images/ohms-law-3.png)
 
 
         #### Kirchhoff voltage law and the Conservation of Energy
@@ -1535,23 +1535,80 @@
 
         ### Section Challenge Solution
 
-        ![alt text](image-5.png)
+        ![alt text](/Knowledge_Base/images/IOT-Hacking-87sadtigasdas76s-5.png)
 
         Voltage Divider
 
-        ![alt text](image-6.png)
+        ![alt text](/Knowledge_Base/images/IOT-Hacking-87sadtigasdas76s-6.png)
 
-        ![alt text](image-7.png)
+        ![alt text](/Knowledge_Base/images/IOT-Hacking-87sadtigasdas76s-7.png)
 
-        ![alt text](image-8.png)
+        ![alt text](/Knowledge_Base/images/IOT-Hacking-87sadtigasdas76s-8.png)
 
-        ![alt text](image-9.png)
+        ![alt text](/Knowledge_Base/images/IOT-Hacking-87sadtigasdas76s-9.png)
 
         We can check [Standard Electronic Decade Value Tables](https://www.vishay.com/docs/31001/dectable.pdf) to fin dthe closest resistor
 
+        ![alt text](/Knowledge_Base/images/IOT-Hacking-87sadtigasdas76s-10.png)
+
+        ![alt text](/Knowledge_Base/images/IOT-Hacking-87sadtigasdas76s-11.png)
+
+
+    !!! info ""
+
+    ## Section 2 - Hands on with PCBs and Multimeters
+
+
+    !!! warning ""
+
+    ## Section 3 - Electrical Engineering for Hackers 201
 
 
 
+
+
+    !!! info ""
+
+    ## Section 4 - Hands on with Logic Analyzers and UART
+
+
+
+
+    !!! warning ""
+
+    ## Section 5 - Initial Recon and OSINT
+
+
+
+
+
+
+    !!! info ""
+
+    ## Section 6 - UART Shell and Live Enumeration
+
+
+
+
+    !!! warning ""
+
+    ## Section 7 - SPI and Firmware Extraction/Analysis
+
+
+
+
+
+
+    !!! info ""
+
+    ## Section 8 - Reverse Engineering Firmware
+
+
+
+
+    !!! warning ""
+
+    ## Section 9 - End of Course Challenge and Course Wrap-Up
 
 
 
