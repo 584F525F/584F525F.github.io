@@ -92,64 +92,68 @@
 		name: immich
 
 		services:
-		  immich-server:
+		immich-server:
 			container_name: immich_server
 			image: ghcr.io/immich-app/immich-server:${IMMICH_VERSION:-release}
-			command: [ "start.sh", "immich" ]
+			# extends:
+			#   file: hwaccel.transcoding.yml
+			#   service: cpu # set to one of [nvenc, quicksync, rkmpp, vaapi, vaapi-wsl] for accelerated transcoding
 			volumes:
-			  - ${UPLOAD_LOCATION}:/usr/src/app/upload
-			  - /etc/localtime:/etc/localtime:ro
+			# Do not edit the next line. If you want to change the media storage location on your system, edit the value of UPLOAD_LOCATION in the .env file
+			- ${UPLOAD_LOCATION}
+			- /etc/localtime:/etc/localtime:ro
 			env_file:
-			  - .env
+			- stack.env
 			ports:
-			  - 2283:3001
+			- 2283:3001
 			depends_on:
-			  - redis
-			  - database
+			- redis
+			- database
 			restart: always
 
-		  immich-microservices:
-			container_name: immich_microservices
-			image: ghcr.io/immich-app/immich-server:${IMMICH_VERSION:-release}
-			command: [ "start.sh", "microservices" ]
-			volumes:
-			  - ${UPLOAD_LOCATION}:/usr/src/app/upload
-			  - /etc/localtime:/etc/localtime:ro
-			env_file:
-			  - .env
-			depends_on:
-			  - redis
-			  - database
-			restart: always
-
-		  immich-machine-learning:
+		immich-machine-learning:
 			container_name: immich_machine_learning
+			# For hardware acceleration, add one of -[armnn, cuda, openvino] to the image tag.
+			# Example tag: ${IMMICH_VERSION:-release}-cuda
 			image: ghcr.io/immich-app/immich-machine-learning:${IMMICH_VERSION:-release}
+			# extends: # uncomment this section for hardware acceleration - see https://immich.app/docs/features/ml-hardware-acceleration
+			#   file: hwaccel.ml.yml
+			#   service: cpu # set to one of [armnn, cuda, openvino, openvino-wsl] for accelerated inference - use the `-wsl` version for WSL2 where applicable
 			volumes:
-			  - model-cache:/cache
+			- /volume25/docker/immich/upload:/usr/src/app/upload:rw
+			- /volume25/docker/immich/cache:/cache:rw
 			env_file:
-			  - .env
+			- stack.env
 			restart: always
 
-		  redis:
+		redis:
 			container_name: immich_redis
-			image: registry.hub.docker.com/library/redis:6.2-alpine@sha256:51d6c56749a4243096327e3fb964a48ed92254357108449cb6e23999c37773c5
+			image: docker.io/redis:6.2-alpine@sha256:e3b17ba9479deec4b7d1eeec1548a253acc5374d68d3b27937fcfe4df8d18c7e
+			healthcheck:
+			test: redis-cli ping || exit 1
 			restart: always
 
-		  database:
+		database:
 			container_name: immich_postgres
-			image: registry.hub.docker.com/tensorchord/pgvecto-rs:pg14-v0.2.0@sha256:90724186f0a3517cf6914295b5ab410db9ce23190a2d9d0b9dd6463e3fa298f0
+			image: tensorchord/pgvecto-rs:pg16-v0.2.0
 			environment:
-			  POSTGRES_PASSWORD: ${DB_PASSWORD}
-			  POSTGRES_USER: ${DB_USERNAME}
-			  POSTGRES_DB: ${DB_DATABASE_NAME}
+			POSTGRES_PASSWORD: ${DB_PASSWORD}
+			POSTGRES_USER: ${DB_USERNAME}
+			POSTGRES_DB: ${DB_DATABASE_NAME}
+			POSTGRES_INITDB_ARGS: '--data-checksums'
 			volumes:
-			  - pgdata:/var/lib/postgresql/data
+			# Do not edit the next line. If you want to change the database storage location on your system, edit the value of DB_DATA_LOCATION in the .env file
+			- ${DB_DATA_LOCATION}
+			healthcheck:
+			test: pg_isready --dbname='${DB_DATABASE_NAME}' --username='${DB_USERNAME}' || exit 1; Chksum="$$(psql --dbname='${DB_DATABASE_NAME}' --username='${DB_USERNAME}' --tuples-only --no-align --command='SELECT COALESCE(SUM(checksum_failures), 0) FROM pg_stat_database')"; echo "checksum failure count is $$Chksum"; [ "$$Chksum" = '0' ] || exit 1
+			interval: 5m
+			start_interval: 30s
+			start_period: 5m
+			command: ["postgres", "-c" ,"shared_preload_libraries=vectors.so", "-c", 'search_path="$$user", public, vectors', "-c", "logging_collector=on", "-c", "max_wal_size=2GB", "-c", "shared_buffers=512MB", "-c", "wal_compression=on"]
 			restart: always
 
 		volumes:
-		  pgdata:
-		  model-cache:
+		model-cache:
 		```
 
 		#### create a “.env” file
@@ -165,19 +169,18 @@
 		Make sure to update the location of where your files will be saved `UPLOAD_LOCATION=<directory_path>.`, for example, “UPLOAD_LOCATION=/mystorage/images.”
 
 		```bash
-		UPLOAD_LOCATION=./library
+		UPLOAD_LOCATION=/volume25/docker/immich/redis:/data:rw
 		IMMICH_VERSION=release
-		DB_PASSWORD=postgres87s_bkxgnx_pass
-		JWT_SECRET=HWrEf6blkaajUtcvMASepa0iDn12+ppYccHIDz4dRI2X/g8Dp1XsceltqGvamvt0
-k1vsCyJPC1Cs/oUHZYY/E6PWKkga34TgyPFUVj5iFK9UGsdP/xCB1/jmwqVFyazm
-e8jz1Huk2siwvGKYDpmEHGeegDYXp4Zf1imUVcUpKFk=
+		DB_PASSWORD=xxxxxx
+		JWT_SECRET=xxxxxx
 
 		# The values below this line do not need to be changed
 		######################################################
-		DB_HOSTNAME=immich_postgress_x8n7xigxes
-		DB_USERNAME=posss78y9hstgres
-		DB_DATABASE_NAME=immichs6g7s
-		REDIS_HOSTNAME=immich_redis_76sbfjsv
+		DB_HOSTNAME=immich
+		DB_USERNAME=xxxxxx
+		DB_DATABASE_NAME=xxxxxx
+		DB_DATA_LOCATION=/volume1/docker/immich/db:/var/lib/postgresql/data:rw
+		REDIS_HOSTNAME=redis
 		IMMICH_WEB_URL=http://10.10.10.31:3000
 		IMMICH_SERVER_URL=http://10.10.10.31:3001
 		DISABLE_REVERSE_GEOCODING=false
@@ -188,3 +191,111 @@ e8jz1Huk2siwvGKYDpmEHGeegDYXp4Zf1imUVcUpKFk=
     Open your browser to [http://127.0.0.1:2283](http://127.0.0.1:2283) and continue your setup.
 
     In order to recreate the container using docker compose, run `docker compose up -d`. In most cases docker will recognize that the .env file has changed and recreate the affected containers. If this should not work, try running `docker compose up -d --force-recreate`
+
+	!!! info ""
+
+	### Synology NAS + Portainer + Docker
+
+	You can also build a stack in Portainer and sue the 'docker-compose.yaml configuration' and `.env file configuration' for it but you will need to get all the repos configured. A couple of good resources [ [Synology: 30 Second Portainer Install Using Task Scheduler & Docker](https://mariushosting.com/synology-30-second-portainer-install-using-task-scheduler-docker/) | [How to Install Immich on Your Synology NAS](https://mariushosting.com/how-to-install-immich-on-your-synology-nas/) ]
+
+
+	#### Install Container Manager
+
+	![alt text](image.png)
+	
+	#### Folder Structure
+
+	Create the following folder structure in 'File Station'. **lowercase naming only!**
+
+	![alt text](image-1.png)
+
+	#### Scheduled Tasks
+
+	Control Panel > Task Scheduler > Create > Scheduled Task > User-defined script
+
+	![alt text](image-2.png)
+
+	- **General**: In the Task field type in “Install Portainer“. Uncheck the “Enabled” option. Select root User.
+	- **Schedule**: Select Run on the following date then select “Do not repeat“.
+	- **Task Settings**: Check “Send run details by email“, add your email, then copy paste the code below in the Run command area. After that, click OK.
+
+	```shell
+	docker run -d --name=portainer \
+	-p 8000:8000 \
+	-p 9000:9000 \
+	-p 9443:9443 \
+	-v /var/run/docker.sock:/var/run/docker.sock \
+	-v /volume1/docker/portainer:/data \
+	--restart=always \
+	portainer/portainer-ce
+	```
+
+	![alt text](image-3.png)
+
+	warning pop up window will open. Click OK
+
+	![alt text](image-4.png)
+
+	Type your DSM password
+
+	![alt text](image-5.png)
+
+	select your “Install Portainer” Task, then click the “Run” tab. You will be asked to run Install Portainer – click OK
+
+	![alt text](image-6.png)
+
+	Open your browser and type in https://Synology-ip-address:9443 or http://Synology-ip-address:9000
+
+	![alt text](image-7.png)
+
+	Click Get Started
+
+	![alt text](image-8.png)
+
+	click on the little pencil
+
+	![alt text](image-9.png)
+
+	On the Public IP area type in your own NAS Local IP
+
+	![alt text](image-10.png)
+
+	“Environment updated“
+
+	![alt text](image-11.png)
+
+	Dashboard is ready
+
+	![alt text](image-12.png)
+
+	#### Adding Portainer registries
+
+	![alt text](image-13.png)
+
+	- Click on **Custom registry**. In the Name field area type in **'GHCR'** and in the Registry URL area type in **'ghcr.io'**
+	- Click **Add registry**
+	- **Note**: The **'ghcr.io'** registry is mandatory if you want to update Docker containers via Portainer that are served via 'ghcr.io' registry.
+
+	![alt text](image-14.png)
+
+	- Click on **Custom registry**. In the Name field area type in **'CODEBERG'** and in the Registry URL area type in **'codeberg.org'**
+	- Click **Add registry**
+	- **Note**: The **'codeberg.org'** registry is mandatory if you want to update Docker containers via Portainer that are served via **'codeberg.org'** registry.
+
+	![alt text](image-15.png)
+
+	- Click on **Custom registry**. In the Name field area type in *'Quay.io'* and in the Registry URL area type in *'quay.io'*
+	- Click **Add registry**
+	- **Note**: *'The quay.io'* registry is mandatory if you want to update Docker containers via Portainer that are served via *'quay.io'* registry.
+
+	![alt text](image-16.png)
+
+	Your Registries area will look like this
+
+	![alt text](image-17.png)
+
+	#### Installing immich
+
+	[How to Install Immich on Your Synology NAS](https://mariushosting.com/how-to-install-immich-on-your-synology-nas/)
+
+
