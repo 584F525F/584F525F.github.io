@@ -168,7 +168,7 @@
 
     ### UART
     
-    ![alt text](/Knowledge_Base/images/HW-HKNG-s98uhnos8-sjns12--1.png)
+    ![alt text](/Knowledge_Base/images/HW-HKNG-s98uhnos8-sjns12-1.png)
 
     #### Communication in UART can be:
     - simplex (data is sent in one direction only)
@@ -183,7 +183,7 @@
 
     #### UART frame format
 
-    ![alt text](/Knowledge_Base/images/HW-HKNG-s98uhnos8-sjns12--2.png)
+    ![alt text](/Knowledge_Base/images/HW-HKNG-s98uhnos8-sjns12-2.png)
 
     **As with most digital systems**
     - “high” or "mark" voltage level is used to indicate a logical “1”
@@ -210,11 +210,11 @@
 
     ###### Start and stop bits
 
-    ![alt text](/Knowledge_Base/images/HW-HKNG-s98uhnos8-sjns12--3.png)
+    ![alt text](/Knowledge_Base/images/HW-HKNG-s98uhnos8-sjns12-3.png)
 
     ###### Data bits
 
-    ![alt text](/Knowledge_Base/images/HW-HKNG-s98uhnos8-sjns12--4.png)
+    ![alt text](/Knowledge_Base/images/HW-HKNG-s98uhnos8-sjns12-4.png)
 
 
     ###### Parity bit
@@ -230,7 +230,7 @@
     
     The parity bit can only detect a single flipped bit. If more than one bit is flipped, there’s no way to reliably detect these using a single parity bit.
 
-    ![alt text](/Knowledge_Base/images/HW-HKNG-s98uhnos8-sjns12--5.png)
+    ![alt text](/Knowledge_Base/images/HW-HKNG-s98uhnos8-sjns12-5.png)
 
     #### Summary
     Asynchronous means no shared clock, so for UART to work, the same bit or baud rate must be configured on both sides of the connection.
