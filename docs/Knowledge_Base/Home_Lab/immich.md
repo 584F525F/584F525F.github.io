@@ -198,19 +198,19 @@
 
 	#### Install Container Manager
 
-	![alt text](image.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-0.png)
 	
 	#### Folder Structure
 
 	Create the following folder structure in 'File Station'. **lowercase naming only!**
 
-	![alt text](image-1.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-1.png)
 
 	#### Scheduled Tasks
 
 	Control Panel > Task Scheduler > Create > Scheduled Task > User-defined script
 
-	![alt text](image-2.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-2.png)
 
 	- **General**: In the Task field type in “Install Portainer“. Uncheck the “Enabled” option. Select root User.
 	- **Schedule**: Select Run on the following date then select “Do not repeat“.
@@ -227,69 +227,69 @@
 	portainer/portainer-ce
 	```
 
-	![alt text](image-3.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-3.png)
 
 	warning pop up window will open. Click OK
 
-	![alt text](image-4.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-4.png)
 
 	Type your DSM password
 
-	![alt text](image-5.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-5.png)
 
 	select your “Install Portainer” Task, then click the “Run” tab. You will be asked to run Install Portainer – click OK
 
-	![alt text](image-6.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-6.png)
 
 	Open your browser and type in https://Synology-ip-address:9443 or http://Synology-ip-address:9000
 
-	![alt text](image-7.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-7.png)
 
 	Click Get Started
 
-	![alt text](image-8.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-8.png)
 
 	click on the little pencil
 
-	![alt text](image-9.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-9.png)
 
 	On the Public IP area type in your own NAS Local IP
 
-	![alt text](image-10.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-10.png)
 
 	“Environment updated“
 
-	![alt text](image-11.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-11.png)
 
 	Dashboard is ready
 
-	![alt text](image-12.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-12.png)
 
 	#### Adding Portainer registries
 
-	![alt text](image-13.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-13.png)
 
 	- Click on **Custom registry**. In the Name field area type in **'GHCR'** and in the Registry URL area type in **'ghcr.io'**
 	- Click **Add registry**
 	- **Note**: The **'ghcr.io'** registry is mandatory if you want to update Docker containers via Portainer that are served via 'ghcr.io' registry.
 
-	![alt text](image-14.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-14.png)
 
 	- Click on **Custom registry**. In the Name field area type in **'CODEBERG'** and in the Registry URL area type in **'codeberg.org'**
 	- Click **Add registry**
 	- **Note**: The **'codeberg.org'** registry is mandatory if you want to update Docker containers via Portainer that are served via **'codeberg.org'** registry.
 
-	![alt text](image-15.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-15.png)
 
 	- Click on **Custom registry**. In the Name field area type in *'Quay.io'* and in the Registry URL area type in *'quay.io'*
 	- Click **Add registry**
 	- **Note**: *'The quay.io'* registry is mandatory if you want to update Docker containers via Portainer that are served via *'quay.io'* registry.
 
-	![alt text](image-16.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-16.png)
 
 	Your Registries area will look like this
 
-	![alt text](image-17.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-17.png)
 
 	#### Installing immich
 
@@ -298,17 +298,17 @@
 
 	Note: Be careful to enter only lowercase, not uppercase letters.
 
-	![alt text](image-18.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-18.png)
 
 	Now create five new folders inside the immich folder that you created at STEP 3 name them cache, db, micro, redis, upload.
 
 	Note: Be careful enter only lowercase, not uppercase letters.
 
-	![alt text](image-19.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-19.png)
 
 	Log into Portainer using your username and password. On the left sidebar in Portainer, click on Stacks then + Add stack
 	
-	![alt text](image-20.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-20.png)
 
 	In the Name field type in immich
 
@@ -383,7 +383,7 @@
 	model-cache:
 	```
 
-	![alt text](image-21.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-21.png)
 
 	Scroll down to the env and click on advanced and paste the below, then click on simple.
 
@@ -409,24 +409,24 @@
 	LOG_LEVEL=log
 	```
 
-	![alt text](image-22.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-22.png)
 
 	Click **Deploy the stack**, wait 5 minutes before attempting to access immich. This could take longer if you have a slower Internet connection.
 
-	![alt text](image-23.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-23.png)
 
 
 	Open your browser and type in http://Synology-ip-address:8212
 
-	![alt text](image-24.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-24.png)
 
 
 	Add your own credentials then click Sign Up
 
-	![alt text](image-25.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-25.png)
 
 	Now you can login
 
-	![alt text](image-26.png)
+	![alt text](/Knowledge_Base/images/immich-imgs-987yosbiuhs-26.png)
 
 	Click Theme > choose your theme > Click Storage Template > Click done
