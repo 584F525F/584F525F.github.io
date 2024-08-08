@@ -163,70 +163,70 @@
 
     #### Method 1
 
-        IPv4 ACLs that filter based on VLAN membership or VE port membership
-        (Router image only) You cannot change VLAN membership on a port while per-port-per-vlan is enabled
+    IPv4 ACLs that filter based on VLAN membership or VE port membership
+    (Router image only) You cannot change VLAN membership on a port while per-port-per-vlan is enabled
 
-        ```bash
-        #in global config run the below and then reload the switch
-        enable acl-per-port-per-vlan
-        wr mem
-        exit
-        reload
+    ```bash
+    #in global config run the below and then reload the switch
+    enable acl-per-port-per-vlan
+    wr mem
+    exit
+    reload
 
-        #do this on all ports EXCEPT the UPLINK PORT
-        int eth 1/1/x to 1/1/x
-        loop-detection shutdown-disable
+    #do this on all ports EXCEPT the UPLINK PORT
+    int eth 1/1/x to 1/1/x
+    loop-detection shutdown-disable
 
-        int eth 1/1/x to 1/1/x
-        source-guard enable
-        wr mem
-        ```
+    int eth 1/1/x to 1/1/x
+    source-guard enable
+    wr mem
+    ```
 
     #### Method 2 (Preferable)
 
-        Create an ACL and assign it
+    Create an ACL and assign it
 
-        You will need to know what ports are being utilized by the vendor, depending if this is an STB (Set Top Boxes), Chromecast, etc...
+    You will need to know what ports are being utilized by the vendor, depending if this is an STB (Set Top Boxes), Chromecast, etc...
 
-        |Port(s) | Protocol | Service|
-        |:-|:-|:-|
-        |5353 | tcp,udp | Multicast DNS (MDNS) |
-        | 5353 | udp |  Bonjour |
-        | 1900 | tcp,udp | SSDP, UPnP (Universal PnP) |
+    |Port(s) | Protocol | Service|
+    |:-|:-|:-|
+    |5353 | tcp,udp | Multicast DNS (MDNS) |
+    | 5353 | udp |  Bonjour |
+    | 1900 | tcp,udp | SSDP, UPnP (Universal PnP) |
 
-        Below ACL will block ports 1900 & 5353
+    Below ACL will block ports 1900 & 5353
 
-        ```bash
-        #Not for Chromcasts - Only STBS
-        #if you have Chromcasts you cant do any any, you have to put the the IP you need to isolate
-        ip access-list extended Filter_mDNS
-        sequence 10 deny udp any any eq 5353
-        sequence 20 deny udp any any eq 1900
-        sequence 30 permit ip any any
-        ```
+    ```bash
+    #Not for Chromcasts - Only STBS
+    #if you have Chromcasts you cant do any any, you have to put the the IP you need to isolate
+    ip access-list extended Filter_mDNS
+    sequence 10 deny udp any any eq 5353
+    sequence 20 deny udp any any eq 1900
+    sequence 30 permit ip any any
+    ```
 
-        Below is how you apply the ACL above to a Router ve for a specific VLAN
+    Below is how you apply the ACL above to a Router ve for a specific VLAN
 
-        ```bash
-        #configure the Filter on Interface ve level
-        interface ve <ve_Number>
-        ip access-group Filter_mDNS in
-        ```
+    ```bash
+    #configure the Filter on Interface ve level
+    interface ve <ve_Number>
+    ip access-group Filter_mDNS in
+    ```
 
-        #assign the list to a port
+    #assign the list to a port
 
-        ```bash
-        interface ethernet 1/1/14
-        ip access-group Filter_mDNS in
-        ```
+    ```bash
+    interface ethernet 1/1/14
+    ip access-group Filter_mDNS in
+    ```
 
-        Additional setup
+    Additional setup
 
-        ```bash
-        vlan 10
-        spanning-tree
-        loop-detection
-        wr mem
-        spanning-tree
-        wr mem
-        ```
+    ```bash
+    vlan 10
+    spanning-tree
+    loop-detection
+    wr mem
+    spanning-tree
+    wr mem
+    ```

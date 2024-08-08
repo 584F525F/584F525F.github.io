@@ -293,7 +293,6 @@
 
 	#### Installing immich
 
-
 	Go to File Station and open the docker folder. Inside the docker folder, create one new folder and name it immich.
 
 	Note: Be careful to enter only lowercase, not uppercase letters.
