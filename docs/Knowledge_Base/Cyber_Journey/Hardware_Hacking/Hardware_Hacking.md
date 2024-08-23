@@ -25,7 +25,6 @@
     https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law
 
 
-    -------------------------------
     ### Choose A Power Supply
 
     #### Question: I have a 3A power supply, will it break my 500mA circuit?
@@ -42,70 +41,61 @@
 
     No. If your circuit needs 9V and you connect it to 12V, it’s a good chance it will break.
     
-    -----------------------------
-
-
-
-
-    GPS
+    ### GPS
     https://www.sparkfun.com/gps
     https://www.adafruit.com/product/746	https://www.jameco.com/z/4279-Adafruit-Industries-Adafruit-Ultimate-Gps-Gnss-with-USB-99-Channel-with-10-Hz-Updates_2517871.html?srsltid=AfmBOorObxPJ1dGGtdoS7z6lGr9EZi3VcljR5XZxWJ-72yfe3WSIt6kaKD0
     https://www.adafruit.com/product/4415
     https://www.adafruit.com/product/4279
 
 
-    Arduino comparison
+    ### Arduino comparison
     https://www.sparkfun.com/standard_arduino_comparison_guide
     https://learn.sparkfun.com/tutorials/choosing-an-arduino-for-your-project
 
 
-    Kit
+    ### Kit
     https://www.sparkfun.com/products/21301
     https://store-usa.arduino.cc/products/arduino-education-starter-kit?pr_prod_strat=e5_desc&pr_rec_id=cf6bc6233&pr_rec_pid=6813188554959&pr_ref_pid=6544108159183&pr_seq=uniform
     https://store-usa.arduino.cc/products/arduino-replacements-pack?pr_prod_strat=jac&pr_rec_id=40be2e783&pr_rec_pid=6544223207631&pr_ref_pid=6813188554959&pr_seq=uniform
 
     https://docs.arduino.cc/hardware/mkr-gps-shield/?queryID=fdac64c9e30f82767feb97f95e285a8d
-        https://www.arduino.cc/reference/en/libraries/arduino_mkrgps/
-        https://store-usa.arduino.cc/products/4g-module-global
+    https://www.arduino.cc/reference/en/libraries/arduino_mkrgps/
+    https://store-usa.arduino.cc/products/4g-module-global
 
-    Sellers
+    ### Sellers
     https://novelda.com/
     https://www.gilisymo.com/
     https://jlcpcb.com/
 
 
-
-    Projects
+    ### Projects
     https://steemit.com/utopian-io/@kimp0gi/interfacing-gsm-and-gps-module-using-arduino-a-step-by-step-guide-tutorial-for-tracking
 
 
-    Project research
+    ### Project research
     https://www.reddit.com/r/arduino/comments/19937aa/which_board_replaces_the_mkr_gsm_1400/?rdt=62824
     https://codeberg.org/johan-m-o/BikeTracker
 
 
-    Project Purchase list
-        https://www.sparkfun.com/products/23386
-        Uno R3
-        https://www.sparkfun.com/products/21301
+    ### Project Purchase list
+    https://www.sparkfun.com/products/23386
+    Uno R3
+    https://www.sparkfun.com/products/21301
 
-    Important references
-        https://www.elecrow.com/wiki/?title=32u4_with_A7_GPRS/GSM
-
-
+    ### Important references
+    https://www.elecrow.com/wiki/?title=32u4_with_A7_GPRS/GSM
 
 
-
-    Fix it
+    ### Fix it
     https://www.youtube.com/watch?v=wkAp5x3Z_gc&pp=ygUUbXVsdGltZXRlciB2b2x0bWV0ZXI%3D
 
-    Multimeters - The Complete Guide
+    ### Multimeters - The Complete Guide
     https://www.youtube.com/watch?v=viitNbwrUMI
 
-    GPS Modules with Arduino and Raspberry Pi
+    ### GPS Modules with Arduino and Raspberry Pi
     https://www.youtube.com/watch?v=kwk3qzaIcCU
 
-    MUST BUY
+    ### MUST BUY
     https://www.adafruit.com/product/4279
     https://www.adafruit.com/product/851
     https://www.adafruit.com/product/85
@@ -114,7 +104,7 @@
     https://www.adafruit.com/product/2975
 
 
-    Best Guide
+    ### Best Guide
     https://learn.adafruit.com/how-to-choose-a-microcontroller
 
 
