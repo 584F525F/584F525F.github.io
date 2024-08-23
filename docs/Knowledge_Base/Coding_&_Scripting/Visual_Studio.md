@@ -31,11 +31,21 @@
 
     This will help you publish your project into a single executable file, portable with no issues running on its own since all libraries and dependencies will be included into the executable file itself.
 
-    Although you can use GUI Publish function, I myself had a better experience using the dotnet CLI method. First you will **launch the dotnet shell**
+    Although you can use GUI Publish function, I myself had a better experience using the dotnet CLI method. First you will **launch the dotnet shell** through Visual Studio
+
+    Open the `Command  Window` and then type in the following
+
+    ![alt text](image.png)
 
     ```shell
     Tools.Shell cmd /k dotnet --version
     ```
+
+    You will get this shell
+
+    ![alt text](image-1.png)
+
+    Keep in mind in below methods you will need to change the parameters to fit your needs, you could be compiling for a different Architecture or build for example.
 
     **Method 1**: Building using the project name, you will need to replace the `PROJECT_NAME`
 
