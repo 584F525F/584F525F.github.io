@@ -202,8 +202,4 @@ summary
 
 ---
 
-
-
-
 <mark>Color Mark Yellow</mark>
-
