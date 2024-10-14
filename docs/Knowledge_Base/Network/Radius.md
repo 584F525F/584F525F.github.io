@@ -48,6 +48,6 @@
 
     |Capture Filter|Description|
     |:-|:-|
-    |'udp port 1812' | Capture RADIUS authentication and configuration traffic over the assigned port (1812)|
-    |'udp port 1813' | Capture RADIUS accounting traffic over the assigned port (1813)|
-    |'udp port 1812 or udp port 1813' | Capture RADIUS authentication and configuration traffic, and RADIUS accounting traffic, over the assigned ports|
+    |`udp port 1812` | Capture RADIUS authentication and configuration traffic over the assigned port (1812)|
+    |`udp port 1813` | Capture RADIUS accounting traffic over the assigned port (1813)|
+    |`udp port 1812 or udp port 1813` | Capture RADIUS authentication and configuration traffic, and RADIUS accounting traffic, over the assigned ports|
