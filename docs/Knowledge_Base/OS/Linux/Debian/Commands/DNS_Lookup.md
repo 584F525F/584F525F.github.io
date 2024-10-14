@@ -10,9 +10,9 @@
 
     When installing dnsutils, you will be able to use the following commands
     
-    - 'dig'
-    - 'nslookup'
-    - 'nsupdate'
+    - `dig`
+    - `nslookup`
+    - `nsupdate`
 
     ### Command syntax
 
@@ -30,7 +30,6 @@
 
     #reverse lookup
     dig -x 1.1.1.1 +short
-
     ```
 
     #### nslookup
