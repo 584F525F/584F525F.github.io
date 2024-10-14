@@ -1,10 +1,12 @@
 !!! info ""
 
+    If you are receiving the following error message, follow the steps below.
+
     ![linux_lock_s987yn7hs](linux_lock_s987yn7hs.png)
 
     !!! warning ""
 
-    ### Method #1: Check for Running Processes
+    #### #1: Check for Running Processes
 
     ```bash
     ps aux | grep -i apt
@@ -20,7 +22,7 @@
     # from above picture PID is second col from left. PID is 7991 and 7993 [Yours will be different]
     ```
 
-    ### Method #2: Remove Lock Files Manually
+    #### #2: Remove Lock Files Manually
 
     !!! warning ""
 
