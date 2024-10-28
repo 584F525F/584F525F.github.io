@@ -14,7 +14,7 @@ To recover an Access Point whereby the management interface can no longer be acc
 
     Before you can tell the AP's to manually downgrade there firmware you must first create a file called fwcntrl.rcks and use your favourite text editor to modify the contents.
 
-    The contents must contain the following:
+    The contents must contain the following
 
     ```bash
     [rcks_fw.main]

@@ -59,44 +59,44 @@
 
     ###### URL Format 1
 
-    http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_NAME_VersionNumber
+    [http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_NAME_VersionNumber](http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_NAME_VersionNumber)
 
-    Below links are examples of the different version names available for firmware version 8.7.1.6_81786
+    **Below links are examples of the different version names available for firmware version 8.7.1.6_81786**
 
-    Ursa http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Ursa_8.7.1.6_81786
+    Ursa [http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Ursa_8.7.1.6_81786](http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Ursa_8.7.1.6_81786)
 
-    Draco http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Draco_8.7.1.6_81786
+    Draco [http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Draco_8.7.1.6_81786](http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Draco_8.7.1.6_81786)
 
-    Hercules http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Hercules_8.7.1.6_81786
+    Hercules [http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Hercules_8.7.1.6_81786](http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Hercules_8.7.1.6_81786)
 
-    Gemini http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Gemini_8.7.1.6_81786
+    Gemini [http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Gemini_8.7.1.6_81786](http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Gemini_8.7.1.6_81786)
 
-    Lupus http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Lupus_8.7.1.6_81786
+    Lupus [http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Lupus_8.7.1.6_81786](http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Lupus_8.7.1.6_81786)
 
-    Scorpio http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Scorpio_8.7.1.6_81786
+    Scorpio [http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Scorpio_8.7.1.6_81786](http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Scorpio_8.7.1.6_81786)
 
-    Vela http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Vela_8.7.1.6_81786
+    Vela [http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Vela_8.7.1.6_81786](http://d2vxf1j0rhr3p0.cloudfront.net/fwfiles/ArubaInstant_Vela_8.7.1.6_81786)
 
 
     ###### URL Format 2
 
-    http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_NAME_VersionNumber
+    [http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_NAME_VersionNumber](http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_NAME_VersionNumber)
 
-    Below links are examples of the different version names available for firmware version 8.10.0.1_84079
+    **Below links are examples of the different version names available for firmware version 8.10.0.1_84079**
 
-    Ursa http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Ursa_8.10.0.1_84079
+    Ursa [http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Ursa_8.10.0.1_84079](http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Ursa_8.10.0.1_84079)
 
-    Draco http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Draco_8.10.0.1_84079
+    Draco [http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Draco_8.10.0.1_84079](http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Draco_8.10.0.1_84079)
 
-    Hercules http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Hercules_8.10.0.1_84079
+    Hercules [http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Hercules_8.10.0.1_84079](http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Hercules_8.10.0.1_84079)
 
-    Gemini http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Gemini_8.10.0.1_84079
+    Gemini [http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Gemini_8.10.0.1_84079](http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Gemini_8.10.0.1_84079)
 
-    Lupus http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Lupus_8.10.0.1_84079
+    Lupus [http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Lupus_8.10.0.1_84079](http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Lupus_8.10.0.1_84079)
 
-    Scorpio http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Scorpio_8.10.0.1_84079
+    Scorpio [http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Scorpio_8.10.0.1_84079](http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Scorpio_8.10.0.1_84079)
 
-    Vela http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Vela_8.10.0.1_84079
+    Vela [http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Vela_8.10.0.1_84079](http://common.cloud.hpe.com/ccssvc/ccs-system-firmware-registry/IAP/ArubaInstant_Vela_8.10.0.1_84079)
 
 
     ##### Test the URL
@@ -108,13 +108,13 @@
 
     #### Step 4: The upgrade
 
-    3- Login to the Virtual controller Web GUI
+    1. Login to the Virtual controller Web GUI
 
-    4- Go to Maintenance > Firmware
+    2. Go to Maintenance > Firmware
 
-    5- From the manual option, enter the respective URL for the models in the tab. using the URL that was generated in point number 1.
+    3. From the manual option, enter the respective URL for the models in the tab. using the URL that was generated in point number 1.
 
-    6- Make sure to enable the reboot AP option > Click on the upgrade now
+    4. Make sure to enable the reboot AP option > Click on the upgrade now
 
     - The loading page should change to Downloading then Upgrading.
     - You will need to wait for an Upgrade Successful message.
@@ -129,16 +129,14 @@
 
 !!! bug ""
 
-    **If you're having an issue and the upgrade is failing you can do a few things to check.**
+    #### If you're having an issue and the upgrade is failing you can do a few things to check.
 
     - Log in to FTP Server with the user you created and make sure you are able to gain access and view configuration and files.
     - If you're trying to upgrade multiple Images through the CLI command ```upgrade-image```
             
         Abort this as this only supports single image clusters.
 
-    ---
-
-    **If you try to upgrade through the web with a link [ftp, TFTP, http] and receive an error similar to the one below**
+    #### If you try to upgrade through the web with a link [ftp, TFTP, http] and receive an error similar to the one below
 
     ![aruba_upgrade_troubleshooting_00](/Knowledge_Base/images/aruba_upgrade_troubleshooting_00.png)
 
@@ -148,9 +146,7 @@
 
     ![aruba_upgrade_troubleshooting_0](/Knowledge_Base/images/aruba_upgrade_troubleshooting_0.png)
 
-    ---
-
-    **Is the Virtual Controller having problems obtaining the image?**
+    #### Is the Virtual Controller having problems obtaining the image?
 
     that's where you can do something similar to running [replace <url> with the URL you're using for the firmware upgrade]
 
@@ -173,7 +169,7 @@
 
     ![aruba_upgrade_troubleshooting_2](/Knowledge_Base/images/aruba_upgrade_troubleshooting_2.png)
 
-    **Other commands**
+    #### Other commands
 
     ```bash
     show log provision

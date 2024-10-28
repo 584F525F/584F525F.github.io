@@ -1,6 +1,6 @@
 !!! info ""
 
-    http://docs.ruckuswireless.com/fastiron/08.0.60/fastiron-08060-securityguide/GUID-173BF914-D248-4CAE-9D80-B036E8EC54E6.htmlhttp://docs.ruckuswireless.com/fastiron/08.0.60/fastiron-08060-securityguide/GUID-173BF914-D248-4CAE-9D80-B036E8EC54E6.html
+    [fastiron-08060-securityguide](http://docs.ruckuswireless.com/fastiron/08.0.60/fastiron-08060-securityguide/GUID-173BF914-D248-4CAE-9D80-B036E8EC54E6.htmlhttp://docs.ruckuswireless.com/fastiron/08.0.60/fastiron-08060-securityguide/GUID-173BF914-D248-4CAE-9D80-B036E8EC54E6.html)
 
     ```bash
     conf t

@@ -4,7 +4,9 @@
 
     #### Official Tools
 
-    Make sure to check the **`About this tool section'** ![alt text](/Knowledge_Base/images/Juniper_Configuration_Generator.png) as it might state each Tool's limitations.
+    Make sure to check the **`About this tool section'** as it might state each Tool's limitations.
+    
+    ![alt text](/Knowledge_Base/images/Juniper_Configuration_Generator.png)
 
     - [SRX HA Configuration Generator](https://support.juniper.net/support/tools/srxha/#)
     - [SRX & J Series Site-to-Site VPN Configuration Generator](https://support.juniper.net/support/tools/vpnconfig/)

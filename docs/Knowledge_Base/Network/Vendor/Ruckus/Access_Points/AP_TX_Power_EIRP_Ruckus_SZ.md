@@ -1,33 +1,34 @@
 !!! info ""
 
-    EIRP (dBm) = Conducted Power (dBm) + Antenna Gain (dBi) – Cable loss (dB)
+    **EIRP (dBm)** = Conducted Power (dBm) + Antenna Gain (dBi) – Cable loss (dB)
 
     Max EIRP allowed by FCC on Access Points
 
-    2.4 GHz Channels 1 – 11 (36 dBm)
-    5 GHz U-NII-1 channels 36 – 48 (36 dBm)
-    5 GHz U-NII-2A channels 52 – 64 (30 dBm)
-    5 GHz U-NII-2C channels 100 – 144 (30 dBm)
-    5 GHz U-NII-3 channels 149 – 165 (36 dBm)
+    - 2.4 GHz Channels 1 – 11 (36 dBm)
+    - 5 GHz U-NII-1 channels 36 – 48 (36 dBm)
+    - 5 GHz U-NII-2A channels 52 – 64 (30 dBm)
+    - 5 GHz U-NII-2C channels 100 – 144 (30 dBm)
+    - 5 GHz U-NII-3 channels 149 – 165 (36 dBm)
 
-    Antenna Gain
+    **Antenna Gain**
+
     This is where Ruckus shines with the Beamflex gain. Beamflex adaptive antenna will get you approx. 3 dBi gain per 2 radio chains on most models. This will be added to the conductive power you set on the management interface and will make sure the EIRP is less than the FCC limit.
 
 !!! info ""
 
     #### How to find the conducted power of your Ruckus Unleashed AP?
 
-    run the below command on WAP
+    Run the below commands on WAP
 
     ```bash
     ruckus> en
     ruckus# debug
-    ruckus(debug)# rksap_cli -A -s “iwconfig”
+    ruckus(debug)# rksap_cli -A -s "iwconfig"
     ```
 
     Below is a H510 AP configured with maximum Tx power. It shows 2.4 GHz using Tx power as 16 dBm and 5 GHz at 19 dBm.
 
-    ![alt text](/Knowledge_Base/images//Knowledge_Base/images/Ruckus_WAP_image.png)
+    ![alt text](/Knowledge_Base/images/Ruckus_WAP_image.png)
 
     R710 shows 2.4 GHz at 22 dBm and 5 GHz at 20 dBm.
     
@@ -101,15 +102,15 @@
 
 !!! info ""
 
-    #### Actual WAP Power vs datasheet
+    #### Actual WAP Power vs Datasheet
 
-    I was working a case about a year ago channelizaing over 100 WAPs at this single location, i had to set the power on each WAP seperatly based on our ekahau WiFi Survey report, i am not one to do such task from GUI, therefor I scripted the whole thing to run on the SmartZone.
+    I was working a case about a year ago Channelizing over 100 WAPs at this single location, i had to set the power on each WAP separately based on our ekahau WiFi Survey report, i am not one to do such task from GUI, therefor I scripted the whole thing to run on the SmartZone.
 
     Anyway, I found that after settings the power on all WAPs and monitoring the clients, nothing was making sense. I looked into the datasheet for each WAP model we had at this location and tried checking the calculations I made based on the information I was fed by our CWNE Network Architect and still something didn't make sense.
 
-    I reached out to Ruckus support asking on how I can check the actual Tx Power on the WAP and that's when he hopped on and gave me access to the support shell to get the infomation I need.
+    I reached out to Ruckus support asking on how I can check the actual Tx Power on the WAP and that's when he hopped on and gave me access to the support shell to get the information I need.
 
-    This is when I found out that the actual data provided by Ruckus on theor datasheets, doesnt really match what you get from the Access Point, I was kind of shocked. Below are some of the values I obtained while doing my checks on the WAP, you can see what power level you get based on the select settings i had at the time.
+    This is when I found out that the actual data provided by Ruckus on the Datasheets, doesn't really match what you get from the Access Point, I was kind of shocked. Below are some of the values I obtained while doing my checks on the WAP, you can see what power level you get based on the select settings i had at the time.
 
     ##### H550
 
@@ -124,7 +125,7 @@
     ![alt text](/Knowledge_Base/images/Ruckus_WAP_image-4.png)
 
     ##### R350
-    
+
     ```bash
     2.4GHz Max 20  2 gain
     5GHz Max 20 gain 3
@@ -141,14 +142,14 @@
     ![alt text](/Knowledge_Base/images/Ruckus_WAP_image-5.png)
 
     ##### T350c
-    
+
     ```bash
     2.4Ghz 23dBm
     5Ghz 22dBm
     ```
 
     ##### T310c
-    
+
     ```bash
     2.4Ghz 20dBm
     5Ghz 22dBm 
