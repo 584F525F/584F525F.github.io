@@ -305,6 +305,7 @@ nav:
       - 'NGINX Server Engine-X': Knowledge_Base/Home_Lab/NGINX_Server_Engine-X.md
       - 'pfSense': Knowledge_Base/Home_Lab/pfSense.md
       - 'Portainer Docker': Knowledge_Base/Home_Lab/Portainer_Docker.md
+      - 'Synology NAS': Knowledge_Base/Home_Lab/Synology_NAS.md
       - 'Wazuh SEIM': Knowledge_Base/Home_Lab/Wazuh_SEIM.md
     - 'Network':
       - 'ARP': Knowledge_Base/Network/ARP.md
@@ -350,6 +351,8 @@ nav:
             - 'Upgrade Procedure Aruba Central and Instant': Knowledge_Base/Network/Vendor/Aruba_HPE/Aruba_Central_Instant_Cluster/Upgrade_Procedure_Aruba_Central_and_Instant.md
           - 'Switches':
             - 'Aruba HPE SFPs': Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Aruba_HPE_SFPs.md
+            - 'Aruba Multicast Storm': Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Aruba_Multicast_Storm.md
+            - 'Aruba Port Mirroning': Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Aruba_Port_Mirroning.md
             - 'Aruba WAN Switch Routing 2 Circuit Redundancy': Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Aruba_WAN_Switch_Routing_2_Circuit_Redundancy.md
             - 'Switch enable CLI Aruba Central': Knowledge_Base/Network/Vendor/Aruba_HPE/Switches/Switch_enable_CLI_Aruba_Central.md
         - 'Cisco':
@@ -387,8 +390,8 @@ nav:
             - 'AP CLI Setup Support Config Flow Ruckus SZ': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP_CLI_Setup_Support_Config_Flow_Ruckus_SZ.md
             - 'AP Firmware Recovery CLI Ruckus SZ': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP_Firmware_Recovery_CLI_Ruckus_SZ.md
             - 'AP TX Power EIRP Ruckus SZ': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/AP_TX_Power_EIRP_Ruckus_SZ.md
-            - 'CLI General Commands Ruckus SZ': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/CLI_General_Commands_Ruckus_SZ.md
             - 'Ruckus Access Point compatibility - ZoneDirector ZD SmartZone SZ Firmware': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/Ruckus_Access_Point_compatibility_-_ZoneDirector_ZD_SmartZone_SZ_Firmware.md
+            - 'Ruckus AP CLI SZ': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/Ruckus_AP_CLI_SZ.md
             - 'Ruckus ICX Brocade CLI Dot1x Ruckus MAC Authentication Security Port': Knowledge_Base/Network/Vendor/Ruckus/Access_Points/Ruckus_ICX_Brocade_CLI_Dot1x_Ruckus_MAC_Authentication_Security_Port.md
           - 'Switches':
             - 'Brocade ICX Broadcast and Multicast': Knowledge_Base/Network/Vendor/Ruckus/Switches/Brocade_ICX_Broadcast_and_Multicast.md
@@ -439,10 +442,11 @@ nav:
             - 'wget': Knowledge_Base/OS/Linux/Debian/Commands/wget.md
           - 'Desktop Environment': Knowledge_Base/OS/Linux/Debian/Desktop_Environment/dekstop_environment.md
           - 'Fixes':
-            - 'FIX-speedtest-cli apt update error': Knowledge_Base/OS/Linux/Debian/Fixes/FIX-speedtest-cli_apt_update_error.md
             - 'FIX DNS resolv.conf': Knowledge_Base/OS/Linux/Debian/Fixes/FIX_DNS_resolv.conf.md
-            - 'FIX sources repos list DNS Linux': Knowledge_Base/OS/Linux/Debian/Fixes/FIX_sources_repos_list_DNS_Linux.md
-            - 'Ubuntu update error waiting for unattended-upgrade to exit': Knowledge_Base/OS/Linux/Debian/Fixes/Ubuntu_update_error_waiting_for_unattended-upgrade_to_exit.md
+            - 'FIX Linux Could not get lock Resource temporarily unavailable': Knowledge_Base/OS/Linux/Debian/Fixes/FIX_Linux_Could_not_get_lock_Resource_temporarily_unavailable.md
+            - 'FIX Linux sources repos list DNS Linux': Knowledge_Base/OS/Linux/Debian/Fixes/FIX_Linux_sources_repos_list_DNS_Linux.md
+            - 'FIX Linux speedtest-cli apt update error': Knowledge_Base/OS/Linux/Debian/Fixes/FIX_Linux_speedtest-cli_apt_update_error.md
+            - 'FIX Linux Ubuntu update error waiting for unattended-upgrade to exit': Knowledge_Base/OS/Linux/Debian/Fixes/FIX_Linux_Ubuntu_update_error_waiting_for_unattended-upgrade_to_exit.md
           - 'Kali':
             - 'Issues fixes': Knowledge_Base/OS/Linux/Debian/Kali/Issues_fixes.md
             - 'kali setup': Knowledge_Base/OS/Linux/Debian/Kali/kali_setup.md
@@ -485,3 +489,4 @@ nav:
     # - Blog:
     #   - blog/index.md
   - whoami: whoami.html
+  

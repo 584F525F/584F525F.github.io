@@ -326,7 +326,10 @@
     Watchtower can be easily deployed by executing a simple docker run command.
 
     ```bash
-    docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock containrrr/atchtower
+    docker run -d \
+    --name watchtower \
+    -v /var/run/docker.sock:/var/run/docker.sock \
+    containrrr/watchtower
     ```
     
     ##### Run Watchtower in debug mode
@@ -345,6 +348,8 @@
     
     ##### Exclude Container from Watchtower
 
+    Replace the nginx with your docker container name
+
     ```bash
     docker run -d --label=com.centurylinklabs.watchtower.enable= false nginx
     ```
@@ -352,5 +357,5 @@
     ##### Scheduled Updates and clean up old images
 
     ```bash
-    docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock --restart nless-stopped containrrr/watchtower --schedule "0 0 4 * * *" --debug --cleanup
+    docker run --name watchtower -v /var/run/docker.sock:/var/run/docker.sock --restart unless-stopped containrrr/watchtower --schedule "0 0 4 * * *" --debug --cleanup
     ```
