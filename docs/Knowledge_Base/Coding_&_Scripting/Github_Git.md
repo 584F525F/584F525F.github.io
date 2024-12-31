@@ -67,6 +67,15 @@
     git config --global user.email "xxxxx@exampledomain.com"
     git config --global user.name "xxxxx"
 
+    #Untracked files
+    .gitignore
+
+    Remove cached files from Github repo that are listed in the igitignore file
+    git rm -r --cached .
+    git add .
+    git commit -m "Drop files from .gitignore"
+
+
     ```
 
 
