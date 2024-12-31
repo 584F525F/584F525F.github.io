@@ -22,10 +22,10 @@
     #push all updates to your branch, master, main, etc..
     git push origin <branch>
     
-    #git add a new file to repo, you will need to cmmint and push afterwards
+    #git add a new file to repo, you will need to commit and push afterwards
     git add "XX"
     
-    #remove a file from repo, you will need to cmmint and push afterwards
+    #remove a file from repo, you will need to commit and push afterwards
     git rem "XX"
 
     #configuring the remote repo, this way you can call origin instead of the full repo link
